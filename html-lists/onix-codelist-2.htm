@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="EDItEUR"/>
+		<title>ONIX Code List 2 [Issue 58]</title>
+		<style>
+			body { font-family: helvetica, arial, sans-serif; font-size: 12pt }
+			h1 { font-size: 1.5em }
+			h2 { font-size: 1.3em }
+			a { text-decoration: none; color: dimgray }
+			a:hover { text-decoration: underline }
+			table { border-collapse: collapse }
+			thead tr { border-top: 0.1em solid silver; text-align: left }
+			tbody tr { border-bottom: 0.05em dotted silver }
+			tbody tr:first-of-type { border-top: 0.1em solid silver }
+			tbody tr:last-of-type { border-bottom: 0.1em solid silver }
+			td, th { padding: 0.2em; vertical-align: top }
+			th.notation { width: 6em }
+			th.preflabel { width: 18em }
+			th.notes:after { content: '                                                       ' }
+			.new { color: red }
+			.update { color: blue }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ONIX Code Lists Issue 58, July 2022</h1>
+		</header>
+		<main>
+			<h2>List 2: Product composition</h2>
+			<table>
+				<thead>
+					<tr>
+						<th class="notation">Value</th>
+						<th class="preflabel">Description</th>
+						<th class="notes">Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>00</td>
+						<td>Single-component retail product</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>01</td>
+						<td>Single-component, not available separately</td>
+						<td>Used only when an ONIX record is required for a component-as-an-item, even though it is not currently available as such</td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>Multiple-component retail product</td>
+						<td>Multiple-component product retailed as a whole</td>
+					</tr>
+					<tr>
+						<td>11</td>
+						<td>Multiple-item collection, retailed as separate parts</td>
+						<td>Used only when an ONIX record is required for a collection-as-a-whole, even though it is not currently retailed as such</td>
+					</tr>
+					<tr>
+						<td>20</td>
+						<td>Trade-only product</td>
+						<td>Product available to the book trade, but not for retail sale, and not carrying retail items, eg empty dumpbin, empty counterpack, promotional material</td>
+					</tr>
+					<tr>
+						<td>30</td>
+						<td>Multiple-item trade-only pack</td>
+						<td>Product available to the book trade, but not for general retail sale as a whole. It carries multiple components for retailing as separate items, eg shrink-wrapped trade pack, filled dumpbin, filled counterpack</td>
+					</tr>
+					<tr>
+						<td>31</td>
+						<td>Multiple-item pack</td>
+						<td>Carrying multiple components, primarily for retailing as separate items. The pack may be split and retailed as separate items OR retailed as a single item. Use instead of Multiple-item trade-only pack (code 30) if the data provider specifically wishes to make explicit that the pack may optionally be retailed as a whole</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<footer>
+			<p>
+				<small>
+					<a href="https://doi.org/10.4400/nwgj" rel="license" target="_blank">©</a> <a href="https://www.editeur.org" rel="external" target="_blank">EDItEUR</a>
+				</small>
+			</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="EDItEUR"/>
+		<title>ONIX Code List 148 [Issue 58]</title>
+		<style>
+			body { font-family: helvetica, arial, sans-serif; font-size: 12pt }
+			h1 { font-size: 1.5em }
+			h2 { font-size: 1.3em }
+			a { text-decoration: none; color: dimgray }
+			a:hover { text-decoration: underline }
+			table { border-collapse: collapse }
+			thead tr { border-top: 0.1em solid silver; text-align: left }
+			tbody tr { border-bottom: 0.05em dotted silver }
+			tbody tr:first-of-type { border-top: 0.1em solid silver }
+			tbody tr:last-of-type { border-bottom: 0.1em solid silver }
+			td, th { padding: 0.2em; vertical-align: top }
+			th.notation { width: 6em }
+			th.preflabel { width: 18em }
+			th.notes:after { content: '                                                       ' }
+			.new { color: red }
+			.update { color: blue }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ONIX Code Lists Issue 58, July 2022</h1>
+		</header>
+		<main>
+			<h2>List 148: Collection type</h2>
+			<table>
+				<thead>
+					<tr>
+						<th class="notation">Value</th>
+						<th class="preflabel">Description</th>
+						<th class="notes">Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>00</td>
+						<td>Unspecified (default)</td>
+						<td>Collection type is not determined</td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>Publisher collection</td>
+						<td>The collection is a bibliographic collection (eg a series or set (Fr. série)) defined and identified by a publisher, either on the product itself or in product information supplied by the publisher. The books in the collection generally share a subject, narrative, design style or authorship. They may may have a specific order, or the collection may be unordered</td>
+					</tr>
+					<tr>
+						<td>11</td>
+						<td>Collection éditoriale</td>
+						<td>The collection is a bibliographic collection defined and identified by a publisher, either on the product itself or in product information supplied by the publisher, where the books in the collection have no specific order, shared subject, narrative, style or shared authorship, and are grouped by the publisher largely for marketing purposes. The collection has many of the characteristics of an imprint or marque. Used primarily in French book publishing, to distinguish between ‘série’ (using the normal code 10) and ‘collection’ (code 11), and where the collection éditoriale is not an imprint</td>
+					</tr>
+					<tr>
+						<td>20</td>
+						<td>Ascribed collection</td>
+						<td>The collection has been defined and identified by a party in the metadata supply chain other than the publisher, typically an aggregator.</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<footer>
+			<p>
+				<small>
+					<a href="https://doi.org/10.4400/nwgj" rel="license" target="_blank">©</a> <a href="https://www.editeur.org" rel="external" target="_blank">EDItEUR</a>
+				</small>
+			</p>
+		</footer>
+	</body>
+</html>

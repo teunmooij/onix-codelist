@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="EDItEUR"/>
+		<title>ONIX Code List 153 [Issue 58]</title>
+		<style>
+			body { font-family: helvetica, arial, sans-serif; font-size: 12pt }
+			h1 { font-size: 1.5em }
+			h2 { font-size: 1.3em }
+			a { text-decoration: none; color: dimgray }
+			a:hover { text-decoration: underline }
+			table { border-collapse: collapse }
+			thead tr { border-top: 0.1em solid silver; text-align: left }
+			tbody tr { border-bottom: 0.05em dotted silver }
+			tbody tr:first-of-type { border-top: 0.1em solid silver }
+			tbody tr:last-of-type { border-bottom: 0.1em solid silver }
+			td, th { padding: 0.2em; vertical-align: top }
+			th.notation { width: 6em }
+			th.preflabel { width: 18em }
+			th.notes:after { content: '                                                       ' }
+			.new { color: red }
+			.update { color: blue }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ONIX Code Lists Issue 58, July 2022</h1>
+		</header>
+		<main>
+			<h2>List 153: Text type</h2>
+			<table>
+				<thead>
+					<tr>
+						<th class="notation">Value</th>
+						<th class="preflabel">Description</th>
+						<th class="notes">Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>01</td>
+						<td>Sender-defined text</td>
+						<td>To be used only in circumstances where the parties to an exchange have agreed to include text which (a) is not for general distribution, and (b) cannot be coded elsewhere. If more than one type of text is sent, it must be identified by tagging within the text itself</td>
+					</tr>
+					<tr>
+						<td>02</td>
+						<td>Short description/annotation</td>
+						<td>Limited to a maximum of 350 characters</td>
+					</tr>
+					<tr>
+						<td>03</td>
+						<td>Description</td>
+						<td>Length unrestricted</td>
+					</tr>
+					<tr>
+						<td>04</td>
+						<td>Table of contents</td>
+						<td>Used for a table of contents sent as a single text field, which may or may not carry structure expressed using XHTML</td>
+					</tr>
+					<tr>
+						<td>05</td>
+						<td>Primary cover copy</td>
+						<td>Primary descriptive blurb usually taken from the back cover or jacket, or occasionally from the cover/jacket flaps. See also code 27</td>
+					</tr>
+					<tr>
+						<td>06</td>
+						<td>Review quote</td>
+						<td>A quote taken from a review of the product or of the work in question where there is no need to take account of different editions</td>
+					</tr>
+					<tr>
+						<td>07</td>
+						<td>Review quote: previous edition</td>
+						<td>A quote taken from a review of a previous edition of the work</td>
+					</tr>
+					<tr>
+						<td>08</td>
+						<td>Review quote: previous work</td>
+						<td>A quote taken from a review of a previous work by the same author(s) or in the same series</td>
+					</tr>
+					<tr>
+						<td>09</td>
+						<td>Endorsement</td>
+						<td>A quote usually provided by a celebrity or another author to promote a new book, not from a review</td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>Promotional headline</td>
+						<td>A promotional phrase which is intended to headline a description of the product</td>
+					</tr>
+					<tr>
+						<td>11</td>
+						<td>Feature</td>
+						<td>Text describing a feature of a product to which the publisher wishes to draw attention for promotional purposes. Each separate feature should be described by a separate repeat, so that formatting can be applied at the discretion of the receiver of the ONIX record, or multiple features can be described using appropriate XHTML markup</td>
+					</tr>
+					<tr>
+						<td>12</td>
+						<td>Biographical note</td>
+						<td>A note referring to all contributors to a product – NOT linked to a single contributor</td>
+					</tr>
+					<tr>
+						<td>13</td>
+						<td>Publisher’s notice</td>
+						<td>A statement included by a publisher in fulfillment of contractual obligations, such as a disclaimer, sponsor statement, or legal notice of any sort. Note that the inclusion of such a notice cannot and does not imply that a user of the ONIX record is obliged to reproduce it</td>
+					</tr>
+					<tr>
+						<td>14</td>
+						<td>Excerpt</td>
+						<td>A short excerpt from the main text of the work</td>
+					</tr>
+					<tr>
+						<td>15</td>
+						<td>Index</td>
+						<td>Used for an index sent as a single text field, which may be structured using XHTML</td>
+					</tr>
+					<tr>
+						<td>16</td>
+						<td>Short description/annotation for collection</td>
+						<td>(of which the product is a part.) Limited to a maximum of 350 characters</td>
+					</tr>
+					<tr>
+						<td>17</td>
+						<td>Description for collection</td>
+						<td>(of which the product is a part.) Length unrestricted</td>
+					</tr>
+					<tr>
+						<td>18</td>
+						<td>New feature</td>
+						<td>As code 11 but used for a new feature of this edition or version</td>
+					</tr>
+					<tr>
+						<td>19</td>
+						<td>Version history</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>20</td>
+						<td>Open access statement</td>
+						<td>Short summary statement of open access status and any related conditions (eg ‘Open access – no commercial use’), primarily for marketing purposes. Should always be accompanied by a link to the complete license (see &lt;EpubLicense&gt; or code 99 in List 158)</td>
+					</tr>
+					<tr>
+						<td>21</td>
+						<td>Digital exclusivity statement</td>
+						<td>Short summary statement that the product is available only in digital formats (eg ‘Digital exclusive’). If a non-digital version is planned, &lt;ContentDate&gt; should be used to specify the date when exclusivity will end (use content date role code 15). If a non-digital version is available, the statement should not be included</td>
+					</tr>
+					<tr>
+						<td>22</td>
+						<td>Official recommendation</td>
+						<td>For example a recommendation or approval provided by a ministry of education or other official body. Use &lt;Text&gt; to provide details and ideally use &lt;TextSourceCorporate&gt; to name the approver</td>
+					</tr>
+					<tr>
+						<td>23</td>
+						<td>JBPA description</td>
+						<td>Short description in format specified by Japanese Book Publishers Association</td>
+					</tr>
+					<tr>
+						<td>24</td>
+						<td>schema.org snippet</td>
+						<td>JSON-LD snippet suitable for use within an HTML &lt;script type="application/ld+json"&gt; tag, containing structured metadata suitable for use with schema.org</td>
+					</tr>
+					<tr>
+						<td>25</td>
+						<td>Errata</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>26</td>
+						<td>Introduction</td>
+						<td>Introduction, preface or the text of other preliminary material, sent as a single text field, which may be structured using XHTML</td>
+					</tr>
+					<tr>
+						<td>27</td>
+						<td>Secondary cover copy</td>
+						<td>Secondary descriptive blurb taken from the cover/jacket flaps, or occasionally from the back cover or jacket, used only when there are two separate texts and the primary text is included using code 05</td>
+					</tr>
+					<tr>
+						<td>28</td>
+						<td>Full cast and credit list</td>
+						<td>For use with dramatized audiobooks, filmed entertainment etc, for a cast list sent as a single text field, which may or may not carry structure expressed using XHTML</td>
+					</tr>
+					<tr>
+						<td>29</td>
+						<td>Bibliography</td>
+						<td>Complete list of books by the author(s), supplied as a single text field, which may be structured using (X)HTML</td>
+					</tr>
+					<tr>
+						<td>30</td>
+						<td>Abstract</td>
+						<td>Formal summary of content (normally used with academic and scholarly content only)</td>
+					</tr>
+					<tr>
+						<td>31</td>
+						<td>Rules or instructions</td>
+						<td>Eg for a game, kit</td>
+					</tr>
+					<tr>
+						<td>32</td>
+						<td>List of contents</td>
+						<td>Eg for a game, kit. Note: use code 04 for a Table of Contents of a book</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<footer>
+			<p>
+				<small>
+					<a href="https://doi.org/10.4400/nwgj" rel="license" target="_blank">©</a> <a href="https://www.editeur.org" rel="external" target="_blank">EDItEUR</a>
+				</small>
+			</p>
+		</footer>
+	</body>
+</html>

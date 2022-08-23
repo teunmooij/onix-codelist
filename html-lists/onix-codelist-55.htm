@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="EDItEUR"/>
+		<title>ONIX Code List 55 [Issue 58]</title>
+		<style>
+			body { font-family: helvetica, arial, sans-serif; font-size: 12pt }
+			h1 { font-size: 1.5em }
+			h2 { font-size: 1.3em }
+			a { text-decoration: none; color: dimgray }
+			a:hover { text-decoration: underline }
+			table { border-collapse: collapse }
+			thead tr { border-top: 0.1em solid silver; text-align: left }
+			tbody tr { border-bottom: 0.05em dotted silver }
+			tbody tr:first-of-type { border-top: 0.1em solid silver }
+			tbody tr:last-of-type { border-bottom: 0.1em solid silver }
+			td, th { padding: 0.2em; vertical-align: top }
+			th.notation { width: 6em }
+			th.preflabel { width: 18em }
+			th.notes:after { content: '                                                       ' }
+			.new { color: red }
+			.update { color: blue }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ONIX Code Lists Issue 58, July 2022</h1>
+		</header>
+		<main>
+			<h2>List 55: Date format</h2>
+			<table>
+				<thead>
+					<tr>
+						<th class="notation">Value</th>
+						<th class="preflabel">Description</th>
+						<th class="notes">Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>00</td>
+						<td>YYYYMMDD</td>
+						<td>Common Era year, month and day (default for most dates)</td>
+					</tr>
+					<tr>
+						<td>01</td>
+						<td>YYYYMM</td>
+						<td>Year and month</td>
+					</tr>
+					<tr>
+						<td>02</td>
+						<td>YYYYWW</td>
+						<td>Year and week number</td>
+					</tr>
+					<tr>
+						<td>03</td>
+						<td>YYYYQ</td>
+						<td>Year and quarter (Q = 1, 2, 3, 4, with 1 = Jan to Mar)</td>
+					</tr>
+					<tr>
+						<td>04</td>
+						<td>YYYYS</td>
+						<td>Year and season (S = 1, 2, 3, 4, with 1 = ‘Spring’)</td>
+					</tr>
+					<tr>
+						<td>05</td>
+						<td>YYYY</td>
+						<td>Year (default for some dates)</td>
+					</tr>
+					<tr>
+						<td>06</td>
+						<td>YYYYMMDDYYYYMMDD</td>
+						<td>Spread of exact dates</td>
+					</tr>
+					<tr>
+						<td>07</td>
+						<td>YYYYMMYYYYMM</td>
+						<td>Spread of months</td>
+					</tr>
+					<tr>
+						<td>08</td>
+						<td>YYYYWWYYYYWW</td>
+						<td>Spread of week numbers</td>
+					</tr>
+					<tr>
+						<td>09</td>
+						<td>YYYYQYYYYQ</td>
+						<td>Spread of quarters</td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>YYYYSYYYYS</td>
+						<td>Spread of seasons</td>
+					</tr>
+					<tr>
+						<td>11</td>
+						<td>YYYYYYYY</td>
+						<td>Spread of years</td>
+					</tr>
+					<tr>
+						<td>12</td>
+						<td>Text string</td>
+						<td>For complex, approximate or uncertain dates, or dates BCE</td>
+					</tr>
+					<tr>
+						<td>13</td>
+						<td>YYYYMMDDThhmm</td>
+						<td>Exact time. Use ONLY when exact times with hour/minute precision are relevant. By default, time is local. Alternatively, the time may be suffixed with an optional ‘Z’ for UTC times, or with ‘+’ or ‘-’ and an hhmm timezone offset from UTC. Times without a timezone are ‘rolling’ local times, times qualified with a timezone (using Z, + or -) specify a particular instant in time</td>
+					</tr>
+					<tr>
+						<td>14</td>
+						<td>YYYYMMDDThhmmss</td>
+						<td>Exact time. Use ONLY when exact times with second precision are relevant. By default, time is local. Alternatively, the time may be suffixed with an optional ‘Z’ for UTC times, or with ‘+’ or ‘-’ and an hhmm timezone offset from UTC. Times without a timezone are ‘rolling’ local times, times qualified with a timezone (using Z, + or -) specify a particular instant in time</td>
+					</tr>
+					<tr>
+						<td>20</td>
+						<td>YYYYMMDD (H)</td>
+						<td>Year month day (Hijri calendar)</td>
+					</tr>
+					<tr>
+						<td>21</td>
+						<td>YYYYMM (H)</td>
+						<td>Year and month (Hijri calendar)</td>
+					</tr>
+					<tr>
+						<td>25</td>
+						<td>YYYY (H)</td>
+						<td>Year (Hijri calendar)</td>
+					</tr>
+					<tr>
+						<td>32</td>
+						<td>Text string (H)</td>
+						<td>For complex, approximate or uncertain dates (Hijri calendar), text would usually be in Arabic script</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<footer>
+			<p>
+				<small>
+					<a href="https://doi.org/10.4400/nwgj" rel="license" target="_blank">©</a> <a href="https://www.editeur.org" rel="external" target="_blank">EDItEUR</a>
+				</small>
+			</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="EDItEUR"/>
+		<title>ONIX Code List 92 [Issue 58]</title>
+		<style>
+			body { font-family: helvetica, arial, sans-serif; font-size: 12pt }
+			h1 { font-size: 1.5em }
+			h2 { font-size: 1.3em }
+			a { text-decoration: none; color: dimgray }
+			a:hover { text-decoration: underline }
+			table { border-collapse: collapse }
+			thead tr { border-top: 0.1em solid silver; text-align: left }
+			tbody tr { border-bottom: 0.05em dotted silver }
+			tbody tr:first-of-type { border-top: 0.1em solid silver }
+			tbody tr:last-of-type { border-bottom: 0.1em solid silver }
+			td, th { padding: 0.2em; vertical-align: top }
+			th.notation { width: 6em }
+			th.preflabel { width: 18em }
+			th.notes:after { content: '                                                       ' }
+			.new { color: red }
+			.update { color: blue }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ONIX Code Lists Issue 58, July 2022</h1>
+		</header>
+		<main>
+			<h2>List 92: Supplier identifier type</h2>
+			<table>
+				<thead>
+					<tr>
+						<th class="notation">Value</th>
+						<th class="preflabel">Description</th>
+						<th class="notes">Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>01</td>
+						<td>Proprietary</td>
+						<td>Note that &lt;IDTypeName&gt; is required with proprietary identifiers</td>
+					</tr>
+					<tr>
+						<td>02</td>
+						<td>Proprietary</td>
+						<td>DEPRECATED – use 01</td>
+					</tr>
+					<tr>
+						<td>04</td>
+						<td>Börsenverein Verkehrsnummer</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>05</td>
+						<td>German ISBN Agency publisher identifier</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>06</td>
+						<td>GLN</td>
+						<td>GS1 global location number (formerly EAN location number)</td>
+					</tr>
+					<tr>
+						<td>07</td>
+						<td>SAN</td>
+						<td>Book trade Standard Address Number – US, UK etc</td>
+					</tr>
+					<tr>
+						<td>12</td>
+						<td>Distributeurscode Boekenbank</td>
+						<td>Flemish supplier code</td>
+					</tr>
+					<tr>
+						<td>13</td>
+						<td>Fondscode Boekenbank</td>
+						<td>Flemish publisher code</td>
+					</tr>
+					<tr>
+						<td>16</td>
+						<td>ISNI</td>
+						<td>International Standard Name Identifier (used here to identify an organisation). For use in ONIX 3.0 only. See https://isni.org/</td>
+					</tr>
+					<tr>
+						<td>23</td>
+						<td>VAT Identity Number</td>
+						<td>Identifier for a business organization for VAT purposes, eg within the EU’s VIES system. See http://ec.europa.eu/taxation_customs/vies/faqvies.do for EU VAT ID formats, which vary from country to country. Generally these consist of a two-letter country code followed by the 8–12 digits of the national VAT ID. Some countries include one or two letters within their VAT ID. See http://en.wikipedia.org/wiki/VAT_identification_number for non-EU countries that maintain similar identifiers. Spaces, dashes etc should be omitted</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<footer>
+			<p>
+				<small>
+					<a href="https://doi.org/10.4400/nwgj" rel="license" target="_blank">©</a> <a href="https://www.editeur.org" rel="external" target="_blank">EDItEUR</a>
+				</small>
+			</p>
+		</footer>
+	</body>
+</html>

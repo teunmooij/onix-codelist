@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="EDItEUR"/>
+		<title>ONIX Code List 22 [Issue 58]</title>
+		<style>
+			body { font-family: helvetica, arial, sans-serif; font-size: 12pt }
+			h1 { font-size: 1.5em }
+			h2 { font-size: 1.3em }
+			a { text-decoration: none; color: dimgray }
+			a:hover { text-decoration: underline }
+			table { border-collapse: collapse }
+			thead tr { border-top: 0.1em solid silver; text-align: left }
+			tbody tr { border-bottom: 0.05em dotted silver }
+			tbody tr:first-of-type { border-top: 0.1em solid silver }
+			tbody tr:last-of-type { border-bottom: 0.1em solid silver }
+			td, th { padding: 0.2em; vertical-align: top }
+			th.notation { width: 6em }
+			th.preflabel { width: 18em }
+			th.notes:after { content: '                                                       ' }
+			.new { color: red }
+			.update { color: blue }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ONIX Code Lists Issue 58, July 2022</h1>
+		</header>
+		<main>
+			<h2 class="new">List 22: Language role</h2>
+			<table>
+				<thead>
+					<tr>
+						<th class="notation">Value</th>
+						<th class="preflabel">Description</th>
+						<th class="notes">Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>01</td>
+						<td>Language of text</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>02</td>
+						<td>Original language of a translated text</td>
+						<td>Where the text in the original language is NOT part of the current product</td>
+					</tr>
+					<tr>
+						<td>03</td>
+						<td>Language of abstracts</td>
+						<td>Where different from language of text: used mainly for serials</td>
+					</tr>
+					<tr>
+						<td>06</td>
+						<td>Original language in a multilingual edition</td>
+						<td>Where the text in the original language is part of a bilingual or multilingual product</td>
+					</tr>
+					<tr>
+						<td>07</td>
+						<td>Translated language in a multilingual edition</td>
+						<td>Where the text in a translated language is part of a bilingual or multilingual product</td>
+					</tr>
+					<tr>
+						<td>08</td>
+						<td>Language of audio track</td>
+						<td>For example, on an audiobook or video product. Use for the only available audio track, or where there are multiple tracks (eg on a DVD), for an alternate language audio track that is NOT the original. (In the latter case, use code 11 for the original language audio if it is included in the product, or code 10 to identify an original language that is not present in the product)</td>
+					</tr>
+					<tr>
+						<td>09</td>
+						<td>Language of subtitles</td>
+						<td>For example, on a DVD</td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>Language of original audio track</td>
+						<td>Where the audio in the original language is NOT part of the current product</td>
+					</tr>
+					<tr>
+						<td>11</td>
+						<td>Original language audio track in a multilingual product</td>
+						<td>Where the audio in the original language is part of a multilingual product with multiple audio tracks</td>
+					</tr>
+					<tr>
+						<td>12</td>
+						<td>Language of notes</td>
+						<td>Use for the language of footnotes, endnotes, annotations or commentary, <span class="update">instructions or guidance for use </span>etc, where it is different from the language of the main text</td>
+					</tr>
+					<tr class="new">
+						<td>13</td>
+						<td>Language of introduction / end matter</td>
+						<td>Use for the language of any introductory text, prologue, etc, or epilogue, end matter, etc, where it is different from the language of the main text. For use on ONIX 3.0 only</td>
+					</tr>
+					<tr class="new">
+						<td>14</td>
+						<td>Target language of teaching / learning</td>
+						<td>Eg for the book ‘Ingles para latinos’, English. For phrasebooks and language teaching and learning material. Wherever possible, the language should also be listed as the subject of the book. For use on ONIX 3.0 only</td>
+					</tr>
+					<tr class="new">
+						<td>15</td>
+						<td>Additional vocabulary / text in this language</td>
+						<td>Use of significant words, phrases, quotations or short passages from a language other than the main language of the text, as an integral part of the text. This does not include ‘loanwords’, academic Latin, etc. For use on ONIX 3.0 only</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<footer>
+			<p>
+				<small>
+					<a href="https://doi.org/10.4400/nwgj" rel="license" target="_blank">©</a> <a href="https://www.editeur.org" rel="external" target="_blank">EDItEUR</a>
+				</small>
+			</p>
+		</footer>
+	</body>
+</html>

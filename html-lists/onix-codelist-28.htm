@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="EDItEUR"/>
+		<title>ONIX Code List 28 [Issue 58]</title>
+		<style>
+			body { font-family: helvetica, arial, sans-serif; font-size: 12pt }
+			h1 { font-size: 1.5em }
+			h2 { font-size: 1.3em }
+			a { text-decoration: none; color: dimgray }
+			a:hover { text-decoration: underline }
+			table { border-collapse: collapse }
+			thead tr { border-top: 0.1em solid silver; text-align: left }
+			tbody tr { border-bottom: 0.05em dotted silver }
+			tbody tr:first-of-type { border-top: 0.1em solid silver }
+			tbody tr:last-of-type { border-bottom: 0.1em solid silver }
+			td, th { padding: 0.2em; vertical-align: top }
+			th.notation { width: 6em }
+			th.preflabel { width: 18em }
+			th.notes:after { content: '                                                       ' }
+			.new { color: red }
+			.update { color: blue }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ONIX Code Lists Issue 58, July 2022</h1>
+		</header>
+		<main>
+			<h2 class="update">List 28: Audience type</h2>
+			<table>
+				<thead>
+					<tr>
+						<th class="notation">Value</th>
+						<th class="preflabel">Description</th>
+						<th class="notes">Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>01</td>
+						<td>General / adult</td>
+						<td>For a non-specialist adult audience. Consider also adding an ONIX Adult audience rating</td>
+					</tr>
+					<tr>
+						<td>02</td>
+						<td>Children</td>
+						<td>For a young audience typically up to about the age of 12, not specifically for any educational purpose. An audience range should also be included</td>
+					</tr>
+					<tr>
+						<td>03</td>
+						<td>Teenage</td>
+						<td>For a teenage or ‘young adult’ audience typically from about the age of 12 to the late teens, not specifically for any educational purpose. An audience range should also be included</td>
+					</tr>
+					<tr>
+						<td>04</td>
+						<td>Primary and secondary education</td>
+						<td>Kindergarten, pre-school, primary / elementary or secondary / high school education. Note ‘secondary’ includes both level 2 and level 3 secondary education as defined in UNESCO’s ISCED 2011 (see http://uis.unesco.org/en/topic/international-standard-classification-education-isced). An audience range should also be included</td>
+					</tr>
+					<tr>
+						<td>11</td>
+						<td>Pre-primary education</td>
+						<td>Equivalent to UNESCO’s ISCED Level 0 – see http://uis.unesco.org/en/topic/international-standard-classification-education-isced (note codes 11–14 are specific subsets of the Primary and secondary education audience, code 04). For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>12</td>
+						<td>Primary education</td>
+						<td>Equivalent to ISCED Level 1. For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>13</td>
+						<td>Lower secondary education</td>
+						<td>Equivalent to ISCED Level 2 (general and vocational). For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>14</td>
+						<td>Upper secondary education</td>
+						<td>Equivalent to ISCED Level 3 (general and vocational). For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>05</td>
+						<td>Tertiary education</td>
+						<td>For tertiary education typically in universities and colleges of higher education, equivalent to ISCED Levels 5–7</td>
+					</tr>
+					<tr>
+						<td>06</td>
+						<td>Professional and scholarly</td>
+						<td>For an expert adult audience, including professional development and academic research</td>
+					</tr>
+					<tr>
+						<td>08</td>
+						<td>Adult education</td>
+						<td>For any adult audience in a formal or semi-formal learning setting, eg vocational training and apprenticeships (collectively, equivalent to ISCED Level 4), or practical or recreational learning for adults</td>
+					</tr>
+					<tr>
+						<td>07</td>
+						<td>EFL / TEFL / TESOL</td>
+						<td>Intended for use in teaching <span class="update">and learning </span>English as a second, non-native or additional language. Indication of the language level (eg CEFR) should be included where possible. An audience range should also be included if the product is (also) suitable for use in primary and secondary education</td>
+					</tr>
+					<tr>
+						<td>09</td>
+						<td>Second <span class="update">/ additional</span> language teaching</td>
+						<td>Intended for use in teaching <span class="update">and learning</span> second, non-native or additional languages <span class="update">(other than English)</span>, for example teaching German to Spanish speakers. Indication of the language level (eg CEFR) should be included where possible. An audience range should also be included if the product is (also) suitable for use in primary and secondary education. Prefer code 07 for products specific to teaching English</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<footer>
+			<p>
+				<small>
+					<a href="https://doi.org/10.4400/nwgj" rel="license" target="_blank">©</a> <a href="https://www.editeur.org" rel="external" target="_blank">EDItEUR</a>
+				</small>
+			</p>
+		</footer>
+	</body>
+</html>

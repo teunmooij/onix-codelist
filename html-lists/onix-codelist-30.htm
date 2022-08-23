@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="EDItEUR"/>
+		<title>ONIX Code List 30 [Issue 58]</title>
+		<style>
+			body { font-family: helvetica, arial, sans-serif; font-size: 12pt }
+			h1 { font-size: 1.5em }
+			h2 { font-size: 1.3em }
+			a { text-decoration: none; color: dimgray }
+			a:hover { text-decoration: underline }
+			table { border-collapse: collapse }
+			thead tr { border-top: 0.1em solid silver; text-align: left }
+			tbody tr { border-bottom: 0.05em dotted silver }
+			tbody tr:first-of-type { border-top: 0.1em solid silver }
+			tbody tr:last-of-type { border-bottom: 0.1em solid silver }
+			td, th { padding: 0.2em; vertical-align: top }
+			th.notation { width: 6em }
+			th.preflabel { width: 18em }
+			th.notes:after { content: '                                                       ' }
+			.new { color: red }
+			.update { color: blue }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ONIX Code Lists Issue 58, July 2022</h1>
+		</header>
+		<main>
+			<h2>List 30: Audience range qualifier</h2>
+			<table>
+				<thead>
+					<tr>
+						<th class="notation">Value</th>
+						<th class="preflabel">Description</th>
+						<th class="notes">Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>11</td>
+						<td>US school grade range</td>
+						<td>Values for &lt;AudienceRangeValue&gt; are specified in List 77</td>
+					</tr>
+					<tr>
+						<td>12</td>
+						<td>UK school grade</td>
+						<td>Values are defined by BIC for England and Wales, Scotland and N Ireland</td>
+					</tr>
+					<tr>
+						<td>15</td>
+						<td>Reading speed, words per minute</td>
+						<td>Values in &lt;AudienceRangeValue&gt; must be integers</td>
+					</tr>
+					<tr>
+						<td>16</td>
+						<td>Interest age, months</td>
+						<td>For use up to 36 months only, or up to 42 months in Audience range value (2) only: values in &lt;AudienceRangeValue&gt; must be integers</td>
+					</tr>
+					<tr>
+						<td>17</td>
+						<td>Interest age, years</td>
+						<td>Values in &lt;AudienceRangeValue&gt; must be integers</td>
+					</tr>
+					<tr>
+						<td>18</td>
+						<td>Reading age, years</td>
+						<td>Values in &lt;AudienceRangeValue&gt; must be integers</td>
+					</tr>
+					<tr>
+						<td>19</td>
+						<td>Spanish school grade</td>
+						<td>Spain: combined grade and region code, maintained by the Ministerio de Educación</td>
+					</tr>
+					<tr>
+						<td>20</td>
+						<td>Skoletrinn</td>
+						<td>Norwegian educational level for primary and secondary education</td>
+					</tr>
+					<tr>
+						<td>21</td>
+						<td>Nivå</td>
+						<td>Swedish educational qualifier (code)</td>
+					</tr>
+					<tr>
+						<td>22</td>
+						<td>Italian school grade</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>23</td>
+						<td>Schulform</td>
+						<td>DEPRECATED – assigned in error: see List 29</td>
+					</tr>
+					<tr>
+						<td>24</td>
+						<td>Bundesland</td>
+						<td>DEPRECATED – assigned in error: see List 29</td>
+					</tr>
+					<tr>
+						<td>25</td>
+						<td>Ausbildungsberuf</td>
+						<td>DEPRECATED – assigned in error: see List 29</td>
+					</tr>
+					<tr>
+						<td>26</td>
+						<td>Canadian school grade range</td>
+						<td>Values for &lt;AudienceRangeValue&gt; are specified in List 77</td>
+					</tr>
+					<tr>
+						<td>27</td>
+						<td>Finnish school grade range</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>28</td>
+						<td>Finnish Upper secondary school course</td>
+						<td>Lukion kurssi</td>
+					</tr>
+					<tr>
+						<td>29</td>
+						<td>Chinese School Grade range</td>
+						<td>Values are P, K, 1–17 (including college-level audiences), see List 227</td>
+					</tr>
+					<tr>
+						<td>30</td>
+						<td>French school cycles / classes</td>
+						<td>Detailed French educational level classification. Values are defined by ScoLOMFR, see http://data.education.fr/voc/scolomfr/scolomfr-voc-022 – Cycles de l’enseignement scolaire. See also code 34</td>
+					</tr>
+					<tr>
+						<td>31</td>
+						<td>Brazil Education level</td>
+						<td>Nível de Educação do Brasil, see List 238. For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>32</td>
+						<td>French educational levels</td>
+						<td>Basic French educational level classification. Values are defined by ScoLOMFR. For use in ONIX 3.0 only. See http://data.education.fr/voc/scolomfr/scolomfr-voc-012</td>
+					</tr>
+					<tr>
+						<td>33</td>
+						<td>Finnish Upper secondary school course (2021+)</td>
+						<td>For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>34</td>
+						<td>Detailed French educational levels</td>
+						<td>Detailed French educational level classification. Values are defined by ScoLOMFR. For use in ONIX 3.0 only. See http://data.education.fr/voc/scolomfr/scolomfr-voc-022 – Niveau éducatif détaillé. See also code 30</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<footer>
+			<p>
+				<small>
+					<a href="https://doi.org/10.4400/nwgj" rel="license" target="_blank">©</a> <a href="https://www.editeur.org" rel="external" target="_blank">EDItEUR</a>
+				</small>
+			</p>
+		</footer>
+	</body>
+</html>

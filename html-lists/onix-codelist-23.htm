@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="EDItEUR"/>
+		<title>ONIX Code List 23 [Issue 58]</title>
+		<style>
+			body { font-family: helvetica, arial, sans-serif; font-size: 12pt }
+			h1 { font-size: 1.5em }
+			h2 { font-size: 1.3em }
+			a { text-decoration: none; color: dimgray }
+			a:hover { text-decoration: underline }
+			table { border-collapse: collapse }
+			thead tr { border-top: 0.1em solid silver; text-align: left }
+			tbody tr { border-bottom: 0.05em dotted silver }
+			tbody tr:first-of-type { border-top: 0.1em solid silver }
+			tbody tr:last-of-type { border-bottom: 0.1em solid silver }
+			td, th { padding: 0.2em; vertical-align: top }
+			th.notation { width: 6em }
+			th.preflabel { width: 18em }
+			th.notes:after { content: '                                                       ' }
+			.new { color: red }
+			.update { color: blue }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ONIX Code Lists Issue 58, July 2022</h1>
+		</header>
+		<main>
+			<h2>List 23: Extent type</h2>
+			<table>
+				<thead>
+					<tr>
+						<th class="notation">Value</th>
+						<th class="preflabel">Description</th>
+						<th class="notes">Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>00</td>
+						<td>Main content page count</td>
+						<td>The highest-numbered page in a single numbered sequence of main content, usually the highest Arabic-numbered page in a book; or, for books without page numbers or (rarely) with multiple numbered sequences of main content, the total number of pages that carry the main content of the book. Note that this may include numbered but otherwise blank pages (eg pages inserted to ensure chapters start on a recto page) and may exclude unnumbered (but contentful) pages such as those in inserts/plate sections. It should exclude pages of back matter (eg any index) even when their numbering sequence continues from the main content. Either this or the Content Page count is the preferred page count for most books for the general reader. For books with substantial front and/or back matter, include also Front matter (03) and Back matter (04) page counts, or Total numbered pages (05). For books with inserts (plate sections), also include Total unnumbered insert page count whenever possible</td>
+					</tr>
+					<tr>
+						<td>02</td>
+						<td>Total text length</td>
+						<td>Number of words or characters of natural language text</td>
+					</tr>
+					<tr>
+						<td>03</td>
+						<td>Front matter page count</td>
+						<td>The total number of numbered (usually Roman-numbered) pages that precede the main content of a book. This usually consists of various title and imprint pages, table of contents, an introduction, preface, foreword, etc</td>
+					</tr>
+					<tr>
+						<td>04</td>
+						<td>Back matter page count</td>
+						<td>The total number of numbered (often Roman-numbered) pages that follow the main content of a book. This usually consists of an afterword, appendices, endnotes, index, etc. It excludes extracts or ‘teaser’ material from other works, and blank (or advertising) pages that are present only for convenience of printing and binding</td>
+					</tr>
+					<tr>
+						<td>05</td>
+						<td>Total numbered pages</td>
+						<td>The sum of all Roman- and Arabic-numbered pages. Note that this may include numbered but otherwise blank pages (eg pages inserted to ensure chapters start on a recto page) and may exclude unnumbered (but contentful) pages such as those in inserts/plate sections. It is the sum of the main content (00), front matter (03) and back matter (04) page counts</td>
+					</tr>
+					<tr>
+						<td>06</td>
+						<td>Production page count</td>
+						<td>The total number of pages in a book, including unnumbered pages, front matter, back matter, etc. This includes any extracts or ‘teaser’ material from other works, and blank pages at the back that carry no content and are present only for convenience of printing and binding</td>
+					</tr>
+					<tr>
+						<td>07</td>
+						<td>Absolute page count</td>
+						<td>The total number of pages of the book counting the cover as page 1. This page count type should be used only for digital publications delivered with fixed pagination</td>
+					</tr>
+					<tr>
+						<td>08</td>
+						<td>Number of pages in print counterpart</td>
+						<td>The total number of pages (equivalent to the Content page count, code 11) in the print counterpart of a digital product delivered without fixed pagination, or of an audio product</td>
+					</tr>
+					<tr>
+						<td>09</td>
+						<td>Duration</td>
+						<td>Total duration in time, expressed in the specified extent unit. This is the ‘running time’ equivalent of code 11</td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>Notional number of pages in digital product</td>
+						<td>An estimate of the number of ‘pages’ in a digital product delivered without fixed pagination, and with no print counterpart, given as an indication of the size of the work. Equivalent to code 08, but exclusively for digital or audio products</td>
+					</tr>
+					<tr>
+						<td>11</td>
+						<td>Content page count</td>
+						<td>The sum of all Roman- and Arabic-numbered and contentful unnumbered pages. Sum of page counts with codes 00, 03, 04 and 12, and also the sum of 05 and 12</td>
+					</tr>
+					<tr>
+						<td>12</td>
+						<td>Total unnumbered insert page count</td>
+						<td>The total number of unnumbered pages with content inserted within the main content of a book – for example inserts/plate sections that are not numbered</td>
+					</tr>
+					<tr>
+						<td>13</td>
+						<td>Duration of introductory matter</td>
+						<td>Duration in time, expressed in the specified extent units, of introductory matter. This is the ‘running time’ equivalent of code 03, and comprises any significant amount of running time represented by a musical intro, announcements, titles, introduction or other material prefacing the main content</td>
+					</tr>
+					<tr>
+						<td>14</td>
+						<td>Duration of main content</td>
+						<td>Duration in time, expressed in the specified extent units, of the main content. This is the ‘running time’ equivalent of code 00, and excludes time represented by announcements, titles, introduction or other prefatory material or ‘back matter’</td>
+					</tr>
+					<tr>
+						<td>15</td>
+						<td>Duration of back matter</td>
+						<td>Duration in time, expressed in the specified extent units, of any content that follows the main content of a book. This may consist of an afterword, appendices, endnotes, end music etc. It excludes extracts or ‘teaser’ material from other works. This is the ‘running time’ equivalent of code 04</td>
+					</tr>
+					<tr>
+						<td>16</td>
+						<td>Production duration</td>
+						<td>Duration in time, expressed in the specified extent units, of the complete content of a book. This is the ‘running time’ equivalent of code 06, and includes time represented by musical themes, announcements, titles, introductory and other prefatory material, plus ‘back matter’ such as any afterword, appendices, plus any extracts or ‘teaser’ material from other works</td>
+					</tr>
+					<tr>
+						<td>17</td>
+						<td>Number of cards</td>
+						<td>In a pack of educational flash cards, playing cards, postcards, greeting cards etc. For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>22</td>
+						<td>Filesize</td>
+						<td>Approximate size of a digital file or package (in the form it is downloaded), expressed in the specified extent unit</td>
+					</tr>
+					<tr>
+						<td>23</td>
+						<td>Storage filesize</td>
+						<td>Approximate size of storage space required for a digital file or package in the form in which it is usually stored for use on a device, where this is different from the download filesize (see code 22), and expressed in the specified extent unit. For use in ONIX 3.0 only</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<footer>
+			<p>
+				<small>
+					<a href="https://doi.org/10.4400/nwgj" rel="license" target="_blank">©</a> <a href="https://www.editeur.org" rel="external" target="_blank">EDItEUR</a>
+				</small>
+			</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="EDItEUR"/>
+		<title>ONIX Code List 147 [Issue 58]</title>
+		<style>
+			body { font-family: helvetica, arial, sans-serif; font-size: 12pt }
+			h1 { font-size: 1.5em }
+			h2 { font-size: 1.3em }
+			a { text-decoration: none; color: dimgray }
+			a:hover { text-decoration: underline }
+			table { border-collapse: collapse }
+			thead tr { border-top: 0.1em solid silver; text-align: left }
+			tbody tr { border-bottom: 0.05em dotted silver }
+			tbody tr:first-of-type { border-top: 0.1em solid silver }
+			tbody tr:last-of-type { border-bottom: 0.1em solid silver }
+			td, th { padding: 0.2em; vertical-align: top }
+			th.notation { width: 6em }
+			th.preflabel { width: 18em }
+			th.notes:after { content: '                                                       ' }
+			.new { color: red }
+			.update { color: blue }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ONIX Code Lists Issue 58, July 2022</h1>
+		</header>
+		<main>
+			<h2>List 147: Unit of usage</h2>
+			<table>
+				<thead>
+					<tr>
+						<th class="notation">Value</th>
+						<th class="preflabel">Description</th>
+						<th class="notes">Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>01</td>
+						<td>Copies</td>
+						<td>Maximum number of copies that may be made of a permitted extract</td>
+					</tr>
+					<tr>
+						<td>02</td>
+						<td>Characters</td>
+						<td>Maximum number of characters in a permitted extract for a specified usage</td>
+					</tr>
+					<tr>
+						<td>03</td>
+						<td>Words</td>
+						<td>Maximum number of words in a permitted extract for a specified usage</td>
+					</tr>
+					<tr>
+						<td>04</td>
+						<td>Pages</td>
+						<td>Maximum number of pages in a permitted extract for a specified usage</td>
+					</tr>
+					<tr>
+						<td>05</td>
+						<td>Percentage</td>
+						<td>Maximum percentage of total content in a permitted extract for a specified usage</td>
+					</tr>
+					<tr>
+						<td>06</td>
+						<td>Devices</td>
+						<td>Maximum number of devices in ‘share group’</td>
+					</tr>
+					<tr>
+						<td>07</td>
+						<td>Concurrent users</td>
+						<td>Maximum number of concurrent users. NB where the number of concurrent users is specifically not limited, set the number of concurrent users to zero</td>
+					</tr>
+					<tr>
+						<td>15</td>
+						<td>Users</td>
+						<td>Maximum number of licensed individual users, independent of concurrency of use</td>
+					</tr>
+					<tr>
+						<td>19</td>
+						<td>Concurrent classes</td>
+						<td>Maximum number of licensed concurrent classes of user. A ‘class’ is a group of learners attending a specific course or lesson and generally taught as a group</td>
+					</tr>
+					<tr>
+						<td>20</td>
+						<td>Classes</td>
+						<td>Maximum number of licensed classes of learners, independent of concurrency of use and the number of users per class</td>
+					</tr>
+					<tr>
+						<td>31</td>
+						<td>Institutions</td>
+						<td>Maximum number of licensed institutions, independend of concurrency of use and the number of classes or individuals per institution</td>
+					</tr>
+					<tr>
+						<td>08</td>
+						<td>Percentage per time period</td>
+						<td>Maximum percentage of total content which may be used in a specified usage per time period; the time period being specified as another &lt;EpubUsageLimit&gt; Quantity</td>
+					</tr>
+					<tr>
+						<td>09</td>
+						<td>Days</td>
+						<td>Maximum time period in days (beginning from product purchase or activation)</td>
+					</tr>
+					<tr>
+						<td>13</td>
+						<td>Weeks</td>
+						<td>Maximum time period in weeks</td>
+					</tr>
+					<tr>
+						<td>14</td>
+						<td>Months</td>
+						<td>Maximum time period in months</td>
+					</tr>
+					<tr>
+						<td>16</td>
+						<td>Hours minutes and seconds</td>
+						<td>Maximum amount of time in hours, minutes and seconds allowed in a permitted extract for a specified usage, in the format HHHMMSS (7 digits, with leading zeros if necessary)</td>
+					</tr>
+					<tr>
+						<td>27</td>
+						<td>Days (fixed start)</td>
+						<td>Maximum time period in days (beginning from the product publication date). In effect, this defines a fixed end date for the license independent of the purchase or activation date</td>
+					</tr>
+					<tr>
+						<td>28</td>
+						<td>Weeks (fixed start)</td>
+						<td>Maximum time period in weeks</td>
+					</tr>
+					<tr>
+						<td>29</td>
+						<td>Months (fixed start)</td>
+						<td>Maximum time period in months</td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>Times</td>
+						<td>Maximum number of times a specified usage event may occur (in the lifetime of the product)</td>
+					</tr>
+					<tr>
+						<td>22</td>
+						<td>Times per day</td>
+						<td>Maximum frequency a specified usage event may occur (per day)</td>
+					</tr>
+					<tr>
+						<td>23</td>
+						<td>Times per month</td>
+						<td>Maximum frequency a specified usage event may occur (per month)</td>
+					</tr>
+					<tr>
+						<td>24</td>
+						<td>Times per year</td>
+						<td>Maximum frequency a specified usage event may occur (per year)</td>
+					</tr>
+					<tr>
+						<td>21</td>
+						<td>Dots per inch</td>
+						<td>Maximum resolution of printed or copy/pasted extracts</td>
+					</tr>
+					<tr>
+						<td>26</td>
+						<td>Dots per cm</td>
+						<td>Maximum resolution of printed or copy/pasted extracts</td>
+					</tr>
+					<tr>
+						<td>11</td>
+						<td>Allowed usage start page</td>
+						<td>Page number where allowed usage begins. &lt;Quantity&gt; should contain an absolute page number, counting the cover as page 1. (This type of page numbering should not be used where the e-publication has no fixed pagination). Use with (max number of) Pages, Percentage of content, or End page to specify pages allowed in Preview</td>
+					</tr>
+					<tr>
+						<td>12</td>
+						<td>Allowed usage end page</td>
+						<td>Page number at which allowed usage ends. &lt;Quantity&gt; should contain an absolute page number, counting the cover as page 1. (This type of page numbering should not be used where the e-publication has no fixed pagination). Use with Start page to specify pages allowed in a preview</td>
+					</tr>
+					<tr>
+						<td>17</td>
+						<td>Allowed usage start time</td>
+						<td>Time at which allowed usage begins. &lt;Quantity&gt; should contain an absolute time, counting from the beginning of an audio or video product, in the format HHHMMSS or HHHMMSScc. Use with Time, Percentage of content, or End time to specify time-based extract allowed in Preview</td>
+					</tr>
+					<tr>
+						<td>18</td>
+						<td>Allowed usage end time</td>
+						<td>Time at which allowed usage ends. &lt;Quantity&gt; should contain an absolute time, counting from the beginning of an audio or video product, in the format HHHMMSS or HHHMMSScc. Use with Start time to specify time-based extract allowed in Preview</td>
+					</tr>
+					<tr>
+						<td>98</td>
+						<td>Valid from</td>
+						<td>The date from which the usage constraint applies. &lt;Quantity&gt; is in the format YYYYMMDD</td>
+					</tr>
+					<tr>
+						<td>99</td>
+						<td>Valid to</td>
+						<td>The date until which the usage constraint applies. &lt;Quantity&gt; is in the format YYYYMMDD</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<footer>
+			<p>
+				<small>
+					<a href="https://doi.org/10.4400/nwgj" rel="license" target="_blank">©</a> <a href="https://www.editeur.org" rel="external" target="_blank">EDItEUR</a>
+				</small>
+			</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="EDItEUR"/>
+		<title>ONIX Code List 79 [Issue 58]</title>
+		<style>
+			body { font-family: helvetica, arial, sans-serif; font-size: 12pt }
+			h1 { font-size: 1.5em }
+			h2 { font-size: 1.3em }
+			a { text-decoration: none; color: dimgray }
+			a:hover { text-decoration: underline }
+			table { border-collapse: collapse }
+			thead tr { border-top: 0.1em solid silver; text-align: left }
+			tbody tr { border-bottom: 0.05em dotted silver }
+			tbody tr:first-of-type { border-top: 0.1em solid silver }
+			tbody tr:last-of-type { border-bottom: 0.1em solid silver }
+			td, th { padding: 0.2em; vertical-align: top }
+			th.notation { width: 6em }
+			th.preflabel { width: 18em }
+			th.notes:after { content: '                                                       ' }
+			.new { color: red }
+			.update { color: blue }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ONIX Code Lists Issue 58, July 2022</h1>
+		</header>
+		<main>
+			<h2 class="update">List 79: Product form feature type</h2>
+			<table>
+				<thead>
+					<tr>
+						<th class="notation">Value</th>
+						<th class="preflabel">Description</th>
+						<th class="notes">Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>01</td>
+						<td>Color of cover</td>
+						<td>For Product Form Feature values see code list 98</td>
+					</tr>
+					<tr>
+						<td>02</td>
+						<td>Color of page edge</td>
+						<td>For Product Form Feature values see code list 98</td>
+					</tr>
+					<tr>
+						<td>03</td>
+						<td>Text font</td>
+						<td>The principal font used for body text, when this is a significant aspect of product description, eg for some Bibles, and for large print product. The accompanying &lt;ProductFormFeatureDescription&gt; is text specifying the typeface name. The font size may be specified with the font name, but is preferred separately (in points) in &lt;ProductFormFeatureValue&gt;</td>
+					</tr>
+					<tr>
+						<td>04</td>
+						<td>Special cover material</td>
+						<td>For Product Form Feature values see code list 99</td>
+					</tr>
+					<tr>
+						<td>05</td>
+						<td>DVD region</td>
+						<td>For Product Form Feature values see code list 76</td>
+					</tr>
+					<tr>
+						<td>06</td>
+						<td>Operating system requirements</td>
+						<td>A computer or handheld device operating system required to use a digital product, with version detail if applicable. The accompanying Product Form Feature Value is a code from List 176. Version detail, when applicable, is carried in Product Form Feature Description</td>
+					</tr>
+					<tr>
+						<td>07</td>
+						<td>Other system requirements</td>
+						<td>Other system requirements for a digital product, described by free text in Product Form Feature Description</td>
+					</tr>
+					<tr>
+						<td>08</td>
+						<td>‘Point and listen’ device compatibility</td>
+						<td>Indicates compatibility with proprietary ‘point and listen’ devices such as Ting Pen (http://www.ting.eu), the iSmart Touch and Read Pen. These devices scan invisible codes specially printed on the page to identify the book and position of the word, and the word is then read aloud by the device. The name of the compatible device (or range of devices) should be given in &lt;ProductFormFeatureDescription&gt;</td>
+					</tr>
+					<tr>
+						<td>09</td>
+						<td>E-publication accessibility detail</td>
+						<td>For &lt;ProductFormFeatureValue&gt; codes, see Codelist 196</td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>E-publication format version</td>
+						<td>For versioned e-book file formats (or in some cases, devices). &lt;ProductFormFeatureValue&gt; should contain the version number as a period-separated list of numbers (eg ‘7’, ‘1.5’ or ‘3.10.7’). Use only with ONIX 3.0 – in ONIX 2.1, use &lt;EpubTypeVersion&gt; instead. For the most common file formats, code 15 and List 220 is strongly preferred</td>
+					</tr>
+					<tr>
+						<td>12</td>
+						<td>US CPSIA or other international hazard warning</td>
+						<td>Hazard warning required by US Consumer Product Safety Improvement Act (CPSIA) of 2008 or other US or international legislation. Required, when applicable, for products sold in the US. The Product Form Feature Value is a code from List 143. Further explanation may be given in Product Form Feature Description</td>
+					</tr>
+					<tr>
+						<td>13</td>
+						<td>EU Toy Safety Hazard warning</td>
+						<td>Product carries hazard warning required by EU Toy Safety Directive. The Product Form Feature Value is a code from List 184, and (for some codes) the exact wording of the warning may be given in Product Form Feature Description</td>
+					</tr>
+					<tr>
+						<td>14</td>
+						<td>IATA Dangerous Goods warning</td>
+						<td>Product Form Feature Description must give further details of the warning</td>
+					</tr>
+					<tr>
+						<td>15</td>
+						<td>E-publication format version code</td>
+						<td>For common versioned e-book formats (or in some cases, devices) – for example EPUB 2.0.1 or EPUB 3.0. &lt;ProductFormFeatureValue&gt; is a code from list 220. Use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>16</td>
+						<td>E-publication format validator version</td>
+						<td>For common versioned e-book formats, the name and version of the validator used to check conformance. &lt;ProductFormFeatureDescription&gt; is the common name of the validator used (eg EpubCheck, Flightdeck), and &lt;ProductFormFeatureValue&gt; is the version number of the validator (eg 4.0.0a). Use with code 15 (or possibly code 10), or with &lt;EpubTypeVersion&gt;, to specify the version the e-publication conforms with</td>
+					</tr>
+					<tr>
+						<td>17</td>
+						<td>‘Point and watch’ device/app compatibility</td>
+						<td>Indicates compatibility with proprietary ‘point and watch‘ devices or apps. These scan invisible codes specially printed on the page, or the whole page image, to identify the book and page position. Scanning can trigger display of (for example) an augmented reality view of the page. The name of the compatible app or device (or range of apps/devices) should be given in &lt;ProductFormFeatureDescription&gt;. For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>18</td>
+						<td>E-publication authentication and access control</td>
+						<td>Requirement for user authentication prior to use, with detail of authentication method (user enrolment, and login passwords, location- or device-based recognition, authentication via third-party identity service etc) given in &lt;ProductFormFeatureDescription&gt;. For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>19</td>
+						<td>Battery type <span class="update">and safety</span>
+						</td>
+						<td>Use to describe battery requirements, <span class="update">types, </span>hazards and <span class="update">battery</span> safety warnings. &lt;ProductFormFeatureValue&gt; is a code from List 242. For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>20</td>
+						<td>Battery capacity</td>
+						<td>Total capacity (of batteries in the product) in Watt hours. &lt;ProductFormFeatureValue&gt; is an integer or decimal number (eg ‘45’, not ‘45Wh’). For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>21</td>
+						<td>Dangerous goods</td>
+						<td>Use to describe regulation of the product for various purposes. &lt;ProductFormFeatureValue&gt; is a code from List 243. For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>22</td>
+						<td>Game pieces</td>
+						<td>Number of pieces, eg for jigsaws, puzzles, kits, board games. &lt;ProductFormFeatureValue&gt; is an integer. For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>23</td>
+						<td>Game players</td>
+						<td>Number of players, for board games, card games, videogames etc. &lt;ProductFormFeatureValue&gt; must be a required (exact) number as an integer OR a range (eg ‘2–6’), optionally accompanied by the number of players as text (eg ‘suitable for 2–6 players’) in &lt;ProductFormFeatureDescription&gt;. For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>24</td>
+						<td>Game play time</td>
+						<td>Typical time to complete a game, for board games, card games, videogames etc, stated as an integer (in minutes) OR range (eg ‘60–90’) in &lt;ProductFormFeatureValue&gt;, optionally accompanied by the playing time as text (eg ‘typically 60–90 minutes’) in &lt;ProductFormFeatureDescription&gt;. For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>25</td>
+						<td>Personal data requirements</td>
+						<td>Personal data required for registration or use of the product. This can be coded in &lt;ProductFormFeatureValue&gt; (for example using a URI from SCOLOM list 044 – see http://data.education.fr/voc/scolomfr/scolomfr-voc-044) – and/or described in &lt;ProductFormFeatureDescription&gt;. For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>30</td>
+						<td>Not FSC or PEFC certified</td>
+						<td>Product does not carry FSC or PEFC logo. The Product Form Feature Value element is not used. The Product Form Feature Description element may carry free text indicating the grade or type of paper. The product record may also still carry a claimed Pre- and Post-Consumer Waste (PCW) percentage value (type code 37) in a separate repeat of the Product Form Feature composite</td>
+					</tr>
+					<tr>
+						<td>31</td>
+						<td>FSC certified – pure</td>
+						<td>Product carries FSC logo (Pure, 100%). &lt;ProductFormFeatureValue&gt; is the Certification number (ie either a Chain Of Custody (COC) number or a Trademark License number) printed on the book. Format: Chain of Custody number is two to five letters-COC-six digits (the digits should include leading zeros if necessary), eg ‘AB-COC-001234’ or ‘ABCDE-COC-123456’; Trademark License number is C followed by six digits, eg ‘C005678’ (this would normally be prefixed by ‘FSC®’ when displayed). The Product Form Feature Description element may carry free text indicating the grade or type of paper. By definition, a product certified Pure does not contain Pre- or Post-Consumer-Waste (PCW), so type code 31 can only occur on its own. Certification numbers may be checked at https://info.fsc.org/</td>
+					</tr>
+					<tr>
+						<td>32</td>
+						<td>FSC certified – mixed sources</td>
+						<td>Product carries FSC logo (Mixed sources, Mix). &lt;ProductFormFeatureValue&gt; is the Certification number (ie either a Chain Of Custody (COC) number or a Trademark License number) printed on the book. Format: Chain of Custody number is two to five letters-COC-six digits (the digits should include leading zeros if necessary), eg ‘AB-COC-001234’ or ‘ABCDE-COC-123456’; Trademark License number is C followed by six digits, eg ‘C005678’ (this would normally be prefixed by ‘FSC®’ when displayed). The Product Form Feature Description element may carry free text indicating the grade or type of paper. May be accompanied by a Pre- and Post-Consumer-Waste (PCW) percentage value, to be reported in another instance of &lt;ProductFormFeature&gt; with type code 36. Certification numbers may be checked at https://info.fsc.org/</td>
+					</tr>
+					<tr>
+						<td>33</td>
+						<td>FSC certified – recycled</td>
+						<td>Product carries FSC logo (Recycled). &lt;ProductFormFeatureValue&gt; is the Certification number (ie either a Chain Of Custody (COC) number or a Trademark License number) printed on the book. Format: Chain of Custody number is two to five letters-COC-six digits (the digits should include leading zeroes if necessary), eg ‘AB-COC-001234’ or ‘ABCDE-COC-123456’; Trademark License number is C followed by six digits, eg ‘C005678’ (this would normally be prefixed by ‘FSC®’ when displayed). The Product Form Feature Description element may carry free text indicating the grade or type of paper. Should be accompanied by a Pre- and Post-Consumer-Waste (PCW) percentage value, to be reported in another instance of &lt;ProductFormFeature&gt; with type code 36. Certification numbers may be checked at https://info.fsc.org/</td>
+					</tr>
+					<tr>
+						<td>34</td>
+						<td>PEFC certified</td>
+						<td>Product carries PEFC logo (certified)<span class="update"> or equivalent from PEFC-endorsed national scheme</span>. &lt;ProductFormFeatureValue&gt; is the Chain Of Custody (COC) number printed on the book. The Product Form Feature Description element may carry free text indicating the grade or type of paper. May be accompanied by a Post-Consumer Waste (PCW) percentage value, to be reported in another instance of &lt;ProductFormFeature&gt; with type code 36</td>
+					</tr>
+					<tr>
+						<td>35</td>
+						<td>PEFC recycled</td>
+						<td>Product carries PEFC logo (recycled) <span class="update">or equivalent from PEFC-endorsed national scheme</span>. &lt;ProductFormFeatureValue&gt; is the Chain Of Custody (COC) number printed on the book. The Product Form Feature Description element may carry free text indicating the grade or type of paper. Should be accompanied by a Post-Consumer-Waste (PCW) percentage value, to be reported in another instance of &lt;ProductFormFeature&gt; with type code 36</td>
+					</tr>
+					<tr>
+						<td>36</td>
+						<td>FSC or PEFC certified Pre- and Post-Consumer Waste (PCW) percentage</td>
+						<td>The percentage of recycled Pre- and Post-Consumer-Waste (PCW) used in a product where the composition is certified by FSC<span class="update">, PEFC</span> or PEFC<span class="update">-endorsed scheme</span>. &lt;ProductFormFeatureValue&gt; is an integer. May occur together with type code 32, 33, 34 or 35</td>
+					</tr>
+					<tr>
+						<td>37</td>
+						<td>Claimed Pre- and Post-Consumer Waste (PCW) percentage</td>
+						<td>The percentage of recycled Pre- and Post-Consumer Waste (PCW) claimed to be used in a product where the composition is not certified by FSC or PEFC. &lt;Product FormFeatureValue&gt; is an integer. &lt;ProductFormFeatureDescription&gt; may carry free text supporting the claim. Must be accompanied by type code 30</td>
+					</tr>
+					<tr>
+						<td>38</td>
+						<td>‘Green’ inks</td>
+						<td>Vegetable-based or other environmentally-conscious inks and varnishes. &lt;ProductFormFeatureDescription&gt; may carry free text with a more detailed statement. For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>39</td>
+						<td>‘Green’ adhesives</td>
+						<td>Product binding uses environmentally-concious adhesives and other binding materials. &lt;ProductFormFeatureDescription&gt; may carry free text with a more detailed statement. For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>40</td>
+						<td>Paper produced by ‘green’ technology</td>
+						<td>Product made from paper produced using environmentally-conscious technology. &lt;ProductFormFeatureDescription&gt; may carry free text with a more detailed statement</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<footer>
+			<p>
+				<small>
+					<a href="https://doi.org/10.4400/nwgj" rel="license" target="_blank">©</a> <a href="https://www.editeur.org" rel="external" target="_blank">EDItEUR</a>
+				</small>
+			</p>
+		</footer>
+	</body>
+</html>

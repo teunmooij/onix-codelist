@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="EDItEUR"/>
+		<title>ONIX Code List 62 [Issue 58]</title>
+		<style>
+			body { font-family: helvetica, arial, sans-serif; font-size: 12pt }
+			h1 { font-size: 1.5em }
+			h2 { font-size: 1.3em }
+			a { text-decoration: none; color: dimgray }
+			a:hover { text-decoration: underline }
+			table { border-collapse: collapse }
+			thead tr { border-top: 0.1em solid silver; text-align: left }
+			tbody tr { border-bottom: 0.05em dotted silver }
+			tbody tr:first-of-type { border-top: 0.1em solid silver }
+			tbody tr:last-of-type { border-bottom: 0.1em solid silver }
+			td, th { padding: 0.2em; vertical-align: top }
+			th.notation { width: 6em }
+			th.preflabel { width: 18em }
+			th.notes:after { content: '                                                       ' }
+			.new { color: red }
+			.update { color: blue }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ONIX Code Lists Issue 58, July 2022</h1>
+		</header>
+		<main>
+			<h2>List 62: Tax rate type</h2>
+			<table>
+				<thead>
+					<tr>
+						<th class="notation">Value</th>
+						<th class="preflabel">Description</th>
+						<th class="notes">Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>H</td>
+						<td>Higher rate</td>
+						<td>Specifies that tax is applied at a higher rate than standard</td>
+					</tr>
+					<tr>
+						<td>P</td>
+						<td>Tax paid at source (Italy)</td>
+						<td>Under Italian tax rules, VAT on books may be paid at source by the publisher, and subsequent transactions through the supply chain are tax-exempt</td>
+					</tr>
+					<tr>
+						<td>R</td>
+						<td>Lower rate</td>
+						<td>Specifies that tax is applied at a lower rate than standard. In the EU, use code R for ‘Reduced rates’, and for rates lower than 5%, use code T (‘Super-reduced’) or Z (Zero-rated)</td>
+					</tr>
+					<tr>
+						<td>S</td>
+						<td>Standard rate</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>T</td>
+						<td>Super-low rate</td>
+						<td>Specifies that tax is applied at a rate lower than the Lower rate(s). In the EU, use code T for ‘Super-reduced rates’, and for Reduced rates (5% or above) use code R (Lower rate). For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>Z</td>
+						<td>Zero-rated</td>
+						<td/>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<footer>
+			<p>
+				<small>
+					<a href="https://doi.org/10.4400/nwgj" rel="license" target="_blank">©</a> <a href="https://www.editeur.org" rel="external" target="_blank">EDItEUR</a>
+				</small>
+			</p>
+		</footer>
+	</body>
+</html>

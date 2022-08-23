@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="EDItEUR"/>
+		<title>ONIX Code List 100 [Issue 58]</title>
+		<style>
+			body { font-family: helvetica, arial, sans-serif; font-size: 12pt }
+			h1 { font-size: 1.5em }
+			h2 { font-size: 1.3em }
+			a { text-decoration: none; color: dimgray }
+			a:hover { text-decoration: underline }
+			table { border-collapse: collapse }
+			thead tr { border-top: 0.1em solid silver; text-align: left }
+			tbody tr { border-bottom: 0.05em dotted silver }
+			tbody tr:first-of-type { border-top: 0.1em solid silver }
+			tbody tr:last-of-type { border-bottom: 0.1em solid silver }
+			td, th { padding: 0.2em; vertical-align: top }
+			th.notation { width: 6em }
+			th.preflabel { width: 18em }
+			th.notes:after { content: '                                                       ' }
+			.new { color: red }
+			.update { color: blue }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ONIX Code Lists Issue 58, July 2022</h1>
+		</header>
+		<main>
+			<h2>List 100: Discount code type</h2>
+			<table>
+				<thead>
+					<tr>
+						<th class="notation">Value</th>
+						<th class="preflabel">Description</th>
+						<th class="notes">Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>01</td>
+						<td>BIC discount group code</td>
+						<td>UK publisher’s or distributor’s discount group code in a format specified by BIC to ensure uniqueness (a five-letter prefix allocated by BIC, plus one to three alphanumeric characters – normally digits – chosen by the supplier)</td>
+					</tr>
+					<tr>
+						<td>02</td>
+						<td>Proprietary discount code</td>
+						<td>A publisher’s or supplier’s own code which identifies a trade discount category, as specified in &lt;DiscountCodeTypeName&gt;. The actual discount for each code is set by trading partner agreement (applies to goods supplied on standard trade discounting terms)</td>
+					</tr>
+					<tr>
+						<td>03</td>
+						<td>Boeksoort</td>
+						<td>Terms code used in the Netherlands book trade</td>
+					</tr>
+					<tr>
+						<td>04</td>
+						<td>German terms code</td>
+						<td>Terms code used in German ONIX applications</td>
+					</tr>
+					<tr>
+						<td>05</td>
+						<td>Proprietary commission code</td>
+						<td>A publisher’s or supplier’s own code which identifies a commission rate category, as specified in &lt;DiscountCodeTypeName&gt;. The actual commission rate for each code is set by trading partner agreement (applies to goods supplied on agency terms)</td>
+					</tr>
+					<tr>
+						<td>06</td>
+						<td>BIC commission group code</td>
+						<td>UK publisher’s or distributor’s commission group code in format specified by BIC to ensure uniqueness. Format is identical to BIC discount group code, but indicates a commission rather than a discount (applies to goods supplied on agency terms)</td>
+					</tr>
+					<tr>
+						<td>07</td>
+						<td>ISNI-based discount group code</td>
+						<td>ISNI-based discount group scheme devised initially by the German IG ProduktMetadaten, in a format comprised of the supplier’s 16-digit ISNI, followed by a hyphen and one to three alphanumeric characters – normally digits – chosen by the supplier. These characters are the index to a discount percentage in a table shared in advance by the supplier with individual customers. In this way, a supplier may maintain individual product-specific discount arrangements with each customer. For use in ONIX 3.0 only</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<footer>
+			<p>
+				<small>
+					<a href="https://doi.org/10.4400/nwgj" rel="license" target="_blank">©</a> <a href="https://www.editeur.org" rel="external" target="_blank">EDItEUR</a>
+				</small>
+			</p>
+		</footer>
+	</body>
+</html>

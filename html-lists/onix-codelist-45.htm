@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="EDItEUR"/>
+		<title>ONIX Code List 45 [Issue 58]</title>
+		<style>
+			body { font-family: helvetica, arial, sans-serif; font-size: 12pt }
+			h1 { font-size: 1.5em }
+			h2 { font-size: 1.3em }
+			a { text-decoration: none; color: dimgray }
+			a:hover { text-decoration: underline }
+			table { border-collapse: collapse }
+			thead tr { border-top: 0.1em solid silver; text-align: left }
+			tbody tr { border-bottom: 0.05em dotted silver }
+			tbody tr:first-of-type { border-top: 0.1em solid silver }
+			tbody tr:last-of-type { border-bottom: 0.1em solid silver }
+			td, th { padding: 0.2em; vertical-align: top }
+			th.notation { width: 6em }
+			th.preflabel { width: 18em }
+			th.notes:after { content: '                                                       ' }
+			.new { color: red }
+			.update { color: blue }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ONIX Code Lists Issue 58, July 2022</h1>
+		</header>
+		<main>
+			<h2>List 45: Publishing role</h2>
+			<table>
+				<thead>
+					<tr>
+						<th class="notation">Value</th>
+						<th class="preflabel">Description</th>
+						<th class="notes">Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>01</td>
+						<td>Publisher</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>02</td>
+						<td>Co-publisher</td>
+						<td>Use where two or more publishers co-publish the exact same product, either under a single ISBN (in which case both publishers are co-publishers), or under different ISBNs (in which case the publisher of THIS ISBN is the publisher and the publishers of OTHER ISBNs are co-publishers. Note this is different from publication of ‘co-editions’</td>
+					</tr>
+					<tr>
+						<td>03</td>
+						<td>Sponsor</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>04</td>
+						<td>Publisher of original-language version</td>
+						<td>Of a translated work</td>
+					</tr>
+					<tr>
+						<td>05</td>
+						<td>Host/distributor of electronic content</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>06</td>
+						<td>Published for/on behalf of</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>07</td>
+						<td>Published in association with</td>
+						<td>Use also for ‘Published in cooperation with’</td>
+					</tr>
+					<tr>
+						<td>09</td>
+						<td>New or acquiring publisher</td>
+						<td>When ownership of a product or title is transferred from one publisher to another</td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>Publishing group</td>
+						<td>The group to which a publisher (publishing role 01) belongs: use only if a publisher has been identified with role code 01</td>
+					</tr>
+					<tr>
+						<td>11</td>
+						<td>Publisher of facsimile original</td>
+						<td>The publisher of the edition of which a product is a facsimile</td>
+					</tr>
+					<tr>
+						<td>12</td>
+						<td>Repackager of prebound edition</td>
+						<td>The repackager of a prebound edition that has been assigned its own identifier. (In the US, a ‘prebound edition’ is a book that was previously bound, normally as a paperback, and has been rebound with a library-quality hardcover binding by a supplier other than the original publisher.) Required when the &lt;EditionType&gt; is coded PRB. The original publisher should be named as the ‘publisher’</td>
+					</tr>
+					<tr>
+						<td>13</td>
+						<td>Former publisher</td>
+						<td>When ownership of a product or title is transferred from one publisher to another (complement of code 09)</td>
+					</tr>
+					<tr>
+						<td>14</td>
+						<td>Publication funder</td>
+						<td>Body funding publication fees, if different from the body funding the underlying research. Intended primarily for use with open access publications</td>
+					</tr>
+					<tr>
+						<td>15</td>
+						<td>Research funder</td>
+						<td>Body funding the research on which publication is based, if different from the body funding the publication. Intended primarily for use with open access publications</td>
+					</tr>
+					<tr>
+						<td>16</td>
+						<td>Funding body</td>
+						<td>Body funding research and publication. Intended primarily for use with open access publications</td>
+					</tr>
+					<tr>
+						<td>17</td>
+						<td>Printer</td>
+						<td>Organisation responsible for printing a printed product. Supplied primarily to meet legal deposit requirements, and may apply only to the first impression. The organisation may also be responsible for binding, when a separate binder is not specified</td>
+					</tr>
+					<tr>
+						<td>18</td>
+						<td>Binder</td>
+						<td>Organisation responsible for binding a printed product (where distinct from the printer). Supplied primarily to meet legal deposit requirements, and may apply only to the first impression</td>
+					</tr>
+					<tr>
+						<td>19</td>
+						<td>Manufacturer</td>
+						<td>Organisation primarily responsible for physical manufacture of a product, when neither Printer nor Binder is directly appropriate (for example, with disc or tape products, or digital products on a physical carrier)</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<footer>
+			<p>
+				<small>
+					<a href="https://doi.org/10.4400/nwgj" rel="license" target="_blank">©</a> <a href="https://www.editeur.org" rel="external" target="_blank">EDItEUR</a>
+				</small>
+			</p>
+		</footer>
+	</body>
+</html>

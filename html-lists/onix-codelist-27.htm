@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="EDItEUR"/>
+		<title>ONIX Code List 27 [Issue 58]</title>
+		<style>
+			body { font-family: helvetica, arial, sans-serif; font-size: 12pt }
+			h1 { font-size: 1.5em }
+			h2 { font-size: 1.3em }
+			a { text-decoration: none; color: dimgray }
+			a:hover { text-decoration: underline }
+			table { border-collapse: collapse }
+			thead tr { border-top: 0.1em solid silver; text-align: left }
+			tbody tr { border-bottom: 0.05em dotted silver }
+			tbody tr:first-of-type { border-top: 0.1em solid silver }
+			tbody tr:last-of-type { border-bottom: 0.1em solid silver }
+			td, th { padding: 0.2em; vertical-align: top }
+			th.notation { width: 6em }
+			th.preflabel { width: 18em }
+			th.notes:after { content: '                                                       ' }
+			.new { color: red }
+			.update { color: blue }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ONIX Code Lists Issue 58, July 2022</h1>
+		</header>
+		<main>
+			<h2 class="new">List 27: Subject scheme identifier</h2>
+			<table>
+				<thead>
+					<tr>
+						<th class="notation">Value</th>
+						<th class="preflabel">Description</th>
+						<th class="notes">Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>01</td>
+						<td>Dewey</td>
+						<td>Dewey Decimal Classification</td>
+					</tr>
+					<tr>
+						<td>02</td>
+						<td>Abridged Dewey</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>03</td>
+						<td>LC classification</td>
+						<td>US Library of Congress classification</td>
+					</tr>
+					<tr>
+						<td>04</td>
+						<td>LC subject heading</td>
+						<td>US Library of Congress subject heading</td>
+					</tr>
+					<tr>
+						<td>05</td>
+						<td>NLM classification</td>
+						<td>US National Library of Medicine medical classification</td>
+					</tr>
+					<tr>
+						<td>06</td>
+						<td>MeSH heading</td>
+						<td>US National Library of Medicine Medical subject heading</td>
+					</tr>
+					<tr>
+						<td>07</td>
+						<td>NAL subject heading</td>
+						<td>US National Agricultural Library subject heading</td>
+					</tr>
+					<tr>
+						<td>08</td>
+						<td>AAT</td>
+						<td>Getty Art and Architecture Thesaurus heading</td>
+					</tr>
+					<tr>
+						<td>09</td>
+						<td>UDC</td>
+						<td>Universal Decimal Classification</td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>BISAC Subject Heading</td>
+						<td>BISAC Subject Headings are used in the North American market to categorize books based on topical content. They serve as a guideline for shelving books in physical stores and browsing books in online stores. See https://bisg.org/page/BISACSubjectCodes</td>
+					</tr>
+					<tr>
+						<td>11</td>
+						<td>BISAC Regional theme</td>
+						<td>A geographical qualifier used with a BISAC subject category</td>
+					</tr>
+					<tr>
+						<td>12</td>
+						<td>BIC subject category</td>
+						<td>For all BIC subject codes and qualifiers, see https://www.bic.org.uk/7/BIC-Standard-Subject-Categories/</td>
+					</tr>
+					<tr>
+						<td>13</td>
+						<td>BIC geographical qualifier</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>14</td>
+						<td>BIC language qualifier (language as subject)</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>15</td>
+						<td>BIC time period qualifier</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>16</td>
+						<td>BIC educational purpose qualifier</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>17</td>
+						<td>BIC reading level and special interest qualifier</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>18</td>
+						<td>DDC-Sachgruppen der Deutschen Nationalbibliografie</td>
+						<td>Used for German National Bibliography since 2004 (100 subjects). Is different from value 30. See http://www.dnb.de/service/pdf/ddc_wv_aktuell.pdf (in German) or http://www.dnb.de/eng/service/pdf/ddc_wv_aktuell_eng.pdf (English)</td>
+					</tr>
+					<tr>
+						<td>19</td>
+						<td>LC fiction genre heading</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>20</td>
+						<td>Keywords</td>
+						<td>For indexing and search purposes, not normally intended for display. Where multiple keywords or keyword phrases are sent, this should be in a single instance of the &lt;SubjectHeadingText&gt; element, and it is recommended that they should be separated by semi-colons (this is consistent with Library of Congress preferred practice)</td>
+					</tr>
+					<tr>
+						<td>21</td>
+						<td>BIC children’s book marketing category</td>
+						<td>See PA/BIC CBMC guidelines at http://www.bic.org.uk/8/Children%27s-Books-Marketing-Classifications/</td>
+					</tr>
+					<tr>
+						<td>22</td>
+						<td>BISAC Merchandising Theme</td>
+						<td>BISAC Merchandising Themes are used in addition to BISAC Subject Headings to denote an audience to which a work may be of particular appeal, a time of year or event for which a work may be especially appropriate, or to further describe fictional works that have been subject-coded by genre</td>
+					</tr>
+					<tr>
+						<td>23</td>
+						<td>Publisher’s own category code</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>24</td>
+						<td>Proprietary subject scheme</td>
+						<td>As specified in &lt;SubjectSchemeName&gt;</td>
+					</tr>
+					<tr>
+						<td>25</td>
+						<td>Tabla de materias ISBN</td>
+						<td>Latin America</td>
+					</tr>
+					<tr>
+						<td>26</td>
+						<td>Warengruppen-Systematik des deutschen Buchhandels</td>
+						<td>See https://vlb.de/assets/images/wgsneuversion2_0.pdf (in German)</td>
+					</tr>
+					<tr>
+						<td>27</td>
+						<td>SWD</td>
+						<td>Schlagwortnormdatei – Subject Headings Authority File in the German-speaking countries. See http://www.dnb.de/standardisierung/normdateien/swd.htm (in German) and http://www.dnb.de/eng/standardisierung/normdateien/swd.htm (English). DEPRECATED in favor of the GND</td>
+					</tr>
+					<tr>
+						<td>28</td>
+						<td>Thèmes Electre</td>
+						<td>Subject classification used by Electre (France)</td>
+					</tr>
+					<tr>
+						<td>29</td>
+						<td>CLIL Classification thématique</td>
+						<td>France. A four-digit number, see https://clil.centprod.com/listeActive.html (in French)</td>
+					</tr>
+					<tr>
+						<td>30</td>
+						<td>DNB-Sachgruppen</td>
+						<td>Deutsche Bibliothek subject groups. Used for German National Bibliography until 2003 (65 subjects). Is different from value 18. See http://www.dnb.de/service/pdf/ddc_wv_alt_neu.pdf (in German)</td>
+					</tr>
+					<tr>
+						<td>31</td>
+						<td>NUGI</td>
+						<td>Nederlandse Uniforme Genre-Indeling (former Dutch book trade classification)</td>
+					</tr>
+					<tr>
+						<td>32</td>
+						<td>NUR</td>
+						<td>Nederlandstalige Uniforme Rubrieksindeling (Dutch book trade classification, from 2002, see http://www.boek.nl/nur (in Dutch)</td>
+					</tr>
+					<tr>
+						<td>33</td>
+						<td>ECPA Christian Book Category</td>
+						<td>ECPA Christian Product Category Book Codes, consisting of up to three x 3-letter blocks, for Super Category, Primary Category and Sub-Category. See http://www.ecpa.org/ECPA/cbacategories.xls</td>
+					</tr>
+					<tr>
+						<td>34</td>
+						<td>SISO</td>
+						<td>Schema Indeling Systematische Catalogus Openbare Bibliotheken (Dutch library classification)</td>
+					</tr>
+					<tr>
+						<td>35</td>
+						<td>Korean Decimal Classification (KDC)</td>
+						<td>A modified Dewey Decimal Classification used in the Republic of Korea</td>
+					</tr>
+					<tr>
+						<td>36</td>
+						<td>DDC Deutsch 22</td>
+						<td>German Translation of Dewey Decimal Classification 22. Also known as DDC 22 ger. See http://www.ddc-deutsch.de/produkte/uebersichten/</td>
+					</tr>
+					<tr>
+						<td>37</td>
+						<td>Bokgrupper</td>
+						<td>Norwegian book trade product categories (Bokgrupper) administered by the Norwegian Publishers Association (http://www.forleggerforeningen.no/)</td>
+					</tr>
+					<tr>
+						<td>38</td>
+						<td>Varegrupper</td>
+						<td>Norwegian bookselling subject categories (Bokhandelens varegrupper) administered by the Norwegian Booksellers Association (http://bokhandlerforeningen.no/)</td>
+					</tr>
+					<tr>
+						<td>39</td>
+						<td>Læreplaner-KL06</td>
+						<td>Norwegian school curriculum version. Deprecated</td>
+					</tr>
+					<tr>
+						<td>40</td>
+						<td>Nippon Decimal Classification</td>
+						<td>Japanese subject classification scheme</td>
+					</tr>
+					<tr>
+						<td>41</td>
+						<td>BSQ</td>
+						<td>BookSelling Qualifier: Russian book trade classification</td>
+					</tr>
+					<tr>
+						<td>42</td>
+						<td>ANELE Materias</td>
+						<td>Spain: subject coding scheme of the Asociación Nacional de Editores de Libros y Material de Enseñanza</td>
+					</tr>
+					<tr>
+						<td>43</td>
+						<td>Utdanningsprogram</td>
+						<td>Codes for Norwegian ‘utdanningsprogram’ used in secondary education. See: http://www.udir.no/. (Formerly labelled ‘Skolefag’)</td>
+					</tr>
+					<tr>
+						<td>44</td>
+						<td>Programområde</td>
+						<td>Codes for Norwegian ‘programområde’ used in secondary education. See http://www.udir.no/. (Formerly labelled ‘Videregående’ or ‘Programfag’)</td>
+					</tr>
+					<tr>
+						<td>45</td>
+						<td>Undervisningsmateriell</td>
+						<td>Norwegian list of categories for books and other material used in education</td>
+					</tr>
+					<tr>
+						<td>46</td>
+						<td>Norsk DDK</td>
+						<td>Norwegian version of Dewey Decimal Classification</td>
+					</tr>
+					<tr>
+						<td>47</td>
+						<td>Varugrupper</td>
+						<td>Swedish bookselling subject categories</td>
+					</tr>
+					<tr>
+						<td>48</td>
+						<td>SAB</td>
+						<td>Swedish classification scheme</td>
+					</tr>
+					<tr>
+						<td>49</td>
+						<td>Läromedelstyp</td>
+						<td>Swedish bookselling educational subject type</td>
+					</tr>
+					<tr>
+						<td>50</td>
+						<td>Förhandsbeskrivning</td>
+						<td>Swedish publishers preliminary subject classification</td>
+					</tr>
+					<tr>
+						<td>51</td>
+						<td>Spanish ISBN UDC subset</td>
+						<td>Controlled subset of UDC codes used by the Spanish ISBN Agency</td>
+					</tr>
+					<tr>
+						<td>52</td>
+						<td>ECI subject categories</td>
+						<td>Subject categories defined by El Corte Inglés and used widely in the Spanish book trade</td>
+					</tr>
+					<tr>
+						<td>53</td>
+						<td>Soggetto CCE</td>
+						<td>Classificazione commerciale editoriale (Italian book trade subject category based on BIC). CCE documentation available at https://www.ie-online.it/CCE2_2.0.pdf</td>
+					</tr>
+					<tr>
+						<td>54</td>
+						<td>Qualificatore geografico CCE</td>
+						<td>CCE Geographical qualifier</td>
+					</tr>
+					<tr>
+						<td>55</td>
+						<td>Qualificatore di lingua CCE</td>
+						<td>CCE Language qualifier</td>
+					</tr>
+					<tr>
+						<td>56</td>
+						<td>Qualificatore di periodo storico CCE</td>
+						<td>CCE Time Period qualifier</td>
+					</tr>
+					<tr>
+						<td>57</td>
+						<td>Qualificatore di livello scolastico CCE</td>
+						<td>CCE Educational Purpose qualifier</td>
+					</tr>
+					<tr>
+						<td>58</td>
+						<td>Qualificatore di età di lettura CCE</td>
+						<td>CCE Reading Level Qualifier</td>
+					</tr>
+					<tr>
+						<td>59</td>
+						<td>VdS Bildungsmedien Fächer</td>
+						<td>Subject code list of the German association of educational media publishers. See http://www.bildungsmedien.de/service/onixlisten/unterrichtsfach_onix_codelist27_value59_0408.pdf</td>
+					</tr>
+					<tr>
+						<td>60</td>
+						<td>Fagkoder</td>
+						<td>Norwegian primary and secondary school subject categories (fagkoder), see http://www.udir.no/</td>
+					</tr>
+					<tr>
+						<td>61</td>
+						<td>JEL classification</td>
+						<td>Journal of Economic Literature classification scheme</td>
+					</tr>
+					<tr>
+						<td>62</td>
+						<td>CSH</td>
+						<td>National Library of Canada subject heading (English)</td>
+					</tr>
+					<tr>
+						<td>63</td>
+						<td>RVM</td>
+						<td>Répertoire de vedettes-matière Bibliothèque de l’Université Laval) (French)</td>
+					</tr>
+					<tr>
+						<td>64</td>
+						<td>YSA</td>
+						<td>Finnish General Thesaurus (Finnish: Yleinen suomalainen asiasanasto). See <span class="update">https://finto.fi/ysa/fi/</span> (in Finnish). Deprecated. No longer updated, and replaced by YSO (see code 71)</td>
+					</tr>
+					<tr>
+						<td>65</td>
+						<td>Allärs</td>
+						<td>Swedish translation of the Finnish General Thesaurus (Swedish: Allmän tesaurus på svenska). See <span class="update">https://finto.fi/allars/sv/</span> (in Swedish). Deprecated. No longer updated, and replaced by YSO (see code 71)</td>
+					</tr>
+					<tr>
+						<td>66</td>
+						<td>YKL</td>
+						<td>Finnish Public Libraries Classification System (Finnish: Yleisten kirjastojen luokitusjärjestelmä). See <span class="update">https://finto.fi/ykl/fi/</span> (in Finnish),<span class="update"> https://finto.fi/ykl/sv/ (in Swedish), https://finto.fi/ykl/en/ (in English)</span>
+						</td>
+					</tr>
+					<tr>
+						<td>67</td>
+						<td>MUSA</td>
+						<td>Finnish Music Thesaurus (Finnish: Musiikin asiasanasto). See <span class="update">https://finto.fi/musa/fi/</span> (in Finnish). Deprecated<span class="update">, and replaced by YSO (see code 71)</span>
+						</td>
+					</tr>
+					<tr>
+						<td>68</td>
+						<td>CILLA</td>
+						<td>Swedish translation of the Finnish Music Thesaurus (Swedish: Specialtesaurus för musik). See <span class="update">https://finto.fi/musa/sv/</span> (in Swedish)<span class="update">. </span>Deprecated<span class="update">, and replaced by YSO (see code 71)</span>
+						</td>
+					</tr>
+					<tr>
+						<td>69</td>
+						<td>Kaunokki</td>
+						<td>Finnish thesaurus for fiction (Finnish: Fiktiivisen aineiston asiasanasto). See <span class="update">https://finto.fi/kaunokki/fi/</span> (in Finnish). Deprecated<span class="update">. No longer updated, and replaced by Kauno and SLM (see codes D0 and D1)</span>
+						</td>
+					</tr>
+					<tr>
+						<td>70</td>
+						<td>Bella</td>
+						<td>Swedish translation of the Finnish thesaurus for fiction (Swedish: Specialtesaurus för fiktivt material). See <span class="update">https://finto.fi/kaunokki/sv/</span> (in Swedish). <span class="update">Deprecated. No longer updated, and replaced by Kauno and SLM (see codes D0 and D1)</span>
+						</td>
+					</tr>
+					<tr>
+						<td>71</td>
+						<td>YSO</td>
+						<td>
+							<span class="update">General Finnish Ontolog</span>y (Finnish: Yleinen suomalainen ontologia). See <span class="update">https://finto.fi/yso/fi/</span> (in Finnish),<span class="update"> https://finto.fi/yso/sv/ (in Swedish), https://finto.fi/yso/en/ (in English)</span>
+						</td>
+					</tr>
+					<tr>
+						<td>72</td>
+						<td>PTO</td>
+						<td>Finnish <span class="update">Geospatial Domain</span> Ontology (Finnish: Paikkatieto ontologia). See <span class="update">https://finto.fi/pto/fi/</span> (in Finnish)<span class="update">, https://finto.fi/pto/sv/ (in Swedish), https://finto.fi/pto/en/ (in English)</span>
+						</td>
+					</tr>
+					<tr>
+						<td>73</td>
+						<td>Suomalainen kirja-alan luokitus</td>
+						<td>Finnish book trade categorisation</td>
+					</tr>
+					<tr>
+						<td>74</td>
+						<td>Sears</td>
+						<td>Sears List of Subject Headings</td>
+					</tr>
+					<tr>
+						<td>75</td>
+						<td>BIC E4L</td>
+						<td>BIC E4Libraries Category Headings, see http://www.bic.org.uk/51/E4libraries-Subject-Category-Headings/</td>
+					</tr>
+					<tr>
+						<td>76</td>
+						<td>CSR</td>
+						<td>Code Sujet Rayon: subject categories used by bookstores in France</td>
+					</tr>
+					<tr>
+						<td>77</td>
+						<td>Suomalainen oppiaineluokitus</td>
+						<td>Finnish school subject categories. <span class="update">See https://www.onixkeskus.fi/media/f/56</span>
+						</td>
+					</tr>
+					<tr>
+						<td>78</td>
+						<td>Japanese book trade C-Code</td>
+						<td>See https://isbn.jpo.or.jp/doc/08.pdf#page=44 (in Japanese)</td>
+					</tr>
+					<tr>
+						<td>79</td>
+						<td>Japanese book trade Genre Code</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>80</td>
+						<td>Fiktiivisen aineiston lisäluokitus</td>
+						<td>Finnish fiction genre classification. See <span class="update">https://finto.fi/ykl/fi/page/fiktioluokka</span> (in Finnish)<span class="update">, https://finto.fi/ykl/sv/page/fiktioluokka (in Swedish), https://finto.fi/ykl/en/page/fiktioluokka (in English)</span>
+						</td>
+					</tr>
+					<tr>
+						<td>81</td>
+						<td>Arabic Subject heading scheme</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>82</td>
+						<td>Arabized BIC subject category</td>
+						<td>Arabized version of BIC subject category scheme developed by ElKotob.com</td>
+					</tr>
+					<tr>
+						<td>83</td>
+						<td>Arabized LC subject headings</td>
+						<td>Arabized version of Library of Congress scheme</td>
+					</tr>
+					<tr>
+						<td>84</td>
+						<td>Bibliotheca Alexandrina Subject Headings</td>
+						<td>Classification scheme used by Library of Alexandria</td>
+					</tr>
+					<tr>
+						<td>85</td>
+						<td>Postal code</td>
+						<td>Location defined by postal code. Format is two-letter country code (from List 91), space, postal code. Note some postal codes themselves contain spaces, eg ‘GB N7 9DP’ or ‘US 10125’</td>
+					</tr>
+					<tr>
+						<td>86</td>
+						<td>GeoNames ID</td>
+						<td>ID number for geographical place, as defined at http://www.geonames.org (eg 2825297 is Stuttgart, Germany, see http://www.geonames.org/2825297)</td>
+					</tr>
+					<tr>
+						<td>87</td>
+						<td>NewBooks Subject Classification</td>
+						<td>Used for classification of academic and specialist publication in German-speaking countries. See http://www.newbooks-services.com/de/top/unternehmensportrait/klassifikation-und-mapping.html (German) and http://www.newbooks-services.com/en/top/about-newbooks/classification-mapping.html (English)</td>
+					</tr>
+					<tr>
+						<td>88</td>
+						<td>Chinese Library Classification</td>
+						<td>Subject classification maintained by the Editorial Board of Chinese Library Classification. See http://cct.nlc.gov.cn for access to details of the scheme</td>
+					</tr>
+					<tr>
+						<td>89</td>
+						<td>NTCPDSAC Classification</td>
+						<td>Subject classification for Books, Audiovisual products and E-publications formulated by China National Technical Committee 505</td>
+					</tr>
+					<tr>
+						<td>90</td>
+						<td>Season and Event Indicator</td>
+						<td>German code scheme indicating association with seasons, holidays, events (eg Autumn, Back to School, Easter)</td>
+					</tr>
+					<tr>
+						<td>91</td>
+						<td>GND</td>
+						<td>Gemeinsame Normdatei – Joint Authority File in the German-speaking countries. See http://www.dnb.de/EN/gnd (English). Combines the PND, SWD and GKD into a single authority file, and should be used in preference to the older codes</td>
+					</tr>
+					<tr>
+						<td>92</td>
+						<td>BIC UKSLC</td>
+						<td>UK Standard Library Categories, the successor to BIC’s E4L classification scheme. See https://www.bic.org.uk/51/UK-Standard-Library-Categories/</td>
+					</tr>
+					<tr>
+						<td>93</td>
+						<td>Thema subject category</td>
+						<td>International multilingual subject category scheme – see https://ns.editeur.org/thema</td>
+					</tr>
+					<tr>
+						<td>94</td>
+						<td>Thema place qualifier</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>95</td>
+						<td>Thema language qualifier</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>96</td>
+						<td>Thema time period qualifier</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>97</td>
+						<td>Thema educational purpose qualifier</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>98</td>
+						<td>Thema interest age / special interest qualifier</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>99</td>
+						<td>Thema style qualifier</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>A2</td>
+						<td>Ämnesord</td>
+						<td>Swedish subject categories maintained by Bokrondellen</td>
+					</tr>
+					<tr>
+						<td>A3</td>
+						<td>Statystyka Książek Papierowych, Mówionych I Elektronicznych</td>
+						<td>Polish Statistical Book and E-book Classification</td>
+					</tr>
+					<tr>
+						<td>A4</td>
+						<td>CCSS</td>
+						<td>Common Core State Standards curriculum alignment, for links to US educational standards. &lt;SubjectCode&gt; uses the full dot notation. See http://www.corestandards.org/developers-and-publishers</td>
+					</tr>
+					<tr>
+						<td>A5</td>
+						<td>Rameau</td>
+						<td>French library subject headings</td>
+					</tr>
+					<tr>
+						<td>A6</td>
+						<td>Nomenclature discipline scolaire</td>
+						<td>French educational subject classification, URI http://data.education.fr/voc/scolomfr/scolomfr-voc-015GTPX</td>
+					</tr>
+					<tr>
+						<td>A7</td>
+						<td>ISIC</td>
+						<td>International Standard Industry Classification, a classification of economic activities. Use for books that are about a particular industry or economic activity. &lt;SubjectCode&gt; should be a single letter denoting an ISIC section OR a 2-, 3- or 4-digit number denoting an ISIC division, group or class. See http://unstats.un.org/unsd/cr/registry/isic-4.asp</td>
+					</tr>
+					<tr>
+						<td>A8</td>
+						<td>LC Children’s Subject Headings</td>
+						<td>Library of Congress Children’s Subject Headings: LCSHAC supplementary headings for Children’s books</td>
+					</tr>
+					<tr>
+						<td>A9</td>
+						<td>Ny Läromedel</td>
+						<td>Swedish bookselling educational subject</td>
+					</tr>
+					<tr>
+						<td>B0</td>
+						<td>EuroVoc</td>
+						<td>EuroVoc multilingual thesaurus. &lt;SubjectCode&gt; should be a EuroVoc concept dc:identifier (for example, 2777, ‘refrigerated products’). See http://eurovoc.europa.eu</td>
+					</tr>
+					<tr>
+						<td>B1</td>
+						<td>BISG Educational Taxonomy</td>
+						<td>Controlled vocabulary for educational objectives. See https://bisg.org/page/EducationalTaxonomy</td>
+					</tr>
+					<tr>
+						<td>B2</td>
+						<td>Keywords (not for display)</td>
+						<td>For indexing and search purposes, MUST not be displayed. Where multiple keywords or keyword phrases are sent, this should be in a single instance of the &lt;SubjectHeadingText&gt; element, and it is recommended that they should be separated by semi-colons. Use of code B2 should be very rare: use B2 in preference to code 20 only where it is important to show the keyword list is specifically NOT for display to purchasers (eg some keywords for a medical textbook may appear offensive if displayed out of context)</td>
+					</tr>
+					<tr>
+						<td>B3</td>
+						<td>Nomenclature Diplôme</td>
+						<td>French higher and vocational educational subject classification, URI http://data.education.fr/voc/scolomfr/scolomfr-voc-029</td>
+					</tr>
+					<tr>
+						<td>B4</td>
+						<td>Key character names</td>
+						<td>For fiction and non-fiction, one or more key names, provided – like keywords – for indexing and search purposes. Where multiple character names are sent, this should be in a single instance of &lt;SubjectHeadingText&gt;, and multiple names should be separated by semi-colons. Note &lt;NameAsSubject&gt; should be used for people who are the central subject of the book. Code B4 may be used for names of lesser importance</td>
+					</tr>
+					<tr>
+						<td>B5</td>
+						<td>Key place names</td>
+						<td>For fiction and non-fiction, one or more key names, provded – like keywords – for indexing and search purposes. Where multiple place names are sent, this should in a single instance of &lt;SubjectHeadingText&gt;, and multiple names should be separated by semi-colons. For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>B6</td>
+						<td>FAST</td>
+						<td>Faceted Application of Subject Terminology, OCLC subject scheme based on but different from LCSH (see code 04). For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>B7</td>
+						<td>NGSS</td>
+						<td>Next Generation Science Standards for K-12 education in the USA (https://www.nextgenscience.org). &lt;SubjectCode&gt; is a code such as 4-PS3-2. For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>B8</td>
+						<td>MVB-Lesemotive</td>
+						<td>MVB classification of ‘reading rationales’, which classify unconscious motives that lead to a book purchase. Categories are assigned and maintained by MVB. For use in ONIX 3.0 only. See https://vlb.de/lesemotive</td>
+					</tr>
+					<tr>
+						<td>B9</td>
+						<td>LOPS21 Subject module</td>
+						<td>Finnish Suomalainen oppiaineluokitus. For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>C0</td>
+						<td>Læreplaner-LK20</td>
+						<td>Codes for Norwegian curriculum for primary and secondary education. For use in ONIX 3.0 only. See Læreplaner-LK20 at https://www.udir.no/om-udir/data/kl06-grep/</td>
+					</tr>
+					<tr>
+						<td>C1</td>
+						<td>Kompetansemål-LK20</td>
+						<td>Codes for competency aims in the Norwegian curriculum for primary and secondary education. For use in ONIX 3.0 only. See Kompetansemål-LK20 at https://www.udir.no/om-udir/data/kl06-grep/</td>
+					</tr>
+					<tr>
+						<td>C2</td>
+						<td>Kompetansemålsett-LK20</td>
+						<td>Codes for sets of competency aims in the Norwegian curriculum for primary and secondary education. For use in ONIX 3.0 only. See Kompetansemålsett-LK20 at https://www.udir.no/om-udir/data/kl06-grep/</td>
+					</tr>
+					<tr>
+						<td>C3</td>
+						<td>Tverrfaglige temaer-LK20</td>
+						<td>Codes for interdisciplinary topics in the Norwegian curriculum for primary and secondary education. For use in ONIX 3.0 only. See Tverrfaglige temaer-LK20 at https://www.udir.no/om-udir/data/kl06-grep/</td>
+					</tr>
+					<tr>
+						<td>C4</td>
+						<td>CLIL – Type d’article scolaire</td>
+						<td>For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>C5</td>
+						<td>GAR – Type pédagogique</td>
+						<td>Gestionnaire d’Accès aux resources – see https://gar.education.fr/ For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>C6</td>
+						<td>ISCED-F</td>
+						<td>UNESCO ISCED Fields of education and training (2013), eg &lt;SubjectCode&gt; 0222 is ‘History and archaeology’. For use in ONIX 3.0 only. See http://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-fields-of-education-and-training-2013-detailed-field-descriptions-2015-en.pdf</td>
+					</tr>
+					<tr>
+						<td>C7</td>
+						<td>Klassifikationen von Spielen, Puzzles und Spielwaren</td>
+						<td>German category scheme for games, puzzles and toys. For use in ONIX 3.0 only. See https://www.ludologie.de/fileadmin/user_upload/PDFs/211126_Kategorisierung_von_Spielen_Puzzles_und_Spielwaren.pdf</td>
+					</tr>
+					<tr>
+						<td>C8</td>
+						<td>NBVok</td>
+						<td>National Library of Norway genre and form thesaurus. For use in ONIX 3.0 only. See https://www.nb.no/nbvok/ntsf</td>
+					</tr>
+					<tr class="new">
+						<td>C9</td>
+						<td>JPRO Genre</td>
+						<td>Subject / genre code used in Japan</td>
+					</tr>
+					<tr class="new">
+						<td>D0</td>
+						<td>KAUNO</td>
+						<td>Finnish Ontology for fiction (Finnish: Fiktiivisen aineiston ontologia). See https://finto.fi/kauno/fi/ (in Finnish), https://finto.fi/kauno/sv/ (in Swedish), https://finto.fi/kauno/en/ (in English)</td>
+					</tr>
+					<tr class="new">
+						<td>D1</td>
+						<td>SLM</td>
+						<td>Finnish genre and form vocabulary (Finnish: Suomalainen lajityyppi ja muotosanasto). See https://finto.fi/slm/fi/ (in Finnish), https://finto.fi/slm/sv/ (in Swedish), https://finto.fi/slm/en/ (in English)</td>
+					</tr>
+					<tr class="new">
+						<td>D2</td>
+						<td>YSO-places</td>
+						<td>General Finnish Ontology for Places (Finnish: Yleinen suomalainen ontologia – paikat). See https://finto.fi/yso-paikat/fi/ (in Finnish), https://finto.fi/yso-paikat/sv/ (in Swedish), https://finto.fi/yso-paikat/en/ (in English)</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<footer>
+			<p>
+				<small>
+					<a href="https://doi.org/10.4400/nwgj" rel="license" target="_blank">©</a> <a href="https://www.editeur.org" rel="external" target="_blank">EDItEUR</a>
+				</small>
+			</p>
+		</footer>
+	</body>
+</html>

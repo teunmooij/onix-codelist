@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "commonjs",
+    "target": "es2019",
+    "alwaysStrict": true,
+    "strict": true,
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "lib": ["es2019"],
+    "rootDir": "./src",
+    "declaration": true,
+    "resolveJsonModule": true
+  },
+  "include": ["**/*"],
+  "exclude": ["node_modules", "dist", "test"]
+}

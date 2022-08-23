@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="EDItEUR"/>
+		<title>ONIX Code List 158 [Issue 58]</title>
+		<style>
+			body { font-family: helvetica, arial, sans-serif; font-size: 12pt }
+			h1 { font-size: 1.5em }
+			h2 { font-size: 1.3em }
+			a { text-decoration: none; color: dimgray }
+			a:hover { text-decoration: underline }
+			table { border-collapse: collapse }
+			thead tr { border-top: 0.1em solid silver; text-align: left }
+			tbody tr { border-bottom: 0.05em dotted silver }
+			tbody tr:first-of-type { border-top: 0.1em solid silver }
+			tbody tr:last-of-type { border-bottom: 0.1em solid silver }
+			td, th { padding: 0.2em; vertical-align: top }
+			th.notation { width: 6em }
+			th.preflabel { width: 18em }
+			th.notes:after { content: '                                                       ' }
+			.new { color: red }
+			.update { color: blue }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ONIX Code Lists Issue 58, July 2022</h1>
+		</header>
+		<main>
+			<h2>List 158: Resource content type</h2>
+			<table>
+				<thead>
+					<tr>
+						<th class="notation">Value</th>
+						<th class="preflabel">Description</th>
+						<th class="notes">Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>01</td>
+						<td>Front cover</td>
+						<td>2D</td>
+					</tr>
+					<tr>
+						<td>02</td>
+						<td>Back cover</td>
+						<td>2D</td>
+					</tr>
+					<tr>
+						<td>03</td>
+						<td>Cover / pack</td>
+						<td>Not limited to front or back, including 3D perspective</td>
+					</tr>
+					<tr>
+						<td>04</td>
+						<td>Contributor picture</td>
+						<td>Photograph or portrait of contributor(s)</td>
+					</tr>
+					<tr>
+						<td>05</td>
+						<td>Series image / artwork</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>06</td>
+						<td>Series logo</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>07</td>
+						<td>Product image / artwork</td>
+						<td>For example, an isolated image from the front cover (without text), image of a completed jigsaw</td>
+					</tr>
+					<tr>
+						<td>08</td>
+						<td>Product logo</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>09</td>
+						<td>Publisher logo</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>Imprint logo</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>11</td>
+						<td>Contributor interview</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>12</td>
+						<td>Contributor presentation</td>
+						<td>Contributor presentation and/or commentary</td>
+					</tr>
+					<tr>
+						<td>13</td>
+						<td>Contributor reading</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>14</td>
+						<td>Contributor event schedule</td>
+						<td>Link to a schedule in iCalendar format</td>
+					</tr>
+					<tr>
+						<td>15</td>
+						<td>Sample content</td>
+						<td>For example: a short excerpt, sample text or a complete sample chapter, page images, screenshots etc</td>
+					</tr>
+					<tr>
+						<td>16</td>
+						<td>Widget</td>
+						<td>A ‘look inside’ feature presented as a small embeddable application</td>
+					</tr>
+					<tr>
+						<td>17</td>
+						<td>Review</td>
+						<td>Review text held in a separate downloadable file, not in the ONIX record. Equivalent of code 06 in List 153. Use the &lt;TextContent&gt; composite for review quotes carried in the ONIX record. Use the &lt;CitedContent&gt; composite for a third-party review which is referenced from the ONIX record. Use &lt;SupportingResource&gt; for review text offered as a separate file resource for reproduction as part of promotional material for the product</td>
+					</tr>
+					<tr>
+						<td>18</td>
+						<td>Commentary / discussion</td>
+						<td>For example a publisher’s podcast episode, social media message, newsletter issue, other commentary</td>
+					</tr>
+					<tr>
+						<td>19</td>
+						<td>Reading group guide</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>20</td>
+						<td>Teacher’s guide</td>
+						<td>Incuding associated teacher / instructor resources</td>
+					</tr>
+					<tr>
+						<td>21</td>
+						<td>Feature article</td>
+						<td>Feature article provided by publisher</td>
+					</tr>
+					<tr>
+						<td>22</td>
+						<td>Character ‘interview’</td>
+						<td>Fictional character ‘interview’</td>
+					</tr>
+					<tr>
+						<td>23</td>
+						<td>Wallpaper / screensaver</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>24</td>
+						<td>Press release</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>25</td>
+						<td>Table of contents</td>
+						<td>A table of contents held in a separate downloadable file, not in the ONIX record. Equivalent of code 04 in List 153. Use the &lt;TextContent&gt; composite for a table of contents carried in the ONIX record. Use &lt;Supporting Resource&gt; for text offered as a separate file resource</td>
+					</tr>
+					<tr>
+						<td>26</td>
+						<td>Trailer</td>
+						<td>A promotional video (or audio), similar to a movie trailer (sometimes referred to as a ‘book trailer’)</td>
+					</tr>
+					<tr>
+						<td>27</td>
+						<td>Cover thumbnail</td>
+						<td>Intended ONLY for transitional use, where ONIX 2.1 records referencing existing thumbnail assets of unknown pixel size are being re-expressed in ONIX 3.0. Use code 01 for all new cover assets, and where the pixel size of older assets is known</td>
+					</tr>
+					<tr>
+						<td>28</td>
+						<td>Full content</td>
+						<td>The full content of the product (or the product itself), supplied for example to support full-text search or indexing</td>
+					</tr>
+					<tr>
+						<td>29</td>
+						<td>Full cover</td>
+						<td>Includes cover, back cover, spine and – where appropriate – any flaps</td>
+					</tr>
+					<tr>
+						<td>30</td>
+						<td>Master brand logo</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>31</td>
+						<td>Description</td>
+						<td>Descriptive text in a separate downloadable file, not in the ONIX record. Equivalent of code 03 in List 153. Use the &lt;TextContent&gt; composite for descriptions carried in the ONIX record. Use &lt;Supporting Resource&gt; for text offered as a separate file resource for reproduction as part of promotional material for the product</td>
+					</tr>
+					<tr>
+						<td>32</td>
+						<td>Index</td>
+						<td>Index text held in a separate downloadable file, not in the ONIX record. Equivalent of code 15 in List 153. Use the &lt;TextContent&gt; composite for index text carried in the ONIX record. Use &lt;Supporting Resource&gt; for an index offered as a separate file resource</td>
+					</tr>
+					<tr>
+						<td>33</td>
+						<td>Student’s guide</td>
+						<td>Including associated student / learner resources</td>
+					</tr>
+					<tr>
+						<td>34</td>
+						<td>Publisher’s catalog</td>
+						<td>For example a PDF or other digital representation of a publisher’s ‘new titles’ or range catalog</td>
+					</tr>
+					<tr>
+						<td>35</td>
+						<td>Online advertisement panel</td>
+						<td>For example a banner ad for the product. Pixel dimensions should typically be included in &lt;ResourceVersionFeature&gt;</td>
+					</tr>
+					<tr>
+						<td>36</td>
+						<td>Online advertisement page</td>
+						<td>German ‘Búhnenbild’</td>
+					</tr>
+					<tr>
+						<td>37</td>
+						<td>Promotional event material</td>
+						<td>For example, posters, logos, banners, advertising templates for use in connection with a promotional event</td>
+					</tr>
+					<tr>
+						<td>38</td>
+						<td>Digital review copy</td>
+						<td>Availability of a digital review, evaluation or sample copy, or a digital proof copy, which may be limited to authorised users or account holders, but should otherwise be fully readable and functional</td>
+					</tr>
+					<tr>
+						<td>39</td>
+						<td>Instructional material</td>
+						<td>For example, video showing how to use the product</td>
+					</tr>
+					<tr>
+						<td>40</td>
+						<td>Errata</td>
+						<td/>
+					</tr>
+					<tr>
+						<td>41</td>
+						<td>Introduction</td>
+						<td>Introduction, preface or other preliminary material in a separate resource file</td>
+					</tr>
+					<tr>
+						<td>42</td>
+						<td>Collection description</td>
+						<td>Descriptive material in a separate resource file, not in the ONIX record. Equivalent of code 17 in List 153. Use the &lt;TextContent&gt; composite for collection descriptions carried in the ONIX record. Use &lt;Supporting Resource&gt; for material (which need not be solely only) offered as a separate file resource for reproduction as part of promotional material for the product and collection</td>
+					</tr>
+					<tr>
+						<td>43</td>
+						<td>Bibliography</td>
+						<td>Complete list of books by the author(s), supplied as a separate resource file</td>
+					</tr>
+					<tr>
+						<td>44</td>
+						<td>Abstract</td>
+						<td>Formal summary of content (normally used with academic and scholarly content only)</td>
+					</tr>
+					<tr>
+						<td>45</td>
+						<td>Cover holding image</td>
+						<td>Image that may be used for promotional purposes in place of a front cover, ONLY where the front cover itself cannot be provided or used for any reason. Typically, holding images may comprise logos, artwork or an unfinished front cover image. Senders should ensure removal of the holding image from the record as soon as a cover image is available. Recipients must ensure replacement of the holding image with the cover image when it is supplied</td>
+					</tr>
+					<tr>
+						<td>46</td>
+						<td>Rules or instructions</td>
+						<td>Eg for a game, kit</td>
+					</tr>
+					<tr>
+						<td>47</td>
+						<td>Transcript</td>
+						<td>Full transcript of audio or video content of the product</td>
+					</tr>
+					<tr>
+						<td>48</td>
+						<td>Full cast and credit list</td>
+						<td>For use with dramatised audiobooks, filmed entertainment etc, for a cast list sent as a separate resource file, not in the ONIX record. Equivalent of code 28 in List 153</td>
+					</tr>
+					<tr>
+						<td>99</td>
+						<td>License</td>
+						<td>Link to a license covering permitted usage of the product content. Deprecated in favor of &lt;EpubLicense&gt;. This was a temporary workaround in ONIX 3.0, and use of &lt;EpubLicense&gt; is strongly preferred</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<footer>
+			<p>
+				<small>
+					<a href="https://doi.org/10.4400/nwgj" rel="license" target="_blank">©</a> <a href="https://www.editeur.org" rel="external" target="_blank">EDItEUR</a>
+				</small>
+			</p>
+		</footer>
+	</body>
+</html>

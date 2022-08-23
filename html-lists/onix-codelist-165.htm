@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="EDItEUR"/>
+		<title>ONIX Code List 165 [Issue 58]</title>
+		<style>
+			body { font-family: helvetica, arial, sans-serif; font-size: 12pt }
+			h1 { font-size: 1.5em }
+			h2 { font-size: 1.3em }
+			a { text-decoration: none; color: dimgray }
+			a:hover { text-decoration: underline }
+			table { border-collapse: collapse }
+			thead tr { border-top: 0.1em solid silver; text-align: left }
+			tbody tr { border-bottom: 0.05em dotted silver }
+			tbody tr:first-of-type { border-top: 0.1em solid silver }
+			tbody tr:last-of-type { border-bottom: 0.1em solid silver }
+			td, th { padding: 0.2em; vertical-align: top }
+			th.notation { width: 6em }
+			th.preflabel { width: 18em }
+			th.notes:after { content: '                                                       ' }
+			.new { color: red }
+			.update { color: blue }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ONIX Code Lists Issue 58, July 2022</h1>
+		</header>
+		<main>
+			<h2>List 165: Supplier own code type</h2>
+			<table>
+				<thead>
+					<tr>
+						<th class="notation">Value</th>
+						<th class="preflabel">Description</th>
+						<th class="notes">Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>01</td>
+						<td>Supplier’s sales classification</td>
+						<td>A rating applied by a supplier (typically a wholesaler) to indicate its assessment of the expected or actual sales performance of a product</td>
+					</tr>
+					<tr>
+						<td>02</td>
+						<td>Supplier’s bonus eligibility</td>
+						<td>A supplier’s coding of the eligibility of a product for a bonus scheme on overall sales</td>
+					</tr>
+					<tr>
+						<td>03</td>
+						<td>Publisher’s sales classification</td>
+						<td>A rating applied by the publisher to indicate a sales category (eg backlist/frontlist, core stock etc). Use only when the publisher is not the ‘supplier’</td>
+					</tr>
+					<tr>
+						<td>04</td>
+						<td>Supplier’s pricing restriction classification</td>
+						<td>A classification applied by a supplier to a product sold on Agency terms, to indicate that retail price restrictions are applicable</td>
+					</tr>
+					<tr>
+						<td>05</td>
+						<td>Supplier’s sales expectation</td>
+						<td>Code is the ISBN of another book that had sales (both in terms of copy numbers and customer profile) comparable to that the distributor or supplier estimates for the product. &lt;SupplierCodeValue&gt; must be an ISBN-13 or GTIN-13</td>
+					</tr>
+					<tr>
+						<td>06</td>
+						<td>Publisher’s sales expectation</td>
+						<td>Code is the ISBN of another book that had sales (both in terms of copy numbers and customer profile) comparable to that the publisher estimates for the product. &lt;SupplierCodeValue&gt; must be an ISBN-13 or GTIN-13</td>
+					</tr>
+					<tr>
+						<td>07</td>
+						<td>Supplier’s order routing eligibility</td>
+						<td>Code indicates whether an order can be placed with the supplier indirectly via an intermediary system. The code name type indicates the specific intermediate order aggregation/routing platform and the code indicates the eligibility</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<footer>
+			<p>
+				<small>
+					<a href="https://doi.org/10.4400/nwgj" rel="license" target="_blank">©</a> <a href="https://www.editeur.org" rel="external" target="_blank">EDItEUR</a>
+				</small>
+			</p>
+		</footer>
+	</body>
+</html>

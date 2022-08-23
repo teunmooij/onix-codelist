@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="EDItEUR"/>
+		<title>ONIX Code List 71 [Issue 58]</title>
+		<style>
+			body { font-family: helvetica, arial, sans-serif; font-size: 12pt }
+			h1 { font-size: 1.5em }
+			h2 { font-size: 1.3em }
+			a { text-decoration: none; color: dimgray }
+			a:hover { text-decoration: underline }
+			table { border-collapse: collapse }
+			thead tr { border-top: 0.1em solid silver; text-align: left }
+			tbody tr { border-bottom: 0.05em dotted silver }
+			tbody tr:first-of-type { border-top: 0.1em solid silver }
+			tbody tr:last-of-type { border-bottom: 0.1em solid silver }
+			td, th { padding: 0.2em; vertical-align: top }
+			th.notation { width: 6em }
+			th.preflabel { width: 18em }
+			th.notes:after { content: '                                                       ' }
+			.new { color: red }
+			.update { color: blue }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ONIX Code Lists Issue 58, July 2022</h1>
+		</header>
+		<main>
+			<h2>List 71: Sales restriction type</h2>
+			<table>
+				<thead>
+					<tr>
+						<th class="notation">Value</th>
+						<th class="preflabel">Description</th>
+						<th class="notes">Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>00</td>
+						<td>Unspecified – see text</td>
+						<td>Restriction must be described in &lt;SalesRestrictionDetail&gt; (ONIX 2.1) or &lt;SalesRestrictionNote&gt; (ONIX 3.0)</td>
+					</tr>
+					<tr>
+						<td>01</td>
+						<td>Retailer exclusive / own brand</td>
+						<td>Sales rights (or market distribution rights) apply to sales through designated retailer(s), which must be identified or named in an instance of the &lt;SalesOutlet&gt; composite. Use only when it is not possible to assign the more explicit codes 04 or 05</td>
+					</tr>
+					<tr>
+						<td>02</td>
+						<td>Through office supplies outlets only</td>
+						<td>Sales rights (or market distribution rights) apply to sales though office supplies channels. Specific outlet(s) may be identified or named in an instance of the &lt;SalesOutlet&gt; composite</td>
+					</tr>
+					<tr>
+						<td>03</td>
+						<td>Internal publisher use only: do not list</td>
+						<td>For an ISBN that is assigned for a publisher’s internal purposes</td>
+					</tr>
+					<tr>
+						<td>04</td>
+						<td>Retailer exclusive</td>
+						<td>Sales rights (or market distribution rights) apply to sales (under the publisher’s brand / imprint) through the designated retailer(s), which must be identified or named in an instance of the &lt;SalesOutlet&gt; composite</td>
+					</tr>
+					<tr>
+						<td>05</td>
+						<td>Retailer own brand</td>
+						<td>Sales rights (or market distribution rights) apply to sales (under the retailer’s own brand / imprint) through the designated retailer(s), which must be identified or named in an instance of the &lt;SalesOutlet&gt; composite</td>
+					</tr>
+					<tr>
+						<td>06</td>
+						<td>To libraries only</td>
+						<td>Sales rights (or market distribution rights) apply to supplies to libraries</td>
+					</tr>
+					<tr>
+						<td>07</td>
+						<td>To schools only</td>
+						<td>Sales rights (or market distribution rights) apply to supplies to schools</td>
+					</tr>
+					<tr>
+						<td>08</td>
+						<td>Indiziert</td>
+						<td>Indexed for the German market – in Deutschland indiziert</td>
+					</tr>
+					<tr>
+						<td>09</td>
+						<td>Except to libraries</td>
+						<td>Sales rights (or market distribution rights) apply to supplies other than to libraries</td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>Through news outlets only</td>
+						<td>Sales rights (or market distribution rights) apply to sales though news outlet channels (newsstands / newsagents)</td>
+					</tr>
+					<tr>
+						<td>11</td>
+						<td>Retailer exception</td>
+						<td>Sales rights (or market distribution rights) apply to sales other than through designated retailer(s), which must be identified or named in the &lt;SalesOutlet&gt; composite</td>
+					</tr>
+					<tr>
+						<td>12</td>
+						<td>Except to subscription services</td>
+						<td>Sales rights (or market distribution rights) apply to supplies other than to organisations or services offering consumers subscription access to a catalog of books</td>
+					</tr>
+					<tr>
+						<td>13</td>
+						<td>To subscription services only</td>
+						<td>Sales rights (or market distribution rights) apply to supplies to organisations or services offering consumers subscription access to a catalog of books</td>
+					</tr>
+					<tr>
+						<td>14</td>
+						<td>Except through online retail</td>
+						<td>Sales rights (or market distribution rights) apply to sales other than through online retail channels</td>
+					</tr>
+					<tr>
+						<td>15</td>
+						<td>Through online retail only</td>
+						<td>Sales rights (or market distribution rights) apply to sales through online retail channels</td>
+					</tr>
+					<tr>
+						<td>16</td>
+						<td>Except to schools</td>
+						<td>Sales rights (or market distribution rights) apply to supplies other than to schools. For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>17</td>
+						<td>Through Inventoryless POD</td>
+						<td>POD copies may be manufactured at any time, either to fulfill a customer order immediately or to replace a minimal stockholding (ie near-inventoryless). Only valid in ONIX 3.0</td>
+					</tr>
+					<tr>
+						<td>18</td>
+						<td>Through Stock Protection POD</td>
+						<td>POD copies may be manfactured only to fulfill a customer order immediately while out of stock and awaiting delivery of further stock from the supplier. Only valid in ONIX 3.0</td>
+					</tr>
+					<tr>
+						<td>19</td>
+						<td>Except through POD</td>
+						<td>Not eligible for POD. Only valid in ONIX 3.0</td>
+					</tr>
+					<tr>
+						<td>99</td>
+						<td>No restrictions on sales</td>
+						<td>Positive indication that no sales restrictions apply, for example to indicate the product may be sold both online and in bricks-and mortar retail, or to subscription services and non-subscription customers. For use in ONIX 3.0 only</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<footer>
+			<p>
+				<small>
+					<a href="https://doi.org/10.4400/nwgj" rel="license" target="_blank">©</a> <a href="https://www.editeur.org" rel="external" target="_blank">EDItEUR</a>
+				</small>
+			</p>
+		</footer>
+	</body>
+</html>

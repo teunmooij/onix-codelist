@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="EDItEUR"/>
+		<title>ONIX Code List 1 [Issue 58]</title>
+		<style>
+			body { font-family: helvetica, arial, sans-serif; font-size: 12pt }
+			h1 { font-size: 1.5em }
+			h2 { font-size: 1.3em }
+			a { text-decoration: none; color: dimgray }
+			a:hover { text-decoration: underline }
+			table { border-collapse: collapse }
+			thead tr { border-top: 0.1em solid silver; text-align: left }
+			tbody tr { border-bottom: 0.05em dotted silver }
+			tbody tr:first-of-type { border-top: 0.1em solid silver }
+			tbody tr:last-of-type { border-bottom: 0.1em solid silver }
+			td, th { padding: 0.2em; vertical-align: top }
+			th.notation { width: 6em }
+			th.preflabel { width: 18em }
+			th.notes:after { content: '                                                       ' }
+			.new { color: red }
+			.update { color: blue }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ONIX Code Lists Issue 58, July 2022</h1>
+		</header>
+		<main>
+			<h2>List 1: Notification or update type</h2>
+			<table>
+				<thead>
+					<tr>
+						<th class="notation">Value</th>
+						<th class="preflabel">Description</th>
+						<th class="notes">Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>01</td>
+						<td>Early notification</td>
+						<td>Use for a complete record issued earlier than approximately six months before publication</td>
+					</tr>
+					<tr>
+						<td>02</td>
+						<td>Advance notification (confirmed)</td>
+						<td>Use for a complete record issued to confirm advance information approximately six months before publication; or for a complete record issued after that date and before information has been confirmed from the book-in-hand</td>
+					</tr>
+					<tr>
+						<td>03</td>
+						<td>Notification confirmed on publication</td>
+						<td>Use for a complete record issued to confirm advance information at or just before actual publication date, usually from the book-in-hand, or for a complete record issued at any later date</td>
+					</tr>
+					<tr>
+						<td>04</td>
+						<td>Update (partial)</td>
+						<td>In ONIX 3.0 only, use when sending a ‘block update’ record. A block update implies using the supplied block(s) to update the existing record for the product, replacing only the blocks included in the block update, and leaving other blocks unchanged – for example, replacing old information from Blocks 4 and 6 with the newly-received data while retailing information from Blocks 1–3 and 5 untouched. In previous ONIX releases, and for ONIX 3.0 using other notification types, updating is by replacing the complete record with the newly-received data</td>
+					</tr>
+					<tr>
+						<td>05</td>
+						<td>Delete</td>
+						<td>Use when sending an instruction to delete a record which was previously issued. Note that a Delete instruction should NOT be used when a product is cancelled, put out of print, or otherwise withdrawn from sale: this should be handled as a change of Publishing status, leaving the receiver to decide whether to retain or delete the record. A Delete instruction is used ONLY when there is a particular reason to withdraw a record completely, eg because it was issued in error</td>
+					</tr>
+					<tr>
+						<td>08</td>
+						<td>Notice of sale</td>
+						<td>Notice of sale of a product, from one publisher to another: sent by the publisher disposing of the product</td>
+					</tr>
+					<tr>
+						<td>09</td>
+						<td>Notice of acquisition</td>
+						<td>Notice of acquisition of a product, by one publisher from another: sent by the acquiring publisher</td>
+					</tr>
+					<tr>
+						<td>88</td>
+						<td>Test update (Partial)</td>
+						<td>ONIX 3.0 only. Record may be processed for test purposes, but data should be discarded when testing is complete. Sender must ensure the &lt;RecordReference&gt; matches a previously-sent Test record</td>
+					</tr>
+					<tr>
+						<td>89</td>
+						<td>Test record</td>
+						<td>Record may be processed for test purposes, but data should be discarded when testing is complete. Sender must ensure the &lt;RecordReference&gt; does not match any previously-sent live product record</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<footer>
+			<p>
+				<small>
+					<a href="https://doi.org/10.4400/nwgj" rel="license" target="_blank">©</a> <a href="https://www.editeur.org" rel="external" target="_blank">EDItEUR</a>
+				</small>
+			</p>
+		</footer>
+	</body>
+</html>

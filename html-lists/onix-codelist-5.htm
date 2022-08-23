@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="EDItEUR"/>
+		<title>ONIX Code List 5 [Issue 58]</title>
+		<style>
+			body { font-family: helvetica, arial, sans-serif; font-size: 12pt }
+			h1 { font-size: 1.5em }
+			h2 { font-size: 1.3em }
+			a { text-decoration: none; color: dimgray }
+			a:hover { text-decoration: underline }
+			table { border-collapse: collapse }
+			thead tr { border-top: 0.1em solid silver; text-align: left }
+			tbody tr { border-bottom: 0.05em dotted silver }
+			tbody tr:first-of-type { border-top: 0.1em solid silver }
+			tbody tr:last-of-type { border-bottom: 0.1em solid silver }
+			td, th { padding: 0.2em; vertical-align: top }
+			th.notation { width: 6em }
+			th.preflabel { width: 18em }
+			th.notes:after { content: '                                                       ' }
+			.new { color: red }
+			.update { color: blue }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ONIX Code Lists Issue 58, July 2022</h1>
+		</header>
+		<main>
+			<h2>List 5: Product identifier type</h2>
+			<table>
+				<thead>
+					<tr>
+						<th class="notation">Value</th>
+						<th class="preflabel">Description</th>
+						<th class="notes">Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>01</td>
+						<td>Proprietary</td>
+						<td>For example, a publisher’s or wholesaler’s product number or SKU. Note that &lt;IDTypeName&gt; is required with proprietary identifiers</td>
+					</tr>
+					<tr>
+						<td>02</td>
+						<td>ISBN-10</td>
+						<td>International Standard Book Number, pre-2007 (10 digits, or 9 digits plus X, without spaces or hyphens) – now DEPRECATED in ONIX for Books, except where providing historical information for compatibility with legacy systems. It should only be used in relation to products published before 2007 – when ISBN-13 superseded it – and should never be used as the ONLY identifier (it should always be accompanied by the correct GTIN-13 / ISBN-13)</td>
+					</tr>
+					<tr>
+						<td>03</td>
+						<td>GTIN-13</td>
+						<td>GS1 Global Trade Item Number, formerly known as EAN article number (13 digits, without spaces or hyphens)</td>
+					</tr>
+					<tr>
+						<td>04</td>
+						<td>UPC</td>
+						<td>UPC product number (12 digits, without spaces or hyphens)</td>
+					</tr>
+					<tr>
+						<td>05</td>
+						<td>ISMN-10</td>
+						<td>International Standard Music Number, pre-2008 (M plus nine digits, without spaces or hyphens) – now DEPRECATED in ONIX for Books, except where providing historical information for compatibility with legacy systems. It should only be used in relation to products published before 2008 – when ISMN-13 superseded it – and should never be used as the ONLY identifier (it should always be accompanied by the correct GTIN-12 / ISMN-13)</td>
+					</tr>
+					<tr>
+						<td>06</td>
+						<td>DOI</td>
+						<td>Digital Object Identifier (variable length and character set beginning ‘10.’, and without https://doi.org/ or the older http://dx.doi.org/)</td>
+					</tr>
+					<tr>
+						<td>13</td>
+						<td>LCCN</td>
+						<td>Library of Congress Control Number in normalized form (up to 12 characters, alphanumeric)</td>
+					</tr>
+					<tr>
+						<td>14</td>
+						<td>GTIN-14</td>
+						<td>GS1 Global Trade Item Number (14 digits, without spaces or hyphens)</td>
+					</tr>
+					<tr>
+						<td>15</td>
+						<td>ISBN-13</td>
+						<td>International Standard Book Number, from 2007 (13 digits starting 978 or 9791–9799, without spaces or hyphens)</td>
+					</tr>
+					<tr>
+						<td>17</td>
+						<td>Legal deposit number</td>
+						<td>The number assigned to a publication as part of a national legal deposit process</td>
+					</tr>
+					<tr>
+						<td>22</td>
+						<td>URN</td>
+						<td>Uniform Resource Name: note that in trade applications an ISBN must be sent as a GTIN-13 and, where required, as an ISBN-13 – it should not be sent as a URN</td>
+					</tr>
+					<tr>
+						<td>23</td>
+						<td>OCLC number</td>
+						<td>A unique number assigned to a bibliographic item by OCLC</td>
+					</tr>
+					<tr>
+						<td>24</td>
+						<td>Co-publisher’s ISBN-13</td>
+						<td>An ISBN-13 assigned by a co-publisher. The ‘main’ ISBN sent with &lt;ProductIDType&gt; codes 03 and/or 15 should always be the ISBN that is used for ordering from the supplier identified in &lt;SupplyDetail&gt;. However, ISBN rules allow a co-published title to carry more than one ISBN. The co-publisher should be identified in an instance of the &lt;Publisher&gt; composite, with the applicable &lt;PublishingRole&gt; code</td>
+					</tr>
+					<tr>
+						<td>25</td>
+						<td>ISMN-13</td>
+						<td>International Standard Music Number, from 2008 (13-digit number starting 9790, without spaces or hyphens)</td>
+					</tr>
+					<tr>
+						<td>26</td>
+						<td>ISBN-A</td>
+						<td>Actionable ISBN, in fact a special DOI incorporating the ISBN-13 within the DOI syntax. Begins ‘10.978.’ or ‘10.979.’ and includes a / character between the registrant element (publisher prefix) and publication element of the ISBN, eg 10.978.000/1234567. Note the ISBN-A should always be accompanied by the ISBN itself, using &lt;ProductIDType&gt; codes 03 and/or 15</td>
+					</tr>
+					<tr>
+						<td>27</td>
+						<td>JP e-code</td>
+						<td>E-publication identifier controlled by JPOIID’s Committee for Research and Management of Electronic Publishing Codes</td>
+					</tr>
+					<tr>
+						<td>28</td>
+						<td>OLCC number</td>
+						<td>Unique number assigned by the Chinese Online Library Cataloging Center (see http://olcc.nlc.gov.cn)</td>
+					</tr>
+					<tr>
+						<td>29</td>
+						<td>JP Magazine ID</td>
+						<td>Japanese magazine identifier, similar in scope to ISSN but identifying a specific issue of a serial publication. Five digits to identify the periodical, plus a hyphen and two digits to identify the issue</td>
+					</tr>
+					<tr>
+						<td>30</td>
+						<td>UPC12+5</td>
+						<td>Used only with comic books and other products which use the UPC extension to identify individual issues or products. Do not use where the UPC12 itself identifies the specific product, irrespective of any 5-digit extension – use code 04 instead</td>
+					</tr>
+					<tr>
+						<td>31</td>
+						<td>BNF Control number</td>
+						<td>Numéro de la notice bibliographique BNF</td>
+					</tr>
+					<tr>
+						<td>35</td>
+						<td>ARK</td>
+						<td>Archival Resource Key, as a URL (including the address of the ARK resolver provided by eg a national library)</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<footer>
+			<p>
+				<small>
+					<a href="https://doi.org/10.4400/nwgj" rel="license" target="_blank">©</a> <a href="https://www.editeur.org" rel="external" target="_blank">EDItEUR</a>
+				</small>
+			</p>
+		</footer>
+	</body>
+</html>

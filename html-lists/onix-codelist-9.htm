@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="EDItEUR"/>
+		<title>ONIX Code List 9 [Issue 58]</title>
+		<style>
+			body { font-family: helvetica, arial, sans-serif; font-size: 12pt }
+			h1 { font-size: 1.5em }
+			h2 { font-size: 1.3em }
+			a { text-decoration: none; color: dimgray }
+			a:hover { text-decoration: underline }
+			table { border-collapse: collapse }
+			thead tr { border-top: 0.1em solid silver; text-align: left }
+			tbody tr { border-bottom: 0.05em dotted silver }
+			tbody tr:first-of-type { border-top: 0.1em solid silver }
+			tbody tr:last-of-type { border-bottom: 0.1em solid silver }
+			td, th { padding: 0.2em; vertical-align: top }
+			th.notation { width: 6em }
+			th.preflabel { width: 18em }
+			th.notes:after { content: '                                                       ' }
+			.new { color: red }
+			.update { color: blue }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ONIX Code Lists Issue 58, July 2022</h1>
+		</header>
+		<main>
+			<h2 class="new">List 9: Product classification type</h2>
+			<table>
+				<thead>
+					<tr>
+						<th class="notation">Value</th>
+						<th class="preflabel">Description</th>
+						<th class="notes">Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>01</td>
+						<td>WCO Harmonized System</td>
+						<td>World Customs Organization Harmonized Commodity Coding and Description System. Use 6 (or occasionally 8 or 10) digits, without punctuation</td>
+					</tr>
+					<tr>
+						<td>02</td>
+						<td>UNSPSC</td>
+						<td>UN Standard Product and Service Classification,<span class="update"> including national versions adopted without any additions or changes to the codes or their meaning</span>. Use 8 (or occasionally 10) digits, without punctuation</td>
+					</tr>
+					<tr>
+						<td>03</td>
+						<td>HMRC</td>
+						<td>UK Revenue and Customs classifications, based on the Harmonized System (8 or 10 digits, without punctuation, for export and import respectively)</td>
+					</tr>
+					<tr>
+						<td>04</td>
+						<td>Warenverzeichnis für die Außenhandelsstatistik</td>
+						<td>German export trade classification, based on the Harmonised System</td>
+					</tr>
+					<tr>
+						<td>05</td>
+						<td>TARIC</td>
+						<td>EU TARIC codes, an extended version of the Harmonized System. Use 10 digits, without punctuation</td>
+					</tr>
+					<tr>
+						<td>06</td>
+						<td>Fondsgroep</td>
+						<td>Centraal Boekhuis free classification field for publishers</td>
+					</tr>
+					<tr>
+						<td>07</td>
+						<td>Sender’s product category</td>
+						<td>A product category (not a subject classification) assigned by the sender</td>
+					</tr>
+					<tr>
+						<td>08</td>
+						<td>GAPP Product Class</td>
+						<td>Product classification maintained by the Chinese General Administration of Press and Publication (http://www.gapp.gov.cn)</td>
+					</tr>
+					<tr>
+						<td>09</td>
+						<td>CPA</td>
+						<td>Statistical Classification of Products by Activity in the European Economic Community, see http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&amp;StrNom=CPA_2008. Use 6 digits, without punctuation. For example, printed children’s books are ‘58.11.13’, but the periods are normally ommited in ONIX</td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>NCM</td>
+						<td>Mercosur/Mercosul Common Nomenclature, based on the Harmonised System. Use 8 digits, without punctuation</td>
+					</tr>
+					<tr>
+						<td>11</td>
+						<td>CPV</td>
+						<td>Common Procurement Vocabulary, uses to describe requirements for tender for public tendering and procurement within the EU. Code is a nine digit number (including the check digit). See http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=URISERV:l22008</td>
+					</tr>
+					<tr>
+						<td>12</td>
+						<td>PKWiU</td>
+						<td>Polish Classification of Products and Services (2015). Use a single letter followed by 2 to 7 digits, without punctuation. For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>13</td>
+						<td>HTSUS</td>
+						<td>US HTS (or HTSA) commodity codes for import of goods into USA (10 digits, without punctuation). For use in ONIX 3.0 only. See https://hts.usitc.gov/current</td>
+					</tr>
+					<tr>
+						<td>14</td>
+						<td>US Schedule B</td>
+						<td>US Schedule B commodity codes for export from USA (10 digits, without punctuation). For use in ONIX 3.0 only. See http://uscensus.prod.3ceonline.com</td>
+					</tr>
+					<tr class="new">
+						<td>15</td>
+						<td>Clave SAT</td>
+						<td>Mexican SAT classification, based on UN SPSC with later modifications (8 digits, without punctuation). See https://www.sat.gob.mx/consultas/53693/catalogo-de-productos-y-servicios</td>
+					</tr>
+					<tr>
+						<td>50</td>
+						<td>Electre genre</td>
+						<td>Typologie de marché géré par Electre (Market segment code maintained by Electre)</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<footer>
+			<p>
+				<small>
+					<a href="https://doi.org/10.4400/nwgj" rel="license" target="_blank">©</a> <a href="https://www.editeur.org" rel="external" target="_blank">EDItEUR</a>
+				</small>
+			</p>
+		</footer>
+	</body>
+</html>

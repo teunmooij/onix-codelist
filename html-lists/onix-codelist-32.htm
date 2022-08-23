@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="EDItEUR"/>
+		<title>ONIX Code List 32 [Issue 58]</title>
+		<style>
+			body { font-family: helvetica, arial, sans-serif; font-size: 12pt }
+			h1 { font-size: 1.5em }
+			h2 { font-size: 1.3em }
+			a { text-decoration: none; color: dimgray }
+			a:hover { text-decoration: underline }
+			table { border-collapse: collapse }
+			thead tr { border-top: 0.1em solid silver; text-align: left }
+			tbody tr { border-bottom: 0.05em dotted silver }
+			tbody tr:first-of-type { border-top: 0.1em solid silver }
+			tbody tr:last-of-type { border-bottom: 0.1em solid silver }
+			td, th { padding: 0.2em; vertical-align: top }
+			th.notation { width: 6em }
+			th.preflabel { width: 18em }
+			th.notes:after { content: '                                                       ' }
+			.new { color: red }
+			.update { color: blue }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ONIX Code Lists Issue 58, July 2022</h1>
+		</header>
+		<main>
+			<h2>List 32: Complexity scheme identifier</h2>
+			<table>
+				<thead>
+					<tr>
+						<th class="notation">Value</th>
+						<th class="preflabel">Description</th>
+						<th class="notes">Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>01</td>
+						<td>Lexile code</td>
+						<td>For example AD or HL. DEPRECATED in ONIX 3 – use code 06 instead</td>
+					</tr>
+					<tr>
+						<td>02</td>
+						<td>Lexile number</td>
+						<td>For example 880L. DEPRECATED in ONIX 3 – use code 06 instead</td>
+					</tr>
+					<tr>
+						<td>03</td>
+						<td>Fry Readability score</td>
+						<td>Fry readability metric based on number of sentences and syllables per 100 words. Expressed as an integer from 1 to 15 in &lt;ComplexityCode&gt;</td>
+					</tr>
+					<tr>
+						<td>04</td>
+						<td>IoE Book Band</td>
+						<td>UK Institute of Education Book Bands for Guided Reading scheme (see https://www.ucl.ac.uk/reading-recovery-europe/ilc/publications/which-book-why). &lt;ComplexityCode&gt; is a color, eg ‘Pink A’ or ‘Copper’</td>
+					</tr>
+					<tr>
+						<td>05</td>
+						<td>Fountas &amp; Pinnell Text Level Gradient</td>
+						<td>&lt;ComplexityCode&gt; is a code from ‘A’ to Z+’. See http://www.fountasandpinnellleveledbooks.com/aboutLeveledTexts.aspx</td>
+					</tr>
+					<tr>
+						<td>06</td>
+						<td>Lexile measure</td>
+						<td>The Lexile measure in &lt;ComplexityCode&gt; combines the Lexile number (for example 620L or 880L) and optionally the Lexile code (for example AD or HL). Examples might be ‘880L’, ‘AD0L’ or ‘HL600L’. See https://lexile.com/about-lexile/lexile-overview/</td>
+					</tr>
+					<tr>
+						<td>07</td>
+						<td>ATOS for Books</td>
+						<td>Advantage-TASA Open Standard book readability score, used for example within the Renaissance Learning Accelerated Reader scheme. &lt;ComplexityCode&gt; is the ‘Book Level’, a real number between 0 and 17. See http://www.renaissance.com/products/accelerated-reader/atos-analyzer</td>
+					</tr>
+					<tr>
+						<td>08</td>
+						<td>Flesch-Kincaid Grade Level</td>
+						<td>Flesch-Kincaid Grade Level Formula, a standard readability measure based on the weighted number of syllables per word and words per sentence. &lt;ComplexityCode&gt; is a real number typically between about -1 and 20</td>
+					</tr>
+					<tr>
+						<td>09</td>
+						<td>Guided Reading Level</td>
+						<td>Use this code for books levelled by the publisher or a third party using the Fountas and Pinnell Guided Reading methodology</td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>Reading Recovery Level</td>
+						<td>Used for books aimed at K-2 literacy intervention. &lt;ComplexityCode&gt; is an integer between 1 and 20</td>
+					</tr>
+					<tr>
+						<td>11</td>
+						<td>LIX</td>
+						<td>Swedish ‘läsbarhetsindex’ readability index used in Scandinavia. For use in ONIX 3.0 only</td>
+					</tr>
+					<tr>
+						<td>12</td>
+						<td>Lexile Audio measure</td>
+						<td>Lexile Audio measure from MetaMetrics’ Framework for Listening. The code in &lt;ComplexityCode&gt; indicates the difficulty of comprehension of audio material (for example 600L or 1030L). For use in ONIX 3.0 only. See https://lexile.global/the-lexile-framework-for-listening/</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<footer>
+			<p>
+				<small>
+					<a href="https://doi.org/10.4400/nwgj" rel="license" target="_blank">©</a> <a href="https://www.editeur.org" rel="external" target="_blank">EDItEUR</a>
+				</small>
+			</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="EDItEUR"/>
+		<title>ONIX Code List 166 [Issue 58]</title>
+		<style>
+			body { font-family: helvetica, arial, sans-serif; font-size: 12pt }
+			h1 { font-size: 1.5em }
+			h2 { font-size: 1.3em }
+			a { text-decoration: none; color: dimgray }
+			a:hover { text-decoration: underline }
+			table { border-collapse: collapse }
+			thead tr { border-top: 0.1em solid silver; text-align: left }
+			tbody tr { border-bottom: 0.05em dotted silver }
+			tbody tr:first-of-type { border-top: 0.1em solid silver }
+			tbody tr:last-of-type { border-bottom: 0.1em solid silver }
+			td, th { padding: 0.2em; vertical-align: top }
+			th.notation { width: 6em }
+			th.preflabel { width: 18em }
+			th.notes:after { content: '                                                       ' }
+			.new { color: red }
+			.update { color: blue }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ONIX Code Lists Issue 58, July 2022</h1>
+		</header>
+		<main>
+			<h2>List 166: Supply date role</h2>
+			<table>
+				<thead>
+					<tr>
+						<th class="notation">Value</th>
+						<th class="preflabel">Description</th>
+						<th class="notes">Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>02</td>
+						<td>Sales embargo date</td>
+						<td>If there is an embargo on retail sales (of copies from the supplier) before a certain date and this is later than any general or market-wide embargo date, the date from which the embargo is lifted and retail sales and fulfillment of pre-orders are permitted. Use code 02 here ONLY in the exceptional case when the embargo is supplier-specific. More general market-wide or global sales embargos should be specified in &lt;MarketDate&gt; or &lt;PublishingDate&gt; codes. In the absence of any supplier-specific, market-wide or general embargo date, retail sales and pre-order fulfillment may begin as soon as stock is available to the retailer</td>
+					</tr>
+					<tr>
+						<td>08</td>
+						<td>Expected availability date</td>
+						<td>The date on which physical stock is expected to be available to be shipped from the supplier to retailers, or a digital product is expected to be released by the publisher or digital asset distributor to retailers or their retail platform providers</td>
+					</tr>
+					<tr>
+						<td>18</td>
+						<td>Last date for returns</td>
+						<td>Last date when returns will be accepted, generally for a product which is being remaindered or put out of print</td>
+					</tr>
+					<tr>
+						<td>25</td>
+						<td>Reservation order deadline</td>
+						<td>Latest date on which an order may be placed for guaranteed delivery prior to the publication date. May or may not be linked to a special reservation or pre-publication price</td>
+					</tr>
+					<tr>
+						<td>29</td>
+						<td>Last redownload date</td>
+						<td>Latest date on which existing owners or licensees may download or re-download a copy of the product. Existing users may continue to use their local copy of the product</td>
+					</tr>
+					<tr>
+						<td>30</td>
+						<td>Last TPM date</td>
+						<td>Date on which any required technical protection measures (DRM) support will be withdrawn. DRM-protected products may not be usable after this date</td>
+					</tr>
+					<tr>
+						<td>34</td>
+						<td>Expected warehouse date</td>
+						<td>The date on which physical stock is expected to be delivered to the supplier from the manufacturer or from a primary distributor. For the distributor or wholesaler (the supplier) this is the ‘goods in’ date, as contrasted with the Expected availability date, code 08, which is the ‘goods out’ date</td>
+					</tr>
+					<tr>
+						<td>50</td>
+						<td>New supplier start date</td>
+						<td>First date on which the supplier specified in &lt;NewSupplier&gt; will accept orders. Note the first date would typically be the day after the old supplier end date, but they may overlap if there is an agreement to forward any orders between old and new supplier for fulfillment</td>
+					</tr>
+					<tr>
+						<td>51</td>
+						<td>Supplier end date</td>
+						<td>Last date on which the supplier specified in &lt;Supplier&gt; will accept orders. New supplier should be specified where available. Note last date would typically be the day before the new supplier start date, but they may overlap if there is an agreement to forward any orders between old and new supplier for fulfillment</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<footer>
+			<p>
+				<small>
+					<a href="https://doi.org/10.4400/nwgj" rel="license" target="_blank">©</a> <a href="https://www.editeur.org" rel="external" target="_blank">EDItEUR</a>
+				</small>
+			</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,51 @@
+{
+  "name": "onix-codelist",
+  "version": "0.1.0",
+  "description": "ONIX 3.0 Codelists",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --quiet --fix",
+    "test": "jest -c jest.config.js --runInBand",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.2.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-sort-class-members": "^1.14.1",
+    "husky": "^4.3.8",
+    "jest": "^28.1.2",
+    "ts-jest": "^28.0.7",
+    "typescript": "^4.7.4",
+    "xml-js": "^1.6.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teunmooij/onix-codelist.git"
+  },
+  "keywords": [
+    "onix",
+    "codelist"
+  ],
+  "author": "Teun Mooij",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teunmooij/onix-codelist/issues"
+  },
+  "homepage": "https://github.com/teunmooij/onix-codelist#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint:fix",
+      "pre-push": "npm run test"
+    }
+  }
+}

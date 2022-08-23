@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="EDItEUR"/>
+		<title>ONIX Code List 68 [Issue 58]</title>
+		<style>
+			body { font-family: helvetica, arial, sans-serif; font-size: 12pt }
+			h1 { font-size: 1.5em }
+			h2 { font-size: 1.3em }
+			a { text-decoration: none; color: dimgray }
+			a:hover { text-decoration: underline }
+			table { border-collapse: collapse }
+			thead tr { border-top: 0.1em solid silver; text-align: left }
+			tbody tr { border-bottom: 0.05em dotted silver }
+			tbody tr:first-of-type { border-top: 0.1em solid silver }
+			tbody tr:last-of-type { border-bottom: 0.1em solid silver }
+			td, th { padding: 0.2em; vertical-align: top }
+			th.notation { width: 6em }
+			th.preflabel { width: 18em }
+			th.notes:after { content: '                                                       ' }
+			.new { color: red }
+			.update { color: blue }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ONIX Code Lists Issue 58, July 2022</h1>
+		</header>
+		<main>
+			<h2 class="new">List 68: Market publishing status</h2>
+			<table>
+				<thead>
+					<tr>
+						<th class="notation">Value</th>
+						<th class="preflabel">Description</th>
+						<th class="notes">Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>00</td>
+						<td>Unspecified</td>
+						<td>Status is not specified (as distinct from unknown): the default if the &lt;MarketPublishingStatus&gt; element is not sent</td>
+					</tr>
+					<tr>
+						<td>01</td>
+						<td>Cancelled</td>
+						<td>The product was announced for publication in this market, and subsequently abandoned. A market publication date must not be sent</td>
+					</tr>
+					<tr>
+						<td>02</td>
+						<td>Forthcoming</td>
+						<td>Not yet published in this market, should be accompanied by expected local publication date</td>
+					</tr>
+					<tr>
+						<td>03</td>
+						<td>Postponed indefinitely</td>
+						<td>The product was announced for publication in this market, and subsequently postponed with no expected local publication date. A market publication date must not be sent</td>
+					</tr>
+					<tr>
+						<td>04</td>
+						<td>Active</td>
+						<td>The product was published in this market, and is still active in the sense that the publisher will accept orders for it, though it may or may not be immediately available, for which see &lt;SupplyDetail&gt;</td>
+					</tr>
+					<tr>
+						<td>05</td>
+						<td>No longer our product</td>
+						<td>Responsibility for the product in this market has been transferred elsewhere (with details of acquiring publisher representative in this market if possible in PR.25 (ONIX 2.1) OR P.25 (ONIX 3.0))</td>
+					</tr>
+					<tr>
+						<td>06</td>
+						<td>Out of stock indefinitely</td>
+						<td>The product was active in this market, but is now inactive in the sense that (a) the publisher representative (local publisher or sales agent) cannot fulfill orders for it, though stock may still be available elsewhere in the supply chain, and (b) there are no current plans to bring it back into stock in this market. Code 06 does not specifically imply that returns are or are not still accepted</td>
+					</tr>
+					<tr>
+						<td>07</td>
+						<td>Out of print</td>
+						<td>The product was active in this market, but is now permanently inactive in this market in the sense that (a) the publisher representative (local publisher or sales agent) will not accept orders for it, though stock may still be available elsewhere in the supply chain, and (b) the product will not be made available again in this market under the same ISBN. Code 07 normally implies that the publisher will not accept returns beyond a specified date</td>
+					</tr>
+					<tr>
+						<td>08</td>
+						<td>Inactive</td>
+						<td>The product was active in this market, but is now permanently or indefinitely inactive in the sense that the publisher representative (local publisher or sales agent) will not accept orders for it, though stock may still be available elsewhere in the supply chain. Code 08 covers both of codes 06 and 07, and may be used where the distinction between those values is either unnecessary or meaningless</td>
+					</tr>
+					<tr>
+						<td>09</td>
+						<td>Unknown</td>
+						<td>The sender of the ONIX record does not know the current publishing status in this market</td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>Remaindered</td>
+						<td>The product is no longer available in this market from the publisher representative (local publisher or sales agent), under the current ISBN, at the current price. It may be available to be traded through another channel, usually at a reduced price</td>
+					</tr>
+					<tr>
+						<td>11</td>
+						<td>Withdrawn from sale</td>
+						<td>Withdrawn from sale in this market, typically for legal reasons or to avoid giving offence</td>
+					</tr>
+					<tr>
+						<td>12</td>
+						<td>Not available in this market</td>
+						<td>Either no rights are held for the product in this market, or for other reasons the publisher has decided not to make it available in this market</td>
+					</tr>
+					<tr>
+						<td>13</td>
+						<td>Active, but not sold separately</td>
+						<td>The product is published and active in this market but, as a publishing decision,<span class="update"> its constituent parts are </span>not sold separately – only in an assembly or as part of a pack, <span class="update">eg with Product composition code 01. Also use with Product composition codes 30, 31 where</span> depending on product composition and pricing, <span class="update">items in the pack</span> may be saleable separately at retail</td>
+					</tr>
+					<tr>
+						<td>14</td>
+						<td>Active, with market restrictions</td>
+						<td>The product is published in this market and active, but is not available to all customer types, typically because the market is split between exclusive sales agents for different market segments. In ONIX 2.1, should be accompanied by a free-text statement in &lt;MarketRestrictionDetail&gt; describing the nature of the restriction. In ONIX 3.0, the &lt;SalesRestriction&gt; composite in Group P.24 should be used</td>
+					</tr>
+					<tr>
+						<td>15</td>
+						<td>Recalled</td>
+						<td>Recalled in this market for reasons of consumer safety</td>
+					</tr>
+					<tr>
+						<td>16</td>
+						<td>Temporarily withdrawn from sale</td>
+						<td>Temporarily withdrawn from sale in this market, typically for quality or technical reasons. In ONIX 3.0, must be accompanied by expected availability date coded ‘22’ within the &lt;MarketDate&gt; composite, except in exceptional circumstances where no date is known</td>
+					</tr>
+					<tr>
+						<td>17</td>
+						<td>Permanently withdrawn from sale</td>
+						<td>Withdrawn permanently from sale in this market. Effectively synonymous with ‘Out of print’ (code 07), but specific to downloadable and online digital products (where no ‘stock’ would remain in the supply chain). For use in ONIX 3.0 only</td>
+					</tr>
+					<tr class="new">
+						<td>18</td>
+						<td>Active, but not sold as set</td>
+						<td>The various constituent parts of a product are published and active in this market but, as a publishing decision, they are not sold together as a single product – eg with Product composition code 11 – and are only available as a number of individual items. For use on ONIX 3.0 only</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<footer>
+			<p>
+				<small>
+					<a href="https://doi.org/10.4400/nwgj" rel="license" target="_blank">©</a> <a href="https://www.editeur.org" rel="external" target="_blank">EDItEUR</a>
+				</small>
+			</p>
+		</footer>
+	</body>
+</html>
