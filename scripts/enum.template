@@ -12,6 +12,7 @@ export enum {{shortTitle}} {
    * {{description}}
    * @description {{notes}}{{#if deprecated}}
    * @deprecated{{/if}}
+   * @default '{{value}}'
    */
   {{key}} = <any>'{{value}}',
   {{/each}}
