@@ -52,7 +52,9 @@ const isFaultyRows = (rows: any) => {
 };
 
 const PascalCase = (input: string) => {
-  const camel = camelCase(input);
+  const camel = camelCase(
+    input.normalize('NFD').replace(/[\u0300-\u036f]/g, ''), // remove diacritics
+  );
   return camel[0].toUpperCase() + camel.substring(1);
 };
 
