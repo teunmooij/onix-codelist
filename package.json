@@ -5,8 +5,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
-    "generate": "ts-node scripts/generate-lists.ts",
+    "build": "rimraf dist && tsc",
+    "generate": "rimraf src && ts-node scripts/generate-lists.ts",
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint src/**/*.ts --quiet --fix",
     "lint:scripts:fix": "eslint scripts/**/*.ts --quiet --fix",
@@ -19,12 +19,14 @@
     "eslint": "^8.15.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.8.7",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-sort-class-members": "^1.14.1",
     "handlebars": "^4.7.7",
     "htmlparser2": "^8.0.1",
     "husky": "^4.3.8",
+    "rimraf": "^3.0.2",
     "ts-node": "^10.9.1",
     "typescript": "^4.7.4",
     "xml-js": "^1.6.11"
@@ -46,7 +48,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "npm run lint:scripts:fix",
-      "pre-push": "npm run typecheck"
+      "pre-push": "npm run generate && npm run typecheck"
     }
   }
 }

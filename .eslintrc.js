@@ -8,13 +8,10 @@ module.exports = {
     'ecmaFeatures': {},
   },
   rules: {
-    '@typescript-eslint/no-explicit-any': 0,
-    '@typescript-eslint/no-non-null-assertion': 0,
+    'no-irregular-whitespace': 0,
   },
   env: {
     'node': true,
-    'jest': true,
-    'jasmine': true,
   },
   plugins: ['sort-class-members', 'jest'],
   extends: [

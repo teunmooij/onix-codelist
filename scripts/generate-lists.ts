@@ -10,6 +10,7 @@ const VALUE = 0;
 const DESCRIPTION = 1;
 const NOTES = 2;
 const awaitingDefinition = ['88', '251'];
+const startsWithNumberPattern = /^\d/;
 
 type Row<elem extends string> = {
   [K in elem]: {
@@ -46,6 +47,12 @@ const PascalCase = (input: string) => {
   return camel[0].toUpperCase() + camel.substring(1);
 };
 
+const toEnumName = (input: string) => {
+  const pascal = PascalCase(input);
+  if (startsWithNumberPattern.test(input)) return `'${pascal}'`;
+  return pascal;
+};
+
 const readList = async (filename: string) => {
   try {
     const html = await fs.readFile(filename, { encoding: 'utf-8' });
@@ -80,7 +87,7 @@ const readList = async (filename: string) => {
       const getText = getRowCellText(row);
       const description = getText(DESCRIPTION);
       return {
-        key: PascalCase(description),
+        key: toEnumName(description),
         value: getText(VALUE),
         description,
         notes: getText(NOTES),
@@ -104,7 +111,7 @@ const createFolders = async () => {
 const generateLists = async () => {
   await createFolders();
   const enumTemplateText = await fs.readFile('scripts/enum.template', { encoding: 'utf-8' });
-  const enumTemplate = handlebars.compile(enumTemplateText);
+  const enumTemplate = handlebars.compile(enumTemplateText, { noEscape: true });
 
   const generateList = async (filename: string) => {
     const list = await readList(filename);
