@@ -1,0 +1,15 @@
+/**
+ * Enum {{shortTitle}}
+ * @readonly
+ * @enum { string }
+ * @description {{fullTitle}}
+ */
+export enum {{shortTitle}} {
+  {{#each enumMembers}}
+  /**
+   * {{description}}
+   * @description {{notes}}
+   */
+  {{key}} = '{{value}}',
+  {{/each}}
+}
