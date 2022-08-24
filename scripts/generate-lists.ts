@@ -52,13 +52,20 @@ const isFaultyRows = (rows: any) => {
 };
 
 const PascalCase = (input: string) => {
-  const camel = camelCase(
-    input.normalize('NFD').replace(/[\u0300-\u036f]/g, ''), // remove diacritics
-  );
+  const normalized = input
+    .replace(/æ/g, 'ae')
+    .replace(/ß/g, 'ss')
+    .replace(/[’']s(?=\s)/g, '')
+    .normalize('NFD')
+    .replace(/\(.*?\)(?!$)/g, '') // remove text between brackets, 2 layers, but not if entire line
+    .replace(/(?!^)\(.*?\)/g, '')
+    .replace(/[\u0300-\u036f]/g, ''); // remove diacritics
+  const camel = camelCase(normalized);
+
   return camel[0].toUpperCase() + camel.substring(1);
 };
 
-const toEnumName = (input: string) => {
+const toEnumValueName = (input: string) => {
   const pascal = PascalCase(input);
   if (startsWithNumberPattern.test(input)) return `'${pascal}'`;
   return pascal;
@@ -121,7 +128,7 @@ const readList = async (filename: string) => {
       const description = getText(DESCRIPTION);
       const notes = getText(NOTES);
       return {
-        key: toEnumName(description),
+        key: toEnumValueName(description),
         value: getText(VALUE),
         description,
         notes: getText(NOTES),
