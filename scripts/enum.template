@@ -8,8 +8,9 @@ export enum {{shortTitle}} {
   {{#each enumMembers}}
   /**
    * {{description}}
-   * @description {{notes}}
+   * @description {{notes}}{{#if deprecated}}
+   * @deprecated{{/if}}
    */
-  {{key}} = '{{value}}',
+  {{key}} = <any>'{{value}}',
   {{/each}}
 }

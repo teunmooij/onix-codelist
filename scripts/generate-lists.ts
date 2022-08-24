@@ -5,6 +5,7 @@ import { parseDocument } from 'htmlparser2';
 import { camelCase } from 'camel-case';
 import { xml2js } from 'xml-js';
 import handlebars from 'handlebars';
+import * as R from 'ramda';
 
 const VALUE = 0;
 const DESCRIPTION = 1;
@@ -25,6 +26,14 @@ type Table = {
   tbody: {
     tr: Row<'td'>[] | Row<'td'>;
   };
+};
+
+type EnumMemberDefinition = {
+  key: string;
+  value: string;
+  description: string;
+  notes: string;
+  deprecated?: boolean;
 };
 
 const getRowCellText = (row: Row<'td'>) => (cellNumber: number) => {
@@ -51,6 +60,28 @@ const toEnumName = (input: string) => {
   const pascal = PascalCase(input);
   if (startsWithNumberPattern.test(input)) return `'${pascal}'`;
   return pascal;
+};
+
+const fixDuplicates = (enumMembers: EnumMemberDefinition[]) => {
+  const membersByKey = R.groupBy(mem => mem.key, enumMembers);
+  if (Object.keys(membersByKey).length === enumMembers.length) return enumMembers;
+
+  return Object.entries(membersByKey).reduce((total, [key, members]) => {
+    if (members.length === 1) return [...total, ...members];
+
+    const grouped = R.groupBy(mem => (mem.deprecated ? 'D' : 'N'), members);
+    const basic = (grouped.N || [grouped.D[0]]).map((mem, index) => ({
+      ...mem,
+      key: index === 0 ? key : `${key}_${index}`,
+    }));
+    const remaining = grouped.N ? grouped.D || [] : grouped.D.slice(1);
+    const deprecated = remaining.map((mem, index) => ({
+      ...mem,
+      key: index === 0 ? `${key}_deprecated` : `${key}_deprecated_${index}`,
+    }));
+
+    return [...total, ...basic, ...deprecated];
+  }, [] as EnumMemberDefinition[]);
 };
 
 const readList = async (filename: string) => {
@@ -83,20 +114,22 @@ const readList = async (filename: string) => {
     }
 
     const rows = Array.isArray(tableDoc.table.tbody.tr) ? tableDoc.table.tbody.tr : [tableDoc.table.tbody.tr];
-    const enumMembers = rows.map(row => {
+    const enumMembers = rows.map<EnumMemberDefinition>(row => {
       const getText = getRowCellText(row);
       const description = getText(DESCRIPTION);
+      const notes = getText(NOTES);
       return {
         key: toEnumName(description),
         value: getText(VALUE),
         description,
         notes: getText(NOTES),
+        deprecated: notes?.toLowerCase().includes('deprecated'),
       };
     });
 
     return {
       ...enumInfo,
-      enumMembers,
+      enumMembers: fixDuplicates(enumMembers),
     };
   } catch (error) {
     console.warn(`Failed in list ${filename} `, error);

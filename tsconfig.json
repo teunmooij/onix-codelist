@@ -12,7 +12,6 @@
     "lib": ["es2015"],
     "rootDir": "./src",
     "declaration": true,
-    "resolveJsonModule": true
   },
   "include": ["**/*"],
   "exclude": ["node_modules", "dist", "scripts"]
