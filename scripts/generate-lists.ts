@@ -95,7 +95,7 @@ const readList = async (filename: string) => {
     if (!tableElement) throw new Error(`table not found for file ${filename}`);
 
     const titleText = innerText(titleElement);
-    const shortTitle = camelCase(titleText.split(':')[1].trim());
+    const shortTitle = PascalCase(titleText.split(':')[1].trim());
     const listNumber = titleText.split(':')[0].split(' ')[1].trim();
     const fileName = `list-${listNumber}`;
 
