@@ -10,9 +10,9 @@
     "sourceMap": false,
     "esModuleInterop": true,
     "lib": ["es2015"],
-    "rootDir": "./src",
+    "rootDir": "./gen",
     "declaration": true,
   },
   "include": ["**/*"],
-  "exclude": ["node_modules", "dist", "scripts"]
+  "exclude": ["node_modules", "dist", "src"]
 }

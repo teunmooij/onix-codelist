@@ -162,7 +162,7 @@ const createFolders = async () => {
 
 const generateLists = async () => {
   await createFolders();
-  const enumTemplateText = await fs.readFile('scripts/enum.template', { encoding: 'utf-8' });
+  const enumTemplateText = await fs.readFile('src/templates/enum.template', { encoding: 'utf-8' });
   const enumTemplate = handlebars.compile(enumTemplateText, { noEscape: true });
 
   const generateList = async (filename: string) => {
@@ -180,7 +180,7 @@ const generateLists = async () => {
   const files = await fs.readdir('html-lists');
   const declarations = await Promise.all(files.map(file => generateList(`html-lists/${file}`)));
 
-  const indexTemplateText = await fs.readFile('scripts/index.template', { encoding: 'utf-8' });
+  const indexTemplateText = await fs.readFile('src/templates/index.template', { encoding: 'utf-8' });
   const indexTemplate = handlebars.compile(indexTemplateText);
   await fs.writeFile(
     'src/index.ts',

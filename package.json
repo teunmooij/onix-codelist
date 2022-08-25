@@ -6,11 +6,11 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rimraf dist && tsc",
-    "generate": "rimraf src && ts-node scripts/generate-lists.ts",
-    "lint": "eslint src/**/*.ts",
-    "lint:fix": "eslint src/**/*.ts --quiet --fix",
-    "lint:scripts": "eslint scripts/**/*.ts",
-    "lint:scripts:fix": "eslint scripts/**/*.ts --quiet --fix",
+    "start": "rimraf gen && ts-node src/generate-lists.ts",
+    "lint": "eslint gen/**/*.ts",
+    "lint:fix": "eslint gen/**/*.ts --quiet --fix",
+    "lint:scripts": "eslint src/**/*.ts",
+    "lint:scripts:fix": "eslint src/**/*.ts --quiet --fix",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
