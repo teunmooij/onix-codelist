@@ -1,7 +1,7 @@
 {
   "name": "onix-codelist",
-  "version": "3.0.0",
-  "description": "ONIX 3.0 Codelists",
+  "version": "3.0.1",
+  "description": "ONIX 3.0 Code lists",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -40,7 +40,8 @@
   },
   "keywords": [
     "onix",
-    "codelist"
+    "codelist",
+    "editeur"
   ],
   "author": "Teun Mooij",
   "license": "MIT",
