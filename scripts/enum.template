@@ -1,13 +1,14 @@
 // This code has been generated with a script
 
 /**
- * Enum {{shortTitle}}
+ * Enum {{enumName}}
  * @readonly
  * @enum { string }
  * @description {{fullTitle}}
  */
-export enum {{shortTitle}} {
-  {{#each enumMembers}}
+export enum {{enumName}} {
+{{#each enumMembers}}
+
   /**
    * {{description}}
    * @description {{notes}}{{#if deprecated}}
@@ -15,5 +16,5 @@ export enum {{shortTitle}} {
    * @default '{{value}}'
    */
   {{key}} = <any>'{{value}}',
-  {{/each}}
+{{/each}}
 }

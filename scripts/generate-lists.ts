@@ -7,6 +7,8 @@ import { xml2js } from 'xml-js';
 import handlebars from 'handlebars';
 import * as R from 'ramda';
 
+import { overrides, ValueOverride } from './overrides';
+
 const VALUE = 0;
 const DESCRIPTION = 1;
 const NOTES = 2;
@@ -65,11 +67,16 @@ const PascalCase = (input: string) => {
   return camel[0].toUpperCase() + camel.substring(1);
 };
 
-const toEnumValueName = (input: string) => {
-  const pascal = PascalCase(input);
-  if (startsWithNumberPattern.test(input)) return `'${pascal}'`;
-  return pascal;
-};
+const initToEnumValueName =
+  (listOverrides: ValueOverride[] = []) =>
+  (input: string) => {
+    const override = listOverrides.find(o => o.from === input);
+    if (override) return override.to;
+
+    const pascal = PascalCase(input);
+    if (startsWithNumberPattern.test(input)) return `'${pascal}'`;
+    return pascal;
+  };
 
 const fixDuplicates = (enumMembers: EnumMemberDefinition[]) => {
   const membersByKey = R.groupBy(mem => mem.key, enumMembers);
@@ -104,13 +111,15 @@ const readList = async (filename: string) => {
     if (!tableElement) throw new Error(`table not found for file ${filename}`);
 
     const titleText = innerText(titleElement);
-    const shortTitle = PascalCase(titleText.split(':')[1].trim());
     const listNumber = titleText.split(':')[0].split(' ')[1].trim();
+
+    const listOverrides = overrides[listNumber] || {};
+    const enumName = listOverrides.name || PascalCase(titleText.split(':')[1].trim());
     const fileName = `list-${listNumber}`;
 
     const enumInfo = {
       fullTitle: titleText.trim(),
-      shortTitle,
+      enumName,
       fileName,
       listNumber,
     };
@@ -122,6 +131,7 @@ const readList = async (filename: string) => {
       return enumInfo;
     }
 
+    const toEnumValueName = initToEnumValueName(listOverrides.values);
     const rows = Array.isArray(tableDoc.table.tbody.tr) ? tableDoc.table.tbody.tr : [tableDoc.table.tbody.tr];
     const enumMembers = rows.map<EnumMemberDefinition>(row => {
       const getText = getRowCellText(row);
@@ -161,7 +171,7 @@ const generateLists = async () => {
     await fs.writeFile(`src/lists/${list.fileName}.ts`, enumTemplate(list));
 
     return {
-      enumName: list.shortTitle,
+      enumName: list.enumName,
       listNumber: list.listNumber,
       filename: list.fileName,
     };
