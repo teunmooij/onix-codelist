@@ -5,8 +5,9 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "start": "npm run generate && npm run lint:fix && npm run build",
     "build": "rimraf dist && tsc",
-    "start": "rimraf gen && ts-node src/generate-lists.ts",
+    "generate": "rimraf gen && ts-node src/generate-lists.ts",
     "lint": "eslint gen/**/*.ts",
     "lint:fix": "eslint gen/**/*.ts --quiet --fix",
     "lint:scripts": "eslint src/**/*.ts",

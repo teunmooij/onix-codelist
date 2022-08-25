@@ -157,7 +157,7 @@ const readList = async (filename: string) => {
 };
 
 const createFolders = async () => {
-  await fs.mkdir('src/lists', { recursive: true });
+  await fs.mkdir('gen/lists', { recursive: true });
 };
 
 const generateLists = async () => {
@@ -168,7 +168,7 @@ const generateLists = async () => {
   const generateList = async (filename: string) => {
     const list = await readList(filename);
 
-    await fs.writeFile(`src/lists/${list.fileName}.ts`, enumTemplate(list));
+    await fs.writeFile(`gen/lists/${list.fileName}.ts`, enumTemplate(list));
 
     return {
       enumName: list.enumName,
@@ -183,7 +183,7 @@ const generateLists = async () => {
   const indexTemplateText = await fs.readFile('src/templates/index.template', { encoding: 'utf-8' });
   const indexTemplate = handlebars.compile(indexTemplateText);
   await fs.writeFile(
-    'src/index.ts',
+    'gen/index.ts',
     indexTemplate({ declarations: declarations.slice().sort((a, b) => Number(a.listNumber) - Number(b.listNumber)) }),
   );
 };
