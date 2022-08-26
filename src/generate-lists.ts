@@ -7,7 +7,7 @@ import { xml2js } from 'xml-js';
 import handlebars from 'handlebars';
 import * as R from 'ramda';
 
-import { overrides, ValueOverride } from './overrides';
+import { Override, overrides, ValueOverride } from './overrides';
 
 const VALUE = 0;
 const DESCRIPTION = 1;
@@ -68,10 +68,11 @@ const PascalCase = (input: string) => {
 };
 
 const initToEnumValueName =
-  (listOverrides: ValueOverride[] = []) =>
+  ({ values: valueOverrides = [], literal }: Override = {}) =>
   (input: string) => {
-    const override = listOverrides.find(o => o.from === input);
-    if (override) return override.to;
+    const override = valueOverrides.find(o => o.from === input);
+    if (override) return override.to || override.from;
+    if (literal) return input;
 
     const pascal = PascalCase(input);
     if (startsWithNumberPattern.test(input)) return `'${pascal}'`;
@@ -132,7 +133,7 @@ const readList = async (filename: string) => {
       return enumInfo;
     }
 
-    const toEnumValueName = initToEnumValueName(listOverrides.values);
+    const toEnumValueName = initToEnumValueName(listOverrides);
     const rows = Array.isArray(tableDoc.table.tbody.tr) ? tableDoc.table.tbody.tr : [tableDoc.table.tbody.tr];
     const enumMembers = rows.map<EnumMemberDefinition>(row => {
       const getText = getRowCellText(row);
