@@ -1,7 +1,7 @@
 export type ValueOverride = { from: string; to: string };
 
 type Override = {
-  name?: string;
+  aliases?: string[];
   values?: ValueOverride[];
 };
 
@@ -14,4 +14,5 @@ export const overrides: Partial<Record<string, Override>> = {
       { from: 'By (photographer)', to: 'ByPhotographer' },
     ],
   },
+  74: { aliases: ['Language'] },
 };

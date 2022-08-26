@@ -13,7 +13,7 @@ $ npm install onix-codelist
 
 `onix-codelist` provides 2 way mapping for all Onix 3.0 code lists.
 
-Code lists can be use by name:
+Code lists can be used by name:
 
 ```typescript
 import { productComposition } from 'onix-codelist';
@@ -22,7 +22,7 @@ const code = productComposition.MultipleComponentRetailProduct; // code = '10'
 const type = productComposition[code]; // type = 'MultipleComponentRetailProduct'
 ```
 
-Code lists can also be use by number:
+Code lists can also be used by number:
 
 ```typescript
 import { list2 } from 'onix-codelist';
@@ -30,6 +30,3 @@ import { list2 } from 'onix-codelist';
 const code = list2.MultipleComponentRetailProduct; // code = '10'
 const type = list2[code]; // type = 'MultipleComponentRetailProduct'
 ```
-
-
-

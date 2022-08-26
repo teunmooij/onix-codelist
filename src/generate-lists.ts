@@ -114,12 +114,13 @@ const readList = async (filename: string) => {
     const listNumber = titleText.split(':')[0].split(' ')[1].trim();
 
     const listOverrides = overrides[listNumber] || {};
-    const enumName = listOverrides.name || PascalCase(titleText.split(':')[1].trim());
+    const enumName = PascalCase(titleText.split(':')[1].trim());
     const fileName = `list-${listNumber}`;
 
     const enumInfo = {
       fullTitle: titleText.trim(),
       enumName,
+      aliases: [...(listOverrides.aliases || []), `list${listNumber}`],
       fileName,
       listNumber,
     };
@@ -172,6 +173,7 @@ const generateLists = async () => {
 
     return {
       enumName: list.enumName,
+      aliases: list.aliases,
       listNumber: list.listNumber,
       filename: list.fileName,
     };

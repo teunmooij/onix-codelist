@@ -2,8 +2,7 @@
 
 {{#each declarations}}
 export { {{enumName}} } from './lists/{{filename}}';
+{{#each aliases}}
+export { {{../enumName}} as {{this}} } from './lists/{{../filename}}';
 {{/each}}
-
-{{#each declarations}}
-export { {{enumName}} as list{{listNumber}} } from './lists/{{filename}}';
 {{/each}}
