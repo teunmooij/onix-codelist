@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "start": "npm run generate && npm run lint:fix && npm run build",
-    "build": "rimraf dist && tsc",
+    "build": "rimraf dist && tsc --project tsconfig.generate.json",
     "generate": "rimraf gen && ts-node src/index.ts",
     "lint": "eslint gen/**/*.ts",
     "lint:fix": "eslint gen/**/*.ts --quiet --fix",
