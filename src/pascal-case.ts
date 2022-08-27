@@ -1,9 +1,15 @@
 import { camelCase } from 'camel-case';
 
+const litteralReplacements = [
+  { from: 'æ', to: 'ae' },
+  { from: 'ß', to: 'ss' },
+];
+
+const replacementRegexp = new RegExp(`(${litteralReplacements.map(r => r.from).join('|')})`, 'g');
+
 export const PascalCase = (input: string) => {
   const normalized = input
-    .replace(/æ/g, 'ae')
-    .replace(/ß/g, 'ss')
+    .replace(replacementRegexp, val => litteralReplacements.find(r => r.from === val)?.to || '')
     .replace(/[’']s(?=\s)/g, '')
     .normalize('NFD')
     .replace(/\(.*?\)(?!$)/g, '') // remove text between brackets, 2 layers, but not if entire line
