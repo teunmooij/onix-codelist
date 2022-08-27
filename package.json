@@ -57,7 +57,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "npm run lint:scripts:fix",
-      "pre-push": "npm run generate && npm run typecheck"
+      "pre-push": "npm start"
     }
   }
 }
