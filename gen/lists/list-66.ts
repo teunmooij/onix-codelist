@@ -7,23 +7,24 @@
  * @description List 66: BISAC returnable indicator
  */
 export enum BisacReturnableIndicator {
+
   /**
    * No, not returnable
-   * @description
+   * @description 
    * @default 'N'
    */
   NoNotReturnable = <any>'N',
 
   /**
    * Yes, returnable, full copies only
-   * @description
+   * @description 
    * @default 'Y'
    */
   YesReturnableFullCopiesOnly = <any>'Y',
 
   /**
    * Yes, returnable, stripped cover
-   * @description
+   * @description 
    * @default 'S'
    */
   YesReturnableStrippedCover = <any>'S',

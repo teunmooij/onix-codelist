@@ -7,6 +7,7 @@
  * @description List 81: Product content type
  */
 export enum ProductContentType {
+
   /**
    * Text (eye-readable)
    * @description Readable text of the main work: this value is required, together with applicable <ProductForm> and <ProductFormDetail> values, to designate an e-book or other digital or physical product whose primary content is eye-readable text
@@ -51,7 +52,7 @@ export enum ProductContentType {
 
   /**
    * Musical notation
-   * @description
+   * @description 
    * @default '11'
    */
   MusicalNotation = <any>'11',
@@ -86,7 +87,7 @@ export enum ProductContentType {
 
   /**
    * Maps and/or other cartographic content
-   * @description
+   * @description 
    * @default '12'
    */
   MapsAndOrOtherCartographicContent = <any>'12',
@@ -163,7 +164,7 @@ export enum ProductContentType {
 
   /**
    * Video recording of a reading
-   * @description
+   * @description 
    * @default '26'
    */
   VideoRecordingOfAReading = <any>'26',
@@ -247,7 +248,7 @@ export enum ProductContentType {
 
   /**
    * Data set plus software
-   * @description
+   * @description 
    * @default '33'
    */
   DataSetPlusSoftware = <any>'33',
@@ -282,14 +283,14 @@ export enum ProductContentType {
 
   /**
    * Advertising – third party display
-   * @description
+   * @description 
    * @default '38'
    */
   AdvertisingThirdPartyDisplay = <any>'38',
 
   /**
    * Advertising – third party textual
-   * @description
+   * @description 
    * @default '39'
    */
   AdvertisingThirdPartyTextual = <any>'39',

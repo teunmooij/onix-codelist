@@ -7,6 +7,7 @@
  * @description List 96: Currency code – based on ISO 4217
  */
 export enum CurrencyCodeBasedOnIso_4217 {
+
   /**
    * UAE Dirham
    * @description United Arab Emirates

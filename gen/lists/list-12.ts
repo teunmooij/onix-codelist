@@ -7,6 +7,7 @@
  * @description List 12: Trade category
  */
 export enum TradeCategory {
+
   /**
    * UK open market edition
    * @description An edition from a UK publisher sold only in territories where exclusive rights are not held. Rights details should be carried in PR.21 (ONIX 2.1) OR P.21 (ONIX 3.0) as usual

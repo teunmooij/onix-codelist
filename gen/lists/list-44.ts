@@ -7,6 +7,7 @@
  * @description List 44: Name identifier type
  */
 export enum NameIdentifierType {
+
   /**
    * Proprietary
    * @description Note that <IDTypeName> is required with proprietary identifiers
@@ -31,14 +32,14 @@ export enum NameIdentifierType {
 
   /**
    * Börsenverein Verkehrsnummer
-   * @description
+   * @description 
    * @default '04'
    */
   BorsenvereinVerkehrsnummer = <any>'04',
 
   /**
    * German ISBN Agency publisher identifier
-   * @description
+   * @description 
    * @default '05'
    */
   GermanIsbnAgencyPublisherIdentifier = <any>'05',

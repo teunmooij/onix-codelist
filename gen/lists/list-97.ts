@@ -7,6 +7,7 @@
  * @description List 97: Bible text feature
  */
 export enum BibleTextFeature {
+
   /**
    * Red letter
    * @description Words spoken by Christ are printed in red

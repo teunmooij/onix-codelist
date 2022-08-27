@@ -7,6 +7,7 @@
  * @description List 43: Text item identifier type
  */
 export enum TextItemIdentifierType {
+
   /**
    * Proprietary
    * @description For example, a publisher’s own identifier. Note that <IDTypeName> is required with proprietary identifiers
@@ -23,7 +24,7 @@ export enum TextItemIdentifierType {
 
   /**
    * DOI
-   * @description
+   * @description 
    * @default '06'
    */
   Doi = <any>'06',
@@ -44,7 +45,7 @@ export enum TextItemIdentifierType {
 
   /**
    * ISTC
-   * @description
+   * @description 
    * @default '11'
    */
   Istc = <any>'11',

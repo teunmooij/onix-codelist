@@ -7,6 +7,7 @@
  * @description List 1: Notification or update type
  */
 export enum NotificationOrUpdateType {
+
   /**
    * Early notification
    * @description Use for a complete record issued earlier than approximately six months before publication

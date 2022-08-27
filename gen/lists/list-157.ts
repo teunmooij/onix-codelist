@@ -7,30 +7,31 @@
  * @description List 157: Content source type
  */
 export enum ContentSourceType {
+
   /**
    * Printed media
-   * @description
+   * @description 
    * @default '01'
    */
   PrintedMedia = <any>'01',
 
   /**
    * Website
-   * @description
+   * @description 
    * @default '02'
    */
   Website = <any>'02',
 
   /**
    * Radio
-   * @description
+   * @description 
    * @default '03'
    */
   Radio = <any>'03',
 
   /**
    * TV
-   * @description
+   * @description 
    * @default '04'
    */
   Tv = <any>'04',

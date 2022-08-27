@@ -7,9 +7,10 @@
  * @description List 73: Website role
  */
 export enum WebsiteRole {
+
   /**
    * Unspecified, see website description
-   * @description
+   * @description 
    * @default '00'
    */
   UnspecifiedSeeWebsiteDescription = <any>'00',
@@ -149,35 +150,35 @@ export enum WebsiteRole {
 
   /**
    * Web page for author presentation / commentary
-   * @description
+   * @description 
    * @default '24'
    */
   WebPageForAuthorPresentationCommentary = <any>'24',
 
   /**
    * Web page for author interview
-   * @description
+   * @description 
    * @default '25'
    */
   WebPageForAuthorInterview = <any>'25',
 
   /**
    * Web page for author reading
-   * @description
+   * @description 
    * @default '26'
    */
   WebPageForAuthorReading = <any>'26',
 
   /**
    * Web page for cover material
-   * @description
+   * @description 
    * @default '27'
    */
   WebPageForCoverMaterial = <any>'27',
 
   /**
    * Web page for sample content
-   * @description
+   * @description 
    * @default '28'
    */
   WebPageForSampleContent = <any>'28',

@@ -7,6 +7,7 @@
  * @description List 14: Text case flag
  */
 export enum TextCaseFlag {
+
   /**
    * Undefined
    * @description Default

@@ -7,6 +7,7 @@
  * @description List 24: Extent unit
  */
 export enum ExtentUnit {
+
   /**
    * Physical pieces
    * @description For example a count of the individual number of cards in a pack. For use in ONIX 3.0 only
@@ -30,28 +31,28 @@ export enum ExtentUnit {
 
   /**
    * Pages
-   * @description
+   * @description 
    * @default '03'
    */
   Pages = <any>'03',
 
   /**
    * Hours (integer and decimals)
-   * @description
+   * @description 
    * @default '04'
    */
   Hours = <any>'04',
 
   /**
    * Minutes (integer and decimals)
-   * @description
+   * @description 
    * @default '05'
    */
   Minutes = <any>'05',
 
   /**
    * Seconds (integer only)
-   * @description
+   * @description 
    * @default '06'
    */
   Seconds = <any>'06',
@@ -93,21 +94,21 @@ export enum ExtentUnit {
 
   /**
    * Bytes
-   * @description
+   * @description 
    * @default '17'
    */
   Bytes = <any>'17',
 
   /**
    * Kbytes
-   * @description
+   * @description 
    * @default '18'
    */
   Kbytes = <any>'18',
 
   /**
    * Mbytes
-   * @description
+   * @description 
    * @default '19'
    */
   Mbytes = <any>'19',

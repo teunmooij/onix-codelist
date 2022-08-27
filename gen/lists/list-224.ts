@@ -7,6 +7,7 @@
  * @description List 224: Status detail type severity
  */
 export enum StatusDetailTypeSeverity {
+
   /**
    * Unclassifiable
    * @description Use ONLY if the message severity cannot be determined (eg with a legacy system unable to provide detailed error codes)

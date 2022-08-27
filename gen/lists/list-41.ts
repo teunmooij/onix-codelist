@@ -7,9 +7,10 @@
  * @description List 41: Prize or award achievement
  */
 export enum PrizeOrAwardAchievement {
+
   /**
    * Winner
-   * @description
+   * @description 
    * @default '01'
    */
   Winner = <any>'01',

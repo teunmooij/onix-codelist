@@ -7,6 +7,7 @@
  * @description List 221: Message status
  */
 export enum MessageStatus {
+
   /**
    * Message received
    * @description Message received but not yet parsed (Acknowledgement must contain neither <MessageStatusDetail> nor <RecordStatusSummary>, and should include <NoProduct/>). There is no particular implication that the acknowledgement message is valid – the status is based solely on receipt of a file and minimal parsing of the original ONIX message header to ascertain <MessageNumber> etc.. The Acknowledgement message MAY give a date when parsing is planned

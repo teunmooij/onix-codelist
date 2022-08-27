@@ -7,9 +7,10 @@
  * @description List 246: Event status
  */
 export enum EventStatus {
+
   /**
    * Announced
-   * @description
+   * @description 
    * @default 'A'
    */
   Announced = <any>'A',

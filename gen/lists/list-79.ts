@@ -7,6 +7,7 @@
  * @description List 79: Product form feature type
  */
 export enum ProductFormFeatureType {
+
   /**
    * Color of cover
    * @description For Product Form Feature values see code list 98

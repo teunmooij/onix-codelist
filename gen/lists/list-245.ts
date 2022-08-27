@@ -7,23 +7,24 @@
  * @description List 245: Event type
  */
 export enum EventType {
+
   /**
    * Unspecified – see description
-   * @description
+   * @description 
    * @default '00'
    */
   UnspecifiedSeeDescription = <any>'00',
 
   /**
    * Book signing
-   * @description
+   * @description 
    * @default '01'
    */
   BookSigning = <any>'01',
 
   /**
    * Book reading
-   * @description
+   * @description 
    * @default '02'
    */
   BookReading = <any>'02',

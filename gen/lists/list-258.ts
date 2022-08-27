@@ -7,16 +7,17 @@
  * @description List 258: Special finish
  */
 export enum SpecialFinish {
+
   /**
    * Overall matt laminate
-   * @description
+   * @description 
    * @default '01'
    */
   OverallMattLaminate = <any>'01',
 
   /**
    * Overall gloss laminate
-   * @description
+   * @description 
    * @default '02'
    */
   OverallGlossLaminate = <any>'02',

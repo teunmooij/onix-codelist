@@ -7,6 +7,7 @@
  * @description List 72: Thesis type
  */
 export enum ThesisType {
+
   /**
    * Habilitationsschrift
    * @description Professorial dissertation (thesis for postdoctoral lecturing qualification)

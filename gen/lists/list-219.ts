@@ -7,6 +7,7 @@
  * @description List 219: Rights type
  */
 export enum RightsType {
+
   /**
    * Copyright
    * @description Text or image copyright (normally indicated by the © symbol). The default if no <CopyrightType> is specified

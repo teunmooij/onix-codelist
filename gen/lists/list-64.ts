@@ -7,6 +7,7 @@
  * @description List 64: Publishing status
  */
 export enum PublishingStatus {
+
   /**
    * Unspecified
    * @description Status is not specified (as distinct from unknown): the default if the <PublishingStatus> element is not sent. Also to be used in applications where the element is considered mandatory, but the sender of the ONIX message chooses not to pass on status information

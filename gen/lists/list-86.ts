@@ -7,6 +7,7 @@
  * @description List 86: Bible text organization
  */
 export enum BibleTextOrganization {
+
   /**
    * Chronological
    * @description A Bible with the text organized in the order in which events are believed to have happened

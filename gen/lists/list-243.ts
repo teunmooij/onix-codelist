@@ -7,6 +7,7 @@
  * @description List 243: Dangerous goods regulations
  */
 export enum DangerousGoodsRegulations {
+
   /**
    * Inapplicable
    * @description The product is not classed as dangerous goods. The default if information is omitted

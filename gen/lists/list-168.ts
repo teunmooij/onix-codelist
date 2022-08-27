@@ -7,6 +7,7 @@
  * @description List 168: Price condition quantity type
  */
 export enum PriceConditionQuantityType {
+
   /**
    * Time period
    * @description The price condition quantity represents a time period

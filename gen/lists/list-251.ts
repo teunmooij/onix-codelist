@@ -6,4 +6,5 @@
  * @enum { string }
  * @description List 251: Resource role code
  */
-export enum ResourceRoleCode {}
+export enum ResourceRoleCode {
+}

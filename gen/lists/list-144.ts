@@ -7,6 +7,7 @@
  * @description List 144: E-publication technical protection
  */
 export enum EPublicationTechnicalProtection {
+
   /**
    * None
    * @description Has no technical protection

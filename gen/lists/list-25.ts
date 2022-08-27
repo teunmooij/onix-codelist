@@ -7,6 +7,7 @@
  * @description List 25: Illustration and other content type
  */
 export enum IllustrationAndOtherContentType {
+
   /**
    * Unspecified, see description
    * @description See description in the <IllustrationTypeDescription> element
@@ -16,14 +17,14 @@ export enum IllustrationAndOtherContentType {
 
   /**
    * Illustrations, black and white
-   * @description
+   * @description 
    * @default '01'
    */
   IllustrationsBlackAndWhite = <any>'01',
 
   /**
    * Illustrations, color
-   * @description
+   * @description 
    * @default '02'
    */
   IllustrationsColor = <any>'02',
@@ -44,35 +45,35 @@ export enum IllustrationAndOtherContentType {
 
   /**
    * Line drawings, black and white
-   * @description
+   * @description 
    * @default '05'
    */
   LineDrawingsBlackAndWhite = <any>'05',
 
   /**
    * Line drawings, color
-   * @description
+   * @description 
    * @default '06'
    */
   LineDrawingsColor = <any>'06',
 
   /**
    * Tables, black and white
-   * @description
+   * @description 
    * @default '07'
    */
   TablesBlackAndWhite = <any>'07',
 
   /**
    * Tables, color
-   * @description
+   * @description 
    * @default '08'
    */
   TablesColor = <any>'08',
 
   /**
    * Illustrations, unspecified
-   * @description
+   * @description 
    * @default '09'
    */
   IllustrationsUnspecified = <any>'09',
@@ -86,56 +87,56 @@ export enum IllustrationAndOtherContentType {
 
   /**
    * Tables, unspecified
-   * @description
+   * @description 
    * @default '11'
    */
   TablesUnspecified = <any>'11',
 
   /**
    * Line drawings, unspecified
-   * @description
+   * @description 
    * @default '12'
    */
   LineDrawingsUnspecified = <any>'12',
 
   /**
    * Halftones, duotone
-   * @description
+   * @description 
    * @default '13'
    */
   HalftonesDuotone = <any>'13',
 
   /**
    * Maps
-   * @description
+   * @description 
    * @default '14'
    */
   Maps = <any>'14',
 
   /**
    * Frontispiece
-   * @description
+   * @description 
    * @default '15'
    */
   Frontispiece = <any>'15',
 
   /**
    * Diagrams
-   * @description
+   * @description 
    * @default '16'
    */
   Diagrams = <any>'16',
 
   /**
    * Figures
-   * @description
+   * @description 
    * @default '17'
    */
   Figures = <any>'17',
 
   /**
    * Charts
-   * @description
+   * @description 
    * @default '18'
    */
   Charts = <any>'18',
@@ -184,14 +185,14 @@ export enum IllustrationAndOtherContentType {
 
   /**
    * Index
-   * @description
+   * @description 
    * @default '25'
    */
   Index = <any>'25',
 
   /**
    * Bibliography
-   * @description
+   * @description 
    * @default '26'
    */
   Bibliography = <any>'26',
@@ -212,7 +213,7 @@ export enum IllustrationAndOtherContentType {
 
   /**
    * Glossary
-   * @description
+   * @description 
    * @default '29'
    */
   Glossary = <any>'29',

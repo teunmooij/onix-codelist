@@ -7,6 +7,7 @@
  * @description List 220: E-publication version number
  */
 export enum EPublicationVersionNumber {
+
   /**
    * EPUB 2.0.1
    * @description Use only with <ProductFormDetail> codes E101 or E102

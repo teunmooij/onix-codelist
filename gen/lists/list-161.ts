@@ -7,6 +7,7 @@
  * @description List 161: Resource form
  */
 export enum ResourceForm {
+
   /**
    * Linkable resource
    * @description A resource that may be accessed by a hyperlink. The current host (eg the ONIX sender, who may be the publisher) will provide ongoing hosting services for the resource for the active life of the product (or at least until the Until Date specified in <ContentDate>). The ONIX recipient may embed the URL in a consumer facing-website (eg as the src attribute in an <img> link), and need not host an independent copy of the resource

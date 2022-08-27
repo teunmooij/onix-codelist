@@ -7,6 +7,7 @@
  * @description List 173: Price date role
  */
 export enum PriceDateRole {
+
   /**
    * From date
    * @description Date on which a price becomes effective

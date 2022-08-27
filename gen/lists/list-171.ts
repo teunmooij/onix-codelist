@@ -7,6 +7,7 @@
  * @description List 171: Tax type
  */
 export enum TaxType {
+
   /**
    * VAT
    * @description Value-added tax (TVA, IVA, MwSt etc)

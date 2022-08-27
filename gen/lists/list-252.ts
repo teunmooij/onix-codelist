@@ -7,6 +7,7 @@
  * @description List 252: Resource file detail code
  */
 export enum ResourceFileDetailCode {
+
   /**
    * Mono
    * @description Includes ‘stereo’ where channels are identical
@@ -16,7 +17,7 @@ export enum ResourceFileDetailCode {
 
   /**
    * 22.05kHz
-   * @description
+   * @description 
    * @default 'A411'
    */
   '22_05kHz' = <any>'A411',
@@ -30,21 +31,21 @@ export enum ResourceFileDetailCode {
 
   /**
    * 48kHz
-   * @description
+   * @description 
    * @default 'A413'
    */
   '48kHz' = <any>'A413',
 
   /**
    * 88.2kHz
-   * @description
+   * @description 
    * @default 'A414'
    */
   '88_2kHz' = <any>'A414',
 
   /**
    * 96kHz
-   * @description
+   * @description 
    * @default 'A415'
    */
   '96kHz' = <any>'A415',
@@ -58,21 +59,21 @@ export enum ResourceFileDetailCode {
 
   /**
    * 20-bits per sample
-   * @description
+   * @description 
    * @default 'A417'
    */
   '20BitsPerSample' = <any>'A417',
 
   /**
    * 24-bits per sample
-   * @description
+   * @description 
    * @default 'A418'
    */
   '24BitsPerSample' = <any>'A418',
 
   /**
    * 32-bits per sample (FP)
-   * @description
+   * @description 
    * @default 'A419'
    */
   '32BitsPerSample' = <any>'A419',
@@ -86,7 +87,7 @@ export enum ResourceFileDetailCode {
 
   /**
    * Stereo 2.1
-   * @description
+   * @description 
    * @default 'A421'
    */
   Stereo_2_1 = <any>'A421',
@@ -100,7 +101,7 @@ export enum ResourceFileDetailCode {
 
   /**
    * ID3v2
-   * @description
+   * @description 
    * @default 'A423'
    */
   Id3v2 = <any>'A423',
@@ -121,7 +122,7 @@ export enum ResourceFileDetailCode {
 
   /**
    * With crop marks
-   * @description
+   * @description 
    * @default 'B001'
    */
   WithCropMarks = <any>'B001',
@@ -135,7 +136,7 @@ export enum ResourceFileDetailCode {
 
   /**
    * Monochrome
-   * @description
+   * @description 
    * @default 'B003'
    */
   Monochrome = <any>'B003',
@@ -149,7 +150,7 @@ export enum ResourceFileDetailCode {
 
   /**
    * Preseparated – 3 channels
-   * @description
+   * @description 
    * @default 'B005'
    */
   Preseparated_3Channels = <any>'B005',
@@ -163,14 +164,14 @@ export enum ResourceFileDetailCode {
 
   /**
    * Composite (CMYK)
-   * @description
+   * @description 
    * @default 'B010'
    */
   Composite = <any>'B010',
 
   /**
    * Composite (RGB)
-   * @description
+   * @description 
    * @default 'B011'
    */
   Composite_1 = <any>'B011',

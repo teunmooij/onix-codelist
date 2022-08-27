@@ -7,6 +7,7 @@
  * @description List 13: Series identifier type
  */
 export enum SeriesIdentifierType {
+
   /**
    * Proprietary
    * @description For example, publisher’s own series ID. Note that <IDTypeName> is required with proprietary identifiers

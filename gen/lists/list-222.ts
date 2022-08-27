@@ -7,6 +7,7 @@
  * @description List 222: Message status date role
  */
 export enum MessageStatusDateRole {
+
   /**
    * Ingest date
    * @description Expected or actual date of processing and ingestion of data to recipient’s system

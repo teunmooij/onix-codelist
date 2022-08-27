@@ -7,6 +7,7 @@
  * @description List 196: E-publication Accessibility Details
  */
 export enum EPublicationAccessibilityDetails {
+
   /**
    * Accessibility summary
    * @description <ProductFormFeatureDescription> contains a short explanatory summary of the accessibility of the product, consistent with the more specific conformance and feature details provided. The summary should note both the accessibility features provided and any potential deficiencies. More detailed information may be provided in an external file using codes 94–96. For use in ONIX 3.0 only
@@ -16,7 +17,7 @@ export enum EPublicationAccessibilityDetails {
 
   /**
    * LIA Compliance Scheme
-   * @description
+   * @description 
    * @default '01'
    */
   LiaComplianceScheme = <any>'01',

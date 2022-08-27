@@ -7,16 +7,17 @@
  * @description List 225: Message / Record status detail
  */
 export enum MessageRecordStatusDetail {
+
   /**
    * Unknown error
-   * @description
+   * @description 
    * @default '000'
    */
   UnknownError = <any>'000',
 
   /**
    * Unknown warning
-   * @description
+   * @description 
    * @default '001'
    */
   UnknownWarning = <any>'001',

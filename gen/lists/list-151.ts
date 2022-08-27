@@ -7,6 +7,7 @@
  * @description List 151: Contributor place relator
  */
 export enum ContributorPlaceRelator {
+
   /**
    * Associated with
    * @description To express unknown relationship types (for use when expressing legacy ONIX 2.1 data in ONIX 3.0)
@@ -16,42 +17,42 @@ export enum ContributorPlaceRelator {
 
   /**
    * Born in
-   * @description
+   * @description 
    * @default '01'
    */
   BornIn = <any>'01',
 
   /**
    * Died in
-   * @description
+   * @description 
    * @default '02'
    */
   DiedIn = <any>'02',
 
   /**
    * Formerly resided in
-   * @description
+   * @description 
    * @default '03'
    */
   FormerlyResidedIn = <any>'03',
 
   /**
    * Currently resides in
-   * @description
+   * @description 
    * @default '04'
    */
   CurrentlyResidesIn = <any>'04',
 
   /**
    * Educated in
-   * @description
+   * @description 
    * @default '05'
    */
   EducatedIn = <any>'05',
 
   /**
    * Worked in
-   * @description
+   * @description 
    * @default '06'
    */
   WorkedIn = <any>'06',

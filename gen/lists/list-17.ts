@@ -7,6 +7,7 @@
  * @description List 17: Contributor role code
  */
 export enum ContributorRoleCode {
+
   /**
    * By (author)
    * @description Author of a textual work
@@ -72,14 +73,14 @@ export enum ContributorRoleCode {
 
   /**
    * From an idea by
-   * @description
+   * @description 
    * @default 'A10'
    */
   FromAnIdeaBy = <any>'A10',
 
   /**
    * Designed by
-   * @description
+   * @description 
    * @default 'A11'
    */
   DesignedBy = <any>'A11',
@@ -240,7 +241,7 @@ export enum ContributorRoleCode {
 
   /**
    * Drawings by
-   * @description
+   * @description 
    * @default 'A35'
    */
   DrawingsBy = <any>'A35',
@@ -296,14 +297,14 @@ export enum ContributorRoleCode {
 
   /**
    * Interviewer
-   * @description
+   * @description 
    * @default 'A43'
    */
   Interviewer = <any>'A43',
 
   /**
    * Interviewee
-   * @description
+   * @description 
    * @default 'A44'
    */
   Interviewee = <any>'A44',
@@ -352,49 +353,49 @@ export enum ContributorRoleCode {
 
   /**
    * Edited by
-   * @description
+   * @description 
    * @default 'B01'
    */
   EditedBy = <any>'B01',
 
   /**
    * Revised by
-   * @description
+   * @description 
    * @default 'B02'
    */
   RevisedBy = <any>'B02',
 
   /**
    * Retold by
-   * @description
+   * @description 
    * @default 'B03'
    */
   RetoldBy = <any>'B03',
 
   /**
    * Abridged by
-   * @description
+   * @description 
    * @default 'B04'
    */
   AbridgedBy = <any>'B04',
 
   /**
    * Adapted by
-   * @description
+   * @description 
    * @default 'B05'
    */
   AdaptedBy = <any>'B05',
 
   /**
    * Translated by
-   * @description
+   * @description 
    * @default 'B06'
    */
   TranslatedBy = <any>'B06',
 
   /**
    * As told by
-   * @description
+   * @description 
    * @default 'B07'
    */
   AsToldBy = <any>'B07',
@@ -415,49 +416,49 @@ export enum ContributorRoleCode {
 
   /**
    * Edited and translated by
-   * @description
+   * @description 
    * @default 'B10'
    */
   EditedAndTranslatedBy = <any>'B10',
 
   /**
    * Editor-in-chief
-   * @description
+   * @description 
    * @default 'B11'
    */
   EditorInChief = <any>'B11',
 
   /**
    * Guest editor
-   * @description
+   * @description 
    * @default 'B12'
    */
   GuestEditor = <any>'B12',
 
   /**
    * Volume editor
-   * @description
+   * @description 
    * @default 'B13'
    */
   VolumeEditor = <any>'B13',
 
   /**
    * Editorial board member
-   * @description
+   * @description 
    * @default 'B14'
    */
   EditorialBoardMember = <any>'B14',
 
   /**
    * Editorial coordination by
-   * @description
+   * @description 
    * @default 'B15'
    */
   EditorialCoordinationBy = <any>'B15',
 
   /**
    * Managing editor
-   * @description
+   * @description 
    * @default 'B16'
    */
   ManagingEditor = <any>'B16',
@@ -471,14 +472,14 @@ export enum ContributorRoleCode {
 
   /**
    * Prepared for publication by
-   * @description
+   * @description 
    * @default 'B18'
    */
   PreparedForPublicationBy = <any>'B18',
 
   /**
    * Associate editor
-   * @description
+   * @description 
    * @default 'B19'
    */
   AssociateEditor = <any>'B19',
@@ -492,14 +493,14 @@ export enum ContributorRoleCode {
 
   /**
    * General editor
-   * @description
+   * @description 
    * @default 'B21'
    */
   GeneralEditor = <any>'B21',
 
   /**
    * Dramatized by
-   * @description
+   * @description 
    * @default 'B22'
    */
   DramatizedBy = <any>'B22',
@@ -520,7 +521,7 @@ export enum ContributorRoleCode {
 
   /**
    * Arranged by (music)
-   * @description
+   * @description 
    * @default 'B25'
    */
   ArrangedBy = <any>'B25',
@@ -534,14 +535,14 @@ export enum ContributorRoleCode {
 
   /**
    * Thesis advisor or supervisor
-   * @description
+   * @description 
    * @default 'B27'
    */
   ThesisAdvisorOrSupervisor = <any>'B27',
 
   /**
    * Thesis examiner
-   * @description
+   * @description 
    * @default 'B28'
    */
   ThesisExaminer = <any>'B28',
@@ -618,14 +619,14 @@ export enum ContributorRoleCode {
 
   /**
    * Producer
-   * @description
+   * @description 
    * @default 'D01'
    */
   Producer = <any>'D01',
 
   /**
    * Director
-   * @description
+   * @description 
    * @default 'D02'
    */
   Director = <any>'D02',
@@ -660,7 +661,7 @@ export enum ContributorRoleCode {
 
   /**
    * Dancer
-   * @description
+   * @description 
    * @default 'E02'
    */
   Dancer = <any>'E02',
@@ -674,7 +675,7 @@ export enum ContributorRoleCode {
 
   /**
    * Commentator
-   * @description
+   * @description 
    * @default 'E04'
    */
   Commentator = <any>'E04',
@@ -688,7 +689,7 @@ export enum ContributorRoleCode {
 
   /**
    * Instrumental soloist
-   * @description
+   * @description 
    * @default 'E06'
    */
   InstrumentalSoloist = <any>'E06',
@@ -737,7 +738,7 @@ export enum ContributorRoleCode {
 
   /**
    * Editor (film or video)
-   * @description
+   * @description 
    * @default 'F02'
    */
   Editor = <any>'F02',
@@ -758,7 +759,7 @@ export enum ContributorRoleCode {
 
   /**
    * Honored/dedicated to
-   * @description
+   * @description 
    * @default 'Z02'
    */
   HonoredDedicatedTo = <any>'Z02',

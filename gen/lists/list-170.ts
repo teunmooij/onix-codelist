@@ -7,6 +7,7 @@
  * @description List 170: Discount type
  */
 export enum DiscountType {
+
   /**
    * Rising discount
    * @description Discount applied to all units in a qualifying order. The default if no <DiscountType> is specified

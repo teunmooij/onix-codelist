@@ -7,9 +7,10 @@
  * @description List 15: Title type
  */
 export enum TitleType {
+
   /**
    * Undefined
-   * @description
+   * @description 
    * @default '00'
    */
   Undefined = <any>'00',
@@ -51,7 +52,7 @@ export enum TitleType {
 
   /**
    * Title in other language
-   * @description A sometimes termed a ‘parallel title’
+   * @description A sometimes termed a ‘parallel title’  
    * @default '06'
    */
   TitleInOtherLanguage = <any>'06',

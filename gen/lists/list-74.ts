@@ -7,37 +7,38 @@
  * @description List 74: Language – based on ISO 639-2/B
  */
 export enum LanguageBasedOnIso_639_2B {
+
   /**
    * Afar
-   * @description
+   * @description 
    * @default 'aar'
    */
   Afar = <any>'aar',
 
   /**
    * Abkhazian
-   * @description
+   * @description 
    * @default 'abk'
    */
   Abkhazian = <any>'abk',
 
   /**
    * Achinese
-   * @description
+   * @description 
    * @default 'ace'
    */
   Achinese = <any>'ace',
 
   /**
    * Acoli
-   * @description
+   * @description 
    * @default 'ach'
    */
   Acoli = <any>'ach',
 
   /**
    * Adangme
-   * @description
+   * @description 
    * @default 'ada'
    */
   Adangme = <any>'ada',
@@ -65,14 +66,14 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Afrikaans
-   * @description
+   * @description 
    * @default 'afr'
    */
   Afrikaans = <any>'afr',
 
   /**
    * Ainu
-   * @description
+   * @description 
    * @default 'ain'
    */
   Ainu = <any>'ain',
@@ -86,7 +87,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Akkadian
-   * @description
+   * @description 
    * @default 'akk'
    */
   Akkadian = <any>'akk',
@@ -100,7 +101,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Aleut
-   * @description
+   * @description 
    * @default 'ale'
    */
   Aleut = <any>'ale',
@@ -114,28 +115,28 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Southern Altai
-   * @description
+   * @description 
    * @default 'alt'
    */
   SouthernAltai = <any>'alt',
 
   /**
    * Amharic
-   * @description
+   * @description 
    * @default 'amh'
    */
   Amharic = <any>'amh',
 
   /**
    * English, Old (ca. 450-1100)
-   * @description
+   * @description 
    * @default 'ang'
    */
   EnglishOld = <any>'ang',
 
   /**
    * Angika
-   * @description
+   * @description 
    * @default 'anp'
    */
   Angika = <any>'anp',
@@ -156,35 +157,35 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Official Aramaic; Imperial Aramaic (700-300 BCE)
-   * @description
+   * @description 
    * @default 'arc'
    */
   OfficialAramaicImperialAramaic = <any>'arc',
 
   /**
    * Aragonese
-   * @description
+   * @description 
    * @default 'arg'
    */
   Aragonese = <any>'arg',
 
   /**
    * Armenian
-   * @description
+   * @description 
    * @default 'arm'
    */
   Armenian = <any>'arm',
 
   /**
    * Mapudungun; Mapuche
-   * @description
+   * @description 
    * @default 'arn'
    */
   MapudungunMapuche = <any>'arn',
 
   /**
    * Arapaho
-   * @description
+   * @description 
    * @default 'arp'
    */
   Arapaho = <any>'arp',
@@ -198,21 +199,21 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Arawak
-   * @description
+   * @description 
    * @default 'arw'
    */
   Arawak = <any>'arw',
 
   /**
    * Assamese
-   * @description
+   * @description 
    * @default 'asm'
    */
   Assamese = <any>'asm',
 
   /**
    * Asturian; Bable; Leonese; Asturleonese
-   * @description
+   * @description 
    * @default 'ast'
    */
   AsturianBableLeoneseAsturleonese = <any>'ast',
@@ -233,21 +234,21 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Avaric
-   * @description
+   * @description 
    * @default 'ava'
    */
   Avaric = <any>'ava',
 
   /**
    * Avestan
-   * @description
+   * @description 
    * @default 'ave'
    */
   Avestan = <any>'ave',
 
   /**
    * Awadhi
-   * @description
+   * @description 
    * @default 'awa'
    */
   Awadhi = <any>'awa',
@@ -282,7 +283,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Bashkir
-   * @description
+   * @description 
    * @default 'bak'
    */
   Bashkir = <any>'bak',
@@ -296,28 +297,28 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Bambara
-   * @description
+   * @description 
    * @default 'bam'
    */
   Bambara = <any>'bam',
 
   /**
    * Balinese
-   * @description
+   * @description 
    * @default 'ban'
    */
   Balinese = <any>'ban',
 
   /**
    * Basque
-   * @description
+   * @description 
    * @default 'baq'
    */
   Basque = <any>'baq',
 
   /**
    * Basa
-   * @description
+   * @description 
    * @default 'bas'
    */
   Basa = <any>'bas',
@@ -331,28 +332,28 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Beja; Bedawiyet
-   * @description
+   * @description 
    * @default 'bej'
    */
   BejaBedawiyet = <any>'bej',
 
   /**
    * Belarusian
-   * @description
+   * @description 
    * @default 'bel'
    */
   Belarusian = <any>'bel',
 
   /**
    * Bemba
-   * @description
+   * @description 
    * @default 'bem'
    */
   Bemba = <any>'bem',
 
   /**
    * Bengali
-   * @description
+   * @description 
    * @default 'ben'
    */
   Bengali = <any>'ben',
@@ -366,7 +367,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Bhojpuri
-   * @description
+   * @description 
    * @default 'bho'
    */
   Bhojpuri = <any>'bho',
@@ -387,21 +388,21 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Bini; Edo
-   * @description
+   * @description 
    * @default 'bin'
    */
   BiniEdo = <any>'bin',
 
   /**
    * Bislama
-   * @description
+   * @description 
    * @default 'bis'
    */
   Bislama = <any>'bis',
 
   /**
    * Siksika
-   * @description
+   * @description 
    * @default 'bla'
    */
   Siksika = <any>'bla',
@@ -415,21 +416,21 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Bosnian
-   * @description
+   * @description 
    * @default 'bos'
    */
   Bosnian = <any>'bos',
 
   /**
    * Braj
-   * @description
+   * @description 
    * @default 'bra'
    */
   Braj = <any>'bra',
 
   /**
    * Breton
-   * @description
+   * @description 
    * @default 'bre'
    */
   Breton = <any>'bre',
@@ -450,35 +451,35 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Buginese
-   * @description
+   * @description 
    * @default 'bug'
    */
   Buginese = <any>'bug',
 
   /**
    * Bulgarian
-   * @description
+   * @description 
    * @default 'bul'
    */
   Bulgarian = <any>'bul',
 
   /**
    * Burmese
-   * @description
+   * @description 
    * @default 'bur'
    */
   Burmese = <any>'bur',
 
   /**
    * Blin; Bilin
-   * @description
+   * @description 
    * @default 'byn'
    */
   BlinBilin = <any>'byn',
 
   /**
    * Caddo
-   * @description
+   * @description 
    * @default 'cad'
    */
   Caddo = <any>'cad',
@@ -492,14 +493,14 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Galibi Carib
-   * @description
+   * @description 
    * @default 'car'
    */
   GalibiCarib = <any>'car',
 
   /**
    * Catalan
-   * @description
+   * @description 
    * @default 'cat'
    */
   Catalan = <any>'cat',
@@ -513,7 +514,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Cebuano
-   * @description
+   * @description 
    * @default 'ceb'
    */
   Cebuano = <any>'ceb',
@@ -527,28 +528,28 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Chamorro
-   * @description
+   * @description 
    * @default 'cha'
    */
   Chamorro = <any>'cha',
 
   /**
    * Chibcha
-   * @description
+   * @description 
    * @default 'chb'
    */
   Chibcha = <any>'chb',
 
   /**
    * Chechen
-   * @description
+   * @description 
    * @default 'che'
    */
   Chechen = <any>'che',
 
   /**
    * Chagatai
-   * @description
+   * @description 
    * @default 'chg'
    */
   Chagatai = <any>'chg',
@@ -562,7 +563,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Chuukese (Truk)
-   * @description
+   * @description 
    * @default 'chk'
    */
   Chuukese = <any>'chk',
@@ -576,49 +577,49 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Chinook jargon
-   * @description
+   * @description 
    * @default 'chn'
    */
   ChinookJargon = <any>'chn',
 
   /**
    * Choctaw
-   * @description
+   * @description 
    * @default 'cho'
    */
   Choctaw = <any>'cho',
 
   /**
    * Chipewyan; Dene Suline
-   * @description
+   * @description 
    * @default 'chp'
    */
   ChipewyanDeneSuline = <any>'chp',
 
   /**
    * Cherokee
-   * @description
+   * @description 
    * @default 'chr'
    */
   Cherokee = <any>'chr',
 
   /**
    * Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic
-   * @description
+   * @description 
    * @default 'chu'
    */
   ChurchSlavicOldSlavonicChurchSlavonicOldBulgarianOldChurchSlavonic = <any>'chu',
 
   /**
    * Chuvash
-   * @description
+   * @description 
    * @default 'chv'
    */
   Chuvash = <any>'chv',
 
   /**
    * Cheyenne
-   * @description
+   * @description 
    * @default 'chy'
    */
   Cheyenne = <any>'chy',
@@ -653,21 +654,21 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Coptic
-   * @description
+   * @description 
    * @default 'cop'
    */
   Coptic = <any>'cop',
 
   /**
    * Cornish
-   * @description
+   * @description 
    * @default 'cor'
    */
   Cornish = <any>'cor',
 
   /**
    * Corsican
-   * @description
+   * @description 
    * @default 'cos'
    */
   Corsican = <any>'cos',
@@ -702,7 +703,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Crimean Turkish; Crimean Tatar
-   * @description
+   * @description 
    * @default 'crh'
    */
   CrimeanTurkishCrimeanTatar = <any>'crh',
@@ -716,7 +717,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Kashubian
-   * @description
+   * @description 
    * @default 'csb'
    */
   Kashubian = <any>'csb',
@@ -730,28 +731,28 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Czech
-   * @description
+   * @description 
    * @default 'cze'
    */
   Czech = <any>'cze',
 
   /**
    * Dakota
-   * @description
+   * @description 
    * @default 'dak'
    */
   Dakota = <any>'dak',
 
   /**
    * Danish
-   * @description
+   * @description 
    * @default 'dan'
    */
   Danish = <any>'dan',
 
   /**
    * Dargwa
-   * @description
+   * @description 
    * @default 'dar'
    */
   Dargwa = <any>'dar',
@@ -779,7 +780,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Dogrib
-   * @description
+   * @description 
    * @default 'dgr'
    */
   Dogrib = <any>'dgr',
@@ -793,7 +794,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Divehi; Dhivehi; Maldivian
-   * @description
+   * @description 
    * @default 'div'
    */
   DivehiDhivehiMaldivian = <any>'div',
@@ -814,49 +815,49 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Lower Sorbian
-   * @description
+   * @description 
    * @default 'dsb'
    */
   LowerSorbian = <any>'dsb',
 
   /**
    * Duala
-   * @description
+   * @description 
    * @default 'dua'
    */
   Duala = <any>'dua',
 
   /**
    * Dutch, Middle (ca. 1050-1350)
-   * @description
+   * @description 
    * @default 'dum'
    */
   DutchMiddle = <any>'dum',
 
   /**
    * Dutch; Flemish
-   * @description
+   * @description 
    * @default 'dut'
    */
   DutchFlemish = <any>'dut',
 
   /**
    * Dyula
-   * @description
+   * @description 
    * @default 'dyu'
    */
   Dyula = <any>'dyu',
 
   /**
    * Dzongkha
-   * @description
+   * @description 
    * @default 'dzo'
    */
   Dzongkha = <any>'dzo',
 
   /**
    * Efik
-   * @description
+   * @description 
    * @default 'efi'
    */
   Efik = <any>'efi',
@@ -870,35 +871,35 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Egyptian (Ancient)
-   * @description
+   * @description 
    * @default 'egy'
    */
   Egyptian = <any>'egy',
 
   /**
    * Ekajuk
-   * @description
+   * @description 
    * @default 'eka'
    */
   Ekajuk = <any>'eka',
 
   /**
    * Elamite
-   * @description
+   * @description 
    * @default 'elx'
    */
   Elamite = <any>'elx',
 
   /**
    * English
-   * @description
+   * @description 
    * @default 'eng'
    */
   English = <any>'eng',
 
   /**
    * English, Middle (1100-1500)
-   * @description
+   * @description 
    * @default 'enm'
    */
   EnglishMiddle = <any>'enm',
@@ -919,56 +920,56 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Ewe
-   * @description
+   * @description 
    * @default 'ewe'
    */
   Ewe = <any>'ewe',
 
   /**
    * Ewondo
-   * @description
+   * @description 
    * @default 'ewo'
    */
   Ewondo = <any>'ewo',
 
   /**
    * Fang
-   * @description
+   * @description 
    * @default 'fan'
    */
   Fang = <any>'fan',
 
   /**
    * Faroese
-   * @description
+   * @description 
    * @default 'fao'
    */
   Faroese = <any>'fao',
 
   /**
    * Fanti
-   * @description
+   * @description 
    * @default 'fat'
    */
   Fanti = <any>'fat',
 
   /**
    * Fijian
-   * @description
+   * @description 
    * @default 'fij'
    */
   Fijian = <any>'fij',
 
   /**
    * Filipino; Pilipino
-   * @description
+   * @description 
    * @default 'fil'
    */
   FilipinoPilipino = <any>'fil',
 
   /**
    * Finnish
-   * @description
+   * @description 
    * @default 'fin'
    */
   Finnish = <any>'fin',
@@ -996,77 +997,77 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Fon
-   * @description
+   * @description 
    * @default 'fon'
    */
   Fon = <any>'fon',
 
   /**
    * French
-   * @description
+   * @description 
    * @default 'fre'
    */
   French = <any>'fre',
 
   /**
    * French, Middle (ca. 1400-1600)
-   * @description
+   * @description 
    * @default 'frm'
    */
   FrenchMiddle = <any>'frm',
 
   /**
    * French, Old (ca. 842-1400)
-   * @description
+   * @description 
    * @default 'fro'
    */
   FrenchOld = <any>'fro',
 
   /**
    * Northern Frisian
-   * @description
+   * @description 
    * @default 'frr'
    */
   NorthernFrisian = <any>'frr',
 
   /**
    * Eastern Frisian
-   * @description
+   * @description 
    * @default 'frs'
    */
   EasternFrisian = <any>'frs',
 
   /**
    * Western Frisian
-   * @description
+   * @description 
    * @default 'fry'
    */
   WesternFrisian = <any>'fry',
 
   /**
    * Fulah
-   * @description
+   * @description 
    * @default 'ful'
    */
   Fulah = <any>'ful',
 
   /**
    * Friulian
-   * @description
+   * @description 
    * @default 'fur'
    */
   Friulian = <any>'fur',
 
   /**
    * Gã
-   * @description
+   * @description 
    * @default 'gaa'
    */
   Ga = <any>'gaa',
 
   /**
    * Gayo
-   * @description
+   * @description 
    * @default 'gay'
    */
   Gayo = <any>'gay',
@@ -1087,70 +1088,70 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Georgian
-   * @description
+   * @description 
    * @default 'geo'
    */
   Georgian = <any>'geo',
 
   /**
    * German
-   * @description
+   * @description 
    * @default 'ger'
    */
   German = <any>'ger',
 
   /**
    * Ethiopic (Ge’ez)
-   * @description
+   * @description 
    * @default 'gez'
    */
   Ethiopic = <any>'gez',
 
   /**
    * Gilbertese
-   * @description
+   * @description 
    * @default 'gil'
    */
   Gilbertese = <any>'gil',
 
   /**
    * Scottish Gaelic
-   * @description
+   * @description 
    * @default 'gla'
    */
   ScottishGaelic = <any>'gla',
 
   /**
    * Irish
-   * @description
+   * @description 
    * @default 'gle'
    */
   Irish = <any>'gle',
 
   /**
    * Galician
-   * @description
+   * @description 
    * @default 'glg'
    */
   Galician = <any>'glg',
 
   /**
    * Manx
-   * @description
+   * @description 
    * @default 'glv'
    */
   Manx = <any>'glv',
 
   /**
    * German, Middle High (ca. 1050-1500)
-   * @description
+   * @description 
    * @default 'gmh'
    */
   GermanMiddleHigh = <any>'gmh',
 
   /**
    * German, Old High (ca. 750-1050)
-   * @description
+   * @description 
    * @default 'goh'
    */
   GermanOldHigh = <any>'goh',
@@ -1164,14 +1165,14 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Gorontalo
-   * @description
+   * @description 
    * @default 'gor'
    */
   Gorontalo = <any>'gor',
 
   /**
    * Gothic
-   * @description
+   * @description 
    * @default 'got'
    */
   Gothic = <any>'got',
@@ -1185,14 +1186,14 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Greek, Ancient (to 1453)
-   * @description
+   * @description 
    * @default 'grc'
    */
   GreekAncient = <any>'grc',
 
   /**
    * Greek, Modern (1453-)
-   * @description
+   * @description 
    * @default 'gre'
    */
   GreekModern = <any>'gre',
@@ -1213,21 +1214,21 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Swiss German; Alemannic; Alsatian
-   * @description
+   * @description 
    * @default 'gsw'
    */
   SwissGermanAlemannicAlsatian = <any>'gsw',
 
   /**
    * Gujarati
-   * @description
+   * @description 
    * @default 'guj'
    */
   Gujarati = <any>'guj',
 
   /**
    * Gwich’in
-   * @description
+   * @description 
    * @default 'gwi'
    */
   GwichIn = <any>'gwi',
@@ -1241,42 +1242,42 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Haitian; Haitian Creole
-   * @description
+   * @description 
    * @default 'hat'
    */
   HaitianHaitianCreole = <any>'hat',
 
   /**
    * Hausa
-   * @description
+   * @description 
    * @default 'hau'
    */
   Hausa = <any>'hau',
 
   /**
    * Hawaiian
-   * @description
+   * @description 
    * @default 'haw'
    */
   Hawaiian = <any>'haw',
 
   /**
    * Hebrew
-   * @description
+   * @description 
    * @default 'heb'
    */
   Hebrew = <any>'heb',
 
   /**
    * Herero
-   * @description
+   * @description 
    * @default 'her'
    */
   Herero = <any>'her',
 
   /**
    * Hiligaynon
-   * @description
+   * @description 
    * @default 'hil'
    */
   Hiligaynon = <any>'hil',
@@ -1290,14 +1291,14 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Hindi
-   * @description
+   * @description 
    * @default 'hin'
    */
   Hindi = <any>'hin',
 
   /**
    * Hittite
-   * @description
+   * @description 
    * @default 'hit'
    */
   Hittite = <any>'hit',
@@ -1311,14 +1312,14 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Hiri Motu
-   * @description
+   * @description 
    * @default 'hmo'
    */
   HiriMotu = <any>'hmo',
 
   /**
    * Croatian
-   * @description
+   * @description 
    * @default 'hrv'
    */
   Croatian = <any>'hrv',
@@ -1333,42 +1334,42 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Upper Sorbian
-   * @description
+   * @description 
    * @default 'hsb'
    */
   UpperSorbian = <any>'hsb',
 
   /**
    * Hungarian
-   * @description
+   * @description 
    * @default 'hun'
    */
   Hungarian = <any>'hun',
 
   /**
    * Hupa
-   * @description
+   * @description 
    * @default 'hup'
    */
   Hupa = <any>'hup',
 
   /**
    * Iban
-   * @description
+   * @description 
    * @default 'iba'
    */
   Iban = <any>'iba',
 
   /**
    * Igbo
-   * @description
+   * @description 
    * @default 'ibo'
    */
   Igbo = <any>'ibo',
 
   /**
    * Icelandic
-   * @description
+   * @description 
    * @default 'ice'
    */
   Icelandic = <any>'ice',
@@ -1382,7 +1383,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Sichuan Yi; Nuosu
-   * @description
+   * @description 
    * @default 'iii'
    */
   SichuanYiNuosu = <any>'iii',
@@ -1410,7 +1411,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Iloko
-   * @description
+   * @description 
    * @default 'ilo'
    */
   Iloko = <any>'ilo',
@@ -1431,7 +1432,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Indonesian
-   * @description
+   * @description 
    * @default 'ind'
    */
   Indonesian = <any>'ind',
@@ -1445,7 +1446,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Ingush
-   * @description
+   * @description 
    * @default 'inh'
    */
   Ingush = <any>'inh',
@@ -1473,21 +1474,21 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Italian
-   * @description
+   * @description 
    * @default 'ita'
    */
   Italian = <any>'ita',
 
   /**
    * Javanese
-   * @description
+   * @description 
    * @default 'jav'
    */
   Javanese = <any>'jav',
 
   /**
    * Lojban
-   * @description
+   * @description 
    * @default 'jbo'
    */
   Lojban = <any>'jbo',
@@ -1501,14 +1502,14 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Japanese
-   * @description
+   * @description 
    * @default 'jpn'
    */
   Japanese = <any>'jpn',
 
   /**
    * Judeo-Persian
-   * @description
+   * @description 
    * @default 'jpr'
    */
   JudeoPersian = <any>'jpr',
@@ -1522,42 +1523,42 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Kara-Kalpak
-   * @description
+   * @description 
    * @default 'kaa'
    */
   KaraKalpak = <any>'kaa',
 
   /**
    * Kabyle
-   * @description
+   * @description 
    * @default 'kab'
    */
   Kabyle = <any>'kab',
 
   /**
    * Kachin; Jingpho
-   * @description
+   * @description 
    * @default 'kac'
    */
   KachinJingpho = <any>'kac',
 
   /**
    * Kalâtdlisut; Greenlandic
-   * @description
+   * @description 
    * @default 'kal'
    */
   KalatdlisutGreenlandic = <any>'kal',
 
   /**
    * Kamba
-   * @description
+   * @description 
    * @default 'kam'
    */
   Kamba = <any>'kam',
 
   /**
    * Kannada
-   * @description
+   * @description 
    * @default 'kan'
    */
   Kannada = <any>'kan',
@@ -1571,7 +1572,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Kashmiri
-   * @description
+   * @description 
    * @default 'kas'
    */
   Kashmiri = <any>'kas',
@@ -1585,14 +1586,14 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Kawi
-   * @description
+   * @description 
    * @default 'kaw'
    */
   Kawi = <any>'kaw',
 
   /**
    * Kazakh
-   * @description
+   * @description 
    * @default 'kaz'
    */
   Kazakh = <any>'kaz',
@@ -1613,7 +1614,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Khasi
-   * @description
+   * @description 
    * @default 'kha'
    */
   Khasi = <any>'kha',
@@ -1627,42 +1628,42 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Central Khmer
-   * @description
+   * @description 
    * @default 'khm'
    */
   CentralKhmer = <any>'khm',
 
   /**
    * Khotanese; Sakan
-   * @description
+   * @description 
    * @default 'kho'
    */
   KhotaneseSakan = <any>'kho',
 
   /**
    * Kikuyu; Gikuyu
-   * @description
+   * @description 
    * @default 'kik'
    */
   KikuyuGikuyu = <any>'kik',
 
   /**
    * Kinyarwanda
-   * @description
+   * @description 
    * @default 'kin'
    */
   Kinyarwanda = <any>'kin',
 
   /**
    * Kirghiz; Kyrgyz
-   * @description
+   * @description 
    * @default 'kir'
    */
   KirghizKyrgyz = <any>'kir',
 
   /**
    * Kimbundu
-   * @description
+   * @description 
    * @default 'kmb'
    */
   Kimbundu = <any>'kmb',
@@ -1690,14 +1691,14 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Korean
-   * @description
+   * @description 
    * @default 'kor'
    */
   Korean = <any>'kor',
 
   /**
    * Kusaiean (Caroline Islands)
-   * @description
+   * @description 
    * @default 'kos'
    */
   Kusaiean = <any>'kos',
@@ -1711,14 +1712,14 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Karachay-Balkar
-   * @description
+   * @description 
    * @default 'krc'
    */
   KarachayBalkar = <any>'krc',
 
   /**
    * Karelian
-   * @description
+   * @description 
    * @default 'krl'
    */
   Karelian = <any>'krl',
@@ -1732,21 +1733,21 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Kurukh
-   * @description
+   * @description 
    * @default 'kru'
    */
   Kurukh = <any>'kru',
 
   /**
    * Kuanyama; Kwanyama
-   * @description
+   * @description 
    * @default 'kua'
    */
   KuanyamaKwanyama = <any>'kua',
 
   /**
    * Kumyk
-   * @description
+   * @description 
    * @default 'kum'
    */
   Kumyk = <any>'kum',
@@ -1760,14 +1761,14 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Kutenai
-   * @description
+   * @description 
    * @default 'kut'
    */
   Kutenai = <any>'kut',
 
   /**
    * Ladino
-   * @description
+   * @description 
    * @default 'lad'
    */
   Ladino = <any>'lad',
@@ -1781,21 +1782,21 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Lamba
-   * @description
+   * @description 
    * @default 'lam'
    */
   Lamba = <any>'lam',
 
   /**
    * Lao
-   * @description
+   * @description 
    * @default 'lao'
    */
   Lao = <any>'lao',
 
   /**
    * Latin
-   * @description
+   * @description 
    * @default 'lat'
    */
   Latin = <any>'lat',
@@ -1809,7 +1810,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Lezgian
-   * @description
+   * @description 
    * @default 'lez'
    */
   Lezgian = <any>'lez',
@@ -1823,21 +1824,21 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Limbergan; Limburger; Limburgish
-   * @description
+   * @description 
    * @default 'lim'
    */
   LimberganLimburgerLimburgish = <any>'lim',
 
   /**
    * Lingala
-   * @description
+   * @description 
    * @default 'lin'
    */
   Lingala = <any>'lin',
 
   /**
    * Lithuanian
-   * @description
+   * @description 
    * @default 'lit'
    */
   Lithuanian = <any>'lit',
@@ -1851,119 +1852,119 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Mongo-Nkundu
-   * @description
+   * @description 
    * @default 'lol'
    */
   MongoNkundu = <any>'lol',
 
   /**
    * Lozi
-   * @description
+   * @description 
    * @default 'loz'
    */
   Lozi = <any>'loz',
 
   /**
    * Luxembourgish; Letzeburgesch
-   * @description
+   * @description 
    * @default 'ltz'
    */
   LuxembourgishLetzeburgesch = <any>'ltz',
 
   /**
    * Luba-Lulua
-   * @description
+   * @description 
    * @default 'lua'
    */
   LubaLulua = <any>'lua',
 
   /**
    * Luba-Katanga
-   * @description
+   * @description 
    * @default 'lub'
    */
   LubaKatanga = <any>'lub',
 
   /**
    * Ganda
-   * @description
+   * @description 
    * @default 'lug'
    */
   Ganda = <any>'lug',
 
   /**
    * Luiseño
-   * @description
+   * @description 
    * @default 'lui'
    */
   Luiseno = <any>'lui',
 
   /**
    * Lunda
-   * @description
+   * @description 
    * @default 'lun'
    */
   Lunda = <any>'lun',
 
   /**
    * Luo (Kenya and Tanzania)
-   * @description
+   * @description 
    * @default 'luo'
    */
   Luo = <any>'luo',
 
   /**
    * Lushai
-   * @description
+   * @description 
    * @default 'lus'
    */
   Lushai = <any>'lus',
 
   /**
    * Macedonian
-   * @description
+   * @description 
    * @default 'mac'
    */
   Macedonian = <any>'mac',
 
   /**
    * Madurese
-   * @description
+   * @description 
    * @default 'mad'
    */
   Madurese = <any>'mad',
 
   /**
    * Magahi
-   * @description
+   * @description 
    * @default 'mag'
    */
   Magahi = <any>'mag',
 
   /**
    * Marshallese
-   * @description
+   * @description 
    * @default 'mah'
    */
   Marshallese = <any>'mah',
 
   /**
    * Maithili
-   * @description
+   * @description 
    * @default 'mai'
    */
   Maithili = <any>'mai',
 
   /**
    * Makasar
-   * @description
+   * @description 
    * @default 'mak'
    */
   Makasar = <any>'mak',
 
   /**
    * Malayalam
-   * @description
+   * @description 
    * @default 'mal'
    */
   Malayalam = <any>'mal',
@@ -1977,7 +1978,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Maori
-   * @description
+   * @description 
    * @default 'mao'
    */
   Maori = <any>'mao',
@@ -1991,14 +1992,14 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Marathi
-   * @description
+   * @description 
    * @default 'mar'
    */
   Marathi = <any>'mar',
 
   /**
    * Masai
-   * @description
+   * @description 
    * @default 'mas'
    */
   Masai = <any>'mas',
@@ -2012,42 +2013,42 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Moksha
-   * @description
+   * @description 
    * @default 'mdf'
    */
   Moksha = <any>'mdf',
 
   /**
    * Mandar
-   * @description
+   * @description 
    * @default 'mdr'
    */
   Mandar = <any>'mdr',
 
   /**
    * Mende
-   * @description
+   * @description 
    * @default 'men'
    */
   Mende = <any>'men',
 
   /**
    * Irish, Middle (ca. 1100-1550)
-   * @description
+   * @description 
    * @default 'mga'
    */
   IrishMiddle = <any>'mga',
 
   /**
    * Mi’kmaq; Micmac
-   * @description
+   * @description 
    * @default 'mic'
    */
   MiKmaqMicmac = <any>'mic',
 
   /**
    * Minangkabau
-   * @description
+   * @description 
    * @default 'min'
    */
   Minangkabau = <any>'min',
@@ -2075,21 +2076,21 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Maltese
-   * @description
+   * @description 
    * @default 'mlt'
    */
   Maltese = <any>'mlt',
 
   /**
    * Manchu
-   * @description
+   * @description 
    * @default 'mnc'
    */
   Manchu = <any>'mnc',
 
   /**
    * Manipuri
-   * @description
+   * @description 
    * @default 'mni'
    */
   Manipuri = <any>'mni',
@@ -2103,7 +2104,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Mohawk
-   * @description
+   * @description 
    * @default 'moh'
    */
   Mohawk = <any>'moh',
@@ -2125,14 +2126,14 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Mooré; Mossi
-   * @description
+   * @description 
    * @default 'mos'
    */
   MooreMossi = <any>'mos',
 
   /**
    * Multiple languages
-   * @description
+   * @description 
    * @default 'mul'
    */
   MultipleLanguages = <any>'mul',
@@ -2146,7 +2147,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Creek
-   * @description
+   * @description 
    * @default 'mus'
    */
   Creek = <any>'mus',
@@ -2160,7 +2161,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Mirandese
-   * @description
+   * @description 
    * @default 'mwl'
    */
   Mirandese = <any>'mwl',
@@ -2181,7 +2182,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Erzya
-   * @description
+   * @description 
    * @default 'myv'
    */
   Erzya = <any>'myv',
@@ -2202,49 +2203,49 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Neapolitan
-   * @description
+   * @description 
    * @default 'nap'
    */
   Neapolitan = <any>'nap',
 
   /**
    * Nauruan
-   * @description
+   * @description 
    * @default 'nau'
    */
   Nauruan = <any>'nau',
 
   /**
    * Navajo; Navaho
-   * @description
+   * @description 
    * @default 'nav'
    */
   NavajoNavaho = <any>'nav',
 
   /**
    * Ndebele, South
-   * @description
+   * @description 
    * @default 'nbl'
    */
   NdebeleSouth = <any>'nbl',
 
   /**
    * Ndebele, North
-   * @description
+   * @description 
    * @default 'nde'
    */
   NdebeleNorth = <any>'nde',
 
   /**
    * Ndonga
-   * @description
+   * @description 
    * @default 'ndo'
    */
   Ndonga = <any>'ndo',
 
   /**
    * Low German; Low Saxon
-   * @description
+   * @description 
    * @default 'nds'
    */
   LowGermanLowSaxon = <any>'nds',
@@ -2258,14 +2259,14 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Newari; Nepal Bhasa
-   * @description
+   * @description 
    * @default 'new'
    */
   NewariNepalBhasa = <any>'new',
 
   /**
    * Nias
-   * @description
+   * @description 
    * @default 'nia'
    */
   Nias = <any>'nia',
@@ -2279,35 +2280,35 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Niuean
-   * @description
+   * @description 
    * @default 'niu'
    */
   Niuean = <any>'niu',
 
   /**
    * Norwegian Nynorsk
-   * @description
+   * @description 
    * @default 'nno'
    */
   NorwegianNynorsk = <any>'nno',
 
   /**
    * Norwegian Bokmål
-   * @description
+   * @description 
    * @default 'nob'
    */
   NorwegianBokmal = <any>'nob',
 
   /**
    * Nogai
-   * @description
+   * @description 
    * @default 'nog'
    */
   Nogai = <any>'nog',
 
   /**
    * Old Norse
-   * @description
+   * @description 
    * @default 'non'
    */
   OldNorse = <any>'non',
@@ -2321,7 +2322,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * N’Ko
-   * @description
+   * @description 
    * @default 'nqo'
    */
   NKo = <any>'nqo',
@@ -2335,7 +2336,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Pedi; Sepedi; Northern Sotho
-   * @description
+   * @description 
    * @default 'nso'
    */
   PediSepediNorthernSotho = <any>'nso',
@@ -2349,49 +2350,49 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Classical Newari; Old Newari; Classical Nepal Bhasa
-   * @description
+   * @description 
    * @default 'nwc'
    */
   ClassicalNewariOldNewariClassicalNepalBhasa = <any>'nwc',
 
   /**
    * Chichewa; Chewa; Nyanja
-   * @description
+   * @description 
    * @default 'nya'
    */
   ChichewaChewaNyanja = <any>'nya',
 
   /**
    * Nyamwezi
-   * @description
+   * @description 
    * @default 'nym'
    */
   Nyamwezi = <any>'nym',
 
   /**
    * Nyankole
-   * @description
+   * @description 
    * @default 'nyn'
    */
   Nyankole = <any>'nyn',
 
   /**
    * Nyoro
-   * @description
+   * @description 
    * @default 'nyo'
    */
   Nyoro = <any>'nyo',
 
   /**
    * Nzima
-   * @description
+   * @description 
    * @default 'nzi'
    */
   Nzima = <any>'nzi',
 
   /**
    * Occitan (post 1500)
-   * @description
+   * @description 
    * @default 'oci'
    */
   Occitan = <any>'oci',
@@ -2433,21 +2434,21 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Osage
-   * @description
+   * @description 
    * @default 'osa'
    */
   Osage = <any>'osa',
 
   /**
    * Ossetian; Ossetic
-   * @description
+   * @description 
    * @default 'oss'
    */
   OssetianOssetic = <any>'oss',
 
   /**
    * Turkish, Ottoman
-   * @description
+   * @description 
    * @default 'ota'
    */
   TurkishOttoman = <any>'ota',
@@ -2468,49 +2469,49 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Pangasinan
-   * @description
+   * @description 
    * @default 'pag'
    */
   Pangasinan = <any>'pag',
 
   /**
    * Pahlavi
-   * @description
+   * @description 
    * @default 'pal'
    */
   Pahlavi = <any>'pal',
 
   /**
    * Pampanga; Kapampangan
-   * @description
+   * @description 
    * @default 'pam'
    */
   PampangaKapampangan = <any>'pam',
 
   /**
    * Panjabi
-   * @description
+   * @description 
    * @default 'pan'
    */
   Panjabi = <any>'pan',
 
   /**
    * Papiamento
-   * @description
+   * @description 
    * @default 'pap'
    */
   Papiamento = <any>'pap',
 
   /**
    * Palauan
-   * @description
+   * @description 
    * @default 'pau'
    */
   Palauan = <any>'pau',
 
   /**
    * Old Persian (ca. 600-400 B.C.)
-   * @description
+   * @description 
    * @default 'peo'
    */
   OldPersian = <any>'peo',
@@ -2538,14 +2539,14 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Phoenician
-   * @description
+   * @description 
    * @default 'phn'
    */
   Phoenician = <any>'phn',
 
   /**
    * Pali
-   * @description
+   * @description 
    * @default 'pli'
    */
   Pali = <any>'pli',
@@ -2559,21 +2560,21 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Polish
-   * @description
+   * @description 
    * @default 'pol'
    */
   Polish = <any>'pol',
 
   /**
    * Ponapeian
-   * @description
+   * @description 
    * @default 'pon'
    */
   Ponapeian = <any>'pon',
 
   /**
    * Portuguese
-   * @description
+   * @description 
    * @default 'por'
    */
   Portuguese = <any>'por',
@@ -2587,7 +2588,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Provençal, Old (to 1500); Occitan, Old (to 1500)
-   * @description
+   * @description 
    * @default 'pro'
    */
   ProvencalOldOccitanOld = <any>'pro',
@@ -2657,14 +2658,14 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Rapanui
-   * @description
+   * @description 
    * @default 'rap'
    */
   Rapanui = <any>'rap',
 
   /**
    * Rarotongan; Cook Islands Maori
-   * @description
+   * @description 
    * @default 'rar'
    */
   RarotonganCookIslandsMaori = <any>'rar',
@@ -2692,7 +2693,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Romansh
-   * @description
+   * @description 
    * @default 'roh'
    */
   Romansh = <any>'roh',
@@ -2706,49 +2707,49 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Romanian
-   * @description
+   * @description 
    * @default 'rum'
    */
   Romanian = <any>'rum',
 
   /**
    * Rundi
-   * @description
+   * @description 
    * @default 'run'
    */
   Rundi = <any>'run',
 
   /**
    * Aromanian; Arumanian; Macedo-Romanian
-   * @description
+   * @description 
    * @default 'rup'
    */
   AromanianArumanianMacedoRomanian = <any>'rup',
 
   /**
    * Russian
-   * @description
+   * @description 
    * @default 'rus'
    */
   Russian = <any>'rus',
 
   /**
    * Sandawe
-   * @description
+   * @description 
    * @default 'sad'
    */
   Sandawe = <any>'sad',
 
   /**
    * Sango
-   * @description
+   * @description 
    * @default 'sag'
    */
   Sango = <any>'sag',
 
   /**
    * Yakut
-   * @description
+   * @description 
    * @default 'sah'
    */
   Yakut = <any>'sah',
@@ -2769,35 +2770,35 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Samaritan Aramaic
-   * @description
+   * @description 
    * @default 'sam'
    */
   SamaritanAramaic = <any>'sam',
 
   /**
    * Sanskrit
-   * @description
+   * @description 
    * @default 'san'
    */
   Sanskrit = <any>'san',
 
   /**
    * Sasak
-   * @description
+   * @description 
    * @default 'sas'
    */
   Sasak = <any>'sas',
 
   /**
    * Santali
-   * @description
+   * @description 
    * @default 'sat'
    */
   Santali = <any>'sat',
 
   /**
    * Serbian
-   * @description
+   * @description 
    * @default 'srp'
    */
   Serbian = <any>'srp',
@@ -2812,14 +2813,14 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Sicilian
-   * @description
+   * @description 
    * @default 'scn'
    */
   Sicilian = <any>'scn',
 
   /**
    * Scots
-   * @description
+   * @description 
    * @default 'sco'
    */
   Scots = <any>'sco',
@@ -2840,7 +2841,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Selkup
-   * @description
+   * @description 
    * @default 'sel'
    */
   Selkup = <any>'sel',
@@ -2854,7 +2855,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Irish, Old (to 1100)
-   * @description
+   * @description 
    * @default 'sga'
    */
   IrishOld = <any>'sga',
@@ -2875,21 +2876,21 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Shan
-   * @description
+   * @description 
    * @default 'shn'
    */
   Shan = <any>'shn',
 
   /**
    * Sidamo
-   * @description
+   * @description 
    * @default 'sid'
    */
   Sidamo = <any>'sid',
 
   /**
    * Sinhala; Sinhalese
-   * @description
+   * @description 
    * @default 'sin'
    */
   SinhalaSinhalese = <any>'sin',
@@ -2917,28 +2918,28 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Slovak
-   * @description
+   * @description 
    * @default 'slo'
    */
   Slovak = <any>'slo',
 
   /**
    * Slovenian
-   * @description
+   * @description 
    * @default 'slv'
    */
   Slovenian = <any>'slv',
 
   /**
    * Southern Sami
-   * @description
+   * @description 
    * @default 'sma'
    */
   SouthernSami = <any>'sma',
 
   /**
    * Northern Sami
-   * @description
+   * @description 
    * @default 'sme'
    */
   NorthernSami = <any>'sme',
@@ -2952,63 +2953,63 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Lule Sami
-   * @description
+   * @description 
    * @default 'smj'
    */
   LuleSami = <any>'smj',
 
   /**
    * Inari Sami
-   * @description
+   * @description 
    * @default 'smn'
    */
   InariSami = <any>'smn',
 
   /**
    * Samoan
-   * @description
+   * @description 
    * @default 'smo'
    */
   Samoan = <any>'smo',
 
   /**
    * Skolt Sami
-   * @description
+   * @description 
    * @default 'sms'
    */
   SkoltSami = <any>'sms',
 
   /**
    * Shona
-   * @description
+   * @description 
    * @default 'sna'
    */
   Shona = <any>'sna',
 
   /**
    * Sindhi
-   * @description
+   * @description 
    * @default 'snd'
    */
   Sindhi = <any>'snd',
 
   /**
    * Soninke
-   * @description
+   * @description 
    * @default 'snk'
    */
   Soninke = <any>'snk',
 
   /**
    * Sogdian
-   * @description
+   * @description 
    * @default 'sog'
    */
   Sogdian = <any>'sog',
 
   /**
    * Somali
-   * @description
+   * @description 
    * @default 'som'
    */
   Somali = <any>'som',
@@ -3022,14 +3023,14 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Sotho; Sesotho
-   * @description
+   * @description 
    * @default 'sot'
    */
   SothoSesotho = <any>'sot',
 
   /**
    * Spanish
-   * @description
+   * @description 
    * @default 'spa'
    */
   Spanish = <any>'spa',
@@ -3050,7 +3051,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Sranan Tongo
-   * @description
+   * @description 
    * @default 'srn'
    */
   SrananTongo = <any>'srn',
@@ -3064,7 +3065,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Serer
-   * @description
+   * @description 
    * @default 'srr'
    */
   Serer = <any>'srr',
@@ -3078,35 +3079,35 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Swazi; Swati
-   * @description
+   * @description 
    * @default 'ssw'
    */
   SwaziSwati = <any>'ssw',
 
   /**
    * Sukuma
-   * @description
+   * @description 
    * @default 'suk'
    */
   Sukuma = <any>'suk',
 
   /**
    * Sundanese
-   * @description
+   * @description 
    * @default 'sun'
    */
   Sundanese = <any>'sun',
 
   /**
    * Susu
-   * @description
+   * @description 
    * @default 'sus'
    */
   Susu = <any>'sus',
 
   /**
    * Sumerian
-   * @description
+   * @description 
    * @default 'sux'
    */
   Sumerian = <any>'sux',
@@ -3120,14 +3121,14 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Swedish
-   * @description
+   * @description 
    * @default 'swe'
    */
   Swedish = <any>'swe',
 
   /**
    * Classical Syriac
-   * @description
+   * @description 
    * @default 'syc'
    */
   ClassicalSyriac = <any>'syc',
@@ -3141,7 +3142,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Tahitian
-   * @description
+   * @description 
    * @default 'tah'
    */
   Tahitian = <any>'tah',
@@ -3155,98 +3156,98 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Tamil
-   * @description
+   * @description 
    * @default 'tam'
    */
   Tamil = <any>'tam',
 
   /**
    * Tatar
-   * @description
+   * @description 
    * @default 'tat'
    */
   Tatar = <any>'tat',
 
   /**
    * Telugu
-   * @description
+   * @description 
    * @default 'tel'
    */
   Telugu = <any>'tel',
 
   /**
    * Temne; Time
-   * @description
+   * @description 
    * @default 'tem'
    */
   TemneTime = <any>'tem',
 
   /**
    * Terena
-   * @description
+   * @description 
    * @default 'ter'
    */
   Terena = <any>'ter',
 
   /**
    * Tetum
-   * @description
+   * @description 
    * @default 'tet'
    */
   Tetum = <any>'tet',
 
   /**
    * Tajik; Tajiki Persian
-   * @description
+   * @description 
    * @default 'tgk'
    */
   TajikTajikiPersian = <any>'tgk',
 
   /**
    * Tagalog
-   * @description
+   * @description 
    * @default 'tgl'
    */
   Tagalog = <any>'tgl',
 
   /**
    * Thai
-   * @description
+   * @description 
    * @default 'tha'
    */
   Thai = <any>'tha',
 
   /**
    * Tibetan
-   * @description
+   * @description 
    * @default 'tib'
    */
   Tibetan = <any>'tib',
 
   /**
    * Tigré
-   * @description
+   * @description 
    * @default 'tig'
    */
   Tigre = <any>'tig',
 
   /**
    * Tigrinya
-   * @description
+   * @description 
    * @default 'tir'
    */
   Tigrinya = <any>'tir',
 
   /**
    * Tiv
-   * @description
+   * @description 
    * @default 'tiv'
    */
   Tiv = <any>'tiv',
 
   /**
    * Tokelauan
-   * @description
+   * @description 
    * @default 'tkl'
    */
   Tokelauan = <any>'tkl',
@@ -3260,7 +3261,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Tlingit
-   * @description
+   * @description 
    * @default 'tli'
    */
   Tlingit = <any>'tli',
@@ -3274,28 +3275,28 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Tonga (Nyasa)
-   * @description
+   * @description 
    * @default 'tog'
    */
   Tonga = <any>'tog',
 
   /**
    * Tongan
-   * @description
+   * @description 
    * @default 'ton'
    */
   Tongan = <any>'ton',
 
   /**
    * Tok Pisin
-   * @description
+   * @description 
    * @default 'tpi'
    */
   TokPisin = <any>'tpi',
 
   /**
    * Tsimshian
-   * @description
+   * @description 
    * @default 'tsi'
    */
   Tsimshian = <any>'tsi',
@@ -3309,21 +3310,21 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Tsonga
-   * @description
+   * @description 
    * @default 'tso'
    */
   Tsonga = <any>'tso',
 
   /**
    * Turkmen
-   * @description
+   * @description 
    * @default 'tuk'
    */
   Turkmen = <any>'tuk',
 
   /**
    * Tumbuka
-   * @description
+   * @description 
    * @default 'tum'
    */
   Tumbuka = <any>'tum',
@@ -3337,35 +3338,35 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Turkish
-   * @description
+   * @description 
    * @default 'tur'
    */
   Turkish = <any>'tur',
 
   /**
    * Altaic languages
-   * @description
+   * @description 
    * @default 'tut'
    */
   AltaicLanguages = <any>'tut',
 
   /**
    * Tuvaluan
-   * @description
+   * @description 
    * @default 'tvl'
    */
   Tuvaluan = <any>'tvl',
 
   /**
    * Twi
-   * @description
+   * @description 
    * @default 'twi'
    */
   Twi = <any>'twi',
 
   /**
    * Tuvinian
-   * @description
+   * @description 
    * @default 'tyv'
    */
   Tuvinian = <any>'tyv',
@@ -3386,49 +3387,49 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Udmurt
-   * @description
+   * @description 
    * @default 'udm'
    */
   Udmurt = <any>'udm',
 
   /**
    * Ugaritic
-   * @description
+   * @description 
    * @default 'uga'
    */
   Ugaritic = <any>'uga',
 
   /**
    * Uighur; Uyghur
-   * @description
+   * @description 
    * @default 'uig'
    */
   UighurUyghur = <any>'uig',
 
   /**
    * Ukrainian
-   * @description
+   * @description 
    * @default 'ukr'
    */
   Ukrainian = <any>'ukr',
 
   /**
    * Umbundu
-   * @description
+   * @description 
    * @default 'umb'
    */
   Umbundu = <any>'umb',
 
   /**
    * Undetermined language
-   * @description
+   * @description 
    * @default 'und'
    */
   UndeterminedLanguage = <any>'und',
 
   /**
    * Urdu
-   * @description
+   * @description 
    * @default 'urd'
    */
   Urdu = <any>'urd',
@@ -3442,7 +3443,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Vai
-   * @description
+   * @description 
    * @default 'vai'
    */
   Vai = <any>'vai',
@@ -3456,14 +3457,14 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Venda
-   * @description
+   * @description 
    * @default 'ven'
    */
   Venda = <any>'ven',
 
   /**
    * Vietnamese
-   * @description
+   * @description 
    * @default 'vie'
    */
   Vietnamese = <any>'vie',
@@ -3477,7 +3478,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Votic
-   * @description
+   * @description 
    * @default 'vot'
    */
   Votic = <any>'vot',
@@ -3491,28 +3492,28 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Wolaitta; Wolaytta
-   * @description
+   * @description 
    * @default 'wal'
    */
   WolaittaWolaytta = <any>'wal',
 
   /**
    * Waray
-   * @description
+   * @description 
    * @default 'war'
    */
   Waray = <any>'war',
 
   /**
    * Washo
-   * @description
+   * @description 
    * @default 'was'
    */
   Washo = <any>'was',
 
   /**
    * Welsh
-   * @description
+   * @description 
    * @default 'wel'
    */
   Welsh = <any>'wel',
@@ -3526,7 +3527,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Walloon
-   * @description
+   * @description 
    * @default 'wln'
    */
   Walloon = <any>'wln',
@@ -3540,7 +3541,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Wolof
-   * @description
+   * @description 
    * @default 'wol'
    */
   Wolof = <any>'wol',
@@ -3554,14 +3555,14 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Kalmyk; Oirat
-   * @description
+   * @description 
    * @default 'xal'
    */
   KalmykOirat = <any>'xal',
 
   /**
    * Xhosa
-   * @description
+   * @description 
    * @default 'xho'
    */
   Xhosa = <any>'xho',
@@ -3575,14 +3576,14 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Yao
-   * @description
+   * @description 
    * @default 'yao'
    */
   Yao = <any>'yao',
 
   /**
    * Yapese
-   * @description
+   * @description 
    * @default 'yap'
    */
   Yapese = <any>'yap',
@@ -3596,7 +3597,7 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Yoruba
-   * @description
+   * @description 
    * @default 'yor'
    */
   Yoruba = <any>'yor',
@@ -3631,14 +3632,14 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Zenaga
-   * @description
+   * @description 
    * @default 'zen'
    */
   Zenaga = <any>'zen',
 
   /**
    * Standard Moroccan Tamazight
-   * @description
+   * @description 
    * @default 'zgh'
    */
   StandardMoroccanTamazight = <any>'zgh',
@@ -3659,21 +3660,21 @@ export enum LanguageBasedOnIso_639_2B {
 
   /**
    * Zulu
-   * @description
+   * @description 
    * @default 'zul'
    */
   Zulu = <any>'zul',
 
   /**
    * Zuni
-   * @description
+   * @description 
    * @default 'zun'
    */
   Zuni = <any>'zun',
 
   /**
    * No linguistic content
-   * @description
+   * @description 
    * @default 'zxx'
    */
   NoLinguisticContent = <any>'zxx',

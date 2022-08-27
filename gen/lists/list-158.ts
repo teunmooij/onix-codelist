@@ -7,6 +7,7 @@
  * @description List 158: Resource content type
  */
 export enum ResourceContentType {
+
   /**
    * Front cover
    * @description 2D
@@ -37,14 +38,14 @@ export enum ResourceContentType {
 
   /**
    * Series image / artwork
-   * @description
+   * @description 
    * @default '05'
    */
   SeriesImageArtwork = <any>'05',
 
   /**
    * Series logo
-   * @description
+   * @description 
    * @default '06'
    */
   SeriesLogo = <any>'06',
@@ -58,28 +59,28 @@ export enum ResourceContentType {
 
   /**
    * Product logo
-   * @description
+   * @description 
    * @default '08'
    */
   ProductLogo = <any>'08',
 
   /**
    * Publisher logo
-   * @description
+   * @description 
    * @default '09'
    */
   PublisherLogo = <any>'09',
 
   /**
    * Imprint logo
-   * @description
+   * @description 
    * @default '10'
    */
   ImprintLogo = <any>'10',
 
   /**
    * Contributor interview
-   * @description
+   * @description 
    * @default '11'
    */
   ContributorInterview = <any>'11',
@@ -93,7 +94,7 @@ export enum ResourceContentType {
 
   /**
    * Contributor reading
-   * @description
+   * @description 
    * @default '13'
    */
   ContributorReading = <any>'13',
@@ -135,7 +136,7 @@ export enum ResourceContentType {
 
   /**
    * Reading group guide
-   * @description
+   * @description 
    * @default '19'
    */
   ReadingGroupGuide = <any>'19',
@@ -163,14 +164,14 @@ export enum ResourceContentType {
 
   /**
    * Wallpaper / screensaver
-   * @description
+   * @description 
    * @default '23'
    */
   WallpaperScreensaver = <any>'23',
 
   /**
    * Press release
-   * @description
+   * @description 
    * @default '24'
    */
   PressRelease = <any>'24',
@@ -212,7 +213,7 @@ export enum ResourceContentType {
 
   /**
    * Master brand logo
-   * @description
+   * @description 
    * @default '30'
    */
   MasterBrandLogo = <any>'30',
@@ -282,7 +283,7 @@ export enum ResourceContentType {
 
   /**
    * Errata
-   * @description
+   * @description 
    * @default '40'
    */
   Errata = <any>'40',

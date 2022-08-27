@@ -7,6 +7,7 @@
  * @description List 230: Price constraint type
  */
 export enum PriceConstraintType {
+
   /**
    * No price-specific constraints
    * @description Allows positive indication that there are no additional constraints (other than those specified in <EpubUsageConstraint>). By convention, use 01 in <PriceConstraintStatus>

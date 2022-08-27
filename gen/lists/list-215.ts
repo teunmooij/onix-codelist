@@ -7,16 +7,17 @@
  * @description List 215: Proximity
  */
 export enum Proximity {
+
   /**
    * Less than
-   * @description
+   * @description 
    * @default '01'
    */
   LessThan = <any>'01',
 
   /**
    * Not more than
-   * @description
+   * @description 
    * @default '02'
    */
   NotMoreThan = <any>'02',
@@ -44,14 +45,14 @@ export enum Proximity {
 
   /**
    * Not less than
-   * @description
+   * @description 
    * @default '06'
    */
   NotLessThan = <any>'06',
 
   /**
    * More than
-   * @description
+   * @description 
    * @default '07'
    */
   MoreThan = <any>'07',

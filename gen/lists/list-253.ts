@@ -7,6 +7,7 @@
  * @description List 253: Resource file feature type
  */
 export enum ResourceFileFeatureType {
+
   /**
    * File format
    * @description Resource File Feature Value carries a code from List 178

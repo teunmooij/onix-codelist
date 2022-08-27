@@ -7,6 +7,7 @@
  * @description List 27: Subject scheme identifier
  */
 export enum SubjectSchemeIdentifier {
+
   /**
    * Dewey
    * @description Dewey Decimal Classification
@@ -16,7 +17,7 @@ export enum SubjectSchemeIdentifier {
 
   /**
    * Abridged Dewey
-   * @description
+   * @description 
    * @default '02'
    */
   AbridgedDewey = <any>'02',
@@ -93,35 +94,35 @@ export enum SubjectSchemeIdentifier {
 
   /**
    * BIC geographical qualifier
-   * @description
+   * @description 
    * @default '13'
    */
   BicGeographicalQualifier = <any>'13',
 
   /**
    * BIC language qualifier (language as subject)
-   * @description
+   * @description 
    * @default '14'
    */
   BicLanguageQualifier = <any>'14',
 
   /**
    * BIC time period qualifier
-   * @description
+   * @description 
    * @default '15'
    */
   BicTimePeriodQualifier = <any>'15',
 
   /**
    * BIC educational purpose qualifier
-   * @description
+   * @description 
    * @default '16'
    */
   BicEducationalPurposeQualifier = <any>'16',
 
   /**
    * BIC reading level and special interest qualifier
-   * @description
+   * @description 
    * @default '17'
    */
   BicReadingLevelAndSpecialInterestQualifier = <any>'17',
@@ -135,7 +136,7 @@ export enum SubjectSchemeIdentifier {
 
   /**
    * LC fiction genre heading
-   * @description
+   * @description 
    * @default '19'
    */
   LcFictionGenreHeading = <any>'19',
@@ -170,7 +171,7 @@ export enum SubjectSchemeIdentifier {
 
   /**
    * Publisher’s own category code
-   * @description
+   * @description 
    * @default '23'
    */
   PublisherOwnCategoryCode = <any>'23',
@@ -568,7 +569,7 @@ export enum SubjectSchemeIdentifier {
 
   /**
    * Japanese book trade Genre Code
-   * @description
+   * @description 
    * @default '79'
    */
   JapaneseBookTradeGenreCode = <any>'79',
@@ -582,7 +583,7 @@ export enum SubjectSchemeIdentifier {
 
   /**
    * Arabic Subject heading scheme
-   * @description
+   * @description 
    * @default '81'
    */
   ArabicSubjectHeadingScheme = <any>'81',
@@ -673,42 +674,42 @@ export enum SubjectSchemeIdentifier {
 
   /**
    * Thema place qualifier
-   * @description
+   * @description 
    * @default '94'
    */
   ThemaPlaceQualifier = <any>'94',
 
   /**
    * Thema language qualifier
-   * @description
+   * @description 
    * @default '95'
    */
   ThemaLanguageQualifier = <any>'95',
 
   /**
    * Thema time period qualifier
-   * @description
+   * @description 
    * @default '96'
    */
   ThemaTimePeriodQualifier = <any>'96',
 
   /**
    * Thema educational purpose qualifier
-   * @description
+   * @description 
    * @default '97'
    */
   ThemaEducationalPurposeQualifier = <any>'97',
 
   /**
    * Thema interest age / special interest qualifier
-   * @description
+   * @description 
    * @default '98'
    */
   ThemaInterestAgeSpecialInterestQualifier = <any>'98',
 
   /**
    * Thema style qualifier
-   * @description
+   * @description 
    * @default '99'
    */
   ThemaStyleQualifier = <any>'99',

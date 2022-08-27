@@ -7,6 +7,7 @@
  * @description List 34: Text format
  */
 export enum TextFormat {
+
   /**
    * HTML
    * @description Other than XHTML
@@ -23,7 +24,7 @@ export enum TextFormat {
 
   /**
    * XHTML
-   * @description
+   * @description 
    * @default '05'
    */
   Xhtml = <any>'05',

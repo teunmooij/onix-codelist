@@ -7,6 +7,7 @@
  * @description List 59: Price type qualifier
  */
 export enum PriceTypeQualifier {
+
   /**
    * Unqualified price
    * @description Price applies to all customers that do not fall within any other group with a specified group-specific qualified price
@@ -121,7 +122,7 @@ export enum PriceTypeQualifier {
 
   /**
    * Public library price
-   * @description
+   * @description 
    * @default '16'
    */
   PublicLibraryPrice = <any>'16',

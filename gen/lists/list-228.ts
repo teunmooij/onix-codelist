@@ -7,6 +7,7 @@
  * @description List 228: Grant identifier type
  */
 export enum GrantIdentifierType {
+
   /**
    * Proprietary
    * @description Note that <IDTypeName> is required with proprietary identifiers

@@ -7,6 +7,7 @@
  * @description List 65: Product availability
  */
 export enum ProductAvailability {
+
   /**
    * Cancelled
    * @description Product was announced, and subsequently abandoned by the publisher. No expected availability date should be included in <SupplyDate>

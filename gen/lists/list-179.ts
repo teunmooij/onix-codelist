@@ -7,6 +7,7 @@
  * @description List 179: Price code type
  */
 export enum PriceCodeType {
+
   /**
    * Proprietary
    * @description A publisher or retailer’s proprietary code list as specified in <PriceCodeTypeName> which identifies particular codes with particular price points, price tiers or bands

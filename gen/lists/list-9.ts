@@ -7,6 +7,7 @@
  * @description List 9: Product classification type
  */
 export enum ProductClassificationType {
+
   /**
    * WCO Harmonized System
    * @description World Customs Organization Harmonized Commodity Coding and Description System. Use 6 (or occasionally 8 or 10) digits, without punctuation

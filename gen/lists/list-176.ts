@@ -7,6 +7,7 @@
  * @description List 176: Operating system
  */
 export enum OperatingSystem {
+
   /**
    * Android
    * @description An Open Source mobile device operating system originally developed by Google and supported by the Open Handset Alliance

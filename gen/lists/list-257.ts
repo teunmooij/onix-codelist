@@ -7,30 +7,31 @@
  * @description List 257: Paper color
  */
 export enum PaperColor {
+
   /**
    * Bright white
-   * @description
+   * @description 
    * @default 'BRW'
    */
   BrightWhite = <any>'BRW',
 
   /**
    * White
-   * @description
+   * @description 
    * @default 'WHI'
    */
   White = <any>'WHI',
 
   /**
    * Off white
-   * @description
+   * @description 
    * @default 'OFW'
    */
   OffWhite = <any>'OFW',
 
   /**
    * Cream
-   * @description
+   * @description 
    * @default 'CRE'
    */
   Cream = <any>'CRE',

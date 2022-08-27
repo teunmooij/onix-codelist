@@ -7,14 +7,16 @@
   "scripts": {
     "start": "npm run generate && npm run lint:fix && npm run build",
     "build": "rimraf dist && tsc",
-    "generate": "rimraf gen && ts-node src/generate-lists.ts",
+    "generate": "rimraf gen && ts-node src/index.ts",
     "lint": "eslint gen/**/*.ts",
     "lint:fix": "eslint gen/**/*.ts --quiet --fix",
     "lint:scripts": "eslint src/**/*.ts",
     "lint:scripts:fix": "eslint src/**/*.ts --quiet --fix",
+    "test": "jest -c jest.config.js",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
+    "@types/jest": "^28.1.8",
     "@types/ramda": "^0.28.15",
     "@typescript-eslint/eslint-plugin": "^5.32.0",
     "@typescript-eslint/parser": "^5.32.0",
@@ -29,8 +31,10 @@
     "handlebars": "^4.7.7",
     "htmlparser2": "^8.0.1",
     "husky": "^4.3.8",
+    "jest": "^28.1.2",
     "ramda": "^0.28.0",
     "rimraf": "^3.0.2",
+    "ts-jest": "^28.0.8",
     "ts-node": "^10.9.1",
     "typescript": "^4.7.4",
     "xml-js": "^1.6.11"

@@ -7,6 +7,7 @@
  * @description List 92: Supplier identifier type
  */
 export enum SupplierIdentifierType {
+
   /**
    * Proprietary
    * @description Note that <IDTypeName> is required with proprietary identifiers
@@ -24,14 +25,14 @@ export enum SupplierIdentifierType {
 
   /**
    * Börsenverein Verkehrsnummer
-   * @description
+   * @description 
    * @default '04'
    */
   BorsenvereinVerkehrsnummer = <any>'04',
 
   /**
    * German ISBN Agency publisher identifier
-   * @description
+   * @description 
    * @default '05'
    */
   GermanIsbnAgencyPublisherIdentifier = <any>'05',

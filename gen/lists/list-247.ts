@@ -7,6 +7,7 @@
  * @description List 247: Event occurrence date role
  */
 export enum EventOccurrenceDateRole {
+
   /**
    * Date of occurrence
    * @description Date and (with the default dateformat) time the event occurrence begins

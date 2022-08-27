@@ -3,6 +3,9 @@ import renderDom from 'dom-serializer';
 import { Document } from 'domhandler';
 import { xml2js } from 'xml-js';
 
+/**
+ * Lists known for net yet having a definition
+ */
 const awaitingDefinition = ['88', '251'];
 
 type Row<elem extends string> = {

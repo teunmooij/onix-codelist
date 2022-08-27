@@ -7,6 +7,7 @@
  * @description List 50: Measure unit
  */
 export enum MeasureUnit {
+
   /**
    * Centimeters
    * @description Millimeters are the preferred metric unit of length
@@ -16,14 +17,14 @@ export enum MeasureUnit {
 
   /**
    * Grams
-   * @description
+   * @description 
    * @default 'gr'
    */
   Grams = <any>'gr',
 
   /**
    * Inches (US)
-   * @description
+   * @description 
    * @default 'in'
    */
   Inches = <any>'in',
@@ -37,28 +38,28 @@ export enum MeasureUnit {
 
   /**
    * Pounds (US)
-   * @description
+   * @description 
    * @default 'lb'
    */
   Pounds = <any>'lb',
 
   /**
    * Millimeters
-   * @description
+   * @description 
    * @default 'mm'
    */
   Millimeters = <any>'mm',
 
   /**
    * Ounces (US)
-   * @description
+   * @description 
    * @default 'oz'
    */
   Ounces = <any>'oz',
 
   /**
    * Pixels
-   * @description
+   * @description 
    * @default 'px'
    */
   Pixels = <any>'px',

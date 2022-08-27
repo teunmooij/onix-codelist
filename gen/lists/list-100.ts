@@ -7,6 +7,7 @@
  * @description List 100: Discount code type
  */
 export enum DiscountCodeType {
+
   /**
    * BIC discount group code
    * @description UK publisher’s or distributor’s discount group code in a format specified by BIC to ensure uniqueness (a five-letter prefix allocated by BIC, plus one to three alphanumeric characters – normally digits – chosen by the supplier)

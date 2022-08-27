@@ -7,6 +7,7 @@
  * @description List 148: Collection type
  */
 export enum CollectionType {
+
   /**
    * Unspecified (default)
    * @description Collection type is not determined

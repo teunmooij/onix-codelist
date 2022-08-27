@@ -7,6 +7,7 @@
  * @description List 99: Special cover material
  */
 export enum SpecialCoverMaterial {
+
   /**
    * Berkshire leather
    * @description Pigskin
@@ -16,7 +17,7 @@ export enum SpecialCoverMaterial {
 
   /**
    * Calfskin
-   * @description
+   * @description 
    * @default '02'
    */
   Calfskin = <any>'02',
@@ -37,77 +38,77 @@ export enum SpecialCoverMaterial {
 
   /**
    * Bonded buffalo grain
-   * @description
+   * @description 
    * @default '05'
    */
   BondedBuffaloGrain = <any>'05',
 
   /**
    * Bonded calf grain
-   * @description
+   * @description 
    * @default '06'
    */
   BondedCalfGrain = <any>'06',
 
   /**
    * Bonded Cordova
-   * @description
+   * @description 
    * @default '07'
    */
   BondedCordova = <any>'07',
 
   /**
    * Bonded eelskin
-   * @description
+   * @description 
    * @default '08'
    */
   BondedEelskin = <any>'08',
 
   /**
    * Bonded Ostraleg
-   * @description
+   * @description 
    * @default '09'
    */
   BondedOstraleg = <any>'09',
 
   /**
    * Bonded ostrich
-   * @description
+   * @description 
    * @default '10'
    */
   BondedOstrich = <any>'10',
 
   /**
    * Bonded reptile grain
-   * @description
+   * @description 
    * @default '11'
    */
   BondedReptileGrain = <any>'11',
 
   /**
    * Bonded leather
-   * @description
+   * @description 
    * @default '12'
    */
   BondedLeather = <any>'12',
 
   /**
    * Cowhide
-   * @description
+   * @description 
    * @default '13'
    */
   Cowhide = <any>'13',
 
   /**
    * Eelskin
-   * @description
+   * @description 
    * @default '14'
    */
   Eelskin = <any>'14',
 
   /**
    * Kivar
-   * @description
+   * @description 
    * @default '15'
    */
   Kivar = <any>'15',
@@ -121,21 +122,21 @@ export enum SpecialCoverMaterial {
 
   /**
    * Moleskin
-   * @description
+   * @description 
    * @default '17'
    */
   Moleskin = <any>'17',
 
   /**
    * Softhide leather
-   * @description
+   * @description 
    * @default '18'
    */
   SofthideLeather = <any>'18',
 
   /**
    * Metal
-   * @description
+   * @description 
    * @default '19'
    */
   Metal = <any>'19',
@@ -156,7 +157,7 @@ export enum SpecialCoverMaterial {
 
   /**
    * Papyrus
-   * @description
+   * @description 
    * @default '22'
    */
   Papyrus = <any>'22',
@@ -184,14 +185,14 @@ export enum SpecialCoverMaterial {
 
   /**
    * Pigskin
-   * @description
+   * @description 
    * @default '26'
    */
   Pigskin = <any>'26',
 
   /**
    * Goatskin
-   * @description
+   * @description 
    * @default '27'
    */
   Goatskin = <any>'27',

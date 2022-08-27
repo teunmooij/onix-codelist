@@ -7,9 +7,10 @@
  * @description List 150: Product form
  */
 export enum ProductForm {
+
   /**
    * Undefined
-   * @description
+   * @description 
    * @default '00'
    */
   Undefined = <any>'00',
@@ -72,7 +73,7 @@ export enum ProductForm {
 
   /**
    * DVD Audio
-   * @description
+   * @description 
    * @default 'AI'
    */
   DvdAudio = <any>'AI',
@@ -254,14 +255,14 @@ export enum ProductForm {
 
   /**
    * Sheet map, folded
-   * @description
+   * @description 
    * @default 'CB'
    */
   SheetMapFolded = <any>'CB',
 
   /**
    * Sheet map, flat
-   * @description
+   * @description 
    * @default 'CC'
    */
   SheetMapFlat = <any>'CC',
@@ -303,7 +304,7 @@ export enum ProductForm {
 
   /**
    * CD-ROM
-   * @description
+   * @description 
    * @default 'DB'
    */
   CdRom = <any>'DB',
@@ -317,7 +318,7 @@ export enum ProductForm {
 
   /**
    * Game cartridge
-   * @description
+   * @description 
    * @default 'DE'
    */
   GameCartridge = <any>'DE',
@@ -331,35 +332,35 @@ export enum ProductForm {
 
   /**
    * DVD-ROM
-   * @description
+   * @description 
    * @default 'DI'
    */
   DvdRom = <any>'DI',
 
   /**
    * Secure Digital (SD) Memory Card
-   * @description
+   * @description 
    * @default 'DJ'
    */
   SecureDigitalMemoryCard = <any>'DJ',
 
   /**
    * Compact Flash Memory Card
-   * @description
+   * @description 
    * @default 'DK'
    */
   CompactFlashMemoryCard = <any>'DK',
 
   /**
    * Memory Stick Memory Card
-   * @description
+   * @description 
    * @default 'DL'
    */
   MemoryStickMemoryCard = <any>'DL',
 
   /**
    * USB Flash Drive
-   * @description
+   * @description 
    * @default 'DM'
    */
   UsbFlashDrive = <any>'DM',
@@ -478,7 +479,7 @@ export enum ProductForm {
 
   /**
    * Microfiche
-   * @description
+   * @description 
    * @default 'MB'
    */
   Microfiche = <any>'MB',
@@ -513,7 +514,7 @@ export enum ProductForm {
 
   /**
    * Calendar
-   * @description
+   * @description 
    * @default 'PC'
    */
   Calendar = <any>'PC',
@@ -590,21 +591,21 @@ export enum ProductForm {
 
   /**
    * Pictures or photographs
-   * @description
+   * @description 
    * @default 'PN'
    */
   PicturesOrPhotographs = <any>'PN',
 
   /**
    * Wallchart
-   * @description
+   * @description 
    * @default 'PO'
    */
   Wallchart = <any>'PO',
 
   /**
    * Stickers
-   * @description
+   * @description 
    * @default 'PP'
    */
   Stickers = <any>'PP',
@@ -632,7 +633,7 @@ export enum ProductForm {
 
   /**
    * Bookmark
-   * @description
+   * @description 
    * @default 'PT'
    */
   Bookmark = <any>'PT',
@@ -793,7 +794,7 @@ export enum ProductForm {
 
   /**
    * Dumpbin – empty
-   * @description
+   * @description 
    * @default 'XB'
    */
   DumpbinEmpty = <any>'XB',
@@ -807,7 +808,7 @@ export enum ProductForm {
 
   /**
    * Counterpack – empty
-   * @description
+   * @description 
    * @default 'XD'
    */
   CounterpackEmpty = <any>'XD',
@@ -828,7 +829,7 @@ export enum ProductForm {
 
   /**
    * Shelf strip
-   * @description
+   * @description 
    * @default 'XG'
    */
   ShelfStrip = <any>'XG',
@@ -842,14 +843,14 @@ export enum ProductForm {
 
   /**
    * Streamer
-   * @description
+   * @description 
    * @default 'XI'
    */
   Streamer = <any>'XI',
 
   /**
    * Spinner – empty
-   * @description
+   * @description 
    * @default 'XJ'
    */
   SpinnerEmpty = <any>'XJ',
@@ -940,7 +941,7 @@ export enum ProductForm {
 
   /**
    * T-shirt
-   * @description
+   * @description 
    * @default 'ZF'
    */
   TShirt = <any>'ZF',

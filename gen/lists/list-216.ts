@@ -7,6 +7,7 @@
  * @description List 216: Velocity metric
  */
 export enum VelocityMetric {
+
   /**
    * Mean daily sale
    * @description Typically measured over most recent 1 month period

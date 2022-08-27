@@ -7,6 +7,7 @@
  * @description List 143: US CPSIA or other international hazard warning type
  */
 export enum UsCpsiaOrOtherInternationalHazardWarningType {
+
   /**
    * WARNING: CHOKING HAZARD – Small parts | Not for children under 3 yrs.
    * @description Required on applicable products sold in the US
@@ -19,9 +20,7 @@ export enum UsCpsiaOrOtherInternationalHazardWarningType {
    * @description Required on applicable products sold in the US
    * @default '02'
    */
-  WarningChokingHazardChildrenUnder_8YrsCanChokeOrSuffocateOnUninflatedOrBrokenBalloonsAdultSupervisionRequiredKeepUninflatedBalloonsFromChildrenDiscardBrokenBalloonsAtOnce = <
-    any
-  >'02',
+  WarningChokingHazardChildrenUnder_8YrsCanChokeOrSuffocateOnUninflatedOrBrokenBalloonsAdultSupervisionRequiredKeepUninflatedBalloonsFromChildrenDiscardBrokenBalloonsAtOnce = <any>'02',
 
   /**
    * WARNING: CHOKING HAZARD – This toy is a small ball | Not for children under 3 yrs.

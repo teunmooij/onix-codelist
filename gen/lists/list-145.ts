@@ -7,6 +7,7 @@
  * @description List 145: Usage type
  */
 export enum UsageType {
+
   /**
    * No constraints
    * @description Allows positive indication that there are no particular constraints (that can be specifed in <EpubUsageConstraint>). By convention, use 01 in <EpubUsageStatus>

@@ -7,16 +7,17 @@
  * @description List 3: Record source type
  */
 export enum RecordSourceType {
+
   /**
    * Unspecified
-   * @description
+   * @description 
    * @default '00'
    */
   Unspecified = <any>'00',
 
   /**
    * Publisher
-   * @description
+   * @description 
    * @default '01'
    */
   Publisher = <any>'01',
@@ -30,7 +31,7 @@ export enum RecordSourceType {
 
   /**
    * Wholesaler
-   * @description
+   * @description 
    * @default '03'
    */
   Wholesaler = <any>'03',
@@ -72,14 +73,14 @@ export enum RecordSourceType {
 
   /**
    * ISBN Registration Agency
-   * @description
+   * @description 
    * @default '09'
    */
   IsbnRegistrationAgency = <any>'09',
 
   /**
    * ISTC Registration Agency
-   * @description
+   * @description 
    * @default '10'
    */
   IstcRegistrationAgency = <any>'10',

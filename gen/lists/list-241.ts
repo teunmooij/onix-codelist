@@ -7,6 +7,7 @@
  * @description List 241: AV Item Identifier type
  */
 export enum AvItemIdentifierType {
+
   /**
    * Proprietary
    * @description For example, a publisher’s own identifier. Note that <IDTypeName> is required with proprietary identifiers

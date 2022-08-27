@@ -7,6 +7,7 @@
  * @description List 102: Sales outlet identifier type
  */
 export enum SalesOutletIdentifierType {
+
   /**
    * Proprietary
    * @description Proprietary list of retail and other end-user sales outlet IDs. Note that <IDTypeName> is required with proprietary identifiers

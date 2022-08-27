@@ -7,6 +7,7 @@
  * @description List 69: Agent role
  */
 export enum AgentRole {
+
   /**
    * Exclusive sales agent
    * @description Publisher’s exclusive sales agent in a specified territory

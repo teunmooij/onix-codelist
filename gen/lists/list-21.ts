@@ -7,6 +7,7 @@
  * @description List 21: Edition type
  */
 export enum EditionType {
+
   /**
    * Abridged edition
    * @description Content has been shortened: use for abridged, shortened, concise, condensed

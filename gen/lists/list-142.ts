@@ -7,6 +7,7 @@
  * @description List 142: Position on product
  */
 export enum PositionOnProduct {
+
   /**
    * Unknown / unspecified
    * @description Position unknown or unspecified
