@@ -77,21 +77,21 @@ export enum ExtentUnit {
    * @description Fill with leading zeroes if any elements are missing
    * @default '14'
    */
-  HoursHhh = <any>'14',
+  HoursHHH = <any>'14',
 
   /**
    * Hours and minutes HHHMM
    * @description Fill with leading zeroes if any elements are missing
    * @default '15'
    */
-  HoursAndMinutesHhhmm = <any>'15',
+  HoursAndMinutesHHHMM = <any>'15',
 
   /**
    * Hours minutes seconds HHHMMSS
    * @description Fill with leading zeroes if any elements are missing. If centisecond precision is required, use HHHMMSScc (in ONIX 3.0 only)
    * @default '16'
    */
-  HoursMinutesSecondsHhhmmss = <any>'16',
+  HoursMinutesSecondsHHHMMSS = <any>'16',
 
   /**
    * Bytes

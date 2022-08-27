@@ -21,7 +21,7 @@ export enum DiscountType {
    * @description Additional discount may be applied retrospectively, based on number of units ordered over a specific period
    * @default '02'
    */
-  RisingDiscount_1 = <any>'02',
+  RisingDiscountCumulative = <any>'02',
 
   /**
    * Progressive discount
@@ -35,5 +35,5 @@ export enum DiscountType {
    * @description Previous orders within a specific time period are counted when calculating a progressive discount
    * @default '04'
    */
-  ProgressiveDiscount_1 = <any>'04',
+  ProgressiveDiscountCumulative = <any>'04',
 }

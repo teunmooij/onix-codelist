@@ -125,13 +125,6 @@ export enum AudienceRangeQualifier {
   FinnishUpperSecondarySchoolCourse = <any>'28',
 
   /**
-   * Finnish Upper secondary school course (2021+)
-   * @description For use in ONIX 3.0 only
-   * @default '33'
-   */
-  FinnishUpperSecondarySchoolCourse_1 = <any>'33',
-
-  /**
    * Chinese School Grade range
    * @description Values are P, K, 1–17 (including college-level audiences), see List 227
    * @default '29'
@@ -158,6 +151,13 @@ export enum AudienceRangeQualifier {
    * @default '32'
    */
   FrenchEducationalLevels = <any>'32',
+
+  /**
+   * Finnish Upper secondary school course (2021+)
+   * @description For use in ONIX 3.0 only
+   * @default '33'
+   */
+  FinnishUpperSecondarySchoolCourse_2021 = <any>'33',
 
   /**
    * Detailed French educational levels

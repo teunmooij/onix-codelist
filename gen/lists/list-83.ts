@@ -122,13 +122,6 @@ export enum BibleVersion {
   Raamattu = <any>'FRA',
 
   /**
-   * Raamattu (1992)
-   * @description Finnish Bible translation
-   * @default 'FRM'
-   */
-  Raamattu_1 = <any>'FRM',
-
-  /**
    * Raamattu kansalle
    * @description Finnish Bible translation
    * @default 'FRK'
@@ -136,11 +129,18 @@ export enum BibleVersion {
   RaamattuKansalle = <any>'FRK',
 
   /**
+   * Raamattu (1992)
+   * @description Finnish Bible translation
+   * @default 'FRM'
+   */
+  Raamattu_1992 = <any>'FRM',
+
+  /**
    * God’s Word
    * @description A 1995 translation by the World Bible Publishing Company using the English language in a manner to communicate to the late 20th century American
    * @default 'GDW'
    */
-  GodWord = <any>'GDW',
+  GodsWord = <any>'GDW',
 
   /**
    * Geneva

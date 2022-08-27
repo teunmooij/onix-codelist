@@ -35,47 +35,47 @@ export enum OnixAdultAudienceRating {
    * @description The publisher warns the product includes content of an explicit sexual nature
    * @default '03'
    */
-  ContentWarning_1 = <any>'03',
+  ContentWarningSex = <any>'03',
 
   /**
    * Content warning (violence)
    * @description The publisher warns the product includes content of an extreme violent nature
    * @default '04'
    */
-  ContentWarning_2 = <any>'04',
+  ContentWarningViolence = <any>'04',
 
   /**
    * Content warning (drug-taking)
    * @description The publisher warns the product includes content involving severe misuse of drugs
    * @default '05'
    */
-  ContentWarning_3 = <any>'05',
+  ContentWarningDrugTaking = <any>'05',
 
   /**
    * Content warning (language)
    * @description The publisher warns the product includes extreme / offensive / explicit language
    * @default '06'
    */
-  ContentWarning_4 = <any>'06',
+  ContentWarningLanguage = <any>'06',
 
   /**
    * Content warning (intolerance)
    * @description The publisher warns the product includes content involving severe intolerance or abuse of particular groups (eg religious, ethnic, racial, gendered and other social groups)
    * @default '07'
    */
-  ContentWarning_5 = <any>'07',
+  ContentWarningIntolerance = <any>'07',
 
   /**
    * Content warning (abuse)
    * @description The publisher warns the product includes content involving sexual or extreme domestic abuse (including both mental and physical abuse)
    * @default '08'
    */
-  ContentWarning_6 = <any>'08',
+  ContentWarningAbuse = <any>'08',
 
   /**
    * Content warning (self-harm)
    * @description The publisher warns the product includes content involving severe self-harm (including serious eating disorders)
    * @default '09'
    */
-  ContentWarning_7 = <any>'09',
+  ContentWarningSelfHarm = <any>'09',
 }

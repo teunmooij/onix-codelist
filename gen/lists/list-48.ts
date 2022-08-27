@@ -70,14 +70,7 @@ export enum MeasureType {
    * @description Of a globe, for example
    * @default '09'
    */
-  Diameter = <any>'09',
-
-  /**
-   * Diameter (tube or cylinder)
-   * @description The diameter of the cross-section of a tube or cylinder, usually carrying a rolled sheet product. Use 01 ‘Height’ for the height or length of the tube
-   * @default '12'
-   */
-  Diameter_1 = <any>'12',
+  DiameterSphere = <any>'09',
 
   /**
    * Unfolded/unrolled sheet height
@@ -92,6 +85,13 @@ export enum MeasureType {
    * @default '11'
    */
   UnfoldedUnrolledSheetWidth = <any>'11',
+
+  /**
+   * Diameter (tube or cylinder)
+   * @description The diameter of the cross-section of a tube or cylinder, usually carrying a rolled sheet product. Use 01 ‘Height’ for the height or length of the tube
+   * @default '12'
+   */
+  DiameterCylinder = <any>'12',
 
   /**
    * Rolled sheet package side measure

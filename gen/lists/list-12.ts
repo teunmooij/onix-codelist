@@ -42,7 +42,7 @@ export enum TradeCategory {
    * @description Edition produced solely for sale in designated export markets
    * @default '05'
    */
-  InternationalEdition_US = <any>'05',
+  InternationalEditionUS = <any>'05',
 
   /**
    * Library audio edition

@@ -294,14 +294,7 @@ export enum ProductForm {
    * @description Digital content delivered on a physical carrier (detail unspecified)
    * @default 'DA'
    */
-  Digital = <any>'DA',
-
-  /**
-   * Digital (delivered electronically)
-   * @description Digital content delivered electronically (delivery method unspecified)
-   * @default 'EA'
-   */
-  Digital_1 = <any>'EA',
+  DigitalPhysicalCarrier = <any>'DA',
 
   /**
    * CD-ROM
@@ -386,6 +379,13 @@ export enum ProductForm {
    * @default 'DZ'
    */
   OtherDigitalCarrier = <any>'DZ',
+
+  /**
+   * Digital (delivered electronically)
+   * @description Digital content delivered electronically (delivery method unspecified)
+   * @default 'EA'
+   */
+  Digital = <any>'EA',
 
   /**
    * Digital download and online

@@ -14,14 +14,14 @@ export enum BibleContents {
    * @description The seven portions of the Apocrypha added to the Catholic canon at the Council of Trent in 1546: Tobit; Judith; Wisdom of Solomon; Sirach (Ecclesiasticus); Baruch, including the Letter of Jeremiah; I and II Maccabees; Extra portions of Esther and Daniel (Additions to Esther; the Prayer of Azariah; Song of the Three Jews; Susannah; Bel and the Dragon). These are not generally included in the Protestant canon
    * @default 'AP'
    */
-  Apocrypha = <any>'AP',
+  ApocryphaCatholic = <any>'AP',
 
   /**
    * Apocrypha (canon unspecified)
    * @description A collection of Apocryphal texts, canon not specified
    * @default 'AQ'
    */
-  Apocrypha_1 = <any>'AQ',
+  Apocrypha = <any>'AQ',
 
   /**
    * Additional Apocryphal texts: Greek Orthodox canon
@@ -49,14 +49,14 @@ export enum BibleContents {
    * @description The 66 books included in the Protestant, Catholic and Orthodox canons, together with the seven portions of the Apocrypha included in the Catholic canon. (Equivalent to OT plus NT plus AP)
    * @default 'GA'
    */
-  GeneralCanonWithApocrypha = <any>'GA',
+  GeneralCanonWithApocryphaCatholic = <any>'GA',
 
   /**
    * General canon with Apocryphal texts (canon unspecified)
    * @description The 66 books included in the Protestant, Catholic and Orthodox canons, together with Apocryphal texts, canon not specified. (Equivalent to OT plus NT plus AQ)
    * @default 'GC'
    */
-  GeneralCanonWithApocryphalTexts = <any>'GC',
+  GeneralCanonWithApocrypha = <any>'GC',
 
   /**
    * General canon

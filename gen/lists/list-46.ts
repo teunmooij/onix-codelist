@@ -51,26 +51,26 @@ export enum SalesRightsType {
    * @description 
    * @default '03'
    */
-  NotForSaleInTheSpecifiedCountriesOrTerritories = <any>'03',
+  NotForSaleInTheSpecifiedCountries = <any>'03',
 
   /**
    * Not for sale in the specified countries (but publisher holds exclusive rights in those countries or territories)
    * @description 
    * @default '04'
    */
-  NotForSaleInTheSpecifiedCountries = <any>'04',
+  NotForSaleInTheSpecifiedCountriesExclusiveRights = <any>'04',
 
   /**
    * Not for sale in the specified countries (publisher holds non-exclusive rights in those countries or territories)
    * @description 
    * @default '05'
    */
-  NotForSaleInTheSpecifiedCountries_1 = <any>'05',
+  NotForSaleInTheSpecifiedCountriesNonExclusiveRights = <any>'05',
 
   /**
    * Not for sale in the specified countries (because publisher does not hold rights in those countries or territories)
    * @description 
    * @default '06'
    */
-  NotForSaleInTheSpecifiedCountries_2 = <any>'06',
+  NotForSaleInTheSpecifiedCountriesNoRights = <any>'06',
 }

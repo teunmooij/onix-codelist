@@ -317,14 +317,7 @@ export enum ProductFormDetail {
    * @description In North America, a category of paperback characterized partly by page size (larger than rack-sized) and partly by target market and terms of trade. AKA ‘quality paperback’, and including textbooks. Most paperback books sold in North America except ‘mass-market’ (B101) and ‘tall rack’ (B107) are correctly described with this code. Use with Product Form code BC
    * @default 'B102'
    */
-  TradePaperback = <any>'B102',
-
-  /**
-   * Trade paperback (UK)
-   * @description In UK and IE, a category of paperback characterized largely by size (usually in traditional hardback dimensions), and often used for paperback originals or retailer/travel/export-exclusives; use with Product Form code BC
-   * @default 'B106'
-   */
-  TradePaperback_1 = <any>'B106',
+  TradePaperbackUS = <any>'B102',
 
   /**
    * Digest format paperback
@@ -346,6 +339,13 @@ export enum ProductFormDetail {
    * @default 'B105'
    */
   BFormatPaperback = <any>'B105',
+
+  /**
+   * Trade paperback (UK)
+   * @description In UK and IE, a category of paperback characterized largely by size (usually in traditional hardback dimensions), and often used for paperback originals or retailer/travel/export-exclusives; use with Product Form code BC
+   * @default 'B106'
+   */
+  TradePaperback = <any>'B106',
 
   /**
    * Tall rack paperback (US)
@@ -520,7 +520,7 @@ export enum ProductFormDetail {
    * @description German large paperback format, greater than about 205mm high, with flaps. Use with Product form code BC
    * @default 'B131'
    */
-  Paperback = <any>'B131',
+  PaperbackDE = <any>'B131',
 
   /**
    * Libro de bolsillo

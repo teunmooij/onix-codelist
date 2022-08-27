@@ -73,13 +73,6 @@ export enum AudienceCodeType {
   Avi = <any>'09',
 
   /**
-   * AVI (revised)
-   * @description Code list used to specify reading levels for children’s books, used in the Netherlands – see also code 09
-   * @default '18'
-   */
-  Avi_1 = <any>'18',
-
-  /**
    * USK rating
    * @description German USK (Unterhaltungssoftware Selbstkontrolle) rating applied to video or computer games
    * @default '10'
@@ -136,6 +129,13 @@ export enum AudienceCodeType {
   NielsenBookAudienceCode = <any>'17',
 
   /**
+   * AVI (revised)
+   * @description Code list used to specify reading levels for children’s books, used in the Netherlands – see also code 09
+   * @default '18'
+   */
+  AviRevised = <any>'18',
+
+  /**
    * Lexile measure
    * @description Lexile measure (the Lexile measure in <AudienceCodeValue> may optionally be prefixed by the Lexile code). Examples might be ‘880L’, ‘AD0L’ or ‘HL600L’. Deprecated – use <Complexity> instead
    * @deprecated
@@ -170,7 +170,7 @@ export enum AudienceCodeType {
    * @description Codes A1 to C2 indicating standardised level of language learning or teaching material, from beginner to advanced, defined by the Council of Europe (see http://www.coe.int/lang-CEFR)
    * @default '23'
    */
-  CommonEuropeanFrameworkOfReferenceForLanguageLearning = <any>'23',
+  CEFR = <any>'23',
 
   /**
    * Korean Publication Ethics Commission rating

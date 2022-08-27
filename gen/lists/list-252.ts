@@ -168,12 +168,12 @@ export enum ResourceFileDetailCode {
    * @description 
    * @default 'B010'
    */
-  Composite = <any>'B010',
+  CompositeCMYK = <any>'B010',
 
   /**
    * Composite (RGB)
    * @description 
    * @default 'B011'
    */
-  Composite_1 = <any>'B011',
+  CompositeRGB = <any>'B011',
 }

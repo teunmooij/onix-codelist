@@ -707,14 +707,7 @@ export enum ContributorRoleCode {
    * @description Name of a musical group in a performing role
    * @default 'E08'
    */
-  PerformedBy = <any>'E08',
-
-  /**
-   * Performed by
-   * @description Other type of performer not specified above: use for a recorded performance which does not fit a category above, eg a performance by a stand-up comedian
-   * @default 'E99'
-   */
-  PerformedBy_1 = <any>'E99',
+  PerformedByMusicalGroup = <any>'E08',
 
   /**
    * Speaker
@@ -729,6 +722,13 @@ export enum ContributorRoleCode {
    * @default 'E10'
    */
   Presenter = <any>'E10',
+
+  /**
+   * Performed by
+   * @description Other type of performer not specified above: use for a recorded performance which does not fit a category above, eg a performance by a stand-up comedian
+   * @default 'E99'
+   */
+  PerformedBy = <any>'E99',
 
   /**
    * Filmed/photographed by

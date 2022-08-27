@@ -150,13 +150,6 @@ export enum SubjectSchemeIdentifier {
   Keywords = <any>'20',
 
   /**
-   * Keywords (not for display)
-   * @description For indexing and search purposes, MUST not be displayed. Where multiple keywords or keyword phrases are sent, this should be in a single instance of the <SubjectHeadingText> element, and it is recommended that they should be separated by semi-colons. Use of code B2 should be very rare: use B2 in preference to code 20 only where it is important to show the keyword list is specifically NOT for display to purchasers (eg some keywords for a medical textbook may appear offensive if displayed out of context)
-   * @default 'B2'
-   */
-  Keywords_1 = <any>'B2',
-
-  /**
    * BIC children’s book marketing category
    * @description See PA/BIC CBMC guidelines at http://www.bic.org.uk/8/Children%27s-Books-Marketing-Classifications/
    * @default '21'
@@ -784,6 +777,13 @@ export enum SubjectSchemeIdentifier {
    * @default 'B1'
    */
   BisgEducationalTaxonomy = <any>'B1',
+
+  /**
+   * Keywords (not for display)
+   * @description For indexing and search purposes, MUST not be displayed. Where multiple keywords or keyword phrases are sent, this should be in a single instance of the <SubjectHeadingText> element, and it is recommended that they should be separated by semi-colons. Use of code B2 should be very rare: use B2 in preference to code 20 only where it is important to show the keyword list is specifically NOT for display to purchasers (eg some keywords for a medical textbook may appear offensive if displayed out of context)
+   * @default 'B2'
+   */
+  KeywordsNotForDisplay = <any>'B2',
 
   /**
    * Nomenclature Diplôme
