@@ -77,6 +77,19 @@ export const overrides: Partial<Record<string, Override>> = {
   },
   66: { aliases: ['BISACReturnableIndicator'] },
   74: { aliases: ['Language'] },
+  82: {
+    values: [
+      { from: 'Apocrypha (Catholic canon)', to: 'ApocryphaCatholic' },
+      { from: 'General canon with Apocrypha (Catholic canon)', to: 'GeneralCanonWithApocryphaCatholic' },
+      { from: 'General canon with Apocryphal texts (canon unspecified)', to: 'GeneralCanonWithApocrypha' },
+    ],
+  },
+  83: {
+    values: [
+      { from: 'Raamattu (1992)', to: 'Raamattu_1992' },
+      { from: 'God’s Word', to: 'GodsWord' },
+    ],
+  },
   91: { aliases: ['Country'] },
   96: { aliases: ['Currency'] },
   121: {
