@@ -42,7 +42,7 @@ export enum BiblePurpose {
    * @description A text Bible (or selected Biblical text) designed in presentation and readability for a child
    * @default 'CH'
    */
-  ChildrenS = <any>'CH',
+  Childrens = <any>'CH',
 
   /**
    * Compact
@@ -105,7 +105,7 @@ export enum BiblePurpose {
    * @description A Bible (or selected Biblical text) especially designed with helps and study guides oriented to the adult male
    * @default 'MN'
    */
-  MenS = <any>'MN',
+  Mens = <any>'MN',
 
   /**
    * Primary school
@@ -161,7 +161,7 @@ export enum BiblePurpose {
    * @description A devotional or study Bible (or selected Biblical text) with helps targeted at the adult woman
    * @default 'WM'
    */
-  WomenS = <any>'WM',
+  Womens = <any>'WM',
 
   /**
    * Youth

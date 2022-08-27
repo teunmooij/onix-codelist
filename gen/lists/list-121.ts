@@ -49,7 +49,7 @@ export enum TextScriptBasedOnIso_15924 {
    * @description Typographic variant of Arabic. For use in ONIX 3.0 only
    * @default 'Aran'
    */
-  Arabic_1 = <any>'Aran',
+  NastaliqArabic = <any>'Aran',
 
   /**
    * Imperial Aramaic
@@ -224,7 +224,7 @@ export enum TextScriptBasedOnIso_15924 {
    * @description Ancient/historic, typographic variant of Cyrillic
    * @default 'Cyrs'
    */
-  Cyrillic_1 = <any>'Cyrs',
+  OldCyrillic = <any>'Cyrs',
 
   /**
    * Devanagari (Nagari)
@@ -381,25 +381,25 @@ export enum TextScriptBasedOnIso_15924 {
   Han = <any>'Hani',
 
   /**
+   * Hanunoo (Hanunóo)
+   * @description 
+   * @default 'Hano'
+   */
+  Hanunoo = <any>'Hano',
+
+  /**
    * Han (Simplified variant)
    * @description Subset of Hani
    * @default 'Hans'
    */
-  Han_1 = <any>'Hans',
+  SimplifiedHan = <any>'Hans',
 
   /**
    * Han (Traditional variant)
    * @description Subset of Hani
    * @default 'Hant'
    */
-  Han_2 = <any>'Hant',
-
-  /**
-   * Hanunoo (Hanunóo)
-   * @description 
-   * @default 'Hano'
-   */
-  Hanunoo = <any>'Hano',
+  TraditionalHan = <any>'Hant',
 
   /**
    * Hatran
@@ -588,21 +588,21 @@ export enum TextScriptBasedOnIso_15924 {
    * @description Typographic variant of Latin
    * @default 'Latf'
    */
-  Latin = <any>'Latf',
+  FrakturLatin = <any>'Latf',
 
   /**
    * Latin (Gaelic variant)
    * @description Typographic variant of Latin
    * @default 'Latg'
    */
-  Latin_1 = <any>'Latg',
+  GaelicLatin = <any>'Latg',
 
   /**
    * Latin
    * @description 
    * @default 'Latn'
    */
-  Latin_2 = <any>'Latn',
+  Latin = <any>'Latn',
 
   /**
    * Leke
@@ -959,14 +959,14 @@ export enum TextScriptBasedOnIso_15924 {
    * @description 
    * @default 'Qaaa'
    */
-  ReservedForPrivateUse = <any>'Qaaa',
+  ReservedForPrivateUse_Start = <any>'Qaaa',
 
   /**
    * Reserved for private use (end)
    * @description 
    * @default 'Qabx'
    */
-  ReservedForPrivateUse_1 = <any>'Qabx',
+  ReservedForPrivateUse_End = <any>'Qabx',
 
   /**
    * Rejang (Redjang, Kaganga)
@@ -1099,21 +1099,21 @@ export enum TextScriptBasedOnIso_15924 {
    * @description Typographic variant of Syriac
    * @default 'Syre'
    */
-  Syriac_1 = <any>'Syre',
+  EstrangeloSyriac = <any>'Syre',
 
   /**
    * Syriac (Western variant)
    * @description Typographic variant of Syriac
    * @default 'Syrj'
    */
-  Syriac_2 = <any>'Syrj',
+  WesternSyriac = <any>'Syrj',
 
   /**
    * Syriac (Eastern variant)
    * @description Typographic variant of Syriac
    * @default 'Syrn'
    */
-  Syriac_3 = <any>'Syrn',
+  EasternSyriac = <any>'Syrn',
 
   /**
    * Tagbanwa
@@ -1302,14 +1302,14 @@ export enum TextScriptBasedOnIso_15924 {
    * @description Not a script in Unicode. For use in ONIX 3.0 only
    * @default 'Zsye'
    */
-  Symbols = <any>'Zsye',
+  EmojiSymbols = <any>'Zsye',
 
   /**
    * Symbols
    * @description Not a script in Unicode
    * @default 'Zsym'
    */
-  Symbols_1 = <any>'Zsym',
+  Symbols = <any>'Zsym',
 
   /**
    * Code for unwritten documents

@@ -56,7 +56,7 @@ export enum OnixRetailSalesOutletIDs {
    * @description 
    * @default 'ALB'
    */
-  AlbertsonS = <any>'ALB',
+  Albertsons = <any>'ALB',
 
   /**
    * AlmaTalent
@@ -205,7 +205,7 @@ export enum OnixRetailSalesOutletIDs {
    * @description 
    * @default 'BJW'
    */
-  BjWholesaleClub = <any>'BJW',
+  BJsWholesaleClub = <any>'BJW',
 
   /**
    * Blackstone Audio
@@ -219,7 +219,7 @@ export enum OnixRetailSalesOutletIDs {
    * @description 
    * @default 'BLK'
    */
-  BlackwellS = <any>'BLK',
+  Blackwells = <any>'BLK',
 
   /**
    * Blinkbox
@@ -828,7 +828,7 @@ export enum OnixRetailSalesOutletIDs {
    * @description 
    * @default 'LWE'
    */
-  LoweS = <any>'LWE',
+  Lowes = <any>'LWE',
 
   /**
    * Mackin
@@ -1149,7 +1149,7 @@ export enum OnixRetailSalesOutletIDs {
    * @description 
    * @default 'SNS'
    */
-  SainsburyS = <any>'SNS',
+  Sainsburys = <any>'SNS',
 
   /**
    * Scribd
@@ -1296,7 +1296,7 @@ export enum OnixRetailSalesOutletIDs {
    * @description 
    * @default 'TSO'
    */
-  Tso = <any>'TSO',
+  TSO = <any>'TSO',
 
   /**
    * Turun kansallinen kirjakauppa
@@ -1354,14 +1354,14 @@ export enum OnixRetailSalesOutletIDs {
    * @description 
    * @default 'WST'
    */
-  WaterstoneS = <any>'WST',
+  Waterstones = <any>'WST',
 
   /**
    * Whitcoul’s
    * @description 
    * @default 'WHT'
    */
-  WhitcoulS = <any>'WHT',
+  Whitcouls = <any>'WHT',
 
   /**
    * Williams Sonoma

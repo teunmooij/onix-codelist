@@ -35,28 +35,21 @@ export enum BarcodeIndicator {
    * @description EAN symbology, first digit of 5-digit extension is 1–5
    * @default '03'
    */
-  Gtin_13_5 = <any>'03',
+  Gtin_13_5_US = <any>'03',
 
   /**
    * GTIN-13+5 (CAN dollar price encoded)
    * @description EAN symbology, first digit of 5-digit extension is 6
    * @default '04'
    */
-  Gtin_13_5_1 = <any>'04',
+  Gtin_13_5_CAN = <any>'04',
 
   /**
    * GTIN-13+5 (no price encoded)
    * @description EAN symbology, 5-digit extension is 90000, or extension does not indicate a price
    * @default '05'
    */
-  Gtin_13_5_2 = <any>'05',
-
-  /**
-   * GTIN-13+5 (UK Pound Sterling price encoded)
-   * @description EAN symbology, first digit of 5-digit extension is 0
-   * @default '10'
-   */
-  Gtin_13_5_3 = <any>'10',
+  Gtin_13_5 = <any>'05',
 
   /**
    * UPC-12 (item-specific)
@@ -66,13 +59,6 @@ export enum BarcodeIndicator {
   Upc_12 = <any>'06',
 
   /**
-   * UPC-12 (price-point)
-   * @description AKA price/item
-   * @default '08'
-   */
-  Upc_12_1 = <any>'08',
-
-  /**
    * UPC-12+5 (item-specific)
    * @description AKA item/price
    * @default '07'
@@ -80,9 +66,23 @@ export enum BarcodeIndicator {
   Upc_12_5 = <any>'07',
 
   /**
+   * UPC-12 (price-point)
+   * @description AKA price/item
+   * @default '08'
+   */
+  Upc_12_Price = <any>'08',
+
+  /**
    * UPC-12+5 (price-point)
    * @description AKA price/item
    * @default '09'
    */
-  Upc_12_5_1 = <any>'09',
+  Upc_12_5_Price = <any>'09',
+
+  /**
+   * GTIN-13+5 (UK Pound Sterling price encoded)
+   * @description EAN symbology, first digit of 5-digit extension is 0
+   * @default '10'
+   */
+  Gtin_13_5_UK = <any>'10',
 }

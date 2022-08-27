@@ -101,25 +101,11 @@ export enum UnitOfUsage {
   Days = <any>'09',
 
   /**
-   * Days (fixed start)
-   * @description Maximum time period in days (beginning from the product publication date). In effect, this defines a fixed end date for the license independent of the purchase or activation date
-   * @default '27'
-   */
-  Days_1 = <any>'27',
-
-  /**
    * Weeks
    * @description Maximum time period in weeks
    * @default '13'
    */
   Weeks = <any>'13',
-
-  /**
-   * Weeks (fixed start)
-   * @description Maximum time period in weeks
-   * @default '28'
-   */
-  Weeks_1 = <any>'28',
 
   /**
    * Months
@@ -129,18 +115,32 @@ export enum UnitOfUsage {
   Months = <any>'14',
 
   /**
-   * Months (fixed start)
-   * @description Maximum time period in months
-   * @default '29'
-   */
-  Months_1 = <any>'29',
-
-  /**
    * Hours minutes and seconds
    * @description Maximum amount of time in hours, minutes and seconds allowed in a permitted extract for a specified usage, in the format HHHMMSS (7 digits, with leading zeros if necessary)
    * @default '16'
    */
   HoursMinutesAndSeconds = <any>'16',
+
+  /**
+   * Days (fixed start)
+   * @description Maximum time period in days (beginning from the product publication date). In effect, this defines a fixed end date for the license independent of the purchase or activation date
+   * @default '27'
+   */
+  DaysFixed = <any>'27',
+
+  /**
+   * Weeks (fixed start)
+   * @description Maximum time period in weeks
+   * @default '28'
+   */
+  WeeksFixed = <any>'28',
+
+  /**
+   * Months (fixed start)
+   * @description Maximum time period in months
+   * @default '29'
+   */
+  MonthsFixed = <any>'29',
 
   /**
    * Times

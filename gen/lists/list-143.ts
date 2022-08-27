@@ -133,7 +133,7 @@ export enum UsCpsiaOrOtherInternationalHazardWarningType {
    * @description Required on applicable products sold in California. Must be accompanied in <ProductFormFeatureDescription> by specific additional text as displayed on product or packaging. For example, “WARNING: This product can expose you to chemicals including [chemical name], which is known to the State of California to cause cancer. For more information, go to www.P65Warnings.ca.gov”. Note long-form warnings should be used here, even if a short form warning is used on the product or packaging
    * @default '21'
    */
-  WarningCaliforniaProposition_65CarcinogenicTeratogenicOrOtherReproductivelyHarmfulChemicalHazard = <any>'21',
+  WarningCaliforniaProposition_65ChemicalHazard = <any>'21',
 
   /**
    * No California Proposition 65 hazard warning necessary

@@ -196,7 +196,7 @@ export enum BibleVersion {
    * @description A translation completed in 1986 targeting readability at the US third grade level
    * @default 'ICB'
    */
-  InternationalChildrenS = <any>'ICB',
+  InternationalChildrens = <any>'ICB',
 
   /**
    * Traduzione Interconfessionale in Lingua Corrente
@@ -364,7 +364,7 @@ export enum BibleVersion {
    * @description A 1996 translation designed for people with limited literacy in English and based on the NIV
    * @default 'NIR'
    */
-  NewInternationalReaderS = <any>'NIR',
+  NewInternationalReaders = <any>'NIR',
 
   /**
    * New Jerusalem
