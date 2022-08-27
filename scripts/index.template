@@ -1,9 +1,0 @@
-// This code has been generated with a script
-
-{{#each declarations}}
-export { {{enumName}} } from './lists/{{filename}}';
-{{/each}}
-
-{{#each declarations}}
-export { {{enumName}} as list{{listNumber}} } from './lists/{{filename}}';
-{{/each}}

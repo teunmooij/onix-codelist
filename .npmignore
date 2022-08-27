@@ -1,4 +1,10 @@
-/html-lists
-/scripts
-/node_modules
-/src
+.github/
+gen/
+html-lists/
+node_modules/
+src/
+test/
+.eslintrc.js
+.prettierrc.js
+jest.config.js
+tsconfig.json

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "commonjs",
+    "target": "es2015",
+    "alwaysStrict": true,
+    "strict": true,
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "esModuleInterop": true,
+    "lib": ["es2015"],
+    "rootDir": "./gen",
+    "declaration": true,
+    "removeComments": true
+  },
+  "include": ["**/*"],
+  "exclude": ["node_modules", "dist", "src", "test"]
+}

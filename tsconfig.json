@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",
     "module": "commonjs",
     "target": "es2015",
     "alwaysStrict": true,
@@ -12,7 +11,8 @@
     "lib": ["es2015"],
     "rootDir": "./src",
     "declaration": true,
+    "removeComments": true
   },
   "include": ["**/*"],
-  "exclude": ["node_modules", "dist", "scripts"]
+  "exclude": ["node_modules", "dist", "gen", "test"]
 }
