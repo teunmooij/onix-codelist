@@ -5,15 +5,13 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "start": "npm run generate && npm run lint:fix && npm run build",
     "build": "rimraf dist && tsc --project tsconfig.generate.json",
+    "dev": "npm run generate && npm run build",
     "generate": "rimraf gen && ts-node src/index.ts",
-    "lint": "eslint gen/**/*.ts",
-    "lint:fix": "eslint gen/**/*.ts --quiet --fix",
-    "lint:scripts": "eslint src/**/*.ts",
-    "lint:scripts:fix": "eslint src/**/*.ts --quiet --fix",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --quiet --fix",
     "test": "jest -c jest.config.js",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --project tsconfig.generate.json --noEmit"
   },
   "devDependencies": {
     "@types/jest": "^28.1.8",
@@ -56,8 +54,8 @@
   "homepage": "https://github.com/teunmooij/onix-codelist#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint:scripts:fix",
-      "pre-push": "npm start"
+      "pre-commit": "npm run lint:fix",
+      "pre-push": "npm test"
     }
   }
 }

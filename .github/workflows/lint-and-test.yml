@@ -20,7 +20,6 @@ jobs:
 
       - run: npm ci
 
-      - run: npm run lint:scripts
-      - run: npm run generate
       - run: npm run lint
+      - run: npm test
       - run: npm run typecheck

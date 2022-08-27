@@ -20,5 +20,6 @@ describe('e2e test', () => {
     expect(fs.mkdir).toHaveBeenCalledWith('gen/lists', { recursive: true });
 
     expect(fs.writeFile).toHaveBeenCalledTimes(162);
+    const writeFileArgs = (fs.writeFile as jest.Mock).mock.calls;
   });
 });
