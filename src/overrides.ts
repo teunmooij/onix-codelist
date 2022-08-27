@@ -8,7 +8,7 @@ export type Override = {
 
 export const overrides: Partial<Record<string, Override>> = {
   12: {
-    values: [{ from: 'International edition (US)', to: 'InternationalEdition_US' }],
+    values: [{ from: 'International edition (US)', to: 'InternationalEditionUS' }],
   },
   17: {
     values: [
@@ -16,6 +16,52 @@ export const overrides: Partial<Record<string, Override>> = {
       { from: 'By (composer)', to: 'ByComposer' },
       { from: 'By (artist)', to: 'ByArtist' },
       { from: 'By (photographer)', to: 'ByPhotographer' },
+      { from: 'Performed by (orchestra, band, ensemble)', to: 'PerformedByMusicalGroup' },
+    ],
+  },
+  24: {
+    values: [
+      { from: 'Hours HHH', to: 'HoursHHH' },
+      { from: 'Hours and minutes HHHMM', to: 'HoursAndMinutesHHHMM' },
+      { from: 'Hours minutes seconds HHHMMSS', to: 'HoursMinutesSecondsHHHMMSS' },
+    ],
+  },
+  27: {
+    values: [{ from: 'Keywords (not for display)', to: 'KeywordsNotForDisplay' }],
+  },
+  29: {
+    values: [
+      { from: 'AVI (revised)', to: 'AviRevised' },
+      { from: 'Common European Framework of Reference for Language Learning (CEFR)', to: 'CEFR' },
+    ],
+  },
+  30: {
+    values: [{ from: 'Finnish Upper secondary school course (2021+)', to: 'FinnishUpperSecondarySchoolCourse_2021' }],
+  },
+  46: {
+    values: [
+      {
+        from: 'Not for sale in the specified countries or territories (reason unspecified)',
+        to: 'NotForSaleInTheSpecifiedCountries',
+      },
+      {
+        from: 'Not for sale in the specified countries (but publisher holds exclusive rights in those countries or territories)',
+        to: 'NotForSaleInTheSpecifiedCountriesExclusiveRights',
+      },
+      {
+        from: 'Not for sale in the specified countries (publisher holds non-exclusive rights in those countries or territories)',
+        to: 'NotForSaleInTheSpecifiedCountriesNonExclusiveRights',
+      },
+      {
+        from: 'Not for sale in the specified countries (because publisher does not hold rights in those countries or territories)',
+        to: 'NotForSaleInTheSpecifiedCountriesNoRights',
+      },
+    ],
+  },
+  48: {
+    values: [
+      { from: 'Diameter (sphere)', to: 'DiameterSphere' },
+      { from: 'Diameter (tube or cylinder)', to: 'DiameterCylinder' },
     ],
   },
   49: { aliases: ['Region'] },
@@ -84,7 +130,39 @@ export const overrides: Partial<Record<string, Override>> = {
       { from: 'Months (fixed start)', to: 'MonthsFixed' },
     ],
   },
-  203: { aliases: ['AdultAudienceRating'] },
+  150: {
+    values: [{ from: 'Digital (on physical carrier)', to: 'DigitalPhysicalCarrier' }],
+  },
+  170: {
+    values: [
+      { from: 'Rising discount (cumulative)', to: 'RisingDiscountCumulative' },
+      { from: 'Progressive discount (cumulative)', to: 'ProgressiveDiscountCumulative' },
+    ],
+  },
+  175: {
+    values: [
+      { from: 'Trade paperback (US)', to: 'TradePaperbackUS' },
+      { from: 'Paperback (DE)', to: 'PaperbackDE' },
+    ],
+  },
+  203: {
+    aliases: ['AdultAudienceRating'],
+    values: [
+      { from: 'Content warning (sex)', to: 'ContentWarningSex' },
+      { from: 'Content warning (violence)', to: 'ContentWarningViolence' },
+      { from: 'Content warning (drug-taking)', to: 'ContentWarningDrugTaking' },
+      { from: 'Content warning (language)', to: 'ContentWarningLanguage' },
+      { from: 'Content warning (intolerance)', to: 'ContentWarningIntolerance' },
+      { from: 'Content warning (abuse)', to: 'ContentWarningAbuse' },
+      { from: 'Content warning (self-harm)', to: 'ContentWarningSelfHarm' },
+    ],
+  },
   204: { aliases: ['ReturnsConditions'] },
   229: { aliases: ['Gender'] },
+  252: {
+    values: [
+      { from: 'Composite (CMYK)', to: 'CompositeCMYK' },
+      { from: 'Composite (RGB)', to: 'CompositeRGB' },
+    ],
+  },
 };
