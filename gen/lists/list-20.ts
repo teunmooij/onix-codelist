@@ -7,7 +7,6 @@
  * @description List 20: Event role
  */
 export enum EventRole {
-
   /**
    * Publication linked to conference
    * @description For example an academic, professional or political conference
@@ -17,14 +16,14 @@ export enum EventRole {
 
   /**
    * Complete proceedings of conference
-   * @description 
+   * @description
    * @default '02'
    */
   CompleteProceedingsOfConference = <any>'02',
 
   /**
    * Selected papers from conference
-   * @description 
+   * @description
    * @default '03'
    */
   SelectedPapersFromConference = <any>'03',
@@ -38,7 +37,7 @@ export enum EventRole {
 
   /**
    * Programme or guide for sporting event
-   * @description 
+   * @description
    * @default '12'
    */
   ProgrammeOrGuideForSportingEvent = <any>'12',
@@ -52,7 +51,7 @@ export enum EventRole {
 
   /**
    * Programme or guide for artistic event
-   * @description 
+   * @description
    * @default '22'
    */
   ProgrammeOrGuideForArtisticEvent = <any>'22',
@@ -66,7 +65,7 @@ export enum EventRole {
 
   /**
    * Programme or guide for exposition
-   * @description 
+   * @description
    * @default '32'
    */
   ProgrammeOrGuideForExposition = <any>'32',

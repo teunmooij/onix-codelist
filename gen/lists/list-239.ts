@@ -7,7 +7,6 @@
  * @description List 239: Supply contact role
  */
 export enum SupplyContactRole {
-
   /**
    * Return authorisation contact
    * @description Eg for use where authorisation must be gained from the supplier (distributor or wholesaler)

@@ -7,7 +7,6 @@
  * @description List 155: Content date role
  */
 export enum ContentDateRole {
-
   /**
    * Publication date
    * @description Nominal date of publication (of the content item or supporting resource)

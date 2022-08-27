@@ -7,7 +7,6 @@
  * @description List 250: Resource identifier type
  */
 export enum ResourceIdentifierType {
-
   /**
    * Proprietary
    * @description For example, a publisher’s internal digital asset ID. Note that <IDTypeName> is required with proprietary identifiers

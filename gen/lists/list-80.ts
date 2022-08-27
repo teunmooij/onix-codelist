@@ -7,7 +7,6 @@
  * @description List 80: Product packaging type
  */
 export enum ProductPackagingType {
-
   /**
    * No outer packaging
    * @description No packaging, or all smaller items enclosed inside largest item
@@ -108,7 +107,7 @@ export enum ProductPackagingType {
 
   /**
    * Softbox (for DVD)
-   * @description 
+   * @description
    * @default '17'
    */
   Softbox = <any>'17',

@@ -7,7 +7,6 @@
  * @description List 197: Collection sequence type
  */
 export enum CollectionSequenceType {
-
   /**
    * Proprietary
    * @description A short explanatory label for the sequence should be provided in <CollectionSequenceTypeName>

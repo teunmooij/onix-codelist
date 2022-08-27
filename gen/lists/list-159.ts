@@ -7,7 +7,6 @@
  * @description List 159: Resource mode
  */
 export enum ResourceMode {
-
   /**
    * Application
    * @description An executable together with data on which it operates

@@ -7,7 +7,6 @@
  * @description List 167: Price condition type
  */
 export enum PriceConditionType {
-
   /**
    * No conditions
    * @description Allows positive indication that there are no conditions (the default if <PriceCondition> is omitted)

@@ -7,7 +7,6 @@
  * @description List 58: Price type
  */
 export enum PriceType {
-
   /**
    * RRP excluding tax
    * @description Recommended Retail Price, excluding any sales tax or value-added tax. Price recommended by the publisher or supplier for retail sales to the consumer. Also termed the Suggested Retail Price (SRP) or Maximum Suggested Retail Price (MSRP) in some countries. The retailer may choose to use this recommended price, or may choose to sell to the consumer at a lower (or occasionally, a higher) price which is termed the Actual Selling Price (ASP) in sales reports. The net price charged to the retailer depends on the RRP minus a trade discount (which may be customer-specific). Relevant tax detail must be calculated by the data recipient

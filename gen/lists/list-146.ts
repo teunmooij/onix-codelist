@@ -7,10 +7,9 @@
  * @description List 146: Usage status
  */
 export enum UsageStatus {
-
   /**
    * Permitted unlimited
-   * @description 
+   * @description
    * @default '01'
    */
   PermittedUnlimited = <any>'01',
@@ -24,7 +23,7 @@ export enum UsageStatus {
 
   /**
    * Prohibited
-   * @description 
+   * @description
    * @default '03'
    */
   Prohibited = <any>'03',

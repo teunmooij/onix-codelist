@@ -7,7 +7,6 @@
  * @description List 84: Study Bible type
  */
 export enum StudyBibleType {
-
   /**
    * Cambridge Annotated
    * @description Contains the work of Howard Clark Kee including a summary of the development of the canon, introductions to the books, notes and cross references. Originally published in 1993, NRSV

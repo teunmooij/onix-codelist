@@ -7,7 +7,6 @@
  * @description List 255: Insert point type
  */
 export enum InsertPointType {
-
   /**
    * Adjacent to logical page
    * @description Insert appears after an even numbered or before an odd numbered logical page. <InsertPointValue> is an integer page number

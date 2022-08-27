@@ -7,10 +7,9 @@
  * @description List 203: ONIX Adult Audience rating
  */
 export enum OnixAdultAudienceRating {
-
   /**
    * Unrated
-   * @description 
+   * @description
    * @default '00'
    */
   Unrated = <any>'00',

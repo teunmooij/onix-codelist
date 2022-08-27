@@ -7,7 +7,6 @@
  * @description List 163: Publishing date role
  */
 export enum PublishingDateRole {
-
   /**
    * Publication date
    * @description Nominal date of publication. This date is primarily used for planning, promotion and other business process purposes, and is not necessarily the first date for retail sales or fulfillment of pre-orders. In the absence of a sales embargo date, retail sales and pre-order fulfillment may begin as soon as stock is available to the retailer

@@ -7,7 +7,6 @@
  * @description List 147: Unit of usage
  */
 export enum UnitOfUsage {
-
   /**
    * Copies
    * @description Maximum number of copies that may be made of a permitted extract

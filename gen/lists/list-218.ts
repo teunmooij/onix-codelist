@@ -7,7 +7,6 @@
  * @description List 218: License expression type
  */
 export enum LicenseExpressionType {
-
   /**
    * Human readable
    * @description Document (eg Word file, PDF or web page) Intended for the lay reader
@@ -24,7 +23,7 @@ export enum LicenseExpressionType {
 
   /**
    * ONIX-PL
-   * @description 
+   * @description
    * @default '10'
    */
   OnixPl = <any>'10',

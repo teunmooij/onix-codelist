@@ -7,7 +7,6 @@
  * @description List 149: Title element level
  */
 export enum TitleElementLevel {
-
   /**
    * Product
    * @description The title element refers to an individual product

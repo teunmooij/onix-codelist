@@ -7,7 +7,6 @@
  * @description List 174: Printed on product
  */
 export enum PrintedOnProduct {
-
   /**
    * No
    * @description Price not printed on product

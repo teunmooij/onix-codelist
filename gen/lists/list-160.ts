@@ -7,7 +7,6 @@
  * @description List 160: Resource feature type
  */
 export enum ResourceFeatureType {
-
   /**
    * Required credit
    * @description Credit that must be displayed when a resource is used (eg ‘Photo Jerry Bauer’ or ‘© Magnum Photo’). Credit text should be carried in <FeatureNote>

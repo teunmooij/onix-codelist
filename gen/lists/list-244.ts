@@ -7,10 +7,9 @@
  * @description List 244: Event identifier type
  */
 export enum EventIdentifierType {
-
   /**
    * Proprietary
-   * @description 
+   * @description
    * @default '01'
    */
   Proprietary = <any>'01',

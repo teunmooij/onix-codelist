@@ -7,7 +7,6 @@
  * @description List 70: Stock quantity code type
  */
 export enum StockQuantityCodeType {
-
   /**
    * Proprietary
    * @description As specified in <StockQuantityCodeTypeName>

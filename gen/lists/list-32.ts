@@ -7,7 +7,6 @@
  * @description List 32: Complexity scheme identifier
  */
 export enum ComplexitySchemeIdentifier {
-
   /**
    * Lexile code
    * @description For example AD or HL. DEPRECATED in ONIX 3 – use code 06 instead

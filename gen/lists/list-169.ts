@@ -7,7 +7,6 @@
  * @description List 169: Quantity unit
  */
 export enum QuantityUnit {
-
   /**
    * Units
    * @description The quantity refers to a unit implied by the quantity type
@@ -17,28 +16,28 @@ export enum QuantityUnit {
 
   /**
    * Days
-   * @description 
+   * @description
    * @default '07'
    */
   Days = <any>'07',
 
   /**
    * Weeks
-   * @description 
+   * @description
    * @default '08'
    */
   Weeks = <any>'08',
 
   /**
    * Months
-   * @description 
+   * @description
    * @default '09'
    */
   Months = <any>'09',
 
   /**
    * Years
-   * @description 
+   * @description
    * @default '10'
    */
   Years = <any>'10',

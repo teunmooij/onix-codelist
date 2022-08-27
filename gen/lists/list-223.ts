@@ -7,10 +7,9 @@
  * @description List 223: Status detail code type
  */
 export enum StatusDetailCodeType {
-
   /**
    * Proprietary
-   * @description 
+   * @description
    * @default '01'
    */
   Proprietary = <any>'01',

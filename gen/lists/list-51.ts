@@ -7,7 +7,6 @@
  * @description List 51: Product relation
  */
 export enum ProductRelation {
-
   /**
    * Unspecified
    * @description <Product> is related to <RelatedProduct> in a way that cannot be specified by another code value

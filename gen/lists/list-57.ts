@@ -7,17 +7,16 @@
  * @description List 57: Unpriced item type
  */
 export enum UnpricedItemType {
-
   /**
    * Free of charge
-   * @description 
+   * @description
    * @default '01'
    */
   FreeOfCharge = <any>'01',
 
   /**
    * Price to be announced
-   * @description 
+   * @description
    * @default '02'
    */
   PriceToBeAnnounced = <any>'02',

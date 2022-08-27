@@ -7,7 +7,6 @@
  * @description List 16: Work identifier type
  */
 export enum WorkIdentifierType {
-
   /**
    * Proprietary
    * @description Note that <IDTypeName> is required with proprietary identifiers

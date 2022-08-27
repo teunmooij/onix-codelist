@@ -7,7 +7,6 @@
  * @description List 249: Specification feature type
  */
 export enum SpecificationFeatureType {
-
   /**
    * Filename
    * @description Specification Feature Value carries the filename of the final product

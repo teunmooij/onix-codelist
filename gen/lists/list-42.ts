@@ -7,7 +7,6 @@
  * @description List 42: Text item type
  */
 export enum TextItemType {
-
   /**
    * Textual work
    * @description A complete work which is published as a content item in a product which carries two or more such works, eg when two or three novels are published in a single omnibus volume

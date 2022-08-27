@@ -7,7 +7,6 @@
  * @description List 48: Measure type
  */
 export enum MeasureType {
-
   /**
    * Height
    * @description For a book, the overall height when standing on a shelf. For a folded map, the height when folded. For packaged products, the height of the retail packaging, and for trade-only products, the height of the trade packaging. In general, the height of a product in the form in which it is presented or packaged for retail sale
@@ -143,14 +142,14 @@ export enum MeasureType {
 
   /**
    * Assembled width
-   * @description 
+   * @description
    * @default '20'
    */
   AssembledWidth = <any>'20',
 
   /**
    * Assembled height
-   * @description 
+   * @description
    * @default '21'
    */
   AssembledHeight = <any>'21',
@@ -164,14 +163,14 @@ export enum MeasureType {
 
   /**
    * Carton width
-   * @description 
+   * @description
    * @default '24'
    */
   CartonWidth = <any>'24',
 
   /**
    * Carton height
-   * @description 
+   * @description
    * @default '25'
    */
   CartonHeight = <any>'25',
@@ -192,14 +191,14 @@ export enum MeasureType {
 
   /**
    * Pallet width
-   * @description 
+   * @description
    * @default '28'
    */
   PalletWidth = <any>'28',
 
   /**
    * Pallet height
-   * @description 
+   * @description
    * @default '29'
    */
   PalletHeight = <any>'29',

@@ -7,7 +7,6 @@
  * @description List 165: Supplier own code type
  */
 export enum SupplierOwnCodeType {
-
   /**
    * Supplier’s sales classification
    * @description A rating applied by a supplier (typically a wholesaler) to indicate its assessment of the expected or actual sales performance of a product

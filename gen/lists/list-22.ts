@@ -7,10 +7,9 @@
  * @description List 22: Language role
  */
 export enum LanguageRole {
-
   /**
    * Language of text
-   * @description 
+   * @description
    * @default '01'
    */
   LanguageOfText = <any>'01',

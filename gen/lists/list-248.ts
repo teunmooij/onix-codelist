@@ -7,10 +7,9 @@
  * @description List 248: Specification detail code
  */
 export enum SpecificationDetailCode {
-
   /**
    * 22.05kHz
-   * @description 
+   * @description
    * @default 'A411'
    */
   '22_05kHz' = <any>'A411',
@@ -24,7 +23,7 @@ export enum SpecificationDetailCode {
 
   /**
    * 48kHz
-   * @description 
+   * @description
    * @default 'A413'
    */
   '48kHz' = <any>'A413',
@@ -38,7 +37,7 @@ export enum SpecificationDetailCode {
 
   /**
    * 24-bits per sample
-   * @description 
+   * @description
    * @default 'A418'
    */
   '24BitsPerSample' = <any>'A418',
@@ -52,7 +51,7 @@ export enum SpecificationDetailCode {
 
   /**
    * ID3v2
-   * @description 
+   * @description
    * @default 'A425'
    */
   Id3v2 = <any>'A425',
@@ -80,7 +79,7 @@ export enum SpecificationDetailCode {
 
   /**
    * Printed CMYK
-   * @description 
+   * @description
    * @default 'B004'
    */
   PrintedCmyk = <any>'B004',

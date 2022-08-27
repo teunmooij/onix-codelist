@@ -7,7 +7,6 @@
  * @description List 154: Content audience
  */
 export enum ContentAudience {
-
   /**
    * Unrestricted
    * @description Any audience
@@ -31,28 +30,28 @@ export enum ContentAudience {
 
   /**
    * End-customers
-   * @description 
+   * @description
    * @default '03'
    */
   EndCustomers = <any>'03',
 
   /**
    * Librarians
-   * @description 
+   * @description
    * @default '04'
    */
   Librarians = <any>'04',
 
   /**
    * Teachers
-   * @description 
+   * @description
    * @default '05'
    */
   Teachers = <any>'05',
 
   /**
    * Students
-   * @description 
+   * @description
    * @default '06'
    */
   Students = <any>'06',

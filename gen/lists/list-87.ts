@@ -7,7 +7,6 @@
  * @description List 87: Bible reference location
  */
 export enum BibleReferenceLocation {
-
   /**
    * Center column
    * @description References are printed in a narrow column in the center of the page between two columns of text

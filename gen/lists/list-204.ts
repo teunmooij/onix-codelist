@@ -7,7 +7,6 @@
  * @description List 204: ONIX Returns conditions
  */
 export enum OnixReturnsConditions {
-
   /**
    * Unspecified
    * @description Unspecified, contact supplier for details

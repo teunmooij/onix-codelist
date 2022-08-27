@@ -7,17 +7,16 @@
  * @description List 139: ONIX retail sales outlet IDs
  */
 export enum OnixRetailSalesOutletIDs {
-
   /**
    * 24Symbols
-   * @description 
+   * @description
    * @default 'SYM'
    */
   '24Symbols' = <any>'SYM',
 
   /**
    * A C Moore
-   * @description 
+   * @description
    * @default 'ACM'
    */
   ACMoore = <any>'ACM',
@@ -52,7 +51,7 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Albertson’s
-   * @description 
+   * @description
    * @default 'ALB'
    */
   AlbertsonS = <any>'ALB',
@@ -66,70 +65,70 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Amazon
-   * @description 
+   * @description
    * @default 'AMZ'
    */
   Amazon = <any>'AMZ',
 
   /**
    * Angus and Robertson
-   * @description 
+   * @description
    * @default 'ANR'
    */
   AngusAndRobertson = <any>'ANR',
 
   /**
    * Anobii
-   * @description 
+   * @description
    * @default 'ANB'
    */
   Anobii = <any>'ANB',
 
   /**
    * Apabi
-   * @description 
+   * @description
    * @default 'APA'
    */
   Apabi = <any>'APA',
 
   /**
    * Apple
-   * @description 
+   * @description
    * @default 'APC'
    */
   Apple = <any>'APC',
 
   /**
    * Asda
-   * @description 
+   * @description
    * @default 'ASD'
    */
   Asda = <any>'ASD',
 
   /**
    * Asia Books
-   * @description 
+   * @description
    * @default 'ASB'
    */
   AsiaBooks = <any>'ASB',
 
   /**
    * Audible
-   * @description 
+   * @description
    * @default 'AUD'
    */
   Audible = <any>'AUD',
 
   /**
    * Audiobooks.com
-   * @description 
+   * @description
    * @default 'AUC'
    */
   AudiobooksCom = <any>'AUC',
 
   /**
    * Audioteka
-   * @description 
+   * @description
    * @default 'ATK'
    */
   Audioteka = <any>'ATK',
@@ -151,7 +150,7 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Barnes and Noble
-   * @description 
+   * @description
    * @default 'BNO'
    */
   BarnesAndNoble = <any>'BNO',
@@ -165,14 +164,14 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Bed Bath and Beyond
-   * @description 
+   * @description
    * @default 'BBB'
    */
   BedBathAndBeyond = <any>'BBB',
 
   /**
    * Best Buy
-   * @description 
+   * @description
    * @default 'BST'
    */
   BestBuy = <any>'BST',
@@ -201,21 +200,21 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * BJ’s Wholesale Club
-   * @description 
+   * @description
    * @default 'BJW'
    */
   BjWholesaleClub = <any>'BJW',
 
   /**
    * Blackstone Audio
-   * @description 
+   * @description
    * @default 'BLA'
    */
   BlackstoneAudio = <any>'BLA',
 
   /**
    * Blackwell’s
-   * @description 
+   * @description
    * @default 'BLK'
    */
   BlackwellS = <any>'BLK',
@@ -258,7 +257,7 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Book Club Associates
-   * @description 
+   * @description
    * @default 'BCA'
    */
   BookClubAssociates = <any>'BCA',
@@ -279,14 +278,14 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Bookish
-   * @description 
+   * @description
    * @default 'BSH'
    */
   Bookish = <any>'BSH',
 
   /**
    * Bookpeople
-   * @description 
+   * @description
    * @default 'BKP'
    */
   Bookpeople = <any>'BKP',
@@ -301,21 +300,21 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Books-A-Million
-   * @description 
+   * @description
    * @default 'BKM'
    */
   BooksAMillion = <any>'BKM',
 
   /**
    * Bookshout
-   * @description 
+   * @description
    * @default 'BKS'
    */
   Bookshout = <any>'BKS',
 
   /**
    * Booktopia
-   * @description 
+   * @description
    * @default 'BTP'
    */
   Booktopia = <any>'BTP',
@@ -345,7 +344,7 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Casa del Libro
-   * @description 
+   * @description
    * @default 'CDL'
    */
   CasaDelLibro = <any>'CDL',
@@ -359,14 +358,14 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Ceebo
-   * @description 
+   * @description
    * @default 'CEB'
    */
   Ceebo = <any>'CEB',
 
   /**
    * Christianbook.com
-   * @description 
+   * @description
    * @default 'CHD'
    */
   ChristianbookCom = <any>'CHD',
@@ -395,21 +394,21 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Costco
-   * @description 
+   * @description
    * @default 'CST'
    */
   Costco = <any>'CST',
 
   /**
    * Crate and Barrel
-   * @description 
+   * @description
    * @default 'CRB'
    */
   CrateAndBarrel = <any>'CRB',
 
   /**
    * CVS Drug Stores
-   * @description 
+   * @description
    * @default 'CVS'
    */
   CvsDrugStores = <any>'CVS',
@@ -423,63 +422,63 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Cyberlibris
-   * @description 
+   * @description
    * @default 'CYB'
    */
   Cyberlibris = <any>'CYB',
 
   /**
    * De Marque
-   * @description 
+   * @description
    * @default 'DEM'
    */
   DeMarque = <any>'DEM',
 
   /**
    * Dick’s Sporting Goods
-   * @description 
+   * @description
    * @default 'DSG'
    */
   DickSportingGoods = <any>'DSG',
 
   /**
    * Dilicom
-   * @description 
+   * @description
    * @default 'DIL'
    */
   Dilicom = <any>'DIL',
 
   /**
    * Dymocks
-   * @description 
+   * @description
    * @default 'DYM'
    */
   Dymocks = <any>'DYM',
 
   /**
    * E-Pagine
-   * @description 
+   * @description
    * @default 'EPA'
    */
   EPagine = <any>'EPA',
 
   /**
    * E-Reads
-   * @description 
+   * @description
    * @default 'ERD'
    */
   EReads = <any>'ERD',
 
   /**
    * Early Learning Centre
-   * @description 
+   * @description
    * @default 'ELC'
    */
   EarlyLearningCentre = <any>'ELC',
 
   /**
    * Eason
-   * @description 
+   * @description
    * @default 'ESN'
    */
   Eason = <any>'ESN',
@@ -501,21 +500,21 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * El Corte Inglés
-   * @description 
+   * @description
    * @default 'ECI'
    */
   ElCorteIngles = <any>'ECI',
 
   /**
    * Electre
-   * @description 
+   * @description
    * @default 'ELE'
    */
   Electre = <any>'ELE',
 
   /**
    * Elib.se
-   * @description 
+   * @description
    * @default 'ELB'
    */
   ElibSe = <any>'ELB',
@@ -543,14 +542,14 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Empik
-   * @description 
+   * @description
    * @default 'EMP'
    */
   Empik = <any>'EMP',
 
   /**
    * English Heritage
-   * @description 
+   * @description
    * @default 'ENH'
    */
   EnglishHeritage = <any>'ENH',
@@ -571,56 +570,56 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * FeedBooks
-   * @description 
+   * @description
    * @default 'FDB'
    */
   FeedBooks = <any>'FDB',
 
   /**
    * Findaway
-   * @description 
+   * @description
    * @default 'FIN'
    */
   Findaway = <any>'FIN',
 
   /**
    * Fishpond
-   * @description 
+   * @description
    * @default 'FSP'
    */
   Fishpond = <any>'FSP',
 
   /**
    * FlipKart
-   * @description 
+   * @description
    * @default 'FLP'
    */
   FlipKart = <any>'FLP',
 
   /**
    * Fnac
-   * @description 
+   * @description
    * @default 'FNC'
    */
   Fnac = <any>'FNC',
 
   /**
    * Follett
-   * @description 
+   * @description
    * @default 'FOL'
    */
   Follett = <any>'FOL',
 
   /**
    * Fry’s Electronics
-   * @description 
+   * @description
    * @default 'FRY'
    */
   FryElectronics = <any>'FRY',
 
   /**
    * Gamestop
-   * @description 
+   * @description
    * @default 'GMS'
    */
   Gamestop = <any>'GMS',
@@ -634,14 +633,14 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Glose
-   * @description 
+   * @description
    * @default 'GLO'
    */
   Glose = <any>'GLO',
 
   /**
    * Google Books
-   * @description 
+   * @description
    * @default 'GOO'
    */
   GoogleBooks = <any>'GOO',
@@ -656,28 +655,28 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * HMV
-   * @description 
+   * @description
    * @default 'HMV'
    */
   Hmv = <any>'HMV',
 
   /**
    * Home Depot
-   * @description 
+   * @description
    * @default 'HMD'
    */
   HomeDepot = <any>'HMD',
 
   /**
    * Immatériel.fr
-   * @description 
+   * @description
    * @default 'IMM'
    */
   ImmaterielFr = <any>'IMM',
 
   /**
    * Indigo-Chapters
-   * @description 
+   * @description
    * @default 'IND'
    */
   IndigoChapters = <any>'IND',
@@ -705,7 +704,7 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Izneo
-   * @description 
+   * @description
    * @default 'IZN'
    */
   Izneo = <any>'IZN',
@@ -719,21 +718,21 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * JB Hifi
-   * @description 
+   * @description
    * @default 'JBH'
    */
   JbHifi = <any>'JBH',
 
   /**
    * John Smith and Son
-   * @description 
+   * @description
    * @default 'JSM'
    */
   JohnSmithAndSon = <any>'JSM',
 
   /**
    * K-Mart
-   * @description 
+   * @description
    * @default 'KMT'
    */
   KMart = <any>'KMT',
@@ -761,7 +760,7 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * KNFB/Blio
-   * @description 
+   * @description
    * @default 'KNB'
    */
   KnfbBlio = <any>'KNB',
@@ -775,28 +774,28 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Kobo
-   * @description 
+   * @description
    * @default 'KBO'
    */
   Kobo = <any>'KBO',
 
   /**
    * Koorong
-   * @description 
+   * @description
    * @default 'KOO'
    */
   Koorong = <any>'KOO',
 
   /**
    * Kortext
-   * @description 
+   * @description
    * @default 'KOR'
    */
   Kortext = <any>'KOR',
 
   /**
    * Kroger
-   * @description 
+   * @description
    * @default 'KRG'
    */
   Kroger = <any>'KRG',
@@ -824,35 +823,35 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Lowe’s
-   * @description 
+   * @description
    * @default 'LWE'
    */
   LoweS = <any>'LWE',
 
   /**
    * Mackin
-   * @description 
+   * @description
    * @default 'MAC'
    */
   Mackin = <any>'MAC',
 
   /**
    * Magzter
-   * @description 
+   * @description
    * @default 'MAG'
    */
   Magzter = <any>'MAG',
 
   /**
    * Marks and Spencer
-   * @description 
+   * @description
    * @default 'MKS'
    */
   MarksAndSpencer = <any>'MKS',
 
   /**
    * Matras
-   * @description 
+   * @description
    * @default 'MAT'
    */
   Matras = <any>'MAT',
@@ -866,14 +865,14 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Messageries ADP
-   * @description 
+   * @description
    * @default 'ADP'
    */
   MessageriesAdp = <any>'ADP',
 
   /**
    * Microcenter
-   * @description 
+   * @description
    * @default 'MCR'
    */
   Microcenter = <any>'MCR',
@@ -887,21 +886,21 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Mofibo
-   * @description 
+   * @description
    * @default 'MOF'
    */
   Mofibo = <any>'MOF',
 
   /**
    * Morrisons
-   * @description 
+   * @description
    * @default 'MRR'
    */
   Morrisons = <any>'MRR',
 
   /**
    * Mothercare
-   * @description 
+   * @description
    * @default 'MTC'
    */
   Mothercare = <any>'MTC',
@@ -916,14 +915,14 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * MyiLibrary
-   * @description 
+   * @description
    * @default 'MYI'
    */
   MyiLibrary = <any>'MYI',
 
   /**
    * National Trust
-   * @description 
+   * @description
    * @default 'NTR'
    */
   NationalTrust = <any>'NTR',
@@ -937,7 +936,7 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Numilog
-   * @description 
+   * @description
    * @default 'NUM'
    */
   Numilog = <any>'NUM',
@@ -951,21 +950,21 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Office Depot
-   * @description 
+   * @description
    * @default 'OFD'
    */
   OfficeDepot = <any>'OFD',
 
   /**
    * Office Max
-   * @description 
+   * @description
    * @default 'OFM'
    */
   OfficeMax = <any>'OFM',
 
   /**
    * OLF
-   * @description 
+   * @description
    * @default 'OLF'
    */
   Olf = <any>'OLF',
@@ -979,7 +978,7 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * OverDrive
-   * @description 
+   * @description
    * @default 'OVD'
    */
   OverDrive = <any>'OVD',
@@ -1002,14 +1001,14 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Pet Smart
-   * @description 
+   * @description
    * @default 'PTS'
    */
   PetSmart = <any>'PTS',
 
   /**
    * Petco
-   * @description 
+   * @description
    * @default 'PTC'
    */
   Petco = <any>'PTC',
@@ -1023,7 +1022,7 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Play.com
-   * @description 
+   * @description
    * @default 'PLY'
    */
   PlayCom = <any>'PLY',
@@ -1052,7 +1051,7 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Pottery Barn
-   * @description 
+   * @description
    * @default 'PTB'
    */
   PotteryBarn = <any>'PTB',
@@ -1074,28 +1073,28 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * ReadCloud
-   * @description 
+   * @description
    * @default 'RCL'
    */
   ReadCloud = <any>'RCL',
 
   /**
    * Restoration Hardware
-   * @description 
+   * @description
    * @default 'RST'
    */
   RestorationHardware = <any>'RST',
 
   /**
    * Rethink
-   * @description 
+   * @description
    * @default 'RET'
    */
   Rethink = <any>'RET',
 
   /**
    * Ritz Camera
-   * @description 
+   * @description
    * @default 'RTZ'
    */
   RitzCamera = <any>'RTZ',
@@ -1131,42 +1130,42 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Safari
-   * @description 
+   * @description
    * @default 'SAF'
    */
   Safari = <any>'SAF',
 
   /**
    * Safeway
-   * @description 
+   * @description
    * @default 'SFW'
    */
   Safeway = <any>'SFW',
 
   /**
    * Sainsbury’s
-   * @description 
+   * @description
    * @default 'SNS'
    */
   SainsburyS = <any>'SNS',
 
   /**
    * Scribd
-   * @description 
+   * @description
    * @default 'SCR'
    */
   Scribd = <any>'SCR',
 
   /**
    * Selfridges
-   * @description 
+   * @description
    * @default 'SLF'
    */
   Selfridges = <any>'SLF',
 
   /**
    * Sequencity
-   * @description 
+   * @description
    * @default 'SEQ'
    */
   Sequencity = <any>'SEQ',
@@ -1180,42 +1179,42 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Shanghai Book Traders
-   * @description 
+   * @description
    * @default 'SBT'
    */
   ShanghaiBookTraders = <any>'SBT',
 
   /**
    * Skoobe
-   * @description 
+   * @description
    * @default 'SKB'
    */
   Skoobe = <any>'SKB',
 
   /**
    * SmashWords
-   * @description 
+   * @description
    * @default 'SMW'
    */
   SmashWords = <any>'SMW',
 
   /**
    * Sony
-   * @description 
+   * @description
    * @default 'SNY'
    */
   Sony = <any>'SNY',
 
   /**
    * Staples
-   * @description 
+   * @description
    * @default 'STP'
    */
   Staples = <any>'STP',
 
   /**
    * Storytel
-   * @description 
+   * @description
    * @default 'STT'
    */
   Storytel = <any>'STT',
@@ -1250,21 +1249,21 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Target
-   * @description 
+   * @description
    * @default 'TRG'
    */
   Target = <any>'TRG',
 
   /**
    * Tesco
-   * @description 
+   * @description
    * @default 'TES'
    */
   Tesco = <any>'TES',
 
   /**
    * The Ebook Alternative
-   * @description 
+   * @description
    * @default 'TEA'
    */
   TheEbookAlternative = <any>'TEA',
@@ -1278,21 +1277,21 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * Tolino
-   * @description 
+   * @description
    * @default 'TOL'
    */
   Tolino = <any>'TOL',
 
   /**
    * Toys ’R’ Us
-   * @description 
+   * @description
    * @default 'TSR'
    */
   ToysRUs = <any>'TSR',
 
   /**
    * TSO (The Stationery Office)
-   * @description 
+   * @description
    * @default 'TSO'
    */
   Tso = <any>'TSO',
@@ -1329,49 +1328,49 @@ export enum OnixRetailSalesOutletIDs {
 
   /**
    * W H Smith
-   * @description 
+   * @description
    * @default 'WHS'
    */
   WHSmith = <any>'WHS',
 
   /**
    * Waitrose
-   * @description 
+   * @description
    * @default 'WTR'
    */
   Waitrose = <any>'WTR',
 
   /**
    * Wal-Mart
-   * @description 
+   * @description
    * @default 'WLM'
    */
   WalMart = <any>'WLM',
 
   /**
    * Waterstone’s
-   * @description 
+   * @description
    * @default 'WST'
    */
   WaterstoneS = <any>'WST',
 
   /**
    * Whitcoul’s
-   * @description 
+   * @description
    * @default 'WHT'
    */
   WhitcoulS = <any>'WHT',
 
   /**
    * Williams Sonoma
-   * @description 
+   * @description
    * @default 'WLS'
    */
   WilliamsSonoma = <any>'WLS',
 
   /**
    * Woolworths
-   * @description 
+   * @description
    * @default 'WLW'
    */
   Woolworths = <any>'WLW',

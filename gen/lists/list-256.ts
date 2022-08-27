@@ -7,7 +7,6 @@
  * @description List 256: Resource feature code
  */
 export enum ResourceFeatureCode {
-
   /**
    * Image shows product in packaging
    * @description Image shows retail product only, in packaging

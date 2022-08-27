@@ -7,7 +7,6 @@
  * @description List 198: Product contact role
  */
 export enum ProductContactRole {
-
   /**
    * Metadata contact
    * @description For queries and feedback concerning the metadata record itself
@@ -66,7 +65,7 @@ export enum ProductContactRole {
 
   /**
    * CIP / Legal deposit contact
-   * @description 
+   * @description
    * @default '08'
    */
   CipLegalDepositContact = <any>'08',

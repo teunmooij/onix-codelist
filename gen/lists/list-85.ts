@@ -7,7 +7,6 @@
  * @description List 85: Bible purpose
  */
 export enum BiblePurpose {
-
   /**
    * Award
    * @description A Bible (or selected Biblical text) designed for presentation from a religious organization
@@ -129,7 +128,7 @@ export enum BiblePurpose {
 
   /**
    * Slimline
-   * @description 
+   * @description
    * @default 'SL'
    */
   Slimline = <any>'SL',

@@ -7,7 +7,6 @@
  * @description List 217: Price identifier type
  */
 export enum PriceIdentifierType {
-
   /**
    * Proprietary
    * @description Note that <IDTypeName> is required for proprietary identifiers

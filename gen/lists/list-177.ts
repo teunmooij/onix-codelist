@@ -7,17 +7,16 @@
  * @description List 177: Person / organization date role
  */
 export enum PersonOrganizationDateRole {
-
   /**
    * Date of birth
-   * @description 
+   * @description
    * @default '50'
    */
   DateOfBirth = <any>'50',
 
   /**
    * Date of death
-   * @description 
+   * @description
    * @default '51'
    */
   DateOfDeath = <any>'51',

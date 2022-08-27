@@ -7,10 +7,9 @@
  * @description List 45: Publishing role
  */
 export enum PublishingRole {
-
   /**
    * Publisher
-   * @description 
+   * @description
    * @default '01'
    */
   Publisher = <any>'01',
@@ -24,7 +23,7 @@ export enum PublishingRole {
 
   /**
    * Sponsor
-   * @description 
+   * @description
    * @default '03'
    */
   Sponsor = <any>'03',
@@ -38,14 +37,14 @@ export enum PublishingRole {
 
   /**
    * Host/distributor of electronic content
-   * @description 
+   * @description
    * @default '05'
    */
   HostDistributorOfElectronicContent = <any>'05',
 
   /**
    * Published for/on behalf of
-   * @description 
+   * @description
    * @default '06'
    */
   PublishedForOnBehalfOf = <any>'06',

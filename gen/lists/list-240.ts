@@ -7,7 +7,6 @@
  * @description List 240: AV Item type code
  */
 export enum AvItemTypeCode {
-
   /**
    * Audiovisual work
    * @description A complete audiovisual work which is published as a content item in a product which carries two or more such works, eg when two or three AV works are published in a single omnibus package

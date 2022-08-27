@@ -7,24 +7,23 @@
  * @description List 31: Audience range precision
  */
 export enum AudienceRangePrecision {
-
   /**
    * Exact
-   * @description 
+   * @description
    * @default '01'
    */
   Exact = <any>'01',
 
   /**
    * From
-   * @description 
+   * @description
    * @default '03'
    */
   From = <any>'03',
 
   /**
    * To
-   * @description 
+   * @description
    * @default '04'
    */
   To = <any>'04',

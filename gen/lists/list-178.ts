@@ -7,7 +7,6 @@
  * @description List 178: Supporting resource file format
  */
 export enum SupportingResourceFileFormat {
-
   /**
    * MP3
    * @description MPEG 1/2 Audio Layer III file

@@ -7,10 +7,9 @@
  * @description List 19: Unnamed person(s)
  */
 export enum UnnamedPerson {
-
   /**
    * Unknown
-   * @description 
+   * @description
    * @default '01'
    */
   Unknown = <any>'01',

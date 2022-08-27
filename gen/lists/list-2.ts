@@ -7,10 +7,9 @@
  * @description List 2: Product composition
  */
 export enum ProductComposition {
-
   /**
    * Single-component retail product
-   * @description 
+   * @description
    * @default '00'
    */
   SingleComponentRetailProduct = <any>'00',

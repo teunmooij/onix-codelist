@@ -7,7 +7,6 @@
  * @description List 29: Audience code type
  */
 export enum AudienceCodeType {
-
   /**
    * ONIX audience codes
    * @description Using a code from List 28

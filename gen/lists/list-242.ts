@@ -7,7 +7,6 @@
  * @description List 242: Battery type and safety
  */
 export enum BatteryTypeAndSafety {
-
   /**
    * Batteries not required
    * @description The default if battery type and safety information is omitted
@@ -73,7 +72,7 @@ export enum BatteryTypeAndSafety {
 
   /**
    * Non-rechargeable
-   * @description 
+   * @description
    * @default '09'
    */
   NonRechargeable = <any>'09',
@@ -101,28 +100,28 @@ export enum BatteryTypeAndSafety {
 
   /**
    * Lithium-polymer
-   * @description 
+   * @description
    * @default '22'
    */
   LithiumPolymer = <any>'22',
 
   /**
    * Lithium-metal
-   * @description 
+   * @description
    * @default '23'
    */
   LithiumMetal = <any>'23',
 
   /**
    * Nickel-metal hydride
-   * @description 
+   * @description
    * @default '24'
    */
   NickelMetalHydride = <any>'24',
 
   /**
    * Nickel-Cadmium
-   * @description 
+   * @description
    * @default '25'
    */
   NickelCadmium = <any>'25',
@@ -143,14 +142,14 @@ export enum BatteryTypeAndSafety {
 
   /**
    * Zinc-air
-   * @description 
+   * @description
    * @default '28'
    */
   ZincAir = <any>'28',
 
   /**
    * Silver oxide
-   * @description 
+   * @description
    * @default '29'
    */
   SilverOxide = <any>'29',

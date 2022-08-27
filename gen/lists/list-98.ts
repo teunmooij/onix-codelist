@@ -7,31 +7,30 @@
  * @description List 98: Binding or page edge color
  */
 export enum BindingOrPageEdgeColor {
-
   /**
    * Black
-   * @description 
+   * @description
    * @default 'BLK'
    */
   Black = <any>'BLK',
 
   /**
    * Blue
-   * @description 
+   * @description
    * @default 'BLU'
    */
   Blue = <any>'BLU',
 
   /**
    * Brown
-   * @description 
+   * @description
    * @default 'BRN'
    */
   Brown = <any>'BRN',
 
   /**
    * Burgundy/Maroon
-   * @description 
+   * @description
    * @default 'BUR'
    */
   BurgundyMaroon = <any>'BUR',
@@ -45,7 +44,7 @@ export enum BindingOrPageEdgeColor {
 
   /**
    * Cream
-   * @description 
+   * @description
    * @default 'CRE'
    */
   Cream = <any>'CRE',
@@ -66,21 +65,21 @@ export enum BindingOrPageEdgeColor {
 
   /**
    * Gold
-   * @description 
+   * @description
    * @default 'GLD'
    */
   Gold = <any>'GLD',
 
   /**
    * Green
-   * @description 
+   * @description
    * @default 'GRN'
    */
   Green = <any>'GRN',
 
   /**
    * Grey
-   * @description 
+   * @description
    * @default 'GRY'
    */
   Grey = <any>'GRY',
@@ -94,77 +93,77 @@ export enum BindingOrPageEdgeColor {
 
   /**
    * Navy/Dark blue
-   * @description 
+   * @description
    * @default 'NAV'
    */
   NavyDarkBlue = <any>'NAV',
 
   /**
    * Orange
-   * @description 
+   * @description
    * @default 'ORG'
    */
   Orange = <any>'ORG',
 
   /**
    * Pink
-   * @description 
+   * @description
    * @default 'PNK'
    */
   Pink = <any>'PNK',
 
   /**
    * Purple
-   * @description 
+   * @description
    * @default 'PUR'
    */
   Purple = <any>'PUR',
 
   /**
    * Red
-   * @description 
+   * @description
    * @default 'RED'
    */
   Red = <any>'RED',
 
   /**
    * Sky/Pale blue
-   * @description 
+   * @description
    * @default 'SKY'
    */
   SkyPaleBlue = <any>'SKY',
 
   /**
    * Silver
-   * @description 
+   * @description
    * @default 'SLV'
    */
   Silver = <any>'SLV',
 
   /**
    * Tan/Light brown
-   * @description 
+   * @description
    * @default 'TAN'
    */
   TanLightBrown = <any>'TAN',
 
   /**
    * Teal/Turquoise green
-   * @description 
+   * @description
    * @default 'TEA'
    */
   TealTurquoiseGreen = <any>'TEA',
 
   /**
    * White
-   * @description 
+   * @description
    * @default 'WHI'
    */
   White = <any>'WHI',
 
   /**
    * Yellow
-   * @description 
+   * @description
    * @default 'YEL'
    */
   Yellow = <any>'YEL',

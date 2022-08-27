@@ -7,7 +7,6 @@
  * @description List 71: Sales restriction type
  */
 export enum SalesRestrictionType {
-
   /**
    * Unspecified – see text
    * @description Restriction must be described in <SalesRestrictionDetail> (ONIX 2.1) or <SalesRestrictionNote> (ONIX 3.0)

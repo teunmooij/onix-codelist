@@ -7,7 +7,6 @@
  * @description List 162: Resource version feature type
  */
 export enum ResourceVersionFeatureType {
-
   /**
    * File format
    * @description Resource Version Feature Value carries a code from List 178

@@ -7,7 +7,6 @@
  * @description List 62: Tax rate type
  */
 export enum TaxRateType {
-
   /**
    * Higher rate
    * @description Specifies that tax is applied at a higher rate than standard
@@ -31,7 +30,7 @@ export enum TaxRateType {
 
   /**
    * Standard rate
-   * @description 
+   * @description
    * @default 'S'
    */
   StandardRate = <any>'S',
@@ -45,7 +44,7 @@ export enum TaxRateType {
 
   /**
    * Zero-rated
-   * @description 
+   * @description
    * @default 'Z'
    */
   ZeroRated = <any>'Z',

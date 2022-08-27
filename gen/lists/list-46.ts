@@ -7,7 +7,6 @@
  * @description List 46: Sales rights type
  */
 export enum SalesRightsType {
-
   /**
    * Sales rights unknown or unstated for any reason
    * @description May only be used with the ONIX 3 <ROWSalesRightsType> element
@@ -17,7 +16,7 @@ export enum SalesRightsType {
 
   /**
    * For sale with exclusive rights in the specified countries or territories
-   * @description 
+   * @description
    * @default '01'
    */
   ForSaleWithExclusiveRightsInTheSpecifiedCountriesOrTerritories = <any>'01',
@@ -32,7 +31,7 @@ export enum SalesRightsType {
 
   /**
    * For sale with non-exclusive rights in the specified countries or territories
-   * @description 
+   * @description
    * @default '02'
    */
   ForSaleWithNonExclusiveRightsInTheSpecifiedCountriesOrTerritories = <any>'02',
@@ -47,28 +46,28 @@ export enum SalesRightsType {
 
   /**
    * Not for sale in the specified countries or territories (reason unspecified)
-   * @description 
+   * @description
    * @default '03'
    */
   NotForSaleInTheSpecifiedCountriesOrTerritories = <any>'03',
 
   /**
    * Not for sale in the specified countries (but publisher holds exclusive rights in those countries or territories)
-   * @description 
+   * @description
    * @default '04'
    */
   NotForSaleInTheSpecifiedCountries = <any>'04',
 
   /**
    * Not for sale in the specified countries (publisher holds non-exclusive rights in those countries or territories)
-   * @description 
+   * @description
    * @default '05'
    */
   NotForSaleInTheSpecifiedCountries_1 = <any>'05',
 
   /**
    * Not for sale in the specified countries (because publisher does not hold rights in those countries or territories)
-   * @description 
+   * @description
    * @default '06'
    */
   NotForSaleInTheSpecifiedCountries_2 = <any>'06',

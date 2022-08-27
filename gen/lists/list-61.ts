@@ -7,7 +7,6 @@
  * @description List 61: Price status
  */
 export enum PriceStatus {
-
   /**
    * Unspecified
    * @description Default
@@ -17,14 +16,14 @@ export enum PriceStatus {
 
   /**
    * Provisional
-   * @description 
+   * @description
    * @default '01'
    */
   Provisional = <any>'01',
 
   /**
    * Confirmed
-   * @description 
+   * @description
    * @default '02'
    */
   Confirmed = <any>'02',

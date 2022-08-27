@@ -7,7 +7,6 @@
  * @description List 238: Brazil educational level
  */
 export enum BrazilEducationalLevel {
-
   /**
    * Educação Infantil
    * @description Preschool and kindergarten
@@ -24,56 +23,56 @@ export enum BrazilEducationalLevel {
 
   /**
    * Fundamental I 2º ano
-   * @description 
+   * @description
    * @default '2'
    */
   FundamentalI_2Ano = <any>'2',
 
   /**
    * Fundamental I 3º ano
-   * @description 
+   * @description
    * @default '3'
    */
   FundamentalI_3Ano = <any>'3',
 
   /**
    * Fundamental I 4º ano
-   * @description 
+   * @description
    * @default '4'
    */
   FundamentalI_4Ano = <any>'4',
 
   /**
    * Fundamental I 5º ano
-   * @description 
+   * @description
    * @default '5'
    */
   FundamentalI_5Ano = <any>'5',
 
   /**
    * Fundamental II 6º ano
-   * @description 
+   * @description
    * @default '6'
    */
   FundamentalIi_6Ano = <any>'6',
 
   /**
    * Fundamental II 7º ano
-   * @description 
+   * @description
    * @default '7'
    */
   FundamentalIi_7Ano = <any>'7',
 
   /**
    * Fundamental II 8º ano
-   * @description 
+   * @description
    * @default '8'
    */
   FundamentalIi_8Ano = <any>'8',
 
   /**
    * Fundamental II 9º ano
-   * @description 
+   * @description
    * @default '9'
    */
   FundamentalIi_9Ano = <any>'9',
@@ -87,14 +86,14 @@ export enum BrazilEducationalLevel {
 
   /**
    * Ensino Médio 2º ano
-   * @description 
+   * @description
    * @default '11'
    */
   EnsinoMedio_2Ano = <any>'11',
 
   /**
    * Ensino Médio 3º ano
-   * @description 
+   * @description
    * @default '12'
    */
   EnsinoMedio_3Ano = <any>'12',
@@ -136,7 +135,7 @@ export enum BrazilEducationalLevel {
 
   /**
    * Ensino Superior Graduação Tecnologia
-   * @description 
+   * @description
    * @default 'B'
    */
   EnsinoSuperiorGraduacaoTecnologia = <any>'B',

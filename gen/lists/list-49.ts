@@ -7,59 +7,58 @@
  * @description List 49: Region – based on ISO 3166-2
  */
 export enum RegionBasedOnIso_3166_2 {
-
   /**
    * Australian Capital Territory
-   * @description 
+   * @description
    * @default 'AU-CT'
    */
   AustralianCapitalTerritory = <any>'AU-CT',
 
   /**
    * New South Wales
-   * @description 
+   * @description
    * @default 'AU-NS'
    */
   NewSouthWales = <any>'AU-NS',
 
   /**
    * Northern Territory
-   * @description 
+   * @description
    * @default 'AU-NT'
    */
   NorthernTerritory = <any>'AU-NT',
 
   /**
    * Queensland
-   * @description 
+   * @description
    * @default 'AU-QL'
    */
   Queensland = <any>'AU-QL',
 
   /**
    * South Australia
-   * @description 
+   * @description
    * @default 'AU-SA'
    */
   SouthAustralia = <any>'AU-SA',
 
   /**
    * Tasmania
-   * @description 
+   * @description
    * @default 'AU-TS'
    */
   Tasmania = <any>'AU-TS',
 
   /**
    * Victoria
-   * @description 
+   * @description
    * @default 'AU-VI'
    */
   Victoria = <any>'AU-VI',
 
   /**
    * Western Australia
-   * @description 
+   * @description
    * @default 'AU-WA'
    */
   WesternAustralia = <any>'AU-WA',
@@ -87,91 +86,91 @@ export enum RegionBasedOnIso_3166_2 {
 
   /**
    * Alberta
-   * @description 
+   * @description
    * @default 'CA-AB'
    */
   Alberta = <any>'CA-AB',
 
   /**
    * British Columbia
-   * @description 
+   * @description
    * @default 'CA-BC'
    */
   BritishColumbia = <any>'CA-BC',
 
   /**
    * Manitoba
-   * @description 
+   * @description
    * @default 'CA-MB'
    */
   Manitoba = <any>'CA-MB',
 
   /**
    * New Brunswick
-   * @description 
+   * @description
    * @default 'CA-NB'
    */
   NewBrunswick = <any>'CA-NB',
 
   /**
    * Newfoundland and Labrador
-   * @description 
+   * @description
    * @default 'CA-NL'
    */
   NewfoundlandAndLabrador = <any>'CA-NL',
 
   /**
    * Nova Scotia
-   * @description 
+   * @description
    * @default 'CA-NS'
    */
   NovaScotia = <any>'CA-NS',
 
   /**
    * Northwest Territories
-   * @description 
+   * @description
    * @default 'CA-NT'
    */
   NorthwestTerritories = <any>'CA-NT',
 
   /**
    * Nunavut
-   * @description 
+   * @description
    * @default 'CA-NU'
    */
   Nunavut = <any>'CA-NU',
 
   /**
    * Ontario
-   * @description 
+   * @description
    * @default 'CA-ON'
    */
   Ontario = <any>'CA-ON',
 
   /**
    * Prince Edward Island
-   * @description 
+   * @description
    * @default 'CA-PE'
    */
   PrinceEdwardIsland = <any>'CA-PE',
 
   /**
    * Quebec
-   * @description 
+   * @description
    * @default 'CA-QC'
    */
   Quebec = <any>'CA-QC',
 
   /**
    * Saskatchewan
-   * @description 
+   * @description
    * @default 'CA-SK'
    */
   Saskatchewan = <any>'CA-SK',
 
   /**
    * Yukon Territory
-   * @description 
+   * @description
    * @default 'CA-YT'
    */
   YukonTerritory = <any>'CA-YT',
@@ -688,14 +687,14 @@ export enum RegionBasedOnIso_3166_2 {
 
   /**
    * Canary Islands
-   * @description 
+   * @description
    * @default 'ES-CN'
    */
   CanaryIslands = <any>'ES-CN',
 
   /**
    * Corsica
-   * @description 
+   * @description
    * @default 'FR-H'
    */
   Corsica = <any>'FR-H',
@@ -724,7 +723,7 @@ export enum RegionBasedOnIso_3166_2 {
 
   /**
    * England
-   * @description 
+   * @description
    * @default 'GB-ENG'
    */
   England = <any>'GB-ENG',
@@ -747,21 +746,21 @@ export enum RegionBasedOnIso_3166_2 {
 
   /**
    * Northern Ireland
-   * @description 
+   * @description
    * @default 'GB-NIR'
    */
   NorthernIreland = <any>'GB-NIR',
 
   /**
    * Scotland
-   * @description 
+   * @description
    * @default 'GB-SCT'
    */
   Scotland = <any>'GB-SCT',
 
   /**
    * Wales
-   * @description 
+   * @description
    * @default 'GB-WLS'
    */
   Wales = <any>'GB-WLS',
@@ -775,1722 +774,1722 @@ export enum RegionBasedOnIso_3166_2 {
 
   /**
    * Agrigento
-   * @description 
+   * @description
    * @default 'IT-AG'
    */
   Agrigento = <any>'IT-AG',
 
   /**
    * Alessandria
-   * @description 
+   * @description
    * @default 'IT-AL'
    */
   Alessandria = <any>'IT-AL',
 
   /**
    * Ancona
-   * @description 
+   * @description
    * @default 'IT-AN'
    */
   Ancona = <any>'IT-AN',
 
   /**
    * Aosta
-   * @description 
+   * @description
    * @default 'IT-AO'
    */
   Aosta = <any>'IT-AO',
 
   /**
    * Arezzo
-   * @description 
+   * @description
    * @default 'IT-AR'
    */
   Arezzo = <any>'IT-AR',
 
   /**
    * Ascoli Piceno
-   * @description 
+   * @description
    * @default 'IT-AP'
    */
   AscoliPiceno = <any>'IT-AP',
 
   /**
    * Asti
-   * @description 
+   * @description
    * @default 'IT-AT'
    */
   Asti = <any>'IT-AT',
 
   /**
    * Avellino
-   * @description 
+   * @description
    * @default 'IT-AV'
    */
   Avellino = <any>'IT-AV',
 
   /**
    * Bari
-   * @description 
+   * @description
    * @default 'IT-BA'
    */
   Bari = <any>'IT-BA',
 
   /**
    * Barletta-Andria-Trani
-   * @description 
+   * @description
    * @default 'IT-BT'
    */
   BarlettaAndriaTrani = <any>'IT-BT',
 
   /**
    * Belluno
-   * @description 
+   * @description
    * @default 'IT-BL'
    */
   Belluno = <any>'IT-BL',
 
   /**
    * Benevento
-   * @description 
+   * @description
    * @default 'IT-BN'
    */
   Benevento = <any>'IT-BN',
 
   /**
    * Bergamo
-   * @description 
+   * @description
    * @default 'IT-BG'
    */
   Bergamo = <any>'IT-BG',
 
   /**
    * Biella
-   * @description 
+   * @description
    * @default 'IT-BI'
    */
   Biella = <any>'IT-BI',
 
   /**
    * Bologna
-   * @description 
+   * @description
    * @default 'IT-BO'
    */
   Bologna = <any>'IT-BO',
 
   /**
    * Bolzano
-   * @description 
+   * @description
    * @default 'IT-BZ'
    */
   Bolzano = <any>'IT-BZ',
 
   /**
    * Brescia
-   * @description 
+   * @description
    * @default 'IT-BS'
    */
   Brescia = <any>'IT-BS',
 
   /**
    * Brindisi
-   * @description 
+   * @description
    * @default 'IT-BR'
    */
   Brindisi = <any>'IT-BR',
 
   /**
    * Cagliari
-   * @description 
+   * @description
    * @default 'IT-CA'
    */
   Cagliari = <any>'IT-CA',
 
   /**
    * Caltanissetta
-   * @description 
+   * @description
    * @default 'IT-CL'
    */
   Caltanissetta = <any>'IT-CL',
 
   /**
    * Campobasso
-   * @description 
+   * @description
    * @default 'IT-CB'
    */
   Campobasso = <any>'IT-CB',
 
   /**
    * Carbonia-Iglesias
-   * @description 
+   * @description
    * @default 'IT-CI'
    */
   CarboniaIglesias = <any>'IT-CI',
 
   /**
    * Caserta
-   * @description 
+   * @description
    * @default 'IT-CE'
    */
   Caserta = <any>'IT-CE',
 
   /**
    * Catania
-   * @description 
+   * @description
    * @default 'IT-CT'
    */
   Catania = <any>'IT-CT',
 
   /**
    * Catanzaro
-   * @description 
+   * @description
    * @default 'IT-CZ'
    */
   Catanzaro = <any>'IT-CZ',
 
   /**
    * Chieti
-   * @description 
+   * @description
    * @default 'IT-CH'
    */
   Chieti = <any>'IT-CH',
 
   /**
    * Como
-   * @description 
+   * @description
    * @default 'IT-CO'
    */
   Como = <any>'IT-CO',
 
   /**
    * Cosenza
-   * @description 
+   * @description
    * @default 'IT-CS'
    */
   Cosenza = <any>'IT-CS',
 
   /**
    * Cremona
-   * @description 
+   * @description
    * @default 'IT-CR'
    */
   Cremona = <any>'IT-CR',
 
   /**
    * Crotone
-   * @description 
+   * @description
    * @default 'IT-KR'
    */
   Crotone = <any>'IT-KR',
 
   /**
    * Cuneo
-   * @description 
+   * @description
    * @default 'IT-CN'
    */
   Cuneo = <any>'IT-CN',
 
   /**
    * Enna
-   * @description 
+   * @description
    * @default 'IT-EN'
    */
   Enna = <any>'IT-EN',
 
   /**
    * Fermo
-   * @description 
+   * @description
    * @default 'IT-FM'
    */
   Fermo = <any>'IT-FM',
 
   /**
    * Ferrara
-   * @description 
+   * @description
    * @default 'IT-FE'
    */
   Ferrara = <any>'IT-FE',
 
   /**
    * Firenze
-   * @description 
+   * @description
    * @default 'IT-FI'
    */
   Firenze = <any>'IT-FI',
 
   /**
    * Foggia
-   * @description 
+   * @description
    * @default 'IT-FG'
    */
   Foggia = <any>'IT-FG',
 
   /**
    * Forlì-Cesena
-   * @description 
+   * @description
    * @default 'IT-FC'
    */
   ForliCesena = <any>'IT-FC',
 
   /**
    * Frosinone
-   * @description 
+   * @description
    * @default 'IT-FR'
    */
   Frosinone = <any>'IT-FR',
 
   /**
    * Genova
-   * @description 
+   * @description
    * @default 'IT-GE'
    */
   Genova = <any>'IT-GE',
 
   /**
    * Gorizia
-   * @description 
+   * @description
    * @default 'IT-GO'
    */
   Gorizia = <any>'IT-GO',
 
   /**
    * Grosseto
-   * @description 
+   * @description
    * @default 'IT-GR'
    */
   Grosseto = <any>'IT-GR',
 
   /**
    * Imperia
-   * @description 
+   * @description
    * @default 'IT-IM'
    */
   Imperia = <any>'IT-IM',
 
   /**
    * Isernia
-   * @description 
+   * @description
    * @default 'IT-IS'
    */
   Isernia = <any>'IT-IS',
 
   /**
    * La Spezia
-   * @description 
+   * @description
    * @default 'IT-SP'
    */
   LaSpezia = <any>'IT-SP',
 
   /**
    * L’Aquila
-   * @description 
+   * @description
    * @default 'IT-AQ'
    */
   LAquila = <any>'IT-AQ',
 
   /**
    * Latina
-   * @description 
+   * @description
    * @default 'IT-LT'
    */
   Latina = <any>'IT-LT',
 
   /**
    * Lecce
-   * @description 
+   * @description
    * @default 'IT-LE'
    */
   Lecce = <any>'IT-LE',
 
   /**
    * Lecco
-   * @description 
+   * @description
    * @default 'IT-LC'
    */
   Lecco = <any>'IT-LC',
 
   /**
    * Livorno
-   * @description 
+   * @description
    * @default 'IT-LI'
    */
   Livorno = <any>'IT-LI',
 
   /**
    * Lodi
-   * @description 
+   * @description
    * @default 'IT-LO'
    */
   Lodi = <any>'IT-LO',
 
   /**
    * Lucca
-   * @description 
+   * @description
    * @default 'IT-LU'
    */
   Lucca = <any>'IT-LU',
 
   /**
    * Macerata
-   * @description 
+   * @description
    * @default 'IT-MC'
    */
   Macerata = <any>'IT-MC',
 
   /**
    * Mantova
-   * @description 
+   * @description
    * @default 'IT-MN'
    */
   Mantova = <any>'IT-MN',
 
   /**
    * Massa-Carrara
-   * @description 
+   * @description
    * @default 'IT-MS'
    */
   MassaCarrara = <any>'IT-MS',
 
   /**
    * Matera
-   * @description 
+   * @description
    * @default 'IT-MT'
    */
   Matera = <any>'IT-MT',
 
   /**
    * Medio Campidano
-   * @description 
+   * @description
    * @default 'IT-VS'
    */
   MedioCampidano = <any>'IT-VS',
 
   /**
    * Messina
-   * @description 
+   * @description
    * @default 'IT-ME'
    */
   Messina = <any>'IT-ME',
 
   /**
    * Milano
-   * @description 
+   * @description
    * @default 'IT-MI'
    */
   Milano = <any>'IT-MI',
 
   /**
    * Modena
-   * @description 
+   * @description
    * @default 'IT-MO'
    */
   Modena = <any>'IT-MO',
 
   /**
    * Monza e Brianza
-   * @description 
+   * @description
    * @default 'IT-MB'
    */
   MonzaEBrianza = <any>'IT-MB',
 
   /**
    * Napoli
-   * @description 
+   * @description
    * @default 'IT-NA'
    */
   Napoli = <any>'IT-NA',
 
   /**
    * Novara
-   * @description 
+   * @description
    * @default 'IT-NO'
    */
   Novara = <any>'IT-NO',
 
   /**
    * Nuoro
-   * @description 
+   * @description
    * @default 'IT-NU'
    */
   Nuoro = <any>'IT-NU',
 
   /**
    * Ogliastra
-   * @description 
+   * @description
    * @default 'IT-OG'
    */
   Ogliastra = <any>'IT-OG',
 
   /**
    * Olbia-Tempio
-   * @description 
+   * @description
    * @default 'IT-OT'
    */
   OlbiaTempio = <any>'IT-OT',
 
   /**
    * Oristano
-   * @description 
+   * @description
    * @default 'IT-OR'
    */
   Oristano = <any>'IT-OR',
 
   /**
    * Padova
-   * @description 
+   * @description
    * @default 'IT-PD'
    */
   Padova = <any>'IT-PD',
 
   /**
    * Palermo
-   * @description 
+   * @description
    * @default 'IT-PA'
    */
   Palermo = <any>'IT-PA',
 
   /**
    * Parma
-   * @description 
+   * @description
    * @default 'IT-PR'
    */
   Parma = <any>'IT-PR',
 
   /**
    * Pavia
-   * @description 
+   * @description
    * @default 'IT-PV'
    */
   Pavia = <any>'IT-PV',
 
   /**
    * Perugia
-   * @description 
+   * @description
    * @default 'IT-PG'
    */
   Perugia = <any>'IT-PG',
 
   /**
    * Pesaro e Urbino
-   * @description 
+   * @description
    * @default 'IT-PU'
    */
   PesaroEUrbino = <any>'IT-PU',
 
   /**
    * Pescara
-   * @description 
+   * @description
    * @default 'IT-PE'
    */
   Pescara = <any>'IT-PE',
 
   /**
    * Piacenza
-   * @description 
+   * @description
    * @default 'IT-PC'
    */
   Piacenza = <any>'IT-PC',
 
   /**
    * Pisa
-   * @description 
+   * @description
    * @default 'IT-PI'
    */
   Pisa = <any>'IT-PI',
 
   /**
    * Pistoia
-   * @description 
+   * @description
    * @default 'IT-PT'
    */
   Pistoia = <any>'IT-PT',
 
   /**
    * Pordenone
-   * @description 
+   * @description
    * @default 'IT-PN'
    */
   Pordenone = <any>'IT-PN',
 
   /**
    * Potenza
-   * @description 
+   * @description
    * @default 'IT-PZ'
    */
   Potenza = <any>'IT-PZ',
 
   /**
    * Prato
-   * @description 
+   * @description
    * @default 'IT-PO'
    */
   Prato = <any>'IT-PO',
 
   /**
    * Ragusa
-   * @description 
+   * @description
    * @default 'IT-RG'
    */
   Ragusa = <any>'IT-RG',
 
   /**
    * Ravenna
-   * @description 
+   * @description
    * @default 'IT-RA'
    */
   Ravenna = <any>'IT-RA',
 
   /**
    * Reggio Calabria
-   * @description 
+   * @description
    * @default 'IT-RC'
    */
   ReggioCalabria = <any>'IT-RC',
 
   /**
    * Reggio Emilia
-   * @description 
+   * @description
    * @default 'IT-RE'
    */
   ReggioEmilia = <any>'IT-RE',
 
   /**
    * Rieti
-   * @description 
+   * @description
    * @default 'IT-RI'
    */
   Rieti = <any>'IT-RI',
 
   /**
    * Rimini
-   * @description 
+   * @description
    * @default 'IT-RN'
    */
   Rimini = <any>'IT-RN',
 
   /**
    * Roma
-   * @description 
+   * @description
    * @default 'IT-RM'
    */
   Roma = <any>'IT-RM',
 
   /**
    * Rovigo
-   * @description 
+   * @description
    * @default 'IT-RO'
    */
   Rovigo = <any>'IT-RO',
 
   /**
    * Salerno
-   * @description 
+   * @description
    * @default 'IT-SA'
    */
   Salerno = <any>'IT-SA',
 
   /**
    * Sassari
-   * @description 
+   * @description
    * @default 'IT-SS'
    */
   Sassari = <any>'IT-SS',
 
   /**
    * Savona
-   * @description 
+   * @description
    * @default 'IT-SV'
    */
   Savona = <any>'IT-SV',
 
   /**
    * Siena
-   * @description 
+   * @description
    * @default 'IT-SI'
    */
   Siena = <any>'IT-SI',
 
   /**
    * Siracusa
-   * @description 
+   * @description
    * @default 'IT-SR'
    */
   Siracusa = <any>'IT-SR',
 
   /**
    * Sondrio
-   * @description 
+   * @description
    * @default 'IT-SO'
    */
   Sondrio = <any>'IT-SO',
 
   /**
    * Taranto
-   * @description 
+   * @description
    * @default 'IT-TA'
    */
   Taranto = <any>'IT-TA',
 
   /**
    * Teramo
-   * @description 
+   * @description
    * @default 'IT-TE'
    */
   Teramo = <any>'IT-TE',
 
   /**
    * Terni
-   * @description 
+   * @description
    * @default 'IT-TR'
    */
   Terni = <any>'IT-TR',
 
   /**
    * Torino
-   * @description 
+   * @description
    * @default 'IT-TO'
    */
   Torino = <any>'IT-TO',
 
   /**
    * Trapani
-   * @description 
+   * @description
    * @default 'IT-TP'
    */
   Trapani = <any>'IT-TP',
 
   /**
    * Trento
-   * @description 
+   * @description
    * @default 'IT-TN'
    */
   Trento = <any>'IT-TN',
 
   /**
    * Treviso
-   * @description 
+   * @description
    * @default 'IT-TV'
    */
   Treviso = <any>'IT-TV',
 
   /**
    * Trieste
-   * @description 
+   * @description
    * @default 'IT-TS'
    */
   Trieste = <any>'IT-TS',
 
   /**
    * Udine
-   * @description 
+   * @description
    * @default 'IT-UD'
    */
   Udine = <any>'IT-UD',
 
   /**
    * Varese
-   * @description 
+   * @description
    * @default 'IT-VA'
    */
   Varese = <any>'IT-VA',
 
   /**
    * Venezia
-   * @description 
+   * @description
    * @default 'IT-VE'
    */
   Venezia = <any>'IT-VE',
 
   /**
    * Verbano-Cusio-Ossola
-   * @description 
+   * @description
    * @default 'IT-VB'
    */
   VerbanoCusioOssola = <any>'IT-VB',
 
   /**
    * Vercelli
-   * @description 
+   * @description
    * @default 'IT-VC'
    */
   Vercelli = <any>'IT-VC',
 
   /**
    * Verona
-   * @description 
+   * @description
    * @default 'IT-VR'
    */
   Verona = <any>'IT-VR',
 
   /**
    * Vibo Valentia
-   * @description 
+   * @description
    * @default 'IT-VV'
    */
   ViboValentia = <any>'IT-VV',
 
   /**
    * Vicenza
-   * @description 
+   * @description
    * @default 'IT-VI'
    */
   Vicenza = <any>'IT-VI',
 
   /**
    * Viterbo
-   * @description 
+   * @description
    * @default 'IT-VT'
    */
   Viterbo = <any>'IT-VT',
 
   /**
    * Kosovo-Metohija
-   * @description 
+   * @description
    * @default 'RS-KM'
    */
   KosovoMetohija = <any>'RS-KM',
 
   /**
    * Vojvodina
-   * @description 
+   * @description
    * @default 'RS-VO'
    */
   Vojvodina = <any>'RS-VO',
 
   /**
    * Republic of Adygeya
-   * @description 
+   * @description
    * @default 'RU-AD'
    */
   RepublicOfAdygeya = <any>'RU-AD',
 
   /**
    * Republic of Altay
-   * @description 
+   * @description
    * @default 'RU-AL'
    */
   RepublicOfAltay = <any>'RU-AL',
 
   /**
    * Republic of Bashkortostan
-   * @description 
+   * @description
    * @default 'RU-BA'
    */
   RepublicOfBashkortostan = <any>'RU-BA',
 
   /**
    * Republic of Buryatiya
-   * @description 
+   * @description
    * @default 'RU-BU'
    */
   RepublicOfBuryatiya = <any>'RU-BU',
 
   /**
    * Chechenskaya Republic
-   * @description 
+   * @description
    * @default 'RU-CE'
    */
   ChechenskayaRepublic = <any>'RU-CE',
 
   /**
    * Chuvashskaya Republic
-   * @description 
+   * @description
    * @default 'RU-CU'
    */
   ChuvashskayaRepublic = <any>'RU-CU',
 
   /**
    * Republic of Dagestan
-   * @description 
+   * @description
    * @default 'RU-DA'
    */
   RepublicOfDagestan = <any>'RU-DA',
 
   /**
    * Republic of Ingushetiya
-   * @description 
+   * @description
    * @default 'RU-IN'
    */
   RepublicOfIngushetiya = <any>'RU-IN',
 
   /**
    * Kabardino-Balkarskaya Republic
-   * @description 
+   * @description
    * @default 'RU-KB'
    */
   KabardinoBalkarskayaRepublic = <any>'RU-KB',
 
   /**
    * Republic of Kalmykiya
-   * @description 
+   * @description
    * @default 'RU-KL'
    */
   RepublicOfKalmykiya = <any>'RU-KL',
 
   /**
    * Karachayevo-Cherkesskaya Republic
-   * @description 
+   * @description
    * @default 'RU-KC'
    */
   KarachayevoCherkesskayaRepublic = <any>'RU-KC',
 
   /**
    * Republic of Kareliya
-   * @description 
+   * @description
    * @default 'RU-KR'
    */
   RepublicOfKareliya = <any>'RU-KR',
 
   /**
    * Republic of Khakasiya
-   * @description 
+   * @description
    * @default 'RU-KK'
    */
   RepublicOfKhakasiya = <any>'RU-KK',
 
   /**
    * Republic of Komi
-   * @description 
+   * @description
    * @default 'RU-KO'
    */
   RepublicOfKomi = <any>'RU-KO',
 
   /**
    * Republic of Mariy El
-   * @description 
+   * @description
    * @default 'RU-ME'
    */
   RepublicOfMariyEl = <any>'RU-ME',
 
   /**
    * Republic of Mordoviya
-   * @description 
+   * @description
    * @default 'RU-MO'
    */
   RepublicOfMordoviya = <any>'RU-MO',
 
   /**
    * Republic of Sakha (Yakutiya)
-   * @description 
+   * @description
    * @default 'RU-SA'
    */
   RepublicOfSakha = <any>'RU-SA',
 
   /**
    * Republic of Severnaya Osetiya-Alaniya
-   * @description 
+   * @description
    * @default 'RU-SE'
    */
   RepublicOfSevernayaOsetiyaAlaniya = <any>'RU-SE',
 
   /**
    * Republic of Tatarstan
-   * @description 
+   * @description
    * @default 'RU-TA'
    */
   RepublicOfTatarstan = <any>'RU-TA',
 
   /**
    * Republic of Tyva (Tuva)
-   * @description 
+   * @description
    * @default 'RU-TY'
    */
   RepublicOfTyva = <any>'RU-TY',
 
   /**
    * Udmurtskaya Republic
-   * @description 
+   * @description
    * @default 'RU-UD'
    */
   UdmurtskayaRepublic = <any>'RU-UD',
 
   /**
    * Altayskiy Administrative Territory
-   * @description 
+   * @description
    * @default 'RU-ALT'
    */
   AltayskiyAdministrativeTerritory = <any>'RU-ALT',
 
   /**
    * Kamchatskiy Administrative Territory
-   * @description 
+   * @description
    * @default 'RU-KAM'
    */
   KamchatskiyAdministrativeTerritory = <any>'RU-KAM',
 
   /**
    * Khabarovskiy Administrative Territory
-   * @description 
+   * @description
    * @default 'RU-KHA'
    */
   KhabarovskiyAdministrativeTerritory = <any>'RU-KHA',
 
   /**
    * Krasnodarskiy Administrative Territory
-   * @description 
+   * @description
    * @default 'RU-KDA'
    */
   KrasnodarskiyAdministrativeTerritory = <any>'RU-KDA',
 
   /**
    * Krasnoyarskiy Administrative Territory
-   * @description 
+   * @description
    * @default 'RU-KYA'
    */
   KrasnoyarskiyAdministrativeTerritory = <any>'RU-KYA',
 
   /**
    * Permskiy Administrative Territory
-   * @description 
+   * @description
    * @default 'RU-PER'
    */
   PermskiyAdministrativeTerritory = <any>'RU-PER',
 
   /**
    * Primorskiy Administrative Territory
-   * @description 
+   * @description
    * @default 'RU-PRI'
    */
   PrimorskiyAdministrativeTerritory = <any>'RU-PRI',
 
   /**
    * Stavropol’skiy Administrative Territory
-   * @description 
+   * @description
    * @default 'RU-STA'
    */
   StavropolSkiyAdministrativeTerritory = <any>'RU-STA',
 
   /**
    * Zabaykal’skiy Administrative Territory
-   * @description 
+   * @description
    * @default 'RU-ZAB'
    */
   ZabaykalSkiyAdministrativeTerritory = <any>'RU-ZAB',
 
   /**
    * Amurskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-AMU'
    */
   AmurskayaAdministrativeRegion = <any>'RU-AMU',
 
   /**
    * Arkhangel’skaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-ARK'
    */
   ArkhangelSkayaAdministrativeRegion = <any>'RU-ARK',
 
   /**
    * Astrakhanskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-AST'
    */
   AstrakhanskayaAdministrativeRegion = <any>'RU-AST',
 
   /**
    * Belgorodskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-BEL'
    */
   BelgorodskayaAdministrativeRegion = <any>'RU-BEL',
 
   /**
    * Bryanskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-BRY'
    */
   BryanskayaAdministrativeRegion = <any>'RU-BRY',
 
   /**
    * Chelyabinskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-CHE'
    */
   ChelyabinskayaAdministrativeRegion = <any>'RU-CHE',
 
   /**
    * Irkutskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-IRK'
    */
   IrkutskayaAdministrativeRegion = <any>'RU-IRK',
 
   /**
    * Ivanovskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-IVA'
    */
   IvanovskayaAdministrativeRegion = <any>'RU-IVA',
 
   /**
    * Kaliningradskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-KGD'
    */
   KaliningradskayaAdministrativeRegion = <any>'RU-KGD',
 
   /**
    * Kaluzhskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-KLU'
    */
   KaluzhskayaAdministrativeRegion = <any>'RU-KLU',
 
   /**
    * Kemerovskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-KEM'
    */
   KemerovskayaAdministrativeRegion = <any>'RU-KEM',
 
   /**
    * Kirovskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-KIR'
    */
   KirovskayaAdministrativeRegion = <any>'RU-KIR',
 
   /**
    * Kostromskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-KOS'
    */
   KostromskayaAdministrativeRegion = <any>'RU-KOS',
 
   /**
    * Kurganskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-KGN'
    */
   KurganskayaAdministrativeRegion = <any>'RU-KGN',
 
   /**
    * Kurskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-KRS'
    */
   KurskayaAdministrativeRegion = <any>'RU-KRS',
 
   /**
    * Leningradskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-LEN'
    */
   LeningradskayaAdministrativeRegion = <any>'RU-LEN',
 
   /**
    * Lipetskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-LIP'
    */
   LipetskayaAdministrativeRegion = <any>'RU-LIP',
 
   /**
    * Magadanskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-MAG'
    */
   MagadanskayaAdministrativeRegion = <any>'RU-MAG',
 
   /**
    * Moskovskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-MOS'
    */
   MoskovskayaAdministrativeRegion = <any>'RU-MOS',
 
   /**
    * Murmanskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-MUR'
    */
   MurmanskayaAdministrativeRegion = <any>'RU-MUR',
 
   /**
    * Nizhegorodskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-NIZ'
    */
   NizhegorodskayaAdministrativeRegion = <any>'RU-NIZ',
 
   /**
    * Novgorodskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-NGR'
    */
   NovgorodskayaAdministrativeRegion = <any>'RU-NGR',
 
   /**
    * Novosibirskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-NVS'
    */
   NovosibirskayaAdministrativeRegion = <any>'RU-NVS',
 
   /**
    * Omskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-OMS'
    */
   OmskayaAdministrativeRegion = <any>'RU-OMS',
 
   /**
    * Orenburgskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-ORE'
    */
   OrenburgskayaAdministrativeRegion = <any>'RU-ORE',
 
   /**
    * Orlovskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-ORL'
    */
   OrlovskayaAdministrativeRegion = <any>'RU-ORL',
 
   /**
    * Penzenskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-PNZ'
    */
   PenzenskayaAdministrativeRegion = <any>'RU-PNZ',
 
   /**
    * Pskovskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-PSK'
    */
   PskovskayaAdministrativeRegion = <any>'RU-PSK',
 
   /**
    * Rostovskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-ROS'
    */
   RostovskayaAdministrativeRegion = <any>'RU-ROS',
 
   /**
    * Ryazanskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-RYA'
    */
   RyazanskayaAdministrativeRegion = <any>'RU-RYA',
 
   /**
    * Sakhalinskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-SAK'
    */
   SakhalinskayaAdministrativeRegion = <any>'RU-SAK',
 
   /**
    * Samarskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-SAM'
    */
   SamarskayaAdministrativeRegion = <any>'RU-SAM',
 
   /**
    * Saratovskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-SAR'
    */
   SaratovskayaAdministrativeRegion = <any>'RU-SAR',
 
   /**
    * Smolenskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-SMO'
    */
   SmolenskayaAdministrativeRegion = <any>'RU-SMO',
 
   /**
    * Sverdlovskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-SVE'
    */
   SverdlovskayaAdministrativeRegion = <any>'RU-SVE',
 
   /**
    * Tambovskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-TAM'
    */
   TambovskayaAdministrativeRegion = <any>'RU-TAM',
 
   /**
    * Tomskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-TOM'
    */
   TomskayaAdministrativeRegion = <any>'RU-TOM',
 
   /**
    * Tul’skaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-TUL'
    */
   TulSkayaAdministrativeRegion = <any>'RU-TUL',
 
   /**
    * Tverskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-TVE'
    */
   TverskayaAdministrativeRegion = <any>'RU-TVE',
 
   /**
    * Tyumenskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-TYU'
    */
   TyumenskayaAdministrativeRegion = <any>'RU-TYU',
 
   /**
    * Ul’yanovskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-ULY'
    */
   UlYanovskayaAdministrativeRegion = <any>'RU-ULY',
 
   /**
    * Vladimirskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-VLA'
    */
   VladimirskayaAdministrativeRegion = <any>'RU-VLA',
 
   /**
    * Volgogradskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-VGG'
    */
   VolgogradskayaAdministrativeRegion = <any>'RU-VGG',
 
   /**
    * Vologodskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-VLG'
    */
   VologodskayaAdministrativeRegion = <any>'RU-VLG',
 
   /**
    * Voronezhskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-VOR'
    */
   VoronezhskayaAdministrativeRegion = <any>'RU-VOR',
 
   /**
    * Yaroslavskaya Administrative Region
-   * @description 
+   * @description
    * @default 'RU-YAR'
    */
   YaroslavskayaAdministrativeRegion = <any>'RU-YAR',
 
   /**
    * Moskva City
-   * @description 
+   * @description
    * @default 'RU-MOW'
    */
   MoskvaCity = <any>'RU-MOW',
 
   /**
    * Sankt-Peterburg City
-   * @description 
+   * @description
    * @default 'RU-SPE'
    */
   SanktPeterburgCity = <any>'RU-SPE',
 
   /**
    * Yevreyskaya Autonomous Administrative Region
-   * @description 
+   * @description
    * @default 'RU-YEV'
    */
   YevreyskayaAutonomousAdministrativeRegion = <any>'RU-YEV',
 
   /**
    * Chukotskiy Autonomous District
-   * @description 
+   * @description
    * @default 'RU-CHU'
    */
   ChukotskiyAutonomousDistrict = <any>'RU-CHU',
 
   /**
    * Khanty-Mansiyskiy Autonomous District
-   * @description 
+   * @description
    * @default 'RU-KHM'
    */
   KhantyMansiyskiyAutonomousDistrict = <any>'RU-KHM',
 
   /**
    * Nenetskiy Autonomous District
-   * @description 
+   * @description
    * @default 'RU-NEN'
    */
   NenetskiyAutonomousDistrict = <any>'RU-NEN',
 
   /**
    * Yamalo-Nenetskiy Autonomous District
-   * @description 
+   * @description
    * @default 'RU-YAN'
    */
   YamaloNenetskiyAutonomousDistrict = <any>'RU-YAN',
 
   /**
    * Alaska
-   * @description 
+   * @description
    * @default 'US-AK'
    */
   Alaska = <any>'US-AK',
 
   /**
    * Alabama
-   * @description 
+   * @description
    * @default 'US-AL'
    */
   Alabama = <any>'US-AL',
 
   /**
    * Arkansas
-   * @description 
+   * @description
    * @default 'US-AR'
    */
   Arkansas = <any>'US-AR',
 
   /**
    * Arizona
-   * @description 
+   * @description
    * @default 'US-AZ'
    */
   Arizona = <any>'US-AZ',
 
   /**
    * California
-   * @description 
+   * @description
    * @default 'US-CA'
    */
   California = <any>'US-CA',
 
   /**
    * Colorado
-   * @description 
+   * @description
    * @default 'US-CO'
    */
   Colorado = <any>'US-CO',
 
   /**
    * Connecticut
-   * @description 
+   * @description
    * @default 'US-CT'
    */
   Connecticut = <any>'US-CT',
 
   /**
    * District of Columbia
-   * @description 
+   * @description
    * @default 'US-DC'
    */
   DistrictOfColumbia = <any>'US-DC',
 
   /**
    * Delaware
-   * @description 
+   * @description
    * @default 'US-DE'
    */
   Delaware = <any>'US-DE',
 
   /**
    * Florida
-   * @description 
+   * @description
    * @default 'US-FL'
    */
   Florida = <any>'US-FL',
 
   /**
    * Georgia
-   * @description 
+   * @description
    * @default 'US-GA'
    */
   Georgia = <any>'US-GA',
 
   /**
    * Hawaii
-   * @description 
+   * @description
    * @default 'US-HI'
    */
   Hawaii = <any>'US-HI',
 
   /**
    * Iowa
-   * @description 
+   * @description
    * @default 'US-IA'
    */
   Iowa = <any>'US-IA',
 
   /**
    * Idaho
-   * @description 
+   * @description
    * @default 'US-ID'
    */
   Idaho = <any>'US-ID',
 
   /**
    * Illinois
-   * @description 
+   * @description
    * @default 'US-IL'
    */
   Illinois = <any>'US-IL',
 
   /**
    * Indiana
-   * @description 
+   * @description
    * @default 'US-IN'
    */
   Indiana = <any>'US-IN',
 
   /**
    * Kansas
-   * @description 
+   * @description
    * @default 'US-KS'
    */
   Kansas = <any>'US-KS',
 
   /**
    * Kentucky
-   * @description 
+   * @description
    * @default 'US-KY'
    */
   Kentucky = <any>'US-KY',
 
   /**
    * Louisiana
-   * @description 
+   * @description
    * @default 'US-LA'
    */
   Louisiana = <any>'US-LA',
 
   /**
    * Massachusetts
-   * @description 
+   * @description
    * @default 'US-MA'
    */
   Massachusetts = <any>'US-MA',
 
   /**
    * Maryland
-   * @description 
+   * @description
    * @default 'US-MD'
    */
   Maryland = <any>'US-MD',
 
   /**
    * Maine
-   * @description 
+   * @description
    * @default 'US-ME'
    */
   Maine = <any>'US-ME',
 
   /**
    * Michigan
-   * @description 
+   * @description
    * @default 'US-MI'
    */
   Michigan = <any>'US-MI',
 
   /**
    * Minnesota
-   * @description 
+   * @description
    * @default 'US-MN'
    */
   Minnesota = <any>'US-MN',
 
   /**
    * Missouri
-   * @description 
+   * @description
    * @default 'US-MO'
    */
   Missouri = <any>'US-MO',
 
   /**
    * Mississippi
-   * @description 
+   * @description
    * @default 'US-MS'
    */
   Mississippi = <any>'US-MS',
 
   /**
    * Montana
-   * @description 
+   * @description
    * @default 'US-MT'
    */
   Montana = <any>'US-MT',
 
   /**
    * North Carolina
-   * @description 
+   * @description
    * @default 'US-NC'
    */
   NorthCarolina = <any>'US-NC',
 
   /**
    * North Dakota
-   * @description 
+   * @description
    * @default 'US-ND'
    */
   NorthDakota = <any>'US-ND',
 
   /**
    * Nebraska
-   * @description 
+   * @description
    * @default 'US-NE'
    */
   Nebraska = <any>'US-NE',
 
   /**
    * New Hampshire
-   * @description 
+   * @description
    * @default 'US-NH'
    */
   NewHampshire = <any>'US-NH',
 
   /**
    * New Jersey
-   * @description 
+   * @description
    * @default 'US-NJ'
    */
   NewJersey = <any>'US-NJ',
 
   /**
    * New Mexico
-   * @description 
+   * @description
    * @default 'US-NM'
    */
   NewMexico = <any>'US-NM',
 
   /**
    * Nevada
-   * @description 
+   * @description
    * @default 'US-NV'
    */
   Nevada = <any>'US-NV',
 
   /**
    * New York
-   * @description 
+   * @description
    * @default 'US-NY'
    */
   NewYork = <any>'US-NY',
 
   /**
    * Ohio
-   * @description 
+   * @description
    * @default 'US-OH'
    */
   Ohio = <any>'US-OH',
 
   /**
    * Oklahoma
-   * @description 
+   * @description
    * @default 'US-OK'
    */
   Oklahoma = <any>'US-OK',
 
   /**
    * Oregon
-   * @description 
+   * @description
    * @default 'US-OR'
    */
   Oregon = <any>'US-OR',
 
   /**
    * Pennsylvania
-   * @description 
+   * @description
    * @default 'US-PA'
    */
   Pennsylvania = <any>'US-PA',
 
   /**
    * Rhode Island
-   * @description 
+   * @description
    * @default 'US-RI'
    */
   RhodeIsland = <any>'US-RI',
 
   /**
    * South Carolina
-   * @description 
+   * @description
    * @default 'US-SC'
    */
   SouthCarolina = <any>'US-SC',
 
   /**
    * South Dakota
-   * @description 
+   * @description
    * @default 'US-SD'
    */
   SouthDakota = <any>'US-SD',
 
   /**
    * Tennessee
-   * @description 
+   * @description
    * @default 'US-TN'
    */
   Tennessee = <any>'US-TN',
 
   /**
    * Texas
-   * @description 
+   * @description
    * @default 'US-TX'
    */
   Texas = <any>'US-TX',
 
   /**
    * Utah
-   * @description 
+   * @description
    * @default 'US-UT'
    */
   Utah = <any>'US-UT',
 
   /**
    * Virginia
-   * @description 
+   * @description
    * @default 'US-VA'
    */
   Virginia = <any>'US-VA',
 
   /**
    * Vermont
-   * @description 
+   * @description
    * @default 'US-VT'
    */
   Vermont = <any>'US-VT',
 
   /**
    * Washington
-   * @description 
+   * @description
    * @default 'US-WA'
    */
   Washington = <any>'US-WA',
 
   /**
    * Wisconsin
-   * @description 
+   * @description
    * @default 'US-WI'
    */
   Wisconsin = <any>'US-WI',
 
   /**
    * West Virginia
-   * @description 
+   * @description
    * @default 'US-WV'
    */
   WestVirginia = <any>'US-WV',
 
   /**
    * Wyoming
-   * @description 
+   * @description
    * @default 'US-WY'
    */
   Wyoming = <any>'US-WY',

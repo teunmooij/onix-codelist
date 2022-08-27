@@ -7,7 +7,6 @@
  * @description List 166: Supply date role
  */
 export enum SupplyDateRole {
-
   /**
    * Sales embargo date
    * @description If there is an embargo on retail sales (of copies from the supplier) before a certain date and this is later than any general or market-wide embargo date, the date from which the embargo is lifted and retail sales and fulfillment of pre-orders are permitted. Use code 02 here ONLY in the exceptional case when the embargo is supplier-specific. More general market-wide or global sales embargos should be specified in <MarketDate> or <PublishingDate> codes. In the absence of any supplier-specific, market-wide or general embargo date, retail sales and pre-order fulfillment may begin as soon as stock is available to the retailer

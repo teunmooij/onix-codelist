@@ -7,7 +7,6 @@
  * @description List 93: Supplier role
  */
 export enum SupplierRole {
-
   /**
    * Unspecified
    * @description Default
@@ -24,14 +23,14 @@ export enum SupplierRole {
 
   /**
    * Publisher’s exclusive distributor to retailers
-   * @description 
+   * @description
    * @default '02'
    */
   PublisherExclusiveDistributorToRetailers = <any>'02',
 
   /**
    * Publisher’s non-exclusive distributor to retailers
-   * @description 
+   * @description
    * @default '03'
    */
   PublisherNonExclusiveDistributorToRetailers = <any>'03',
@@ -67,7 +66,7 @@ export enum SupplierRole {
 
   /**
    * Retailer
-   * @description 
+   * @description
    * @default '08'
    */
   Retailer = <any>'08',

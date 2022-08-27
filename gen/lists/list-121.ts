@@ -7,7 +7,6 @@
  * @description List 121: Text script – based on ISO 15924
  */
 export enum TextScriptBasedOnIso_15924 {
-
   /**
    * Adlam
    * @description For use in ONIX 3.0 only
@@ -38,7 +37,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Arabic
-   * @description 
+   * @description
    * @default 'Arab'
    */
   Arabic = <any>'Arab',
@@ -59,7 +58,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Armenian
-   * @description 
+   * @description
    * @default 'Armn'
    */
   Armenian = <any>'Armn',
@@ -73,14 +72,14 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Balinese
-   * @description 
+   * @description
    * @default 'Bali'
    */
   Balinese = <any>'Bali',
 
   /**
    * Bamun
-   * @description 
+   * @description
    * @default 'Bamu'
    */
   Bamun = <any>'Bamu',
@@ -94,14 +93,14 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Batak
-   * @description 
+   * @description
    * @default 'Batk'
    */
   Batak = <any>'Batk',
 
   /**
    * Bengali (Bangla)
-   * @description 
+   * @description
    * @default 'Beng'
    */
   Bengali = <any>'Beng',
@@ -122,7 +121,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Bopomofo
-   * @description 
+   * @description
    * @default 'Bopo'
    */
   Bopomofo = <any>'Bopo',
@@ -136,35 +135,35 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Braille
-   * @description 
+   * @description
    * @default 'Brai'
    */
   Braille = <any>'Brai',
 
   /**
    * Buginese
-   * @description 
+   * @description
    * @default 'Bugi'
    */
   Buginese = <any>'Bugi',
 
   /**
    * Buhid
-   * @description 
+   * @description
    * @default 'Buhd'
    */
   Buhid = <any>'Buhd',
 
   /**
    * Chakma
-   * @description 
+   * @description
    * @default 'Cakm'
    */
   Chakma = <any>'Cakm',
 
   /**
    * Unified Canadian Aboriginal Syllabics
-   * @description 
+   * @description
    * @default 'Cans'
    */
   UnifiedCanadianAboriginalSyllabics = <any>'Cans',
@@ -178,14 +177,14 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Cham
-   * @description 
+   * @description
    * @default 'Cham'
    */
   Cham = <any>'Cham',
 
   /**
    * Cherokee
-   * @description 
+   * @description
    * @default 'Cher'
    */
   Cherokee = <any>'Cher',
@@ -213,7 +212,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Cyrillic
-   * @description 
+   * @description
    * @default 'Cyrl'
    */
   Cyrillic = <any>'Cyrl',
@@ -227,7 +226,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Devanagari (Nagari)
-   * @description 
+   * @description
    * @default 'Deva'
    */
   Devanagari = <any>'Deva',
@@ -241,14 +240,14 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Deseret (Mormon)
-   * @description 
+   * @description
    * @default 'Dsrt'
    */
   Deseret = <any>'Dsrt',
 
   /**
    * Duployan shorthand, Duployan stenography
-   * @description 
+   * @description
    * @default 'Dupl'
    */
   DuployanShorthandDuployanStenography = <any>'Dupl',
@@ -283,7 +282,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Ethiopic (Ge‘ez)
-   * @description 
+   * @description
    * @default 'Ethi'
    */
   Ethiopic = <any>'Ethi',
@@ -297,7 +296,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Georgian (Mkhedruli and Mtavruli)
-   * @description 
+   * @description
    * @default 'Geor'
    */
   Georgian = <any>'Geor',
@@ -339,21 +338,21 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Greek
-   * @description 
+   * @description
    * @default 'Grek'
    */
   Greek = <any>'Grek',
 
   /**
    * Gujarati
-   * @description 
+   * @description
    * @default 'Gujr'
    */
   Gujarati = <any>'Gujr',
 
   /**
    * Gurmukhi
-   * @description 
+   * @description
    * @default 'Guru'
    */
   Gurmukhi = <any>'Guru',
@@ -367,14 +366,14 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Hangul (Hangŭl, Hangeul)
-   * @description 
+   * @description
    * @default 'Hang'
    */
   Hangul = <any>'Hang',
 
   /**
    * Han (Hanzi, Kanji, Hanja)
-   * @description 
+   * @description
    * @default 'Hani'
    */
   Han = <any>'Hani',
@@ -395,7 +394,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Hanunoo (Hanunóo)
-   * @description 
+   * @description
    * @default 'Hano'
    */
   Hanunoo = <any>'Hano',
@@ -409,14 +408,14 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Hebrew
-   * @description 
+   * @description
    * @default 'Hebr'
    */
   Hebrew = <any>'Hebr',
 
   /**
    * Hiragana
-   * @description 
+   * @description
    * @default 'Hira'
    */
   Hiragana = <any>'Hira',
@@ -430,7 +429,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Pahawh Hmong
-   * @description 
+   * @description
    * @default 'Hmng'
    */
   PahawhHmong = <any>'Hmng',
@@ -472,7 +471,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Javanese
-   * @description 
+   * @description
    * @default 'Java'
    */
   Javanese = <any>'Java',
@@ -493,14 +492,14 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Kayah Li
-   * @description 
+   * @description
    * @default 'Kali'
    */
   KayahLi = <any>'Kali',
 
   /**
    * Katakana
-   * @description 
+   * @description
    * @default 'Kana'
    */
   Katakana = <any>'Kana',
@@ -514,7 +513,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Khmer
-   * @description 
+   * @description
    * @default 'Khmr'
    */
   Khmer = <any>'Khmr',
@@ -542,7 +541,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Kannada
-   * @description 
+   * @description
    * @default 'Knda'
    */
   Kannada = <any>'Knda',
@@ -570,14 +569,14 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Tai Tham (Lanna)
-   * @description 
+   * @description
    * @default 'Lana'
    */
   TaiTham = <any>'Lana',
 
   /**
    * Lao
-   * @description 
+   * @description
    * @default 'Laoo'
    */
   Lao = <any>'Laoo',
@@ -598,7 +597,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Latin
-   * @description 
+   * @description
    * @default 'Latn'
    */
   Latin_2 = <any>'Latn',
@@ -612,14 +611,14 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Lepcha (Róng)
-   * @description 
+   * @description
    * @default 'Lepc'
    */
   Lepcha = <any>'Lepc',
 
   /**
    * Limbu
-   * @description 
+   * @description
    * @default 'Limb'
    */
   Limbu = <any>'Limb',
@@ -640,7 +639,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Lisu (Fraser)
-   * @description 
+   * @description
    * @default 'Lisu'
    */
   Lisu = <any>'Lisu',
@@ -682,7 +681,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Mandaic, Mandaean
-   * @description 
+   * @description
    * @default 'Mand'
    */
   MandaicMandaean = <any>'Mand',
@@ -717,7 +716,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Mende Kikakui
-   * @description 
+   * @description
    * @default 'Mend'
    */
   MendeKikakui = <any>'Mend',
@@ -738,7 +737,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Malayalam
-   * @description 
+   * @description
    * @default 'Mlym'
    */
   Malayalam = <any>'Mlym',
@@ -766,14 +765,14 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Mro, Mru
-   * @description 
+   * @description
    * @default 'Mroo'
    */
   MroMru = <any>'Mroo',
 
   /**
    * Meitei Mayek (Meithei, Meetei)
-   * @description 
+   * @description
    * @default 'Mtei'
    */
   MeiteiMayek = <any>'Mtei',
@@ -787,7 +786,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Myanmar (Burmese)
-   * @description 
+   * @description
    * @default 'Mymr'
    */
   Myanmar = <any>'Mymr',
@@ -822,14 +821,14 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * N’Ko
-   * @description 
+   * @description
    * @default 'Nkoo'
    */
   NKo = <any>'Nkoo',
 
   /**
    * Nüshu
-   * @description 
+   * @description
    * @default 'Nshu'
    */
   Nushu = <any>'Nshu',
@@ -843,7 +842,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Ol Chiki (Ol Cemet’, Ol, Santali)
-   * @description 
+   * @description
    * @default 'Olck'
    */
   OlChiki = <any>'Olck',
@@ -857,7 +856,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Oriya (Odia)
-   * @description 
+   * @description
    * @default 'Orya'
    */
   Oriya = <any>'Orya',
@@ -871,7 +870,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Osmanya
-   * @description 
+   * @description
    * @default 'Osma'
    */
   Osmanya = <any>'Osma',
@@ -934,7 +933,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Miao (Pollard)
-   * @description 
+   * @description
    * @default 'Plrd'
    */
   Miao = <any>'Plrd',
@@ -955,21 +954,21 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Reserved for private use (start)
-   * @description 
+   * @description
    * @default 'Qaaa'
    */
   ReservedForPrivateUse = <any>'Qaaa',
 
   /**
    * Reserved for private use (end)
-   * @description 
+   * @description
    * @default 'Qabx'
    */
   ReservedForPrivateUse_1 = <any>'Qabx',
 
   /**
    * Rejang (Redjang, Kaganga)
-   * @description 
+   * @description
    * @default 'Rjng'
    */
   Rejang = <any>'Rjng',
@@ -990,7 +989,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Samaritan
-   * @description 
+   * @description
    * @default 'Samr'
    */
   Samaritan = <any>'Samr',
@@ -1011,28 +1010,28 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Saurashtra
-   * @description 
+   * @description
    * @default 'Saur'
    */
   Saurashtra = <any>'Saur',
 
   /**
    * SignWriting
-   * @description 
+   * @description
    * @default 'Sgnw'
    */
   SignWriting = <any>'Sgnw',
 
   /**
    * Shavian (Shaw)
-   * @description 
+   * @description
    * @default 'Shaw'
    */
   Shavian = <any>'Shaw',
 
   /**
    * Sharada, Śāradā
-   * @description 
+   * @description
    * @default 'Shrd'
    */
   SharadaSarada = <any>'Shrd',
@@ -1046,21 +1045,21 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Khudawadi, Sindhi
-   * @description 
+   * @description
    * @default 'Sind'
    */
   KhudawadiSindhi = <any>'Sind',
 
   /**
    * Sinhala
-   * @description 
+   * @description
    * @default 'Sinh'
    */
   Sinhala = <any>'Sinh',
 
   /**
    * Sora Sompeng
-   * @description 
+   * @description
    * @default 'Sora'
    */
   SoraSompeng = <any>'Sora',
@@ -1074,21 +1073,21 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Sundanese
-   * @description 
+   * @description
    * @default 'Sund'
    */
   Sundanese = <any>'Sund',
 
   /**
    * Syloti Nagri
-   * @description 
+   * @description
    * @default 'Sylo'
    */
   SylotiNagri = <any>'Sylo',
 
   /**
    * Syriac
-   * @description 
+   * @description
    * @default 'Syrc'
    */
   Syriac = <any>'Syrc',
@@ -1116,35 +1115,35 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Tagbanwa
-   * @description 
+   * @description
    * @default 'Tagb'
    */
   Tagbanwa = <any>'Tagb',
 
   /**
    * Takri, Ṭākrī, Ṭāṅkrī
-   * @description 
+   * @description
    * @default 'Takr'
    */
   TakriTakriTankri = <any>'Takr',
 
   /**
    * Tai Le
-   * @description 
+   * @description
    * @default 'Tale'
    */
   TaiLe = <any>'Tale',
 
   /**
    * New Tai Lue
-   * @description 
+   * @description
    * @default 'Talu'
    */
   NewTaiLue = <any>'Talu',
 
   /**
    * Tamil
-   * @description 
+   * @description
    * @default 'Taml'
    */
   Tamil = <any>'Taml',
@@ -1158,14 +1157,14 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Tai Viet
-   * @description 
+   * @description
    * @default 'Tavt'
    */
   TaiViet = <any>'Tavt',
 
   /**
    * Telugu
-   * @description 
+   * @description
    * @default 'Telu'
    */
   Telugu = <any>'Telu',
@@ -1179,42 +1178,42 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Tifinagh (Berber)
-   * @description 
+   * @description
    * @default 'Tfng'
    */
   Tifinagh = <any>'Tfng',
 
   /**
    * Tagalog (Baybayin, Alibata)
-   * @description 
+   * @description
    * @default 'Tglg'
    */
   Tagalog = <any>'Tglg',
 
   /**
    * Thaana
-   * @description 
+   * @description
    * @default 'Thaa'
    */
   Thaana = <any>'Thaa',
 
   /**
    * Thai
-   * @description 
+   * @description
    * @default 'Thai'
    */
   Thai = <any>'Thai',
 
   /**
    * Tibetan
-   * @description 
+   * @description
    * @default 'Tibt'
    */
   Tibetan = <any>'Tibt',
 
   /**
    * Tirhuta
-   * @description 
+   * @description
    * @default 'Tirh'
    */
   Tirhuta = <any>'Tirh',
@@ -1228,7 +1227,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Vai
-   * @description 
+   * @description
    * @default 'Vaii'
    */
   Vai = <any>'Vaii',
@@ -1242,7 +1241,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Warang Citi (Varang Kshiti)
-   * @description 
+   * @description
    * @default 'Wara'
    */
   WarangCiti = <any>'Wara',
@@ -1270,7 +1269,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Yi
-   * @description 
+   * @description
    * @default 'Yiii'
    */
   Yi = <any>'Yiii',
@@ -1284,7 +1283,7 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Code for inherited script
-   * @description 
+   * @description
    * @default 'Zinh'
    */
   CodeForInheritedScript = <any>'Zinh',
@@ -1319,14 +1318,14 @@ export enum TextScriptBasedOnIso_15924 {
 
   /**
    * Code for undetermined script
-   * @description 
+   * @description
    * @default 'Zyyy'
    */
   CodeForUndeterminedScript = <any>'Zyyy',
 
   /**
    * Code for uncoded script
-   * @description 
+   * @description
    * @default 'Zzzz'
    */
   CodeForUncodedScript = <any>'Zzzz',

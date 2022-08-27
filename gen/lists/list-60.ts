@@ -7,7 +7,6 @@
  * @description List 60: Unit of pricing
  */
 export enum UnitOfPricing {
-
   /**
    * Per copy of whole product
    * @description Default
@@ -17,7 +16,7 @@ export enum UnitOfPricing {
 
   /**
    * Per page for printed loose-leaf content only
-   * @description 
+   * @description
    * @default '01'
    */
   PerPageForPrintedLooseLeafContentOnly = <any>'01',

@@ -7,7 +7,6 @@
  * @description List 18: Person / organization name type
  */
 export enum PersonOrganizationNameType {
-
   /**
    * Unspecified
    * @description Usually the name as it is presented on the book
@@ -24,7 +23,7 @@ export enum PersonOrganizationNameType {
 
   /**
    * Authority-controlled name
-   * @description 
+   * @description
    * @default '02'
    */
   AuthorityControlledName = <any>'02',

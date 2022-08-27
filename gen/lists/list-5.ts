@@ -7,7 +7,6 @@
  * @description List 5: Product identifier type
  */
 export enum ProductIdentifierType {
-
   /**
    * Proprietary
    * @description For example, a publisher’s or wholesaler’s product number or SKU. Note that <IDTypeName> is required with proprietary identifiers

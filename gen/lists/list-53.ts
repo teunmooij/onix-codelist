@@ -7,7 +7,6 @@
  * @description List 53: Returns conditions code type
  */
 export enum ReturnsConditionsCodeType {
-
   /**
    * Proprietary
    * @description As specified in <ReturnsCodeTypeName> (ONIX 3.0 only)

@@ -7,7 +7,6 @@
  * @description List 153: Text type
  */
 export enum TextType {
-
   /**
    * Sender-defined text
    * @description To be used only in circumstances where the parties to an exchange have agreed to include text which (a) is not for general distribution, and (b) cannot be coded elsewhere. If more than one type of text is sent, it must be identified by tagging within the text itself
@@ -136,7 +135,7 @@ export enum TextType {
 
   /**
    * Version history
-   * @description 
+   * @description
    * @default '19'
    */
   VersionHistory = <any>'19',
@@ -178,7 +177,7 @@ export enum TextType {
 
   /**
    * Errata
-   * @description 
+   * @description
    * @default '25'
    */
   Errata = <any>'25',

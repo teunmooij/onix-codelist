@@ -7,7 +7,6 @@
  * @description List 164: Work relation
  */
 export enum WorkRelation {
-
   /**
    * Manifestation of
    * @description Product X is or includes a manifestation of work Y. (There is a direct parent-child relation between work Y and the product)

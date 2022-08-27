@@ -7,7 +7,6 @@
  * @description List 254: Resource file date role code
  */
 export enum ResourceFileDateRoleCode {
-
   /**
    * Last updated
    * @description Date when a resource was last changed or updated

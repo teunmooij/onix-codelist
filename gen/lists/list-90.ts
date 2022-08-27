@@ -7,7 +7,6 @@
  * @description List 90: Religious text feature
  */
 export enum ReligiousTextFeature {
-
   /**
    * Academic year
    * @description Use with code 01 in <ReligiousTextFeatureType>

@@ -7,7 +7,6 @@
  * @description List 226: Record status
  */
 export enum RecordStatus {
-
   /**
    * No record errors
    * @description Entire record parsed and ingested without errors, record may have a Product record in the Acknowledgement which itself may have a <RecordStatusNote> or <RecordStatusDetail> to convey information, editorial queries or warnings

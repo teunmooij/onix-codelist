@@ -7,7 +7,6 @@
  * @description List 175: Product form detail
  */
 export enum ProductFormDetail {
-
   /**
    * CD standard audio format
    * @description CD ‘red book’ format
@@ -17,7 +16,7 @@ export enum ProductFormDetail {
 
   /**
    * SACD super audio format
-   * @description 
+   * @description
    * @default 'A102'
    */
   SacdSuperAudioFormat = <any>'A102',
@@ -31,14 +30,14 @@ export enum ProductFormDetail {
 
   /**
    * WAV format
-   * @description 
+   * @description
    * @default 'A104'
    */
   WavFormat = <any>'A104',
 
   /**
    * Real Audio format
-   * @description 
+   * @description
    * @default 'A105'
    */
   RealAudioFormat = <any>'A105',
@@ -109,21 +108,21 @@ export enum ProductFormDetail {
 
   /**
    * DAISY 2: full audio with navigation (no text)
-   * @description 
+   * @description
    * @default 'A202'
    */
   Daisy_2FullAudioWithNavigation = <any>'A202',
 
   /**
    * DAISY 2: full audio with navigation and partial text
-   * @description 
+   * @description
    * @default 'A203'
    */
   Daisy_2FullAudioWithNavigationAndPartialText = <any>'A203',
 
   /**
    * DAISY 2: full audio with navigation and full text
-   * @description 
+   * @description
    * @default 'A204'
    */
   Daisy_2FullAudioWithNavigationAndFullText = <any>'A204',
@@ -152,21 +151,21 @@ export enum ProductFormDetail {
 
   /**
    * DAISY 3: full audio with navigation (no text)
-   * @description 
+   * @description
    * @default 'A208'
    */
   Daisy_3FullAudioWithNavigation = <any>'A208',
 
   /**
    * DAISY 3: full audio with navigation and partial text
-   * @description 
+   * @description
    * @default 'A209'
    */
   Daisy_3FullAudioWithNavigationAndPartialText = <any>'A209',
 
   /**
    * DAISY 3: full audio with navigation and full text
-   * @description 
+   * @description
    * @default 'A210'
    */
   Daisy_3FullAudioWithNavigationAndFullText = <any>'A210',
@@ -187,7 +186,7 @@ export enum ProductFormDetail {
 
   /**
    * Standalone audio
-   * @description 
+   * @description
    * @default 'A301'
    */
   StandaloneAudio = <any>'A301',
@@ -250,21 +249,21 @@ export enum ProductFormDetail {
 
   /**
    * 192kbits/s
-   * @description 
+   * @description
    * @default 'A402'
    */
   '192kbitsS' = <any>'A402',
 
   /**
    * 256kbits/s
-   * @description 
+   * @description
    * @default 'A403'
    */
   '256kbitsS' = <any>'A403',
 
   /**
    * 320kbits/s
-   * @description 
+   * @description
    * @default 'A404'
    */
   '320kbitsS' = <any>'A404',
@@ -551,14 +550,14 @@ export enum ProductFormDetail {
 
   /**
    * Coloring / join-the-dot book
-   * @description 
+   * @description
    * @default 'B201'
    */
   ColoringJoinTheDotBook = <any>'B201',
 
   /**
    * Lift-the-flap book
-   * @description 
+   * @description
    * @default 'B202'
    */
   LiftTheFlapBook = <any>'B202',
@@ -572,35 +571,35 @@ export enum ProductFormDetail {
 
   /**
    * Moving picture / flicker book
-   * @description 
+   * @description
    * @default 'B205'
    */
   MovingPictureFlickerBook = <any>'B205',
 
   /**
    * Pop-up book
-   * @description 
+   * @description
    * @default 'B206'
    */
   PopUpBook = <any>'B206',
 
   /**
    * Scented / ‘smelly’ book
-   * @description 
+   * @description
    * @default 'B207'
    */
   ScentedSmellyBook = <any>'B207',
 
   /**
    * Sound story / ‘noisy’ book
-   * @description 
+   * @description
    * @default 'B208'
    */
   SoundStoryNoisyBook = <any>'B208',
 
   /**
    * Sticker book
-   * @description 
+   * @description
    * @default 'B209'
    */
   StickerBook = <any>'B209',
@@ -859,7 +858,7 @@ export enum ProductFormDetail {
 
   /**
    * Velvet
-   * @description 
+   * @description
    * @default 'B411'
    */
   Velvet = <any>'B411',
@@ -943,7 +942,7 @@ export enum ProductFormDetail {
 
   /**
    * With thumb index
-   * @description 
+   * @description
    * @default 'B505'
    */
   WithThumbIndex = <any>'B505',
@@ -957,14 +956,14 @@ export enum ProductFormDetail {
 
   /**
    * With zip fastener
-   * @description 
+   * @description
    * @default 'B507'
    */
   WithZipFastener = <any>'B507',
 
   /**
    * With button snap fastener
-   * @description 
+   * @description
    * @default 'B508'
    */
   WithButtonSnapFastener = <any>'B508',
@@ -1104,14 +1103,14 @@ export enum ProductFormDetail {
 
   /**
    * US Uncontracted Braille
-   * @description 
+   * @description
    * @default 'B704'
    */
   UsUncontractedBraille = <any>'B704',
 
   /**
    * US Contracted Braille
-   * @description 
+   * @description
    * @default 'B705'
    */
   UsContractedBraille = <any>'B705',
@@ -1132,14 +1131,14 @@ export enum ProductFormDetail {
 
   /**
    * Unified English Uncontracted Braille
-   * @description 
+   * @description
    * @default 'B708'
    */
   UnifiedEnglishUncontractedBraille = <any>'B708',
 
   /**
    * Unified English Contracted Braille
-   * @description 
+   * @description
    * @default 'B709'
    */
   UnifiedEnglishContractedBraille = <any>'B709',
@@ -1153,28 +1152,28 @@ export enum ProductFormDetail {
 
   /**
    * Quicktime format
-   * @description 
+   * @description
    * @default 'D102'
    */
   QuicktimeFormat = <any>'D102',
 
   /**
    * AVI format
-   * @description 
+   * @description
    * @default 'D103'
    */
   AviFormat = <any>'D103',
 
   /**
    * Windows Media Video format
-   * @description 
+   * @description
    * @default 'D104'
    */
   WindowsMediaVideoFormat = <any>'D104',
 
   /**
    * MPEG-4
-   * @description 
+   * @description
    * @default 'D105'
    */
   Mpeg_4 = <any>'D105',

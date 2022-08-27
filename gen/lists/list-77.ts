@@ -7,7 +7,6 @@
  * @description List 77: US and Canada (excluding Québec) school or college grade
  */
 export enum UsAndCanadaSchoolOrCollegeGrade {
-
   /**
    * Preschool
    * @description Age typically 0-4 years

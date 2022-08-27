@@ -7,7 +7,6 @@
  * @description List 30: Audience range qualifier
  */
 export enum AudienceRangeQualifier {
-
   /**
    * US school grade range
    * @description Values for <AudienceRangeValue> are specified in List 77
@@ -73,7 +72,7 @@ export enum AudienceRangeQualifier {
 
   /**
    * Italian school grade
-   * @description 
+   * @description
    * @default '22'
    */
   ItalianSchoolGrade = <any>'22',
@@ -111,7 +110,7 @@ export enum AudienceRangeQualifier {
 
   /**
    * Finnish school grade range
-   * @description 
+   * @description
    * @default '27'
    */
   FinnishSchoolGradeRange = <any>'27',

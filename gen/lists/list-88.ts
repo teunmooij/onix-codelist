@@ -6,5 +6,4 @@
  * @enum { string }
  * @description List 88: Religious text identifier
  */
-export enum ReligiousTextIdentifier {
-}
+export enum ReligiousTextIdentifier {}

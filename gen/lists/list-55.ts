@@ -7,7 +7,6 @@
  * @description List 55: Date format
  */
 export enum DateFormat {
-
   /**
    * YYYYMMDD
    * @description Common Era year, month and day (default for most dates)

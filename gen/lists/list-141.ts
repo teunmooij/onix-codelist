@@ -7,17 +7,16 @@
  * @description List 141: Barcode indicator
  */
 export enum BarcodeIndicator {
-
   /**
    * Not barcoded
-   * @description 
+   * @description
    * @default '00'
    */
   NotBarcoded = <any>'00',
 
   /**
    * Barcoded, scheme unspecified
-   * @description 
+   * @description
    * @default '01'
    */
   BarcodedSchemeUnspecified = <any>'01',

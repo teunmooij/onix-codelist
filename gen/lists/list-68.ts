@@ -7,7 +7,6 @@
  * @description List 68: Market publishing status
  */
 export enum MarketPublishingStatus {
-
   /**
    * Unspecified
    * @description Status is not specified (as distinct from unknown): the default if the <MarketPublishingStatus> element is not sent

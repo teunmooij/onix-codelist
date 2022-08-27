@@ -7,7 +7,6 @@
  * @description List 76: DVD region
  */
 export enum DvdRegion {
-
   /**
    * All regions
    * @description DVD or Blu-Ray

@@ -7,7 +7,6 @@
  * @description List 184: EU Toy Safety Directive hazard warning type
  */
 export enum EuToySafetyDirectiveHazardWarningType {
-
   /**
    * No warning
    * @description Use to provide positive indication that no warnings are applicable
@@ -17,7 +16,7 @@ export enum EuToySafetyDirectiveHazardWarningType {
 
   /**
    * Carries ‘CE’ logo
-   * @description 
+   * @description
    * @default '01'
    */
   CarriesCeLogo = <any>'01',

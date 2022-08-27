@@ -7,7 +7,6 @@
  * @description List 227: Chinese School Grade
  */
 export enum ChineseSchoolGrade {
-
   /**
    * Preschool
    * @description Typical age less than 3

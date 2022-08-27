@@ -7,7 +7,6 @@
  * @description List 152: Illustrated / not illustrated
  */
 export enum IllustratedNotIllustrated {
-
   /**
    * No
    * @description Not illustrated

@@ -7,7 +7,6 @@
  * @description List 83: Bible version
  */
 export enum BibleVersion {
-
   /**
    * Alberto Vaccari
    * @description Alberto Vaccari – Pontificio Istituto Biblico

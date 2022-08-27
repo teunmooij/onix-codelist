@@ -7,7 +7,6 @@
  * @description List 156: Cited content type
  */
 export enum CitedContentType {
-
   /**
    * Review
    * @description The full text of a review in a third-party publication in any medium
@@ -17,7 +16,7 @@ export enum CitedContentType {
 
   /**
    * Bestseller list
-   * @description 
+   * @description
    * @default '02'
    */
   BestsellerList = <any>'02',
